@@ -5,6 +5,9 @@
 			<xsl:apply-templates select="@*|node()"/>
 		</xsl:copy>
 	</xsl:template>
+	<xsl:template match="Hero[@id='main_hero']"/>
+	<xsl:template match="Hero[@id='main_hero_father']"/>
+	<xsl:template match="Hero[@id='main_hero_mother']"/>
     <!-- dead heroes -->
 	<xsl:template match="Hero[@id='dead_lord_2_1']"/>
 	<xsl:template match="Hero[@id='dead_lord_2_2']"/>

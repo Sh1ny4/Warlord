@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+	<!--lords.xml-->
+	<Hero id="main_hero" father="Hero.main_hero_father" mother="Hero.main_hero_mother" faction="Faction.player_faction" />
+	<Hero id="main_hero_father" alive="false" faction="Faction.player_faction" spouse="Hero.main_hero_mother" />
+	<Hero id="main_hero_mother" alive="false" faction="Faction.player_faction" spouse="Hero.main_hero_father" />
+</Heroes>
