@@ -5,9 +5,6 @@
 			<xsl:apply-templates select="@*|node()"/>
 		</xsl:copy>
 	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='main_hero']"/>
-	<xsl:template match="NPCCharacter[@id='main_hero_father']"/>
-	<xsl:template match="NPCCharacter[@id='main_hero_mother']"/>
     <!-- dead lords -->
 	<xsl:template match="NPCCharacter[@id='dead_lord_2_1']"/>
 	<xsl:template match="NPCCharacter[@id='dead_lord_2_2']"/>
