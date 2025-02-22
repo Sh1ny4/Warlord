@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <strings>
+    <!-- #region Troop Overhaul-->
+      <!-- Khergits -->
+      <string id="wld_khergit_tribesman"            text="Khergit Tribesman" />
+      <string id="wld_khergit_skirmisher"           text="Khergit Skirmisher" />
+      <string id="wld_khergit_horseman"             text="Khergit Horseman" />
+      <string id="wld_khergit_lancer"               text="Khergit Lancer" />
+      <string id="wld_khergit_horse_archer"         text="Khergit Horse Archer" />
+      <string id="wld_khergit_veteran_horse_archer" text="Khergit Veteran Horse Archer" />
+      <!-- Nords -->
+      <string id="wld_nord_volunteer"       text="Nord Volunteer" />
+      <string id="wld_nord_footman"         text="Nord Footman" />
+      <string id="wld_nord_trained_footman" text="Nord Trained Footman" />
+      <string id="wld_nord_warrior"         text="Nord Warrior" />
+      <string id="wld_nord_veteran"         text="Nord Veteran" />
+      <string id="wld_nord_huscarl"         text="Nord Huscarl" />
+      <string id="wld_huntsman"             text="Nord Huntsman" />
+      <string id="wld_nord_archer"          text="Nord Archer" />
+      <string id="wld_nord_veteran_archer"  text="Nord Veteran Archer" />
+      <!-- Rhodoks -->
+      <string id="wld_rhodok_tribesman"           text="Rhodok Tribesman" />
+      <string id="wld_rhodok_spearman"            text="Rhodok Spearman" />
+      <string id="wld_rhodok_trained_spearman"    text="Rhodok Trained Spearman" />
+      <string id="wld_rhodok_veteran_spearman"    text="Rhodok Veteran Spearman" />
+      <string id="wld_rhodok_sergant"             text="Rhodok Sergant" />
+      <string id="wld_rhodok_crossbowman"         text="Rhodok Crossbowman" />
+      <string id="wld_rhodok_trained_crossbowman" text="Rhodok Trained Crossbowman" />
+      <string id="wld_rhodok_sharpshooter"        text="Rhodok Sharpshooter" />
+      <!-- Sarranids -->
+      <string id="wld_sarranid_recruit"         text="Sarranid Recruit" />
+      <string id="wld_sarranid_footman"         text="Sarranid Footman" />
+      <string id="wld_sarranid_skirmisher"      text="Sarranid Skirmisher" />
+      <string id="wld_sarranid_archer"          text="Sarranid Archer" />
+      <string id="wld_sarranid_master_archer"   text="Sarranid Master Archer" />
+      <string id="wld_sarranid_veteran_footman" text="Sarranid Veteran Footman" />
+      <string id="wld_sarranid_infantry"        text="Sarranid Infantry" />
+      <string id="wld_sarranid_guard"           text="Sarranid Guard" />
+      <string id="wld_sarranid_horseman"        text="Sarranid Horseman" />
+      <string id="wld_sarranid_mamluke"         text="Sarranid Mamluke" />
+      <!-- Swadians -->
+      <string id="wld_swadian_recruit"      text="Swadian Recruit" />
+      <string id="wld_swadian_militia"      text="Swadian Militia" />
+      <string id="wld_swadian_skirmisher"   text="Swadian Skirmisher" />
+      <string id="wld_swadian_crossbowman"  text="Swadian Crossbowman" />
+      <string id="wld_swadian_sharpshooter" text="Swadian Sharpshooter" />
+      <string id="wld_swadian_footman"      text="Swadian Footman" />
+      <string id="wld_swadian_infantry"     text="Swadian Infantry" />
+      <string id="wld_swadian_seargeant"    text="Swadian Sergeant" />
+      <string id="wld_swadian_man_at_arms"  text="Swadian Man at Arms" />
+      <string id="wld_swadian_knight"       text="Swadian Knight" />
+      <!-- Vaegirs -->
+      <string id="wld_vaegir_recruit"    text="Vaegir Recruit" />
+      <string id="wld_vaegir_footman"    text="Vaegir Footman" />
+      <string id="wld_vaegir_skirmisher" text="Vaegir Skirmisher" />
+      <string id="wld_vaegir_archer"     text="Vaegir Archer" />
+      <string id="wld_vaegir_marksman"   text="Vaegir Marksman" />
+      <string id="wld_vaegir_veteran"    text="Vaegir Veteran" />
+      <string id="wld_vaegir_infantry"   text="Vaegir Infantry" />
+      <string id="wld_vaegir_guard"      text="Vaegir Guard" />
+      <string id="wld_vaegir_horseman"   text="Vaegir Horseman" />
+      <string id="wld_vaegir_knight"     text="Vaegir Knight" />
+      <!-- Mercs -->
+      <string id="wld_watchman"           text="Watchman" />
+      <string id="wld_caravan_guard"      text="Caravan Guard" />
+      <string id="wld_mercenary_swordman" text="Mercenary Swordman" />
+      <string id="wld_hired_blade"        text="Hired Blade" />
+      <string id="wld_mercenary_horseman" text="Mercenary Horseman" />
+      <string id="wld_mercenary_cavalry"  text="Mercenary Cavalry" />
+      <string id="wld_mercenary_crossbow" text="Mercenary Crossbow" />
+      <string id="wld_camp_follower"      text="Camp Follower" />
+      <string id="wld_camp_huntress"      text="Camp Huntress" />
+      <string id="wld_camp_defender"      text="Camp Defender" />
+      <string id="wld_sword_sister"       text="Sword Sister" />
+      <string id="wld_manhunter"          text="Manhunter" />
+      <string id="wld_slave_driver"       text="Slave Driver" />
+      <string id="wld_slave_hunter"       text="Slave Hunter" />
+      <string id="wld_slave_crusher"      text="Slave Crusher" />
+      <string id="wld_slaver_chief"       text="Slaver Chief" />
+      <!-- bandits -->
+      <!-- others -->
+      <string id="wld_village_woman_sarranid" text="Sarranid Peasant Woman" />
+      <string id="wld_village_woman_khergit"  text="Khergit Peasant Woman" />
+      <string id="wld_village_woman_nord"     text="Nord Peasant Woman" />
+      <string id="wld_village_woman_rhodok"   text="Rhodok Peasant Woman" />
+      <string id="wld_village_woman_vaegir"   text="Vaegir Peasant Woman" />
+      <string id="wld_village_woman_swadia"   text="Swadian Peasant Woman" />
+    <!-- #endregion -->
+    </strings>
+</base>

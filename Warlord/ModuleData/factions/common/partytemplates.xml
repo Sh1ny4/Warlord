@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+  <!-- bandits -->
+    <MBPartyTemplate id="looters_quest_template">
+      <stacks>
+        <PartyTemplateStack min_value="15" max_value="15" troop="NPCCharacter.looter" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="looters_template">
+      <stacks>
+        <PartyTemplateStack min_value="4" max_value="36" troop="NPCCharacter.looter" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="sea_raiders_template">
+      <stacks>
+        <PartyTemplateStack min_value="2" max_value="18" troop="NPCCharacter.sea_raider" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="sea_raiders_boss_party_template">
+      <stacks>
+        <PartyTemplateStack min_value="2" max_value="18" troop="NPCCharacter.sea_raider" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="mountain_bandits_template">
+      <stacks>
+        <PartyTemplateStack min_value="2" max_value="18" troop="NPCCharacter.mountain_bandit" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="mountain_bandits_boss_party_template">
+      <stacks>
+        <PartyTemplateStack min_value="2" max_value="18" troop="NPCCharacter.mountain_bandit" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="forest_bandits_template">
+      <stacks>
+        <PartyTemplateStack min_value="2" max_value="18" troop="NPCCharacter.forest_bandit" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="forest_bandits_boss_party_template">
+      <stacks>
+        <PartyTemplateStack min_value="2" max_value="18" troop="NPCCharacter.forest_bandit" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="desert_bandits_template">
+      <stacks>
+        <PartyTemplateStack min_value="2" max_value="18" troop="NPCCharacter.desert_bandit" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="desert_bandits_boss_party_template">
+      <stacks>
+        <PartyTemplateStack min_value="2" max_value="18" troop="NPCCharacter.desert_bandit" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="steppe_bandits_template">
+      <stacks>
+        <PartyTemplateStack min_value="2" max_value="18" troop="NPCCharacter.steppe_bandit" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="steppe_bandits_boss_party_template">
+      <stacks>
+        <PartyTemplateStack min_value="2" max_value="18" troop="NPCCharacter.steppe_bandit" />
+      </stacks>
+    </MBPartyTemplate>
+  <!-- party template for caravan ambush issue -->
+    <MBPartyTemplate id="kingdom_hero_party_caravan_ambushers">
+      <stacks>
+        <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.mounted_ransacker" />
+        <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.mounted_pillager" />
+      </stacks>
+    </MBPartyTemplate>
+</partyTemplates>

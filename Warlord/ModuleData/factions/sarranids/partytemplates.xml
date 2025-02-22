@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+  <MBPartyTemplate id="kingdom_hero_party_sarranid_template">
+    <stacks>
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.sarranid_footman" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.sarranid_skirmisher" />
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.sarranid_archer" />
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.sarranid_veteran_footman" />
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.sarranid_infantry" />
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.sarranid_horseman" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="vassal_reward_troops_sarranid">
+    <stacks>
+      <PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.sarranid_mamluke" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="villager_sarranid_template">
+    <stacks>
+      <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.villager_sarranid" />
+      <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.village_woman_sarranid" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="rebels_sarranid_template">
+    <stacks>
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.sarranid_recruit" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="caravan_template_sarranid">
+    <stacks>
+      <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_sarranid" />
+      <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_sarranid" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_sarranid" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="elite_caravan_template_sarranid">
+    <stacks>
+      <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_sarranid" />
+      <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_sarranid" />
+      <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_sarranid" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_sarranid" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="militia_sarranid_template">
+    <stacks>
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.sarranid_militia_spearman" />
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.sarranid_militia_archer" />
+    </stacks>
+  </MBPartyTemplate>
+</partyTemplates>

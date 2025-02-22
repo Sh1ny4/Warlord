@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter id="lord_rhodok_1"
+		name="{=jEIsVazl}Derthert"
+		age="48"
+		voice="ironic"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" key="0000FC02C000220458C56743D5B5AB56396A8C717B876E66C7B287AB79C2A84B0000000305C96766000000000000000000000000000000000000000000F02000" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="4" />
+			<Trait id="Commander" value="12" />
+			<Trait id="Politician" value="14" />
+			<Trait id="Manager" value="18" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Mercy" value="1" />
+			<Trait id="Valor" value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="vla_king_template_bat_m" />
+			<EquipmentSet id="vla_king_template_civ_m" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_rhodok_2"
+		name="{=5N6i1jQP}Philenora"
+		age="47"
+		voice="ironic"
+		is_female="true"
+		culture="Culture.vlandia"
+		is_hero="true"
+		default_group="Cavalry"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" key="000044000000000577707780B7C07777C2BB71F7EFF77AA7956746991C7775C70000000505C7966A000000000000000000000000000000000000000000000100" />
+		</face>
+		<Traits>
+			<Trait id="Politician" value="12" />
+			<Trait id="Manager" value="12" />
+			<Trait id="Mercy" value="1" />
+			<Trait id="Honor" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="vla_bat_template_medium" />
+			<EquipmentSet id="vla_noncom_template_default" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_rhodok_7"
+		name="{=bHTdXTwC}Alary"
+		age="26"
+		voice="earnest"
+		default_group="HorseArcher"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.6932" build="0.7221" key="000510014000224232731956310564E637157818708138648CEB5D2873357035046BA04606571C8200000000000000000000000000000000000000004AD88081" />
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7" />
+			<Trait id="Commander" value="10" />
+			<Trait id="Politician" value="8" />
+			<Trait id="Manager" value="12" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Generosity" value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="vla_bat_template_heavy" />
+			<EquipmentSet id="vla_civ_template_default" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_rhodok_10"
+		name="{=FR2wUMdb}Elys"
+		age="22"
+		voice="earnest"
+		default_group="Cavalry"
+		is_hero="true"
+		is_female="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" key="000080000000000B67874369563B575737063939BC84896C773744465293778C000000030F97CDD9000000000000000000000000000000000000000000000000" />
+		</face>
+		<Traits>
+			<Trait id="Politician" value="14" />
+			<Trait id="Manager" value="12" />
+			<Trait id="Mercy" value="1" />
+			<Trait id="Calculating" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="vla_bat_template_medium" />
+			<EquipmentSet id="vla_noncom_template_default" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_rhodok_13"
+		name="{=abCBBVaU}Romund"
+		age="35"
+		voice="earnest"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.6404" build="0.6682" key="0005B008800039CD48802D04476A22F69E19714BC2BB1B05FF6F00777B853103027AA0240759705000000000000000000000000000000000000000007CE82001" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="6" />
+			<Trait id="Commander" value="12" />
+			<Trait id="Politician" value="10" />
+			<Trait id="Manager" value="10" />
+			<Trait id="Valor" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="vla_bat_template_heavy" />
+			<EquipmentSet id="vla_civ_template_default" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_rhodok_14"
+		name="{=EHalkcEU}Morcon"
+		age="28"
+		voice="curt"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.7525" build="0.6973" key="000510030000038552722B57125576F5232384586361A9027B355D2470527234029AB02409682751000000000000000000000000000000000000000073301040" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5" />
+			<Trait id="Commander" value="14" />
+			<Trait id="Politician" value="10" />
+			<Trait id="Manager" value="10" />
+			<Trait id="Honor" value="1" />
+			<Trait id="Valor" value="-1" />
+			<Trait id="Generosity" value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="vla_bat_template_medium" />
+			<EquipmentSet id="vla_civ_template_default" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_rhodok_141"
+		name="{=enuXNYIl}Amorcon"
+		age="18"
+		voice="curt"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.6561" build="0.7254" key="000A1C044000200213731F53422567A40340782A62818C5644865A2982340431017BA01307534CA3000000000000000000000000000000000000000024F070C4" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="4" />
+			<Trait id="Commander" value="6" />
+			<Trait id="Politician" value="6" />
+			<Trait id="Manager" value="10" />
+			<Trait id="Honor" value="1" />
+			<Trait id="Generosity" value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="vla_bat_template_medium" />
+			<EquipmentSet id="vla_civ_template_default" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_rhodok_15"
+		name="{=PuRfbiW3}Erdurand"
+		age="27"
+		voice="curt"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.6214" build="0.5381" key="00004C044000030323834B56123476B60987754B71517D2544947746753675230178901307648B8400000000000000000000000000000000000000006CE84102" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7" />
+			<Trait id="Commander" value="14" />
+			<Trait id="Politician" value="6" />
+			<Trait id="Manager" value="10" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Calculating" value="-1" />
+			<Trait id="Mercy" value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="vla_bat_template_heavy" />
+			<EquipmentSet id="vla_civ_template_default" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

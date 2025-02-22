@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+      <!-- Swadian Armoury -->
+      <!-- head -->
+	<Item id="wld_great_helm" 
+            name="Great Helmet" 
+            subtype="head_armor"
+            mesh="great_helm_base" 
+            culture="Culture.neutral_culture" 
+            weight="4.5"
+            Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="50"
+                        has_gender_variations="false" 
+                        hair_cover_type="all" 
+                        beard_cover_type="all" 
+                        modifier_group="plate" 
+                        material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<Item id="wld_great_helm_winged" 
+            name="Winged Great Helmet" 
+            subtype="head_armor" 
+            mesh="winged_great_helm_base" 
+            culture="Culture.neutral_culture" 
+            weight="4.8"
+            Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52" 
+                        has_gender_variations="false" 
+                        hair_cover_type="all" 
+                        beard_cover_type="all" 
+                        modifier_group="plate" 
+                        material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<Item id="wld_great_helm_brass" 
+            name="Brass Great Helmet" 
+            subtype="head_armor" 
+            mesh="great_helm_brass" 
+            culture="Culture.neutral_culture" 
+            weight="4"
+            Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="50" 
+                        has_gender_variations="false" 
+                        hair_cover_type="all" 
+                        modifier_group="plate" 
+                        material_type="Plate" 
+                        beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<Item id="wld_great_helm_brass_winged"
+            name="Winged  Great Helmet" 
+            subtype="head_armor" 
+            mesh="winged_great_helm_brass" 
+            culture="Culture.neutral_culture" 
+            weight="4.8"
+            Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52" 
+                        has_gender_variations="false" 
+                        hair_cover_type="all" 
+                        modifier_group="plate" 
+                        material_type="Plate" 
+                        beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<Item id="wld_great_helm_dark" 
+            name="Blackened Great Helmet" 
+            subtype="head_armor" 
+            mesh="great_helm_dark" 
+            culture="Culture.neutral_culture" 
+            weight="4"   
+            Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="50" 
+                        has_gender_variations="false" 
+                        hair_cover_type="all" 
+                        modifier_group="plate"
+                        material_type="Plate" 
+                        beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<Item id="wld_great_helm_dark_wined" 
+            name="Winged Blackened Great Helmet" 
+            subtype="head_armor" 
+            mesh="winged_great_helm_dark" 
+            culture="Culture.neutral_culture"
+            weight="4.8"
+            Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52" 
+                        has_gender_variations="false" 
+                        hair_cover_type="all" 
+                        modifier_group="plate" 
+                        material_type="Plate" 
+                        beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<Item id="wld_great_helm_royal" 
+            name="Ornate Great Helmet" 
+            subtype="head_armor" 
+            mesh="royal_great_helm" 
+            culture="Culture.neutral_culture" 
+            weight="4.5"
+            Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="55"
+                        has_gender_variations="false" 
+                        hair_cover_type="all" 
+                        modifier_group="plate" 
+                        material_type="Plate" 
+                        beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+	<Item id="wld_helm_with_visor" 
+            name="Western Helmet With Visor" 
+            subtype="head_armor" 
+            mesh="vlandian_helm_with_visor" 
+            culture="Culture.neutral_culture" 
+            weight="4"
+            Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="55" 
+                        has_gender_variations="false" 
+                        hair_cover_type="all" 
+                        modifier_group="plate" 
+                        material_type="Plate" 
+                        beard_cover_type="all" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="wld_helm_with_visor_engraved" 
+            name="Ornate Western Helmet With Visor" 
+            subtype="head_armor" 
+            mesh="engraved_vlandian_helm_with_visor" 
+            culture="Culture.neutral_culture" 
+            weight="4"
+            Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="55" 
+                        has_gender_variations="false" 
+                        hair_cover_type="all" 
+                        modifier_group="plate" 
+                        material_type="Plate" 
+                        beard_cover_type="all" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="wld_helm_with_visor_ornate"
+            name="Ornate Western Helmet With Visor" 
+            subtype="head_armor" 
+            mesh="crowned_royal_vlandian_helm_with_visor" 
+            culture="Culture.neutral_culture" 
+            weight="4"
+            Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="58" 
+                        has_gender_variations="false" 
+                        hair_cover_type="all" 
+                        modifier_group="plate" 
+                        material_type="Plate" 
+                        beard_cover_type="all" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="wld_helm_with_visor_crowned" 
+            name="Crowned Western Helmet With Visor" 
+            subtype="head_armor" 
+            mesh="crowned_vlandian_helm_with_visor" 
+            culture="Culture.neutral_culture" 
+            weight="4"
+            Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="58" 
+                        has_gender_variations="false" 
+                        hair_cover_type="all"
+                        modifier_group="plate" 
+                        material_type="Plate"
+                        beard_cover_type="all" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
+	<Item id="wld_bacinet_with_facemask" 
+            name="bacinet with facemask" 
+            subtype="head_armor" 
+            mesh="sa_bacinet_with_facemask" 
+            culture="Culture.neutral_culture" 
+            weight="4.5"
+            Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="54" 
+                        has_gender_variations="false" 
+                        hair_cover_type="all" 
+                        modifier_group="plate" 
+                        material_type="Plate" 
+                        beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+	<Item id="wld_helm_faceplate_blackend_brass" 
+            name="Western Ornate Full Plate Helmet" 
+            subtype="head_armor" 
+            mesh="vlandian_helm_with_faceplate_black" 
+            culture="Culture.neutral_culture" 
+            weight="4"
+            Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52" 
+                        has_gender_variations="false" 
+                        hair_cover_type="all" 
+                        modifier_group="plate" 
+                        material_type="Plate" 
+                        beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+	<Item id="wld_helm_faceplate_brass" 
+            name="Western Ornate Full Plate Helmet" 
+            subtype="head_armor" 
+            mesh="vlandian_helm_with_faceplate_brass" 
+            culture="Culture.neutral_culture" 
+            weight="4"
+            Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52" 
+                        has_gender_variations="false" 
+                        hair_cover_type="all" 
+                        modifier_group="plate" 
+                        material_type="Plate" 
+                        beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+	<Item id="wld_helm_faceplate_painted" 
+            name="Western Painted Full Plate Helmet" 
+            subtype="head_armor" 
+            mesh="vlandian_helm_with_faceplate_paint" 
+            culture="Culture.neutral_culture" 
+            weight="4"
+            Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52" 
+                        has_gender_variations="false" 
+                        hair_cover_type="all" 
+                        modifier_group="plate" 
+                        material_type="Plate" 
+                        beard_cover_type="all" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+
+	<!-- Shoulders -->
+	<Item id="wld_swadian_shoulders" 
+            name="Western Shoulder Plates" 
+            mesh="swadian_shoulders" 
+            culture="Culture.neutral_culture" 
+            weight="3.6"
+            Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="20" 
+                        arm_armor="10" 
+                        modifier_group="plate" 
+                        material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<Item id="wld_engraved_swadian_shoulders" 
+            name="Western Ornate Shoulder Plates" 
+            mesh="engraved_swadian_shoulders"
+            culture="Culture.neutral_culture" 
+            weight="3.6"
+            Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="20" 
+                        arm_armor="10" 
+                        modifier_group="plate" 
+                        material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<Item id="wld_Western_chain_shoulders" 
+            name="Western chain shoulders" 
+            mesh="chain_shoulders"
+            culture="Culture.neutral_culture"
+            weight="3.6"
+            Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="12" 
+                        modifier_group="Chainmail" 
+                        material_type="Chainmail" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<!-- gloves -->
+	<Item id="wld_ChurburghGauntlet" 
+            name="Plate Mittens" 
+            mesh="sa_1churburghgauntlet" 
+            subtype="body_armor"
+            culture="Culture.neutral_culture" 
+            weight="2.9" 
+            Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="30" 
+                        covers_hands="true" 
+                        modifier_group="Plate" 
+                        material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+	<Item id="wld_ChurburghGauntlet_trimmed" 
+            name="Trimmed Plate Mittens" 
+            mesh="sa_churburghgauntlet" 
+            subtype="body_armor"
+            culture="Culture.neutral_culture" 
+            weight="2.9" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="30" 
+                        covers_hands="true" 
+                        modifier_group="Plate" 
+                        material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+	<Item id="wld_ChurburghGauntlet_black" 
+            name="Blackend Plate Mittens" 
+            mesh="sa_2churburghgauntlet" 
+            subtype="body_armor"
+            culture="Culture.neutral_culture" 
+            weight="2.9" 
+            Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="30" 
+                        covers_hands="true" 
+                        modifier_group="Plate" 
+                        material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+
+	<!-- Body Armours-->
+	<Item id="wld_coat_of_plates1_c" 
+            name="coat of plates" 
+            mesh="coat_of_plates1_c"
+            subtype="body_armor" 
+            culture="Culture.neutral_culture"
+            weight="25.11" 
+            Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="45" 
+                        leg_armor="20" 
+                        arm_armor="20" 
+                        covers_body="true"
+                        modifier_group="chain" 
+                        material_type="Chainmail" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<Item id="wld_coat_of_plates2_c" 
+            name="coat of plates royal pattern" 
+            mesh="coat_of_plates2_c"
+            subtype="body_armor"  
+            value="70000"
+            culture="Culture.neutral_culture" 
+            weight="25.11"
+            Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="45" 
+                        leg_armor="20" 
+                        arm_armor="20" 
+                        covers_body="true" 
+                        modifier_group="chain" 
+                        material_type="Chainmail" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<Item id="wld_coat_of_plates3_c" 
+            name="coat of plates lys pattern" 
+            mesh="coat_of_plates3_c"
+            subtype="body_armor"
+            culture="Culture.neutral_culture" 
+            weight="25.11"
+            Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="45"
+                        leg_armor="20" 
+                        arm_armor="20" 
+                        covers_body="true" 
+                        modifier_group="chain" 
+                        material_type="Chainmail" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<Item id="wld_coat_of_plates4_c" 
+            name="coat of plates checker pattern" 
+            mesh="coat_of_plates4_c" 
+            subtype="body_armor" 
+            culture="Culture.neutral_culture"
+            weight="25.11"
+            Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="45" 
+                        leg_armor="20" 
+                        arm_armor="20" 
+                        covers_body="true" 
+                        modifier_group="chain" 
+                        material_type="Chainmail" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<Item id="wld_coat_of_plates5_c"
+            name="coat of plates cross pattern"
+            mesh="coat_of_plates5_c"
+            subtype="body_armor"
+            culture="Culture.neutral_culture"
+            weight="25.11"
+            Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="45" 
+                  leg_armor="20" 
+                  arm_armor="20"
+                  covers_body="true" 
+                  modifier_group="chain" 
+                  material_type="Chainmail" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<Item id="wld_swadian_plate_armor" 
+            name="Western Plate Armor" 
+            mesh="swadian_plate_armor" 
+            subtype="body_armor"
+            culture="Culture.neutral_culture"
+            weight="29"
+            Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="58" 
+                        leg_armor="25" 
+                        arm_armor="25" 
+                        covers_body="true" 
+                        modifier_group="Plate"
+                        material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<Item id="wld_swadian_plate_armor_striped"
+            name="Western Plate Armor"
+            mesh="swadian_striped_plate_armor"
+            subtype="body_armor"
+            culture="Culture.neutral_culture" 
+            weight="29"
+            Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="58" 
+                        leg_armor="25" 
+                        arm_armor="25" 
+                        covers_body="true" 
+                        modifier_group="Plate" 
+                        material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<Item id="wld_swadian_plate_with_armguards" 
+            name="Western Cuirass With Armguards" 
+            mesh="swadian_plate_with_armguards" 
+            subtype="body_armor"
+            culture="Culture.neutral_culture"
+            weight="26.5"
+            Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="58" 
+                        leg_armor="25" 
+                        arm_armor="20" 
+                        covers_body="true" 
+                        modifier_group="Plate" 
+                        material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<Item id="wld_swadian_plate_armor_skirt" 
+            name="Western Plate Armor With skirt" 
+            mesh="sa_surcoatplate"
+            subtype="body_armor"
+            culture="Culture.neutral_culture"
+            weight="29"
+            Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="58" 
+                        leg_armor="30" 
+                        arm_armor="25" 
+                        covers_body="true" 
+                        modifier_group="plate" 
+                        material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<Item id="wld_mail_with_tabbard1" 
+            name="Mail With Tabbard"
+            mesh="mail_with_tabbard1"
+            subtype="body_armor"
+            culture="Culture.neutral_culture"
+            weight="29"
+            Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="36" 
+                        leg_armor="15" 
+                        arm_armor="20" 
+                        covers_body="true" 
+                        modifier_group="Chainmail" 
+                        material_type="Chainmail" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<Item id="wld_mail_with_tabbard2" 
+            name="Mail With Tabbard" 
+            mesh="mail_with_tabbard2" 
+            subtype="body_armor"   
+            culture="Culture.neutral_culture" 
+            weight="29" 
+            Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="36" 
+                        leg_armor="15" 
+                        arm_armor="20" 
+                        covers_body="true" 
+                        modifier_group="Chainmail" 
+                        material_type="Chainmail" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<Item id="wld_mail_with_tabbard3" 
+            name="Mail With Tabbard" 
+            mesh="mail_with_tabbard3" 
+            subtype="body_armor"
+            culture="Culture.neutral_culture" 
+            weight="29" 
+            Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="36" 
+                        leg_armor="15" 
+                        arm_armor="20" 
+                        covers_body="true" 
+                        modifier_group="Chainmail" 
+                        material_type="Chainmail" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<Item id="wld_mail_with_tabbard4" 
+            name="Mail With Tabbard" 
+            mesh="mail_with_tabbard4" 
+            subtype="body_armor"   
+            culture="Culture.neutral_culture"
+            weight="29" 
+            Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="36" 
+                        leg_armor="15" 
+                        arm_armor="20" 
+                        covers_body="true" 
+                        modifier_group="Chainmail" 
+                        material_type="Chainmail" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<Item id="wld_mail_with_tabbard5" 
+            name="Mail With Tabbard" 
+            mesh="mail_with_tabbard5" 
+            subtype="body_armor"
+            culture="Culture.neutral_culture" 
+            weight="29" 
+            Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="36" 
+                        leg_armor="15" 
+                        arm_armor="20" 
+                        covers_body="true" 
+                        modifier_group="Chainmail" 
+                        material_type="Chainmail" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+      <Item id="wld_coat1"
+            name="Tabbard over Coat of plate"
+            mesh="coat1"
+            subtype="body_armor"
+            culture="Culture.neutral_culture"
+            weight="30"
+            Type="BodyArmor">
+            <ItemComponent>
+            <Armor body_armor="43"
+                  leg_armor="20"
+                  arm_armor="16"
+                  covers_body="true"
+                  modifier_group="plate"
+                  material_type="Plate" />
+            </ItemComponent>
+            <Flags UseTeamColor="true" />
+      </Item> 
+      <Item id="wld_coat2" 
+            name="Tabbard over Coat of plate" 
+            mesh="coat2" 
+            subtype="body_armor"
+            culture="Culture.neutral_culture"
+            weight="30"
+            Type="BodyArmor">
+            <ItemComponent>
+            <Armor body_armor="43"
+                  leg_armor="20"
+                  arm_armor="16"
+                  covers_body="true"
+                  modifier_group="plate"
+                  material_type="Plate" />
+            </ItemComponent>
+            <Flags UseTeamColor="true" />
+      </Item> 
+      <Item id="wld_coat3" 
+            name="Tabbard over Coat of plate" 
+            mesh="coat3"
+            subtype="body_armor"
+            culture="Culture.neutral_culture"
+            weight="30"
+            Type="BodyArmor">
+            <ItemComponent>
+            <Armor body_armor="43"
+                  leg_armor="20"
+                  arm_armor="16"
+                  covers_body="true"
+                  modifier_group="plate"
+                  material_type="Plate" />
+            </ItemComponent>
+            <Flags UseTeamColor="true" />
+      </Item> 
+
+	<!-- Boots -->
+	<Item id="wld_plate_boots" 
+            name="Plate Boots" 
+            mesh="plateboot" 
+            culture="Culture.neutral_culture" 
+            weight="1.8"
+            Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="28" 
+                        covers_legs="true" 
+                        modifier_group="plate" 
+                        material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<Item id="wld_ChurburghBoots" 
+            name="Plate Boots" 
+            mesh="sa_1churburghboots" 
+            culture="Culture.neutral_culture" 
+            weight="2.5"
+            Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="30" 
+                        covers_legs="true" 
+                        modifier_group="plate" 
+                        material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<Item id="wld_ChurburghBoots_trimmed" 
+            name="Trimmed Plate Boots" 
+            mesh="sa_churburghboots" 
+            culture="Culture.neutral_culture" 
+            weight="2.5"
+            Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="30" 
+                        covers_legs="true" 
+                        modifier_group="plate" 
+                        material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<Item id="wld_ChurburghBoots_black" 
+            name="Blackend Plate Boots" 
+            mesh="sa_2churburghboots" 
+            culture="Culture.neutral_culture" 
+            weight="2.5"
+            Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="30" 
+                        covers_legs="true" 
+                        modifier_group="plate"
+                        material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+
+      <!-- Vaegir Armoury -->
+      <Item id="wld_helm_icon"
+            name="Vaegir Decorated Helmet" 
+            subtype="head_armor" 
+            mesh="rus_helm_icon" 
+            culture="Culture.neutral_culture"  
+            weight="4" 
+            Type="HeadArmor">
+            <ItemComponent>
+                  <Armor head_armor="54" 
+                        has_gender_variations="false" 
+                        hair_cover_type="all" 
+                        modifier_group="plate" 
+                        material_type="Plate" 
+                        beard_cover_type="all" />
+            </ItemComponent>
+            <Flags UseTeamColor="false" />
+      </Item>
+      <Item id="wld_helm_noble"
+            name="Vaegir Noble Helmet" 
+            subtype="head_armor" 
+            mesh="rus_helm_noble" 
+            culture="Culture.neutral_culture"  
+            weight="4"
+            Type="HeadArmor">
+            <ItemComponent>
+                  <Armor head_armor="54" 
+                        has_gender_variations="false" 
+                        hair_cover_type="all" 
+                        modifier_group="plate" 
+                        material_type="Plate" 
+                        beard_cover_type="all" />
+            </ItemComponent>
+            <Flags UseTeamColor="false" />
+      </Item>
+      <Item id="wld_helm_noble_icon"
+            name="Vaegir Decorated Noble Helmet" 
+            subtype="head_armor" 
+            mesh="rus_helm_noble_icon"
+            culture="Culture.neutral_culture"  
+            weight="4" 
+            Type="HeadArmor">
+            <ItemComponent>
+                  <Armor head_armor="54" 
+                        has_gender_variations="false" 
+                        hair_cover_type="all" 
+                        modifier_group="plate" 
+                        material_type="Plate" 
+                        beard_cover_type="all" />
+            </ItemComponent>
+            <Flags UseTeamColor="false" />
+      </Item>
+      <Item id="wld_helm_regular"
+            name="Vaegir Helmet" 
+            subtype="head_armor" 
+            mesh="rus_helm_regular"
+            culture="Culture.neutral_culture"  
+            weight="4" 
+            Type="HeadArmor">
+            <ItemComponent>
+                  <Armor head_armor="54" 
+                        has_gender_variations="false" 
+                        hair_cover_type="all" 
+                        modifier_group="plate" 
+                        material_type="Plate" 
+                        beard_cover_type="all" />
+            </ItemComponent>
+            <Flags UseTeamColor="false" />
+      </Item>
+      <Item id="wld_helm_regular2"
+            name="Vaegir Helmet" 
+            subtype="head_armor" 
+            mesh="rus_helm_regular2"
+            culture="Culture.neutral_culture"  
+            weight="4" 
+            Type="HeadArmor">
+            <ItemComponent>
+                  <Armor head_armor="54" 
+                        has_gender_variations="false" 
+                        hair_cover_type="all" 
+                        modifier_group="plate" 
+                        material_type="Plate" 
+                        beard_cover_type="all" />
+            </ItemComponent>
+            <Flags UseTeamColor="false" />
+      </Item>
+      <Item id="wld_open_helm"
+            name="Vaegir Helmet" 
+            subtype="head_armor" 
+            mesh="rus_open_helm"
+            culture="Culture.neutral_culture"  
+            weight="4" 
+            Type="HeadArmor">
+            <ItemComponent>
+                  <Armor head_armor="48" 
+                        has_gender_variations="false" 
+                        hair_cover_type="all" 
+                        modifier_group="plate" 
+                        material_type="Plate" 
+                        beard_cover_type="all" />
+            </ItemComponent>
+            <Flags UseTeamColor="false" />
+      </Item>
+      <Item id="wld_vaegir_helm"
+            name="War Mask" 
+            subtype="head_armor" 
+            mesh="vaegir_helm"
+            culture="Culture.neutral_culture"  
+            weight="4" 
+            Type="HeadArmor">
+            <ItemComponent>
+                  <Armor head_armor="54" 
+                        has_gender_variations="false" 
+                        hair_cover_type="all" 
+                        modifier_group="plate" 
+                        material_type="Plate" 
+                        beard_cover_type="all" />
+                  </ItemComponent>
+                  <Flags UseTeamColor="false" />
+      </Item>
+      <Item id="wld_vaegir_helm_open"
+            name="War helmet" 
+            subtype="head_armor" 
+            mesh="vaegir_helm_open"
+            culture="Culture.neutral_culture"  
+            weight="3.5" 
+            Type="HeadArmor">
+            <ItemComponent>
+            <Armor head_armor="48" 
+                  has_gender_variations="false" 
+                  hair_cover_type="all" 
+                  modifier_group="plate" 
+                  material_type="Plate" 
+                  beard_cover_type="all" />
+            </ItemComponent>
+            <Flags UseTeamColor="false" />
+      </Item>
+
+      <Item id="wld_armour"
+            name="Vaegir coat of plates" 
+            mesh="Rus_armour" 
+            subtype="body_armor"
+            culture="Culture.neutral_culture"  
+            weight="24" 
+            Type="BodyArmor">
+            <ItemComponent>
+            <Armor body_armor="52" 
+                  leg_armor="15" 
+                  arm_armor="5" 
+                  covers_body="true" 
+                  modifier_group="Plate" 
+                  material_type="Plate" />
+            </ItemComponent>
+            <Flags UseTeamColor="true" />
+      </Item>
+      <Item id="wld_armour2"
+            name="Vaegir coat of plates" 
+            mesh="Rus_armour2" 
+            subtype="body_armor" 
+            culture="Culture.neutral_culture"  
+            weight="24" 
+            Type="BodyArmor">
+            <ItemComponent>
+            <Armor body_armor="52" 
+                  leg_armor="15" 
+                  arm_armor="5" 
+                  covers_body="true" 
+                  modifier_group="Plate" 
+                  material_type="Plate" />
+            </ItemComponent>
+            <Flags UseTeamColor="true" />
+      </Item>
+      
+      <Item id="wld_eastern_heavy_lamellar_shoulders"
+            name="Heavy Lamellar Shoulderguard"
+            mesh="sturgia_cavalry_shoulderguards"
+            weight="5.0"
+            Type="Cape">
+            <ItemComponent>
+            <Armor body_armor="6"
+                  arm_armor="14"
+                  modifier_group="plate"
+                  material_type="Plate" />
+            </ItemComponent>
+      </Item>
+      <Item id="wld_eastern_heavy_lamellar_armor"
+            name="Heavy Lamellar Armor"
+            mesh="sturgia_cavalry_armor_reinforced"
+            weight="25"
+            Type="BodyArmor">
+            <ItemComponent>
+            <Armor body_armor="46"
+                  arm_armor="14"
+                  leg_armor="20"
+                  covers_body="true"
+                  modifier_group="plate"
+                  material_type="Plate" />
+            </ItemComponent>
+      </Item>
+      <!--
+      <Item id="wld_pavise"
+            name="{=!}Pavise Shield"
+            body_name="bo_cap_pavois"
+            shield_body_name="bo_pavois"
+            recalculate_body="false"
+            mesh="pavois"
+            culture="Culture.neutral_culture"
+            using_tableau="true"
+            weight="4.8"
+            Type="Shield"
+            item_holsters="shield_kite:shield_2:shield_3:shield_4"
+            has_lower_holster_priority="true"
+            holster_position_shift="0.0,0.0,0.05">
+            <ItemComponent>
+                  <Weapon weapon_class="LargeShield"
+                        body_armor="1"
+                        thrust_speed="80"
+                        thrust_damage_type="Blunt"
+                        speed_rating="80"
+                        physics_material="wood_shield"
+                        item_usage="shield"
+                        position="-0.05, 0.15, 0.05"
+                        rotation="1.0,5.0,38.00"
+                        weapon_length="110"
+                        center_of_mass="0.0,0.1,0.05"
+                        hit_points="520"
+                        modifier_group="shield">
+                  <WeaponFlags CanBlockRanged="true"
+                              HasHitPoints="true" />
+                  </Weapon>
+            </ItemComponent>
+            <Flags WoodenParry="true"
+                  HeldInOffHand="true"
+                  ForceAttachOffHandSecondaryItemBone="true" />
+            </Item>
+      -->
+</Items>

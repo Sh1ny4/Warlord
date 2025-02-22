@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+	<Hero id="lord_nord_1"		faction="Faction.clan_nord_1"	spouse="Hero.lord_nord_2"		text="PLACEHOLDER"/>
+	<Hero id="lord_nord_2"		faction="Faction.clan_nord_1"	spouse="Hero.lord_nord_1"/>
+	<Hero id="lord_nord_13_1"	faction="Faction.clan_nord_1"	father="Hero.lord_nord_13"/>
+	<Hero id="lord_nord_13_2"	faction="Faction.clan_nord_1"	father="Hero.lord_nord_13"/>
+	<Hero id="lord_nord_13_3"	faction="Faction.clan_nord_1"	father="Hero.lord_nord_13"/>
+	<Hero id="lord_nord_13_4"	faction="Faction.clan_nord_1"	father="Hero.lord_nord_13"/>
+	<Hero id="lord_nord_7"		faction="Faction.clan_nord_1"	father="Hero.lord_nord_1"		mother="Hero.lord_nord_2"/>
+	<Hero id="lord_nord_7_1"	faction="Faction.clan_nord_1"	father="Hero.lord_nord_1"		mother="Hero.lord_nord_2"/>
+	<Hero id="lord_nord_10"		faction="Faction.clan_nord_1"	father="Hero.lord_nord_1"		mother="Hero.lord_nord_2"/>
+</Heroes>

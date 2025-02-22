@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+  <MBPartyTemplate id="kingdom_hero_party_khergit_template">
+    <stacks>
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.khergit_skirmisher" />
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.khergit_horseman" />
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.khergit_lancer" />
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.khergit_horse_archer" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="vassal_reward_troops_khergit">
+    <stacks>
+      <PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.khergit_veteran_horse_archer" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="villager_khergit_template">
+    <stacks>
+      <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.villager_khergit" />
+      <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.village_woman_khergit" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="rebels_khergit_template">
+    <stacks>
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.khergit_tribesman" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="caravan_template_khergit">
+    <stacks>
+      <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_khergit" />
+      <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_khergit" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_khergit" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="elite_caravan_template_khergit">
+    <stacks>
+      <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_khergit" />
+      <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_khergit" />
+      <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_khergit" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_khergit" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="elite_caravan_template_vaegir">
+    <stacks>
+      <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_vaegir" />
+      <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_vaegir" />
+      <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_vaegir" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_vaegir" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="elite_caravan_template_swadia">
+    <stacks>
+      <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_swadia" />
+      <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_swadia" />
+      <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_swadia" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_swadia" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="militia_khergit_template">
+    <stacks>
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.khergit_militia_spearman" />
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.khergit_militia_archer" />
+    </stacks>
+  </MBPartyTemplate>
+</partyTemplates>

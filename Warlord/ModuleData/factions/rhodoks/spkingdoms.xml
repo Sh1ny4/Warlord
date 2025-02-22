@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Kingdoms>
+        <Kingdom id="rhodok"
+                owner="Hero.lord_rhodok_1" 
+                banner_key="11.146.14.1536.1536.764.764.1.0.0.424.132.15.497.497.764.764.0.0.0  " 
+                primary_banner_color="0xff2C4D86" 
+                secondary_banner_color="0xff000000" 
+                label_color="0xff2C4D86" 
+                color="0xff2C4D86" 
+                color2="0xffF4CA14" 
+                alternative_color="0xff2C4D86" 
+                alternative_color2="0xffF4CA14" 
+                culture="Culture.rhodok" 
+                settlement_banner_mesh="encounter_flag_d" 
+                flag_mesh="info_screen_flags_c" 
+                name="{=!}Rhodok" 
+                short_name="{=!}Rhodoks" 
+                title="{=!}Kingdom of Rhodoks" 
+                ruler_title="{=!}King" 
+                text="PLACEHOLDER">
+                <relationships>
+                </relationships>
+        </Kingdom>
+</Kingdoms>

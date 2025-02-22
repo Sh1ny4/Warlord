@@ -1,0 +1,3914 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<!-- templates -->
+		<NPCCharacter id="tournament_template_vaegir_one_participant_set_v1"
+			default_group="Infantry"
+			level="6"
+			name="{=!}tournament_template_sturgia_one_participant_set_v1"
+			culture="Culture.vaegir"
+			skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.fighter_sturgia" />
+			</face>
+			<skills></skills>
+			<upgrade_targets></upgrade_targets>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.sturgia_axe_2_t2_blunt" />
+					<equipment slot="Item1" id="Item.northern_round_sparring_shield" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="npc_wanderer_equipment_template_sturgia_civilian"
+					civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="tournament_template_vaegir_one_participant_set_v2"
+			default_group="Infantry"
+			level="6"
+			name="{=!}tournament_template_sturgia_one_participant_set_v2"
+			culture="Culture.vaegir"
+			skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.fighter_sturgia" />
+			</face>
+			<skills></skills>
+			<upgrade_targets></upgrade_targets>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.sturgia_axe_2_t2_blunt" />
+					<equipment slot="Item1" id="Item.northern_throwing_axe_1_t1_blunt" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="npc_wanderer_equipment_template_sturgia_civilian"
+					civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="tournament_template_vaegir_two_participant_set_v1"
+			default_group="Infantry"
+			level="6"
+			name="{=!}tournament_template_sturgia_two_participant_set_v1"
+			culture="Culture.vaegir"
+			skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.fighter_sturgia" />
+			</face>
+			<skills></skills>
+			<upgrade_targets></upgrade_targets>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.sturgia_axe_2_t2_blunt" />
+					<equipment slot="Item1" id="Item.northern_round_sparring_shield" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.mountain_hunting_bow" />
+					<equipment slot="Item1" id="Item.tournament_arrows" />
+					<equipment slot="Item2" id="Item.sturgia_axe_2_t2_blunt" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="npc_wanderer_equipment_template_sturgia_civilian"
+					civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="tournament_template_vaegir_two_participant_set_v2"
+			default_group="Infantry"
+			level="6"
+			name="{=!}tournament_template_sturgia_two_participant_set_v2"
+			culture="Culture.vaegir"
+			skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.fighter_sturgia" />
+			</face>
+			<skills></skills>
+			<upgrade_targets></upgrade_targets>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.sturgia_sword_1_t2_blunt" />
+					<equipment slot="Item1" id="Item.northern_round_sparring_shield" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.northern_spear_1_t2_blunt" />
+					<equipment slot="Item1" id="Item.northern_round_sparring_shield" />
+					<equipment slot="Item2" id="Item.sturgia_axe_2_t2_blunt" />
+					<equipment slot="Item3" id="Item.northern_throwing_axe_1_t1_blunt" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="npc_wanderer_equipment_template_sturgia_civilian"
+					civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="tournament_template_vaegir_two_participant_set_v3"
+			default_group="Infantry"
+			level="6"
+			name="{=!}tournament_template_sturgia_two_participant_set_v3"
+			culture="Culture.vaegir"
+			skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.fighter_sturgia" />
+			</face>
+			<skills></skills>
+			<upgrade_targets></upgrade_targets>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.northern_spear_1_t2_blunt" />
+					<equipment slot="Item1" id="Item.northern_round_sparring_shield" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.sturgia_sword_1_t2_blunt" />
+					<equipment slot="Item1" id="Item.western_riders_kite_sparring_shield" />
+					<equipment slot="Horse" id="Item.sturgia_horse_tournament" />
+					<equipment slot="HorseHarness" id="Item.light_harness" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="npc_wanderer_equipment_template_sturgia_civilian"
+					civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="tournament_template_vaegir_four_participant_set_v1"
+			default_group="Infantry"
+			level="6"
+			name="{=!}tournament_template_sturgia_four_participant_set_v1"
+			culture="Culture.vaegir"
+			skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.fighter_sturgia" />
+			</face>
+			<skills></skills>
+			<upgrade_targets></upgrade_targets>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.sturgia_axe_2_t2_blunt" />
+					<equipment slot="Item1" id="Item.northern_round_sparring_shield" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.northern_spear_1_t2_blunt" />
+					<equipment slot="Item1" id="Item.northern_round_sparring_shield" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.mountain_hunting_bow" />
+					<equipment slot="Item1" id="Item.tournament_arrows" />
+					<equipment slot="Item2" id="Item.sturgia_axe_2_t2_blunt" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.sturgia_sword_1_t2_blunt" />
+					<equipment slot="Item1" id="Item.western_riders_kite_sparring_shield" />
+					<equipment slot="Horse" id="Item.sturgia_horse_tournament" />
+					<equipment slot="HorseHarness" id="Item.light_harness" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="npc_wanderer_equipment_template_sturgia_civilian"
+					civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="tournament_template_vaegir_four_participant_set_v2"
+			default_group="Infantry"
+			level="6"
+			name="{=!}tournament_template_sturgia_four_participant_set_v2"
+			culture="Culture.vaegir"
+			skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.fighter_sturgia" />
+			</face>
+			<skills></skills>
+			<upgrade_targets></upgrade_targets>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.sturgia_axe_2_t2_blunt" />
+					<equipment slot="Item1" id="Item.northern_round_sparring_shield" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.sturgia_axe_2_t2_blunt" />
+					<equipment slot="Item1" id="Item.northern_round_sparring_shield" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.mountain_hunting_bow" />
+					<equipment slot="Item1" id="Item.tournament_arrows" />
+					<equipment slot="Item2" id="Item.sturgia_axe_2_t2_blunt" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.sturgia_sword_1_t2_blunt" />
+					<equipment slot="Item1" id="Item.western_riders_kite_sparring_shield" />
+					<equipment slot="Horse" id="Item.sturgia_horse_tournament" />
+					<equipment slot="HorseHarness" id="Item.light_harness" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="npc_wanderer_equipment_template_sturgia_civilian"
+					civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="tournament_template_vaegir_four_participant_set_v3"
+			default_group="Infantry"
+			level="6"
+			name="{=!}tournament_template_sturgia_four_participant_set_v3"
+			culture="Culture.vaegir"
+			skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.fighter_sturgia" />
+			</face>
+			<skills></skills>
+			<upgrade_targets></upgrade_targets>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.sturgia_axe_2_t2_blunt" />
+					<equipment slot="Item1" id="Item.northern_round_sparring_shield" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.mountain_hunting_bow" />
+					<equipment slot="Item1" id="Item.tournament_arrows" />
+					<equipment slot="Item2" id="Item.sturgia_axe_2_t2_blunt" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.mountain_hunting_bow" />
+					<equipment slot="Item1" id="Item.tournament_arrows" />
+					<equipment slot="Item2" id="Item.sturgia_axe_2_t2_blunt" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.sturgia_sword_1_t2_blunt" />
+					<equipment slot="Item1" id="Item.western_riders_kite_sparring_shield" />
+					<equipment slot="Horse" id="Item.sturgia_horse_tournament" />
+					<equipment slot="HorseHarness" id="Item.light_harness" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="npc_wanderer_equipment_template_sturgia_civilian"
+					civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="gear_practice_dummy_vaegir"
+			default_group="Infantry"
+			is_hero="false"
+			occupation="Special"
+			culture="Culture.vaegir"
+			name="{=!}Vaegir Gear Dummy"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.guard" />
+			</face>
+			<skills></skills>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+					<equipment slot="Head" id="Item.roughhide_cap" />
+					<equipment slot="Body" id="Item.heavy_nordic_tunic" />
+					<equipment slot="Leg" id="Item.mail_chausses" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+					<equipment slot="Body" id="Item.heavy_nordic_tunic" />
+					<equipment slot="Leg" id="Item.strapped_mail_chausses" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+					<equipment slot="Body" id="Item.tundra_tunic" />
+					<equipment slot="Leg" id="Item.mail_chausses" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+					<equipment slot="Body" id="Item.nordic_tunic" />
+					<equipment slot="Leg" id="Item.strapped_mail_chausses" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+					<equipment slot="Head" id="Item.roughhide_cap" />
+					<equipment slot="Body" id="Item.northern_tunic" />
+					<equipment slot="Leg" id="Item.mail_chausses" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="npc_wanderer_equipment_template_sturgia"
+					civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="weapon_practice_stage_1_vaegir"
+			default_group="Infantry"
+			is_hero="false"
+			occupation="Special"
+			culture="Culture.vaegir"
+			name="{=!}Vaegir Weapon Dummy"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.guard" />
+			</face>
+			<skills></skills>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.sturgia_axe_2_t2" />
+					<equipment slot="Item1" id="Item.leather_round_shield" />
+					<equipment slot="Item2" id="Item.northern_javelin_1_t2" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.northern_spear_1_t2" />
+					<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.sturgia_axe_2_t2" />
+					<equipment slot="Item1" id="Item.leather_round_shield" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.northern_spear_1_t2" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.sturgia_axe_2_t2" />
+					<equipment slot="Item2" id="Item.hunting_bow" />
+					<equipment slot="Item3" id="Item.default_arrows" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.sturgia_axe_2_t2" />
+					<equipment slot="Item1" id="Item.leather_round_shield" />
+					<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.sturgia_axe_2_t2" />
+					<equipment slot="Item1" id="Item.leather_round_shield" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.sturgia_axe_2_t2" />
+					<equipment slot="Item1" id="Item.highland_throwing_axe_1_t2" />
+					<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.northern_spear_1_t2" />
+					<equipment slot="Item1" id="Item.northern_javelin_1_t2" />
+					<equipment slot="Item2" id="Item.northern_javelin_1_t2" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="npc_wanderer_equipment_template_sturgia"
+					civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="weapon_practice_stage_2_vaegir"
+			default_group="Infantry"
+			is_hero="false"
+			occupation="Special"
+			culture="Culture.vaegir"
+			name="{=!}Vaegir Weapon Dummy"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.guard" />
+			</face>
+			<skills></skills>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.sturgia_axe_3_t3" />
+					<equipment slot="Item1" id="Item.leather_round_shield" />
+					<equipment slot="Item2" id="Item.northern_javelin_1_t2" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.bearded_axe_t3" />
+					<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.sturgia_axe_3_t3" />
+					<equipment slot="Item1" id="Item.leather_round_shield" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.bearded_axe_t3" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.bearded_axe_t3" />
+					<equipment slot="Item2" id="Item.hunting_bow" />
+					<equipment slot="Item3" id="Item.default_arrows" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.sturgia_axe_3_t3" />
+					<equipment slot="Item1" id="Item.leather_round_shield" />
+					<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.sturgia_axe_3_t3" />
+					<equipment slot="Item1" id="Item.leather_round_shield" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.bearded_axe_t3" />
+					<equipment slot="Item1" id="Item.highland_throwing_axe_1_t2" />
+					<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.bearded_axe_t3" />
+					<equipment slot="Item1" id="Item.northern_javelin_1_t2" />
+					<equipment slot="Item2" id="Item.northern_javelin_1_t2" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="npc_wanderer_equipment_template_sturgia"
+					civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="weapon_practice_stage_3_vaegir"
+			default_group="Infantry"
+			is_hero="false"
+			occupation="Special"
+			culture="Culture.vaegir"
+			name="{=!}Vaegir Weapon Dummy"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.guard" />
+			</face>
+			<skills></skills>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.sturgia_axe_4_t4" />
+					<equipment slot="Item1" id="Item.leather_round_shield" />
+					<equipment slot="Item2" id="Item.northern_javelin_1_t2" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.sturgia_2haxe_1_t4" />
+					<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.sturgia_axe_4_t4" />
+					<equipment slot="Item1" id="Item.leather_round_shield" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.sturgia_2haxe_1_t4" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.sturgia_axe_4_t4" />
+					<equipment slot="Item2" id="Item.hunting_bow" />
+					<equipment slot="Item3" id="Item.default_arrows" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.sturgia_axe_4_t4" />
+					<equipment slot="Item1" id="Item.leather_round_shield" />
+					<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.sturgia_axe_4_t4" />
+					<equipment slot="Item1" id="Item.leather_round_shield" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.sturgia_2haxe_1_t4" />
+					<equipment slot="Item1" id="Item.highland_throwing_axe_1_t2" />
+					<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.bearded_axe_t3" />
+					<equipment slot="Item1" id="Item.northern_javelin_1_t2" />
+					<equipment slot="Item2" id="Item.northern_javelin_1_t2" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="npc_wanderer_equipment_template_sturgia"
+					civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="gear_dummy_vaegir"
+			default_group="Infantry"
+			is_hero="false"
+			occupation="Special"
+			culture="Culture.vaegir"
+			name="{=!}Vaegir Gear Dummy"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills"
+			is_obsolete="true">
+			<face>
+				<face_key_template value="BodyProperty.guard" />
+			</face>
+			<skills></skills>
+			<Traits></Traits>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+					<equipment slot="Head" id="Item.nasalhelm_over_leather" />
+					<equipment slot="Body" id="Item.nordic_padded_cloth" />
+					<equipment slot="Leg" id="Item.leather_boots" />
+					<equipment slot="Gloves" id="Item.leather_gloves" />
+				</EquipmentRoster>
+				<EquipmentSet id="npc_wanderer_equipment_template_khuzait" civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="fighter_vaegir"
+			default_group="Infantry"
+			level="1"
+			name="{=!}Vaegir Fighter"
+			occupation="Villager"
+			culture="Culture.vaegir"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills"
+			is_template="true">
+			<face>
+				<face_key_template value="BodyProperty.fighter_sturgia" />
+			</face>
+			<skills></skills>
+			<upgrade_targets></upgrade_targets>
+			<Equipments>
+				<EquipmentSet id="fighter_sturgia" />
+			</Equipments>
+		</NPCCharacter>
+		
+		<NPCCharacter id="spc_notable_vaegir_0"
+			name="{=!}Cautious Vaegir merchant"
+			voice="ironic"
+			is_template="true"
+			default_group="Infantry"
+			is_hero="false"
+			culture="Culture.vaegir"
+			occupation="Merchant">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="RusHair" value="1" />
+				<Trait id="Valor" value="-1" />
+				<Trait id="Calculating" value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentSet id="npc_armed_wanderer_equipment_template_vaegir" />
+				<EquipmentSet id="npc_wanderer_equipment_template_vaegir" civilian="true" />
+				<EquipmentSet id="spc_notable_vaegir_0" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="spc_notable_vaegir_1"
+			name="{=!}curt Vaegir merchant"
+			voice="curt"
+			is_template="true"
+			default_group="Infantry"
+			is_hero="false"
+			culture="Culture.vaegir"
+			occupation="Merchant">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="RusHair" value="1" />
+				<Trait id="Valor" value="-1" />
+				<Trait id="Generosity" value="-1" />
+				<Trait id="Calculating" value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentSet id="npc_armed_wanderer_equipment_template_vaegir" />
+				<EquipmentSet id="npc_wanderer_equipment_template_vaegir" civilian="true" />
+				<EquipmentSet id="spc_notable_vaegir_1" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="spc_notable_vaegir_2"
+			name="{=!}Adventurous Vaegir merchant"
+			voice="earnest"
+			is_template="true"
+			default_group="Infantry"
+			is_hero="false"
+			culture="Culture.vaegir"
+			occupation="Merchant">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="RusHair" value="1" />
+				<Trait id="Valor" value="1" />
+				<Trait id="Calculating" value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentSet id="npc_armed_wanderer_equipment_template_vaegir" />
+				<EquipmentSet id="npc_wanderer_equipment_template_vaegir" civilian="true" />
+				<EquipmentSet id="spc_notable_vaegir_2" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="spc_notable_vaegir_3"
+			name="{=!}Honorable female Vaegir merchant"
+			voice="earnest"
+			is_template="true"
+			is_female="true"
+			default_group="Infantry"
+			is_hero="false"
+			culture="Culture.vaegir"
+			occupation="Merchant">
+			<face>
+				<face_key_template value="BodyProperty.townswoman_sturgia" />
+			</face>
+			<Traits>
+				<Trait id="RusHair" value="1" />
+				<Trait id="Honor" value="1" />
+				<Trait id="Calculating" value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentSet id="npc_armed_wanderer_equipment_template_vaegir" />
+				<EquipmentSet id="npc_wanderer_equipment_template_vaegir" civilian="true" />
+				<EquipmentSet id="spc_notable_vaegir_3" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="spc_notable_vaegir_4"
+			name="{=!}Vaegir seer"
+			voice="curt"
+			is_template="true"
+			default_group="Infantry"
+			is_hero="false"
+			culture="Culture.vaegir"
+			occupation="Preacher">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<Traits>
+				<Trait id="RusHair" value="1" />
+				<Trait id="Honor" value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentSet id="npc_armed_wanderer_equipment_template_vaegir" />
+				<EquipmentSet id="npc_wanderer_equipment_template_vaegir" civilian="true" />
+				<EquipmentSet id="spc_notable_vaegir_4" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="spc_notable_vaegir_5"
+			name="{=!}Vaegir female mystic"
+			voice="softspoken"
+			is_template="true"
+			default_group="Infantry"
+			is_female="true"
+			culture="Culture.vaegir"
+			occupation="Preacher">
+			<face>
+				<face_key_template value="BodyProperty.townswoman_sturgia" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="RusHair" value="1" />
+				<Trait id="Honor" value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentSet id="npc_armed_wanderer_equipment_template_vaegir" />
+				<EquipmentSet id="npc_wanderer_equipment_template_vaegir" civilian="true" />
+				<EquipmentSet id="spc_notable_vaegir_5" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="spc_notable_vaegir_6"
+			name="{=!}Vaegir gang leader"
+			voice="ironic"
+			is_template="true"
+			default_group="Infantry"
+			is_hero="false"
+			culture="Culture.vaegir"
+			occupation="GangLeader">
+			<face>
+				<face_key_template value="BodyProperty.fighter_sturgia" />
+			</face>
+			<Traits>
+				<Trait id="RusHair" value="1" />
+				<Trait id="Valor" value="1" />
+				<Trait id="Mercy" value="-1" />
+			</Traits>
+			<Equipments>
+				<EquipmentSet id="npc_armed_wanderer_equipment_template_vaegir" />
+				<EquipmentSet id="npc_wanderer_equipment_template_vaegir" civilian="true" />
+				<EquipmentSet id="spc_notable_vaegir_6" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="spc_notable_vaegir_7"
+			name="{=!}Vaegir female gang leader"
+			voice="ironic"
+			is_template="true"
+			default_group="Infantry"
+			is_female="true"
+			culture="Culture.vaegir"
+			occupation="GangLeader">
+			<face>
+				<face_key_template value="BodyProperty.townswoman_sturgia" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="RusHair" value="1" />
+				<Trait id="Valor" value="1" />
+				<Trait id="Mercy" value="-1" />
+			</Traits>
+			<Equipments>
+				<EquipmentSet id="npc_armed_wanderer_equipment_template_vaegir" />
+				<EquipmentSet id="npc_wanderer_equipment_template_vaegir" civilian="true" />
+				<EquipmentSet id="spc_notable_vaegir_7" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="spc_notable_vaegir_8"
+			name="{=!}Vaegir artisan"
+			voice="curt"
+			is_template="true"
+			default_group="Infantry"
+			culture="Culture.vaegir"
+			occupation="Artisan">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<Traits>
+				<Trait id="RusHair" value="1" />
+				<Trait id="Generosity" value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentSet id="npc_armed_wanderer_equipment_template_vaegir" />
+				<EquipmentSet id="npc_wanderer_equipment_template_vaegir" civilian="true" />
+				<EquipmentSet id="spc_notable_vaegir_8" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="spc_notable_vaegir_9"
+			name="{=!}Vaegir land captain gruff notable"
+			voice="curt"
+			is_template="true"
+			default_group="Infantry"
+			culture="Culture.vaegir"
+			occupation="RuralNotable">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<Traits>
+				<Trait id="RusHair" value="1" />
+				<Trait id="Generosity" value="-1" />
+			</Traits>
+			<Equipments>
+				<EquipmentSet id="npc_armed_wanderer_equipment_template_vaegir" />
+				<EquipmentSet id="npc_wanderer_equipment_template_vaegir" civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="spc_notable_vaegir_10"
+			name="{=!}Vaegir land captain helpful notable"
+			voice="softspoken"
+			is_template="true"
+			default_group="Infantry"
+			culture="Culture.vaegir"
+			occupation="RuralNotable">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<Traits>
+				<Trait id="RusHair" value="1" />
+				<Trait id="Calculating" value="1" />
+				<Trait id="Generosity" value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentSet id="npc_armed_wanderer_equipment_template_vaegir" />
+				<EquipmentSet id="npc_wanderer_equipment_template_vaegir" civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="spc_notable_vaegir_11"
+			name="{=!}Caustic Vaegir merchant"
+			voice="ironic"
+			is_template="true"
+			default_group="Infantry"
+			is_hero="false"
+			culture="Culture.vaegir"
+			occupation="Merchant">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="RusHair" value="1" />
+				<Trait id="Commander" value="2" />
+				<Trait id="Honor" value="-1" />
+				<Trait id="Calculating" value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentSet id="npc_armed_wanderer_equipment_template_vaegir" />
+				<EquipmentSet id="npc_wanderer_equipment_template_vaegir" civilian="true" />
+				<EquipmentSet id="spc_notable_vaegir_0" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="spc_notable_vaegir_12"
+			name="{=!}Honest Vaegir merchant"
+			voice="curt"
+			is_template="true"
+			default_group="Infantry"
+			is_hero="false"
+			culture="Culture.vaegir"
+			occupation="Merchant">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="RusHair" value="1" />
+				<Trait id="Commander" value="6" />
+				<Trait id="Honor" value="1" />
+				<Trait id="Calculating" value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentSet id="npc_armed_wanderer_equipment_template_vaegir" />
+				<EquipmentSet id="npc_wanderer_equipment_template_vaegir" civilian="true" />
+				<EquipmentSet id="spc_notable_vaegir_9" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="spc_notable_vaegir_13"
+			name="{=!}Affable Vaegir merchant"
+			voice="earnest"
+			is_template="true"
+			default_group="Infantry"
+			is_hero="false"
+			culture="Culture.vaegir"
+			occupation="Merchant">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<Traits>
+				<Trait id="RusHair" value="1" />
+				<Trait id="Commander" value="2" />
+				<Trait id="Generosity" value="1" />
+				<Trait id="Calculating" value="-1" />
+			</Traits>
+			<Equipments>
+				<EquipmentSet id="npc_armed_wanderer_equipment_template_vaegir" />
+				<EquipmentSet id="npc_wanderer_equipment_template_vaegir" civilian="true" />
+				<EquipmentSet id="spc_notable_vaegir_10" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="spc_notable_vaegir_14"
+			name="{=!}Devious female Vaegir merchant"
+			voice="ironic"
+			is_template="true"
+			is_female="true"
+			default_group="Infantry"
+			is_hero="false"
+			culture="Culture.vaegir"
+			occupation="Merchant">
+			<face>
+				<face_key_template value="BodyProperty.townswoman_sturgia" />
+			</face>
+			<Traits>
+				<Trait id="RusHair" value="1" />
+				<Trait id="Commander" value="2" />
+				<Trait id="Honor" value="-1" />
+				<Trait id="Calculating" value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentSet id="npc_armed_wanderer_equipment_template_vaegir" />
+				<EquipmentSet id="npc_wanderer_equipment_template_vaegir" civilian="true" />
+				<EquipmentSet id="spc_notable_vaegir_11" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="spc_vaegir_headman_1"
+			name="{=!}Vaegir rebellious headman"
+			voice="earnest"
+			is_template="true"
+			default_group="Infantry"
+			is_hero="false"
+			culture="Culture.vaegir"
+			occupation="Headman">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="RusHair" value="1" />
+				<Trait id="BalancedFightingSkills" value="5" />
+				<Trait id="Valor" value="1" />
+				<Trait id="Calculating" value="-1" />
+			</Traits>
+			<Equipments>
+				<EquipmentSet id="npc_armed_wanderer_equipment_template_vaegir" />
+				<EquipmentSet id="npc_wanderer_equipment_template_vaegir" civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="spc_vaegir_headman_2"
+			name="{=!}Vaegir conservative headman"
+			voice="curt"
+			is_template="true"
+			default_group="Infantry"
+			is_hero="false"
+			culture="Culture.vaegir"
+			occupation="Headman">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="BalancedFightingSkills" value="4" />
+				<Trait id="RusHair" value="1" />
+				<Trait id="Valor" value="-1" />
+				<Trait id="Generosity" value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentSet id="npc_armed_wanderer_equipment_template_vaegir" />
+				<EquipmentSet id="npc_wanderer_equipment_template_vaegir" civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="spc_vaegir_headman_3"
+			name="{=!}Vaegir devious headman"
+			voice="softspoken"
+			is_template="true"
+			default_group="Infantry"
+			is_hero="false"
+			culture="Culture.vaegir"
+			occupation="Headman">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<skills></skills>
+			<Traits>
+				<Trait id="RusHair" value="1" />
+				<Trait id="BalancedFightingSkills" value="3" />
+				<Trait id="Calculating" value="1" />
+				<Trait id="Honor" value="-1" />
+			</Traits>
+			<Equipments>
+				<EquipmentSet id="npc_armed_wanderer_equipment_template_vaegir" />
+				<EquipmentSet id="npc_wanderer_equipment_template_vaegir" civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		
+		<NPCCharacter id="spc_wanderer_vaegir_0"
+			name="{=yr5pa0hs}{FIRSTNAME} Willowbark"
+			voice="softspoken"
+			age="28"
+			is_template="true"
+			is_female="true"
+			default_group="Infantry"
+			is_hero="false"
+			culture="Culture.vaegir"
+			occupation="Wanderer"
+			skill_template="SkillSet.spc_wanderer_sturgia_0_skills">
+			<face>
+				<face_key_template value="BodyProperty.townswoman_sturgia" />
+			</face>
+			<Traits>
+				<Trait id="Calculating" value="1" />
+				<Trait id="Mercy" value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentSet id="npc_companion_equipment_template_vaegir" civilian="true" />
+				<EquipmentSet id="npc_companion_equipment_template_vaegir" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="spc_wanderer_vaegir_1"
+			name="{=W7aa22Yl}{FIRSTNAME} Breakskull"
+			voice="earnest"
+			age="27"
+			is_template="true"
+			default_group="Infantry"
+			is_hero="false"
+			culture="Culture.vaegir"
+			occupation="Wanderer"
+			skill_template="SkillSet.spc_wanderer_sturgia_1_skills">
+			<face>
+				<face_key_template value="BodyProperty.fighter_sturgia" />
+			</face>
+			<Traits>
+				<Trait id="RusHair" value="1" />
+				<Trait id="Valor" value="1" />
+				<Trait id="Calculating" value="-1" />
+				<Trait id="Mercy" value="-1" />
+			</Traits>
+			<Equipments>
+				<EquipmentSet id="npc_companion_equipment_template_vaegir" civilian="true" />
+				<EquipmentSet id="npc_companion_equipment_template_vaegir" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="spc_wanderer_vaegir_2"
+			name="{=aE8abvsQ}{FIRSTNAME} the Lucky"
+			voice="earnest"
+			age="21"
+			default_group="Infantry"
+			is_template="true"
+			is_hero="false"
+			culture="Culture.vaegir"
+			occupation="Wanderer"
+			skill_template="SkillSet.spc_wanderer_sturgia_2_skills">
+			<face>
+				<face_key_template value="BodyProperty.fighter_sturgia" />
+			</face>
+			<Traits>
+				<Trait id="RusHair" value="1" />
+				<Trait id="Valor" value="1" />
+				<Trait id="Generosity" value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentSet id="npc_companion_equipment_template_vaegir" civilian="true" />
+				<EquipmentSet id="npc_companion_equipment_template_vaegir" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="spc_wanderer_vaegir_3"
+			name="{=LmlL8fVu}{FIRSTNAME} Bloodaxe"
+			voice="curt"
+			age="35"
+			default_group="Infantry"
+			is_template="true"
+			is_hero="false"
+			culture="Culture.vaegir"
+			occupation="Wanderer"
+			skill_template="SkillSet.spc_wanderer_sturgia_3_skills">
+			<face>
+				<face_key_template value="BodyProperty.fighter_sturgia" />
+			</face>
+			<Traits>
+				<Trait id="RusHair" value="1" />
+				<Trait id="Honor" value="1" />
+				<Trait id="Calculating" value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentSet id="npc_companion_equipment_template_vaegir" civilian="true" />
+				<EquipmentSet id="npc_companion_equipment_template_vaegir" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="spc_wanderer_vaegir_4"
+			name="{=WU5GnkvR}{FIRSTNAME} the Fish"
+			voice="softspoken"
+			age="23"
+			default_group="Infantry"
+			is_template="true"
+			is_hero="false"
+			culture="Culture.vaegir"
+			occupation="Wanderer"
+			skill_template="SkillSet.spc_wanderer_sturgia_4_skills">
+			<face>
+				<face_key_template value="BodyProperty.fighter_sturgia" />
+			</face>
+			<Traits>
+				<Trait id="Generosity" value="1" />
+				<Trait id="Honor" value="-1" />
+			</Traits>
+			<Equipments>
+				<EquipmentSet id="npc_companion_equipment_template_vaegir" civilian="true" />
+				<EquipmentSet id="npc_companion_equipment_template_vaegir" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="spc_wanderer_vaegir_5"
+			name="{=NSaetzNJ}{FIRSTNAME} Coalbiter"
+			voice="curt"
+			age="30"
+			default_group="Infantry"
+			is_hero="false"
+			is_template="true"
+			culture="Culture.vaegir"
+			occupation="Wanderer"
+			skill_template="SkillSet.spc_wanderer_sturgia_5_skills">
+			<face>
+				<face_key_template value="BodyProperty.fighter_sturgia" />
+			</face>
+			<Traits>
+				<Trait id="Valor" value="1" />
+				<Trait id="Generosity" value="1" />
+				<Trait id="Mercy" value="-1" />
+				<Trait id="Calculating" value="-1" />
+			</Traits>
+			<Equipments>
+				<EquipmentSet id="npc_companion_equipment_template_vaegir" civilian="true" />
+				<EquipmentSet id="npc_companion_equipment_template_vaegir" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="spc_wanderer_vaegir_6"
+			name="{=zXjdb1zT}{FIRSTNAME} Frostbeard"
+			voice="curt"
+			age="24"
+			default_group="Infantry"
+			is_template="true"
+			is_hero="false"
+			culture="Culture.vaegir"
+			occupation="Wanderer"
+			skill_template="SkillSet.spc_wanderer_sturgia_6_skills">
+			<face>
+				<face_key_template value="BodyProperty.fighter_sturgia" />
+			</face>
+			<Traits>
+				<Trait id="Valor" value="1" />
+				<Trait id="Generosity" value="1" />
+				<Trait id="Mercy" value="1" />
+				<Trait id="Calculating" value="-1" />
+			</Traits>
+			<Equipments>
+				<EquipmentSet id="npc_companion_equipment_template_vaegir" civilian="true" />
+				<EquipmentSet id="npc_companion_equipment_template_vaegir" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="spc_wanderer_vaegir_7"
+			name="{=QyQPJJ9B}{FIRSTNAME} the Accursed"
+			voice="ironic"
+			age="24"
+			default_group="Infantry"
+			is_template="true"
+			is_female="true"
+			is_hero="false"
+			culture="Culture.vaegir"
+			occupation="Wanderer"
+			skill_template="SkillSet.spc_wanderer_sturgia_7_skills">
+			<face>
+				<face_key_template value="BodyProperty.townswoman_sturgia" />
+			</face>
+			<Traits>
+				<Trait id="Valor" value="1" />
+				<Trait id="Honor" value="1" />
+				<Trait id="Mercy" value="1" />
+				<Trait id="Generosity" value="-1" />
+			</Traits>
+			<Equipments>
+				<EquipmentSet id="npc_companion_equipment_template_vaegir" civilian="true" />
+				<EquipmentSet id="npc_companion_equipment_template_vaegir" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="spc_wanderer_vaegir_8"
+			name="{=rtsnnL2J}{FIRSTNAME} the Shieldmaiden"
+			voice="curt"
+			age="29"
+			default_group="Infantry"
+			is_template="true"
+			is_female="true"
+			is_hero="false"
+			culture="Culture.vaegir"
+			occupation="Wanderer"
+			skill_template="SkillSet.spc_wanderer_sturgia_8_skills">
+			<face>
+				<face_key_template value="BodyProperty.townswoman_sturgia" />
+			</face>
+			<Traits>
+				<Trait id="Valor" value="1" />
+				<Trait id="Honor" value="1" />
+				<Trait id="Mercy" value="-1" />
+			</Traits>
+			<Equipments>
+				<EquipmentSet id="npc_companion_equipment_template_vaegir" civilian="true" />
+				<EquipmentSet id="npc_companion_equipment_template_vaegir" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="spc_wanderer_vaegir_9"
+			name="{=akALDUs0}{FIRSTNAME} Longknife"
+			voice="ironic"
+			age="26"
+			default_group="Infantry"
+			is_template="true"
+			is_female="true"
+			is_hero="false"
+			culture="Culture.vaegir"
+			occupation="Wanderer"
+			skill_template="SkillSet.spc_wanderer_sturgia_9_skills">
+			<face>
+				<face_key_template value="BodyProperty.townswoman_sturgia" />
+			</face>
+			<Traits>
+				<Trait id="Honor" value="-1" />
+				<Trait id="Calculating" value="1" />
+				<Trait id="Generosity" value="1" />
+			</Traits>
+			<Equipments>
+				<EquipmentSet id="npc_companion_equipment_template_vaegir" civilian="true" />
+				<EquipmentSet id="npc_companion_equipment_template_vaegir" />
+			</Equipments>
+		</NPCCharacter>
+
+	<!-- citizens -->
+		<NPCCharacter id="townsman_infant_vaegir"
+			name="{=maleinfant}Infant"
+			age="3"
+			is_female="false"
+			default_group="Infantry"
+			is_hero="false"
+			occupation="Townsfolk"
+			culture="Culture.vaegir"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<Equipments>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.tundra_tunic" />
+					<equipment slot="Leg" id="Item.ladys_shoe" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="stu_bat_template_medium" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="townsman_child_vaegir"
+			name="{=malechild}Child"
+			age="6"
+			is_female="false"
+			default_group="Infantry"
+			is_hero="false"
+			occupation="Townsfolk"
+			culture="Culture.vaegir"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<Equipments>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.northern_tunic" />
+					<equipment slot="Leg" id="Item.ladys_shoe" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.tundra_tunic" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Leg" id="Item.ladys_shoe" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.heavy_nordic_tunic" />
+					<equipment slot="Leg" id="Item.ladys_shoe" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="stu_bat_template_medium" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="townsman_teenager_vaegir"
+			name="{=maleteenager}Teenager"
+			age="14"
+			is_female="false"
+			default_group="Infantry"
+			is_hero="false"
+			occupation="Townsfolk"
+			culture="Culture.vaegir"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<Equipments>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Body" id="Item.northern_tunic" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Leg" id="Item.strapped_leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.heavy_nordic_tunic" />
+					<equipment slot="Leg" id="Item.rough_tied_boots" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.tundra_tunic" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Leg" id="Item.steppe_leather_boots" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="stu_bat_template_medium" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="townsman_vaegir"
+			default_group="Infantry"
+			name="{=muu5cofb}Townsman"
+			occupation="Townsfolk"
+			culture="Culture.vaegir"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<skills></skills>
+			<Equipments>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.roughhide_cap" />
+					<equipment slot="Body" id="Item.northern_leather_vest" />
+					<equipment slot="Leg" id="Item.leather_boots" />
+					<equipment slot="Cape" id="Item.scarf" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Body" id="Item.nordic_padded_cloth" />
+					<equipment slot="Leg" id="Item.leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Body" id="Item.northern_tunic" />
+					<equipment slot="Leg" id="Item.wrapped_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Body" id="Item.northern_padded_gambeson" />
+					<equipment slot="Leg" id="Item.strapped_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.heavy_nordic_coat" />
+					<equipment slot="Leg" id="Item.strapped_shoes" />
+					<equipment slot="Cape" id="Item.scarf" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Body" id="Item.heavy_nordic_tunic" />
+					<equipment slot="Leg" id="Item.ragged_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+					<equipment slot="Body" id="Item.nordic_tunic" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Leg" id="Item.ragged_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Body" id="Item.northern_leather_vest" />
+					<equipment slot="Leg" id="Item.wrapped_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.heavy_nordic_tunic" />
+					<equipment slot="Leg" id="Item.battania_fur_boots" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Body" id="Item.northern_tunic" />
+					<equipment slot="Leg" id="Item.battania_fur_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Body" id="Item.heavy_nordic_coat" />
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Leg" id="Item.battania_leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.northern_padded_gambeson" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Leg" id="Item.battania_leather_boots" />
+					<equipment slot="Cape" id="Item.scarf" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Body" id="Item.northern_padded_gambeson" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Leg" id="Item.battania_leather_boots" />
+					<equipment slot="Cape" id="Item.scarf" />
+				</EquipmentRoster>
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="townswoman_infant_vaegir"
+			name="{=femaleinfant}Infant"
+			age="3"
+			is_female="true"
+			default_group="Infantry"
+			is_hero="false"
+			occupation="Townsfolk"
+			culture="Culture.vaegir"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<Equipments>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.northern_tunic" />
+					<equipment slot="Leg" id="Item.ladys_shoe" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="stu_bat_template_medium" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="townswoman_child_vaegir"
+			name="{=femalechild}Child"
+			age="6"
+			is_female="true"
+			default_group="Infantry"
+			is_hero="false"
+			occupation="Townsfolk"
+			culture="Culture.vaegir"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<Equipments>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.northern_tunic" />
+					<equipment slot="Leg" id="Item.ladys_shoe" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.plain_dress" />
+					<equipment slot="Cape" id="Item.female_scarf" />
+					<equipment slot="Leg" id="Item.ladys_shoe" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.dress_with_overall" />
+					<equipment slot="Cape" id="Item.female_scarf" />
+					<equipment slot="Leg" id="Item.ladys_shoe" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="stu_bat_template_medium" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="townswoman_teenager_vaegir"
+			name="{=femaleteenager}Teenager"
+			age="14"
+			is_female="true"
+			default_group="Infantry"
+			is_hero="false"
+			occupation="Townsfolk"
+			culture="Culture.vaegir"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<Equipments>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.cut_dress_with_pouch" />
+					<equipment slot="Cape" id="Item.female_scarf" />
+					<equipment slot="Leg" id="Item.southern_moccasins" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.womens_headwrap_b" />
+					<equipment slot="Body" id="Item.laced_dress" />
+					<equipment slot="Cape" id="Item.female_scarf" />
+					<equipment slot="Leg" id="Item.southern_moccasins" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.laced_dress" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Cape" id="Item.female_scarf" />
+					<equipment slot="Leg" id="Item.southern_moccasins" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="stu_bat_template_medium" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="townswoman_vaegir"
+			default_group="Infantry"
+			is_female="true"
+			level="1"
+			name="{=qMqRkvWu}Vaegir Townswoman"
+			occupation="Townsfolk"
+			culture="Culture.vaegir"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<BodyProperties version="4" age="22" weight="0.2083" build="0.4579" key="00000400007000010371010011222150300660010010010030234101702221230047360304313220000000000000000000000000000000000000000012840000" />
+				<BodyPropertiesMax version="4" age="76.5" weight="0.9182" build="0.8781" key="0008DC0D00703010EECDBCCEDDDDEDDDFFFEFFFA7FF7FEFFFFEEFFFFAEEEFFEF08DDE6890DFFFEEF000000000000000000000000000000000000000067C440C4" />
+			</face>
+			<skills></skills>
+			<Equipments>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+					<equipment slot="Body" id="Item.plain_dress" />
+					<equipment slot="Leg" id="Item.leather_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.dress_with_overall" />
+					<equipment slot="Leg" id="Item.leather_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.cut_dress" />
+					<equipment slot="Leg" id="Item.strapped_leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.cut_dress_with_pouch" />
+					<equipment slot="Leg" id="Item.strapped_leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+					<equipment slot="Body" id="Item.northern_dress" />
+					<equipment slot="Leg" id="Item.strapped_leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.laced_dress" />
+					<equipment slot="Leg" id="Item.leather_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.vlandian_woman_dress" />
+					<equipment slot="Leg" id="Item.leather_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Cape" id="Item.female_scarf" />
+					<equipment slot="Body" id="Item.plain_dress" />
+					<equipment slot="Leg" id="Item.leather_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.dress_with_overall" />
+					<equipment slot="Cape" id="Item.female_scarf" />
+					<equipment slot="Leg" id="Item.leather_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.cut_dress" />
+					<equipment slot="Leg" id="Item.strapped_leather_boots" />
+					<equipment slot="Cape" id="Item.female_scarf" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.cut_dress_with_pouch" />
+					<equipment slot="Cape" id="Item.female_scarf" />
+					<equipment slot="Leg" id="Item.strapped_leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.northern_dress" />
+					<equipment slot="Cape" id="Item.female_scarf" />
+					<equipment slot="Leg" id="Item.strapped_leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.laced_dress" />
+					<equipment slot="Cape" id="Item.female_scarf" />
+					<equipment slot="Leg" id="Item.leather_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.vlandian_woman_dress" />
+					<equipment slot="Cape" id="Item.female_scarf" />
+					<equipment slot="Leg" id="Item.leather_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Cape" id="Item.female_scarf" />
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Body" id="Item.plain_dress" />
+					<equipment slot="Leg" id="Item.leather_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.dress_with_overall" />
+					<equipment slot="Cape" id="Item.female_scarf" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Leg" id="Item.leather_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.cut_dress" />
+					<equipment slot="Leg" id="Item.strapped_leather_boots" />
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Cape" id="Item.female_scarf" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.cut_dress_with_pouch" />
+					<equipment slot="Cape" id="Item.female_scarf" />
+					<equipment slot="Leg" id="Item.strapped_leather_boots" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.northern_dress" />
+					<equipment slot="Cape" id="Item.female_scarf" />
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Leg" id="Item.strapped_leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.laced_dress" />
+					<equipment slot="Cape" id="Item.female_scarf" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Leg" id="Item.leather_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.vlandian_woman_dress" />
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Cape" id="Item.female_scarf" />
+					<equipment slot="Leg" id="Item.leather_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Body" id="Item.vlandian_woman_dress" />
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Cape" id="Item.female_scarf" />
+					<equipment slot="Leg" id="Item.leather_shoes" />
+				</EquipmentRoster>
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="villager_infant_vaegir"
+			name="{=maleinfant}Infant"
+			age="3"
+			is_female="false"
+			default_group="Infantry"
+			is_hero="false"
+			occupation="Villager"
+			culture="Culture.vaegir"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<Equipments>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.tundra_tunic" />
+					<equipment slot="Leg" id="Item.ladys_shoe" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="stu_bat_template_medium" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="villager_child_vaegir"
+			name="{=malechild}Child"
+			age="6"
+			is_female="false"
+			default_group="Infantry"
+			is_hero="false"
+			occupation="Villager"
+			culture="Culture.vaegir"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<Equipments>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.northern_tunic" />
+					<equipment slot="Leg" id="Item.ladys_shoe" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.tundra_tunic" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Leg" id="Item.ladys_shoe" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.heavy_nordic_tunic" />
+					<equipment slot="Leg" id="Item.ladys_shoe" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="stu_bat_template_medium" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="villager_teenager_vaegir"
+			name="{=maleteenager}Teenager"
+			age="14"
+			is_female="false"
+			default_group="Infantry"
+			is_hero="false"
+			occupation="Villager"
+			culture="Culture.vaegir"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<Equipments>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Body" id="Item.northern_tunic" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Leg" id="Item.strapped_leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.heavy_nordic_tunic" />
+					<equipment slot="Leg" id="Item.rough_tied_boots" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.tundra_tunic" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Leg" id="Item.steppe_leather_boots" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="stu_bat_template_medium" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="villager_vaegir"
+			default_group="Infantry"
+			level="1"
+			name="{=sturgiapeasantman}Vaegir Peasant"
+			occupation="Villager"
+			culture="Culture.vaegir"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<BodyProperties version="4" age="24.03" weight="0.1867" build="0.2423" key="00000400000002412110000001211010010411111010002221111001301101000064300306112000000000000000000000000000000000000000000000D00000" />
+				<BodyPropertiesMax version="4" age="78.04" weight="0.9336" build="0.9244" key="0008F00C40003690FEFEEFFEBBBFFFFFFFFFFF979EF8FFFEFFFFFFEFFFEFFFFE08EEE0890EFFFFFF000000000000000000000000000000000000000077C89105" />
+			</face>
+			<skills></skills>
+			<upgrade_targets>
+				<upgrade_target	id="NPCCharacter.vaegir_recruit" />
+			</upgrade_targets>
+			<Equipments>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.roughhide_cap" />
+					<equipment slot="Body" id="Item.nordic_padded_cloth" />
+					<equipment slot="Leg" id="Item.leather_boots" />
+					<equipment slot="Cape" id="Item.scarf" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Body" id="Item.northern_leather_vest" />
+					<equipment slot="Leg" id="Item.leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Body" id="Item.northern_tunic" />
+					<equipment slot="Leg" id="Item.wrapped_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Body" id="Item.northern_padded_gambeson" />
+					<equipment slot="Leg" id="Item.strapped_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.heavy_nordic_coat" />
+					<equipment slot="Leg" id="Item.strapped_shoes" />
+					<equipment slot="Cape" id="Item.scarf" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Body" id="Item.heavy_nordic_tunic" />
+					<equipment slot="Leg" id="Item.ragged_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+					<equipment slot="Body" id="Item.nordic_tunic" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Leg" id="Item.ragged_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Body" id="Item.northern_leather_vest" />
+					<equipment slot="Leg" id="Item.wrapped_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.heavy_nordic_tunic" />
+					<equipment slot="Leg" id="Item.battania_fur_boots" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Body" id="Item.northern_tunic" />
+					<equipment slot="Leg" id="Item.battania_fur_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Body" id="Item.heavy_nordic_coat" />
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Leg" id="Item.battania_leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.northern_padded_gambeson" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Leg" id="Item.battania_leather_boots" />
+					<equipment slot="Cape" id="Item.scarf" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.throwing_stone" />
+					<equipment slot="Item1" id="Item.peasant_2haxe_1_t1" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Body" id="Item.heavy_nordic_tunic" />
+					<equipment slot="Leg" id="Item.ragged_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.throwing_stone" />
+					<equipment slot="Item1" id="Item.peasant_2haxe_1_t1" />
+					<equipment slot="Body" id="Item.nordic_tunic" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Leg" id="Item.ragged_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.throwing_stone" />
+					<equipment slot="Item1" id="Item.peasant_2haxe_1_t1" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Body" id="Item.northern_leather_vest" />
+					<equipment slot="Leg" id="Item.wrapped_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.throwing_stone" />
+					<equipment slot="Item1" id="Item.peasant_polearm_1_t1" />
+					<equipment slot="Body" id="Item.heavy_nordic_tunic" />
+					<equipment slot="Leg" id="Item.battania_fur_boots" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.throwing_stone" />
+					<equipment slot="Item1" id="Item.peasant_polearm_1_t1" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Body" id="Item.northern_tunic" />
+					<equipment slot="Leg" id="Item.battania_fur_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.throwing_stone" />
+					<equipment slot="Item1" id="Item.peasant_polearm_1_t1" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Body" id="Item.heavy_nordic_coat" />
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Leg" id="Item.battania_leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.throwing_stone" />
+					<equipment slot="Item1" id="Item.peasant_polearm_1_t1" />
+					<equipment slot="Body" id="Item.northern_padded_gambeson" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Leg" id="Item.battania_leather_boots" />
+					<equipment slot="Cape" id="Item.scarf" />
+				</EquipmentRoster>
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="village_woman_infant_vaegir"
+			name="{=femaleinfant}Infant"
+			age="3"
+			is_female="true"
+			default_group="Infantry"
+			is_hero="false"
+			occupation="Villager"
+			culture="Culture.vaegir"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.townswoman_sturgia" />
+			</face>
+			<Equipments>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.tundra_tunic" />
+					<equipment slot="Leg" id="Item.ladys_shoe" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Body" id="Item.tundra_tunic" />
+					<equipment slot="Leg" id="Item.ladys_shoe" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="npc_armed_wanderer_equipment_template_sturgia" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="village_woman_child_vaegir"
+			name="{=femalechild}Child"
+			age="6"
+			is_female="true"
+			default_group="Infantry"
+			is_hero="false"
+			occupation="Villager"
+			culture="Culture.vaegir"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.townswoman_sturgia" />
+			</face>
+			<Equipments>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.northern_tunic" />
+					<equipment slot="Leg" id="Item.ladys_shoe" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.tundra_tunic" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Leg" id="Item.ladys_shoe" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.heavy_nordic_tunic" />
+					<equipment slot="Leg" id="Item.ladys_shoe" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Body" id="Item.heavy_nordic_tunic" />
+					<equipment slot="Leg" id="Item.ladys_shoe" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="npc_armed_wanderer_equipment_template_sturgia" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="village_woman_teenager_vaegir"
+			name="{=femaleteenager}Teenager"
+			age="14"
+			is_female="true"
+			default_group="Infantry"
+			is_hero="false"
+			occupation="Villager"
+			culture="Culture.vaegir"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.townswoman_sturgia" />
+			</face>
+			<Equipments>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Body" id="Item.northern_tunic" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Leg" id="Item.strapped_leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.heavy_nordic_tunic" />
+					<equipment slot="Leg" id="Item.rough_tied_boots" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.tundra_tunic" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Leg" id="Item.steppe_leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Body" id="Item.tundra_tunic" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Leg" id="Item.steppe_leather_boots" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="npc_armed_wanderer_equipment_template_sturgia" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="village_woman_vaegir"
+				default_group="Infantry"
+				is_female="true"
+				level="1"
+				name="{=wld_village_woman_vaegir}Vaegir Peasant Woman"
+				occupation="Villager"
+				culture="Culture.vaegir"
+				skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+				<face>
+					<face_key_template value="BodyProperty.townswoman_sturgia" />
+				</face>
+				<skills></skills>
+				<upgrade_targets>
+					<upgrade_target id="NPCCharacter.camp_follower" />
+				</upgrade_targets>
+				<Equipments>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Body" id="Item.plain_dress" />
+						<equipment slot="Leg" id="Item.leather_shoes" />
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Body" id="Item.dress_with_overall" />
+						<equipment slot="Leg" id="Item.leather_shoes" />
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Body" id="Item.cut_dress" />
+						<equipment slot="Leg" id="Item.strapped_leather_boots" />
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Body" id="Item.cut_dress_with_pouch" />
+						<equipment slot="Leg" id="Item.strapped_leather_boots" />
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+						<equipment slot="Body" id="Item.northern_dress" />
+						<equipment slot="Leg" id="Item.strapped_leather_boots" />
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Body" id="Item.laced_dress" />
+						<equipment slot="Leg" id="Item.leather_shoes" />
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Body" id="Item.vlandian_woman_dress" />
+						<equipment slot="Leg" id="Item.leather_shoes" />
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Cape" id="Item.female_scarf" />
+						<equipment slot="Body" id="Item.plain_dress" />
+						<equipment slot="Leg" id="Item.leather_shoes" />
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Body" id="Item.dress_with_overall" />
+						<equipment slot="Cape" id="Item.female_scarf" />
+						<equipment slot="Leg" id="Item.leather_shoes" />
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Body" id="Item.cut_dress" />
+						<equipment slot="Leg" id="Item.strapped_leather_boots" />
+						<equipment slot="Cape" id="Item.female_scarf" />
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Body" id="Item.cut_dress_with_pouch" />
+						<equipment slot="Cape" id="Item.female_scarf" />
+						<equipment slot="Leg" id="Item.strapped_leather_boots" />
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Body" id="Item.northern_dress" />
+						<equipment slot="Cape" id="Item.female_scarf" />
+						<equipment slot="Leg" id="Item.strapped_leather_boots" />
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Body" id="Item.laced_dress" />
+						<equipment slot="Cape" id="Item.female_scarf" />
+						<equipment slot="Leg" id="Item.leather_shoes" />
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Body" id="Item.vlandian_woman_dress" />
+						<equipment slot="Cape" id="Item.female_scarf" />
+						<equipment slot="Leg" id="Item.leather_shoes" />
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Cape" id="Item.female_scarf" />
+						<equipment slot="Head" id="Item.northern_fur_cap" />
+						<equipment slot="Body" id="Item.plain_dress" />
+						<equipment slot="Leg" id="Item.leather_shoes" />
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Body" id="Item.dress_with_overall" />
+						<equipment slot="Cape" id="Item.female_scarf" />
+						<equipment slot="Head" id="Item.nordic_fur_cap" />
+						<equipment slot="Leg" id="Item.leather_shoes" />
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Body" id="Item.cut_dress" />
+						<equipment slot="Leg" id="Item.strapped_leather_boots" />
+						<equipment slot="Head" id="Item.northern_fur_cap" />
+						<equipment slot="Cape" id="Item.female_scarf" />
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Body" id="Item.cut_dress_with_pouch" />
+						<equipment slot="Cape" id="Item.female_scarf" />
+						<equipment slot="Leg" id="Item.strapped_leather_boots" />
+						<equipment slot="Head" id="Item.nordic_fur_cap" />
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Body" id="Item.northern_dress" />
+						<equipment slot="Cape" id="Item.female_scarf" />
+						<equipment slot="Head" id="Item.northern_fur_cap" />
+						<equipment slot="Leg" id="Item.strapped_leather_boots" />
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Body" id="Item.laced_dress" />
+						<equipment slot="Cape" id="Item.female_scarf" />
+						<equipment slot="Head" id="Item.nordic_fur_cap" />
+						<equipment slot="Leg" id="Item.leather_shoes" />
+					</EquipmentRoster>
+					<EquipmentRoster civilian="true">
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Body" id="Item.vlandian_woman_dress" />
+						<equipment slot="Head" id="Item.northern_fur_cap" />
+						<equipment slot="Cape" id="Item.female_scarf" />
+						<equipment slot="Leg" id="Item.leather_shoes" />
+					</EquipmentRoster>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Body" id="Item.vlandian_woman_dress" />
+						<equipment slot="Head" id="Item.northern_fur_cap" />
+						<equipment slot="Cape" id="Item.female_scarf" />
+						<equipment slot="Leg" id="Item.leather_shoes" />
+					</EquipmentRoster>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Body" id="Item.plain_dress" />
+						<equipment slot="Leg" id="Item.leather_shoes" />
+					</EquipmentRoster>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Body" id="Item.dress_with_overall" />
+						<equipment slot="Leg" id="Item.leather_shoes" />
+					</EquipmentRoster>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Body" id="Item.cut_dress" />
+						<equipment slot="Leg" id="Item.strapped_leather_boots" />
+					</EquipmentRoster>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Body" id="Item.cut_dress_with_pouch" />
+						<equipment slot="Leg" id="Item.strapped_leather_boots" />
+					</EquipmentRoster>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+						<equipment slot="Body" id="Item.northern_dress" />
+						<equipment slot="Leg" id="Item.strapped_leather_boots" />
+					</EquipmentRoster>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Body" id="Item.laced_dress" />
+						<equipment slot="Leg" id="Item.leather_shoes" />
+					</EquipmentRoster>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Body" id="Item.vlandian_woman_dress" />
+						<equipment slot="Leg" id="Item.leather_shoes" />
+					</EquipmentRoster>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Cape" id="Item.female_scarf" />
+						<equipment slot="Body" id="Item.plain_dress" />
+						<equipment slot="Leg" id="Item.leather_shoes" />
+					</EquipmentRoster>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Body" id="Item.dress_with_overall" />
+						<equipment slot="Cape" id="Item.female_scarf" />
+						<equipment slot="Leg" id="Item.leather_shoes" />
+					</EquipmentRoster>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Body" id="Item.cut_dress" />
+						<equipment slot="Leg" id="Item.strapped_leather_boots" />
+						<equipment slot="Cape" id="Item.female_scarf" />
+					</EquipmentRoster>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Body" id="Item.cut_dress_with_pouch" />
+						<equipment slot="Cape" id="Item.female_scarf" />
+						<equipment slot="Leg" id="Item.strapped_leather_boots" />
+					</EquipmentRoster>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Body" id="Item.northern_dress" />
+						<equipment slot="Cape" id="Item.female_scarf" />
+						<equipment slot="Leg" id="Item.strapped_leather_boots" />
+					</EquipmentRoster>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Body" id="Item.laced_dress" />
+						<equipment slot="Cape" id="Item.female_scarf" />
+						<equipment slot="Leg" id="Item.leather_shoes" />
+					</EquipmentRoster>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Body" id="Item.vlandian_woman_dress" />
+						<equipment slot="Cape" id="Item.female_scarf" />
+						<equipment slot="Leg" id="Item.leather_shoes" />
+					</EquipmentRoster>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Cape" id="Item.female_scarf" />
+						<equipment slot="Head" id="Item.northern_fur_cap" />
+						<equipment slot="Body" id="Item.plain_dress" />
+						<equipment slot="Leg" id="Item.leather_shoes" />
+					</EquipmentRoster>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Body" id="Item.dress_with_overall" />
+						<equipment slot="Cape" id="Item.female_scarf" />
+						<equipment slot="Head" id="Item.nordic_fur_cap" />
+						<equipment slot="Leg" id="Item.leather_shoes" />
+					</EquipmentRoster>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Body" id="Item.cut_dress" />
+						<equipment slot="Leg" id="Item.strapped_leather_boots" />
+						<equipment slot="Head" id="Item.northern_fur_cap" />
+						<equipment slot="Cape" id="Item.female_scarf" />
+					</EquipmentRoster>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Body" id="Item.cut_dress_with_pouch" />
+						<equipment slot="Cape" id="Item.female_scarf" />
+						<equipment slot="Leg" id="Item.strapped_leather_boots" />
+						<equipment slot="Head" id="Item.nordic_fur_cap" />
+					</EquipmentRoster>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Body" id="Item.northern_dress" />
+						<equipment slot="Cape" id="Item.female_scarf" />
+						<equipment slot="Head" id="Item.northern_fur_cap" />
+						<equipment slot="Leg" id="Item.strapped_leather_boots" />
+					</EquipmentRoster>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Body" id="Item.laced_dress" />
+						<equipment slot="Cape" id="Item.female_scarf" />
+						<equipment slot="Head" id="Item.nordic_fur_cap" />
+						<equipment slot="Leg" id="Item.leather_shoes" />
+					</EquipmentRoster>
+					<EquipmentRoster>
+						<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+						<equipment slot="Body" id="Item.vlandian_woman_dress" />
+						<equipment slot="Head" id="Item.northern_fur_cap" />
+						<equipment slot="Cape" id="Item.female_scarf" />
+						<equipment slot="Leg" id="Item.leather_shoes" />
+					</EquipmentRoster>
+				</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="prison_guard_vaegir"
+			default_group="Infantry"
+			level="4"
+			culture="Culture.vaegir"
+			occupation="PrisonGuard"
+			name="{=XgjXfmM1}Prison Guard"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.fighter_sturgia" />
+			</face>
+			<skills>
+				<!--<skill id="Athletics" value="50" /> #OLD_SKILL# -->
+				<skill id="OneHanded" value="50" />
+				<skill id="TwoHanded" value="50" />
+				<skill id="Polearm" value="50" />
+				<skill id="Crossbow" value="50" />
+				<skill id="Bow" value="50" />
+				<skill id="Throwing" value="50" />
+			</skills>
+			<!---<equipment slot="Leg" id="Item.cape" />-->
+			<upgrade_targets></upgrade_targets>
+			<Equipments>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item1" id="Item.northern_spear_2_t3" />
+					<equipment slot="Head" id="Item.nordic_helmet" />
+					<equipment slot="Body" id="Item.sturgian_lamellar_gambeson" />
+					<equipment slot="Leg" id="Item.strapped_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item1" id="Item.northern_spear_2_t3" />
+					<equipment slot="Head" id="Item.nordic_helmet" />
+					<equipment slot="Body" id="Item.sturgian_lamellar_gambeson" />
+					<equipment slot="Leg" id="Item.strapped_shoes" />
+				</EquipmentRoster>
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="blacksmith_vaegir"
+			default_group="Infantry"
+			is_hero="false"
+			occupation="Blacksmith"
+			culture="Culture.vaegir"
+			name="{=bNnQt4jN}Blacksmith"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<skills></skills>
+			<Equipments>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.sturgia_sword_2_t3" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Body" id="Item.leather_apron" />
+					<equipment slot="Gloves" id="Item.leather_gloves" />
+					<equipment slot="Leg" id="Item.battania_leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.sturgia_sword_2_t3" />
+					<equipment slot="Body" id="Item.leather_apron" />
+					<equipment slot="Leg" id="Item.leather_boots" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Gloves" id="Item.leather_gloves" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.short_sword_t3" />
+					<equipment slot="Body" id="Item.leather_apron" />
+					<equipment slot="Gloves" id="Item.leather_gloves" />
+					<equipment slot="Leg" id="Item.strapped_shoes" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="npc_wanderer_equipment_template_sturgia" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="weaponsmith_vaegir"
+			default_group="Infantry"
+			is_hero="false"
+			occupation="Weaponsmith"
+			culture="Culture.vaegir"
+			name="{=UaN2lfwi}Weaponsmith"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<skills></skills>
+			<Equipments>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.sturgia_sword_4_t4" />
+					<equipment slot="Gloves" id="Item.leather_gloves" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Body" id="Item.leather_apron" />
+					<equipment slot="Leg" id="Item.battania_leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.sturgia_sword_4_t4" />
+					<equipment slot="Gloves" id="Item.leather_gloves" />
+					<equipment slot="Body" id="Item.leather_apron" />
+					<equipment slot="Leg" id="Item.leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.sturgia_sword_5_t4" />
+					<equipment slot="Body" id="Item.leather_apron" />
+					<equipment slot="Leg" id="Item.strapped_shoes" />
+					<equipment slot="Gloves" id="Item.leather_gloves" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="npc_wanderer_equipment_template_sturgia" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="barber_vaegir"
+			default_group="Infantry"
+			is_hero="false"
+			occupation="Townsfolk"
+			culture="Culture.vaegir"
+			name="{=WH7EGGIg}Barber"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<skills></skills>
+			<Equipments>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Gloves" id="Item.leather_gloves" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Body" id="Item.leather_apron" />
+					<equipment slot="Leg" id="Item.battania_leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Gloves" id="Item.leather_gloves" />
+					<equipment slot="Body" id="Item.leather_apron" />
+					<equipment slot="Leg" id="Item.leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.leather_apron" />
+					<equipment slot="Leg" id="Item.strapped_shoes" />
+					<equipment slot="Gloves" id="Item.leather_gloves" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="npc_wanderer_equipment_template_sturgia" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="ransom_broker_vaegir"
+			default_group="Infantry"
+			is_hero="false"
+			name="{=W2WXkiAh}Ransom Broker"
+			occupation="RansomBroker"
+			culture="Culture.vaegir"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<skills></skills>
+			<Equipments>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.simple_back_sword_t2" />
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Body" id="Item.heavy_nordic_coat" />
+					<equipment slot="Leg" id="Item.highland_leg_wrappings" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.simple_back_sword_t2" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Body" id="Item.heavy_nordic_tunic" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Leg" id="Item.strapped_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.simple_back_sword_t2" />
+					<equipment slot="Body" id="Item.nordic_tunic" />
+					<equipment slot="Leg" id="Item.strapped_leather_boots" />
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="npc_wanderer_equipment_template_sturgia" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="gangleader_bodyguard_vaegir"
+			default_group="Infantry"
+			name="{=LNNXiPyV}Gang Leader Bodyguard"
+			occupation="Townsfolk"
+			culture="Culture.vaegir"
+			skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills"
+			level="16">
+			<face>
+				<face_key_template value="BodyProperty.fighter_sturgia" />
+			</face>
+			<skills></skills>
+			<Equipments>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Body" id="Item.nordic_tunic" />
+					<equipment slot="Leg" id="Item.leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Body" id="Item.northern_padded_gambeson" />
+					<equipment slot="Leg" id="Item.leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.falchion_sword_t2" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Body" id="Item.fur_waistcoat_over_tunic" />
+					<equipment slot="Leg" id="Item.wrapped_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.sturgia_axe_2_t2" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Body" id="Item.nordic_sloven_leather" />
+					<equipment slot="Leg" id="Item.strapped_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.sturgia_axe_2_t2" />
+					<equipment slot="Body" id="Item.fur_skirt_with_tunic" />
+					<equipment slot="Leg" id="Item.strapped_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.small_spurred_axe_t2" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Body" id="Item.hemp_tunic" />
+					<equipment slot="Leg" id="Item.ragged_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.small_spurred_axe_t2" />
+					<equipment slot="Body" id="Item.heavy_nordic_tunic" />
+					<equipment slot="Leg" id="Item.ragged_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.sturgia_axe_2_t2" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Body" id="Item.tundra_tunic" />
+					<equipment slot="Leg" id="Item.wrapped_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.falchion_sword_t2" />
+					<equipment slot="Body" id="Item.northern_padded_cloth" />
+					<equipment slot="Leg" id="Item.battania_fur_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.falchion_sword_t2" />
+					<equipment slot="Body" id="Item.northern_tunic" />
+					<equipment slot="Leg" id="Item.battania_fur_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.falchion_sword_t2" />
+					<equipment slot="Body" id="Item.heavy_nordic_coat" />
+					<equipment slot="Leg" id="Item.battania_leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.falchion_sword_t2" />
+					<equipment slot="Body" id="Item.northern_padded_gambeson" />
+					<equipment slot="Leg" id="Item.battania_leather_boots" />
+				</EquipmentRoster>
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="merchant_notary_vaegir"
+			default_group="Infantry"
+			name="{=reoVAtrE}Merchant Notary"
+			occupation="Townsfolk"
+			culture="Culture.vaegir"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<skills></skills>
+			<Equipments>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.roughhide_cap" />
+					<equipment slot="Body" id="Item.northern_leather_vest" />
+					<equipment slot="Leg" id="Item.leather_boots" />
+					<equipment slot="Cape" id="Item.scarf" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Body" id="Item.nordic_padded_cloth" />
+					<equipment slot="Leg" id="Item.leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Body" id="Item.northern_tunic" />
+					<equipment slot="Leg" id="Item.wrapped_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Body" id="Item.northern_padded_gambeson" />
+					<equipment slot="Leg" id="Item.strapped_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.heavy_nordic_coat" />
+					<equipment slot="Leg" id="Item.strapped_shoes" />
+					<equipment slot="Cape" id="Item.scarf" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Body" id="Item.heavy_nordic_tunic" />
+					<equipment slot="Leg" id="Item.ragged_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+					<equipment slot="Body" id="Item.nordic_tunic" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Leg" id="Item.ragged_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Body" id="Item.northern_leather_vest" />
+					<equipment slot="Leg" id="Item.wrapped_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.heavy_nordic_tunic" />
+					<equipment slot="Leg" id="Item.battania_fur_boots" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Body" id="Item.northern_tunic" />
+					<equipment slot="Leg" id="Item.battania_fur_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Body" id="Item.heavy_nordic_coat" />
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Leg" id="Item.battania_leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.northern_padded_gambeson" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Leg" id="Item.battania_leather_boots" />
+					<equipment slot="Cape" id="Item.scarf" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Body" id="Item.northern_padded_gambeson" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Leg" id="Item.battania_leather_boots" />
+					<equipment slot="Cape" id="Item.scarf" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="npc_wanderer_equipment_template_sturgia" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="artisan_notary_vaegir"
+			default_group="Infantry"
+			name="{=ECxiXTbF}Artisan Notary"
+			occupation="Townsfolk"
+			culture="Culture.vaegir"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<skills></skills>
+			<Equipments>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.roughhide_cap" />
+					<equipment slot="Body" id="Item.northern_leather_vest" />
+					<equipment slot="Leg" id="Item.leather_boots" />
+					<equipment slot="Cape" id="Item.scarf" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Body" id="Item.nordic_padded_cloth" />
+					<equipment slot="Leg" id="Item.leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Body" id="Item.northern_tunic" />
+					<equipment slot="Leg" id="Item.wrapped_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Body" id="Item.northern_padded_gambeson" />
+					<equipment slot="Leg" id="Item.strapped_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.heavy_nordic_coat" />
+					<equipment slot="Leg" id="Item.strapped_shoes" />
+					<equipment slot="Cape" id="Item.scarf" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Body" id="Item.heavy_nordic_tunic" />
+					<equipment slot="Leg" id="Item.ragged_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+					<equipment slot="Body" id="Item.nordic_tunic" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Leg" id="Item.ragged_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Body" id="Item.northern_leather_vest" />
+					<equipment slot="Leg" id="Item.wrapped_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.heavy_nordic_tunic" />
+					<equipment slot="Leg" id="Item.battania_fur_boots" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Body" id="Item.northern_tunic" />
+					<equipment slot="Leg" id="Item.battania_fur_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Body" id="Item.heavy_nordic_coat" />
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Leg" id="Item.battania_leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.northern_padded_gambeson" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Leg" id="Item.battania_leather_boots" />
+					<equipment slot="Cape" id="Item.scarf" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Body" id="Item.northern_padded_gambeson" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Leg" id="Item.battania_leather_boots" />
+					<equipment slot="Cape" id="Item.scarf" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="npc_wanderer_equipment_template_sturgia" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="preacher_notary_vaegir"
+			default_group="Infantry"
+			name="{=bLMGbLF8}Preacher Notary"
+			occupation="Townsfolk"
+			culture="Culture.vaegir"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<skills></skills>
+			<Equipments>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.roughhide_cap" />
+					<equipment slot="Body" id="Item.northern_leather_vest" />
+					<equipment slot="Leg" id="Item.leather_boots" />
+					<equipment slot="Cape" id="Item.scarf" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Body" id="Item.nordic_padded_cloth" />
+					<equipment slot="Leg" id="Item.leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Body" id="Item.northern_tunic" />
+					<equipment slot="Leg" id="Item.wrapped_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Body" id="Item.northern_padded_gambeson" />
+					<equipment slot="Leg" id="Item.strapped_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.heavy_nordic_coat" />
+					<equipment slot="Leg" id="Item.strapped_shoes" />
+					<equipment slot="Cape" id="Item.scarf" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Body" id="Item.heavy_nordic_tunic" />
+					<equipment slot="Leg" id="Item.ragged_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+					<equipment slot="Body" id="Item.nordic_tunic" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Leg" id="Item.ragged_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Body" id="Item.northern_leather_vest" />
+					<equipment slot="Leg" id="Item.wrapped_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.heavy_nordic_tunic" />
+					<equipment slot="Leg" id="Item.battania_fur_boots" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Body" id="Item.northern_tunic" />
+					<equipment slot="Leg" id="Item.battania_fur_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Body" id="Item.heavy_nordic_coat" />
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Leg" id="Item.battania_leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.northern_padded_gambeson" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Leg" id="Item.battania_leather_boots" />
+					<equipment slot="Cape" id="Item.scarf" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Body" id="Item.northern_padded_gambeson" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Leg" id="Item.battania_leather_boots" />
+					<equipment slot="Cape" id="Item.scarf" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="npc_wanderer_equipment_template_sturgia" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="rural_notable_notary_vaegir"
+			default_group="Infantry"
+			name="{=AlmaRAib}Rural Notable Notary"
+			occupation="Townsfolk"
+			culture="Culture.vaegir"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<skills></skills>
+			<Equipments>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.roughhide_cap" />
+					<equipment slot="Body" id="Item.northern_leather_vest" />
+					<equipment slot="Leg" id="Item.leather_boots" />
+					<equipment slot="Cape" id="Item.scarf" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Body" id="Item.nordic_padded_cloth" />
+					<equipment slot="Leg" id="Item.leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Body" id="Item.northern_tunic" />
+					<equipment slot="Leg" id="Item.wrapped_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Body" id="Item.northern_padded_gambeson" />
+					<equipment slot="Leg" id="Item.strapped_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.heavy_nordic_coat" />
+					<equipment slot="Leg" id="Item.strapped_shoes" />
+					<equipment slot="Cape" id="Item.scarf" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Body" id="Item.heavy_nordic_tunic" />
+					<equipment slot="Leg" id="Item.ragged_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+					<equipment slot="Body" id="Item.nordic_tunic" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Leg" id="Item.ragged_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Body" id="Item.northern_leather_vest" />
+					<equipment slot="Leg" id="Item.wrapped_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.heavy_nordic_tunic" />
+					<equipment slot="Leg" id="Item.battania_fur_boots" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Body" id="Item.northern_tunic" />
+					<equipment slot="Leg" id="Item.battania_fur_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Body" id="Item.heavy_nordic_coat" />
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Leg" id="Item.battania_leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.northern_padded_gambeson" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Leg" id="Item.battania_leather_boots" />
+					<equipment slot="Cape" id="Item.scarf" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Body" id="Item.northern_padded_gambeson" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Leg" id="Item.battania_leather_boots" />
+					<equipment slot="Cape" id="Item.scarf" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="npc_wanderer_equipment_template_sturgia" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="shop_worker_vaegir"
+			default_group="Infantry"
+			name="{=275LD0Gh}Shop Worker"
+			occupation="ShopWorker"
+			culture="Culture.vaegir"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<skills></skills>
+			<Equipments>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.roughhide_cap" />
+					<equipment slot="Body" id="Item.cloth_apron" />
+					<equipment slot="Item0" id="Item.short_sword_t3" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Leg" id="Item.strapped_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Item0" id="Item.short_sword_t3" />
+					<equipment slot="Body" id="Item.half_apron" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Leg" id="Item.wrapped_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.cloth_apron" />
+					<equipment slot="Leg" id="Item.strapped_leather_boots" />
+					<equipment slot="Item0" id="Item.short_sword_t3" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.half_apron" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Item0" id="Item.short_sword_t3" />
+					<equipment slot="Leg" id="Item.strapped_shoes" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="npc_wanderer_equipment_template_sturgia" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="tavernkeeper_vaegir"
+			default_group="Infantry"
+			is_hero="false"
+			name="{=CsjtWt1g}Tavern Keeper"
+			occupation="Tavernkeeper"
+			culture="Culture.vaegir"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<skills></skills>
+			<Equipments>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Body" id="Item.leather_apron" />
+					<equipment slot="Leg" id="Item.strapped_shoes" />
+					<equipment slot="Cape" id="Item.scarf" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Body" id="Item.cloth_apron" />
+					<equipment slot="Leg" id="Item.highland_leg_wrappings" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.half_apron" />
+					<equipment slot="Leg" id="Item.strapped_leather_boots" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Cape" id="Item.scarf" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="npc_wanderer_equipment_template_sturgia" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="taverngamehost_vaegir"
+			default_group="Infantry"
+			is_hero="false"
+			name="{=twCIejxn}Game Host"
+			occupation="TavernGameHost"
+			culture="Culture.vaegir"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<skills></skills>
+			<Equipments>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Body" id="Item.heavy_nordic_coat" />
+					<equipment slot="Leg" id="Item.strapped_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Body" id="Item.heavy_nordic_tunic" />
+					<equipment slot="Leg" id="Item.wrapped_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.nordic_tunic" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Leg" id="Item.strapped_leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.northern_leather_vest" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Leg" id="Item.strapped_shoes" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="npc_wanderer_equipment_template_empire" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="musician_vaegir"
+			default_group="Infantry"
+			is_hero="false"
+			name="{=zfCoeglY}Musician"
+			occupation="Musician"
+			culture="Culture.vaegir"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<skills></skills>
+			<Equipments>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Body" id="Item.heavy_nordic_tunic" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Leg" id="Item.strapped_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Body" id="Item.heavy_nordic_coat" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Leg" id="Item.wrapped_shoes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.nordic_tunic" />
+					<equipment slot="Leg" id="Item.strapped_leather_boots" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.northern_leather_vest" />
+					<equipment slot="Leg" id="Item.strapped_shoes" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="npc_wanderer_equipment_template_empire" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="tavern_wench_vaegir"
+			default_group="Infantry"
+			name="{=z6RMWTaA}Tavern Maid"
+			is_female="true"
+			is_hero="false"
+			occupation="TavernWench"
+			culture="Culture.vaegir"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.townswoman_sturgia" />
+			</face>
+			<skills></skills>
+			<Equipments>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.cut_dress" />
+					<equipment slot="Leg" id="Item.ladys_shoe" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.cut_dress_with_pouch" />
+					<equipment slot="Leg" id="Item.ladys_shoe" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.cut_dress" />
+					<equipment slot="Leg" id="Item.ladys_shoe" />
+					<equipment slot="Cape" id="Item.scarf" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.cut_dress_with_pouch" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Leg" id="Item.ladys_shoe" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="npc_wanderer_equipment_template_sturgia" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="armorer_vaegir"
+			default_group="Infantry"
+			is_hero="false"
+			occupation="Armorer"
+			culture="Culture.vaegir"
+			name="{=jx8ohENz}Armorer"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<skills></skills>
+			<Equipments>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.short_sword_t3" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Gloves" id="Item.leather_gloves" />
+					<equipment slot="Body" id="Item.leather_apron" />
+					<equipment slot="Leg" id="Item.battania_leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.short_sword_t3" />
+					<equipment slot="Body" id="Item.leather_apron" />
+					<equipment slot="Gloves" id="Item.leather_gloves" />
+					<equipment slot="Leg" id="Item.leather_boots" />
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.short_sword_t3" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Gloves" id="Item.leather_gloves" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Body" id="Item.leather_apron" />
+					<equipment slot="Leg" id="Item.battania_leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.short_sword_t3" />
+					<equipment slot="Body" id="Item.leather_apron" />
+					<equipment slot="Gloves" id="Item.leather_gloves" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Leg" id="Item.leather_boots" />
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="npc_wanderer_equipment_template_sturgia" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="horseMerchant_vaegir"
+			default_group="Infantry"
+			is_hero="false"
+			occupation="HorseTrader"
+			culture="Culture.vaegir"
+			name="{=79ElOr2x}Horse Trader"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<skills></skills>
+			<Equipments>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.short_sword_t3" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Body" id="Item.merchants_fur_coat" />
+					<equipment slot="Leg" id="Item.leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.short_sword_t3" />
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Body" id="Item.cloth_apron" />
+					<equipment slot="Leg" id="Item.leather_boots" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="npc_wanderer_equipment_template_sturgia" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="merchant_vaegir"
+			default_group="Infantry"
+			is_hero="false"
+			occupation="GoodsTrader"
+			culture="Culture.vaegir"
+			name="{=thbcgVVO}Trader"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<skills></skills>
+			<Equipments>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.short_sword_t3" />
+					<equipment slot="Body" id="Item.merchants_fur_coat" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Leg" id="Item.leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.short_sword_t3" />
+					<equipment slot="Body" id="Item.battania_civil_c" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Leg" id="Item.leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.short_sword_t3" />
+					<equipment slot="Body" id="Item.merchants_fur_coat" />
+					<equipment slot="Leg" id="Item.wrapped_shoes" />
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.short_sword_t3" />
+					<equipment slot="Body" id="Item.battania_civil_a" />
+					<equipment slot="Leg" id="Item.strapped_shoes" />
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Cape" id="Item.scarf" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="npc_wanderer_equipment_template_sturgia" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="beggar_vaegir"
+			default_group="Infantry"
+			name="{=malebeggar}Beggar"
+			occupation="Townsfolk"
+			culture="Culture.vaegir"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<BodyProperties version="4" age="91.47" weight="0" build="0.1767" key="0005040006001413000000000000001000000000000000000000000000000000000A0BAB010000000000000000000000000000000000000000000000000000C1" />
+				<BodyPropertiesMax version="4" age="48.73" weight="0.357" build="0.3767" key="001CFC0FD50034D4FFFFFFFFFFF5FFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFFFFFF000A5BA601FFFFFF000000000000000000000000000000000000000000788101" />
+			</face>
+			<skills></skills>
+			<Equipments>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Body" id="Item.torn_bandit_clothes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Body" id="Item.torn_bandit_clothes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Body" id="Item.bandit_envelope_dress_v1" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="npc_wanderer_equipment_template_sturgia" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="female_beggar_vaegir"
+			default_group="Infantry"
+			is_female="true"
+			level="1"
+			name="{=femalebeggar}Beggar"
+			occupation="Townsfolk"
+			culture="Culture.vaegir"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.townswoman_sturgia" />
+			</face>
+			<skills></skills>
+			<Equipments>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.torn_bandit_clothes" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.plain_dress" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Head" id="Item.aserai_villager_female_headdress" />
+					<equipment slot="Body" id="Item.bandit_envelope_dress_v1" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="npc_wanderer_equipment_template_sturgia" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="female_dancer_vaegir"
+			default_group="Infantry"
+			name="{=X3KYysuv}Dancer"
+			is_female="true"
+			is_hero="false"
+			occupation="Townsfolk"
+			culture="Culture.vaegir"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.townswoman_sturgia" />
+			</face>
+			<skills></skills>
+			<Equipments>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.cut_dress" />
+					<equipment slot="Leg" id="Item.ladys_shoe" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Body" id="Item.cut_dress_with_pouch" />
+					<equipment slot="Leg" id="Item.ladys_shoe" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="npc_wanderer_equipment_template_sturgia" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="tournament_master_vaegir"
+			default_group="Infantry"
+			is_hero="false"
+			occupation="ArenaMaster"
+			culture="Culture.vaegir"
+			name="{=IHKXNP9H}Tournament Master"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+			<face>
+				<face_key_template value="BodyProperty.villager_sturgia" />
+			</face>
+			<skills></skills>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.short_sword_t3" />
+					<equipment slot="Body" id="Item.northern_tunic" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Leg" id="Item.strapped_leather_boots" />
+				</EquipmentRoster>
+				<EquipmentSet
+					id="npc_wanderer_equipment_template_sturgia"
+					civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="guard_vaegir"
+			default_group="Infantry"
+			level="4"
+			occupation="Soldier"
+			culture="Culture.vaegir"
+			name="{=guardnoun}Guard"
+			skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills"
+			is_hidden_encyclopedia="true">
+			<face>
+				<face_key_template value="BodyProperty.fighter_sturgia" />
+			</face>
+			<skills>
+				<skill id="OneHanded" value="50" />
+				<skill id="TwoHanded" value="50" />
+				<skill id="Polearm" value="50" />
+				<skill id="Crossbow" value="50" />
+				<skill id="Bow" value="50" />
+				<skill id="Throwing" value="50" />
+			</skills>
+			<Traits></Traits>
+			<upgrade_targets></upgrade_targets>
+			<Equipments>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item1" id="Item.northern_spear_2_t3" />
+					<equipment slot="Head" id="Item.sturgia_heavy_cavalary_helmet" />
+					<equipment slot="Body" id="Item.nordic_hauberk" />
+					<equipment slot="Leg" id="Item.plated_strip_boots" />
+					<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item1" id="Item.northern_spear_2_t3" />
+					<equipment slot="Head" id="Item.sturgia_heavy_cavalary_helmet" />
+					<equipment slot="Body" id="Item.decorated_nordic_hauberk" />
+					<equipment slot="Leg" id="Item.plated_strip_boots" />
+					<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+				</EquipmentRoster>
+				<EquipmentSet id="npc_wanderer_equipment_template_sturgia" />
+			</Equipments>
+		</NPCCharacter>
+
+	<!-- troops -->
+		<NPCCharacter id="caravan_master_vaegir"
+			default_group="Infantry"
+			level="26"
+			name="{=uDseaKcb}Vaegir Caravan Master"
+			occupation="CaravanGuard"
+			culture="Culture.vaegir">
+			<face>
+				<face_key_template value="BodyProperty.fighter_sturgia" />
+			</face>
+			<skills>
+				<skill id="Athletics" value="130" />
+				<skill id="Riding" value="130" />
+				<skill id="OneHanded" value="160" />
+				<skill id="TwoHanded" value="80" />
+				<skill id="Polearm" value="60" />
+				<skill id="Bow" value="80" />
+				<skill id="Crossbow" value="20" />
+				<skill id="Throwing" value="50" />
+			</skills>
+			<upgrade_targets></upgrade_targets>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.star_falchion_sword_t3" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Body" id="Item.northern_leather_tabard" />
+					<equipment slot="Gloves" id="Item.northern_brass_bracers" />
+					<equipment slot="Leg" id="Item.battania_leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.star_falchion_sword_t3" />
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Body" id="Item.northern_leather_tabard" />
+					<equipment slot="Gloves" id="Item.northern_brass_bracers" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Leg" id="Item.battania_leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.star_falchion_sword_t3" />
+					<equipment slot="Head" id="Item.nordic_fur_cap" />
+					<equipment slot="Body" id="Item.nordic_lamellar_vest" />
+					<equipment slot="Gloves" id="Item.northern_brass_bracers" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Leg" id="Item.battania_leather_boots" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.star_falchion_sword_t3" />
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Body" id="Item.northern_leather_tabard" />
+					<equipment slot="Gloves" id="Item.northern_brass_bracers" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Leg" id="Item.battania_leather_boots" />
+				</EquipmentRoster>
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="armed_trader_vaegir"
+			default_group="Ranged"
+			level="16"
+			name="{=cPQx1RXt}Vaegir Armed Trader"
+			occupation="CaravanGuard"
+			culture="Culture.vaegir"
+			is_basic_troop="true">
+			<face>
+				<face_key_template value="BodyProperty.fighter_sturgia" />
+			</face>
+			<skills>
+				<skill id="Athletics" value="70" />
+				<skill id="Riding" value="10" />
+				<skill id="OneHanded" value="70" />
+				<skill id="TwoHanded" value="40" />
+				<skill id="Polearm" value="40" />
+				<skill id="Bow" value="70" />
+				<skill id="Crossbow" value="30" />
+				<skill id="Throwing" value="30" />
+			</skills>
+			<upgrade_targets></upgrade_targets>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.highland_ranger_bow" />
+					<equipment slot="Item1" id="Item.default_arrows" />
+					<equipment slot="Item2" id="Item.sturgia_axe_2_t2" />
+					<equipment slot="Body" id="Item.northern_padded_gambeson" />
+					<equipment slot="Leg" id="Item.battania_woodland_boots" />
+					<equipment slot="Cape" id="Item.scarf" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.highland_ranger_bow" />
+					<equipment slot="Item1" id="Item.range_arrows" />
+					<equipment slot="Item2" id="Item.sturgia_axe_2_t2" />
+					<equipment slot="Body" id="Item.heavy_nordic_tunic" />
+					<equipment slot="Leg" id="Item.ragged_boots" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.highland_ranger_bow" />
+					<equipment slot="Item1" id="Item.range_arrows" />
+					<equipment slot="Item2" id="Item.sturgia_axe_2_t2" />
+					<equipment slot="Body" id="Item.heavy_nordic_tunic" />
+					<equipment slot="Leg" id="Item.highland_leg_wrappings" />
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.highland_ranger_bow" />
+					<equipment slot="Item1" id="Item.range_arrows" />
+					<equipment slot="Item2" id="Item.sturgia_axe_2_t2" />
+					<equipment slot="Body" id="Item.heavy_nordic_tunic" />
+					<equipment slot="Leg" id="Item.highland_leg_wrappings" />
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.highland_ranger_bow" />
+					<equipment slot="Item1" id="Item.range_arrows" />
+					<equipment slot="Item2" id="Item.sturgia_axe_2_t2" />
+					<equipment slot="Body" id="Item.heavy_nordic_tunic" />
+					<equipment slot="Leg" id="Item.ragged_boots" />
+					<equipment slot="Cape" id="Item.scarf" />
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+				</EquipmentRoster>
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="caravan_guard_vaegir"
+			default_group="Cavalry"
+			level="21"
+			name="{=pzmgMODE}Vaegir Caravan Guard"
+			upgrade_requires="ItemCategory.horse"
+			occupation="CaravanGuard"
+			culture="Culture.vaegir">
+			<face>
+				<face_key_template value="BodyProperty.fighter_sturgia" />
+			</face>
+			<skills>
+				<skill id="Athletics" value="40" />
+				<skill id="Riding" value="110" />
+				<skill id="OneHanded" value="110" />
+				<skill id="TwoHanded" value="15" />
+				<skill id="Polearm" value="150" />
+				<skill id="Bow" value="40" />
+				<skill id="Crossbow" value="15" />
+				<skill id="Throwing" value="15" />
+			</skills>
+			<upgrade_targets></upgrade_targets>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.northern_spear_1_t2" />
+					<equipment slot="Item1" id="Item.battania_mace_2_t2" />
+					<equipment slot="Item2" id="Item.northern_scouts_shield" />
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Body" id="Item.decorated_nordic_hauberk" />
+					<equipment slot="Leg" id="Item.highland_leg_wrappings" />
+					<equipment slot="Gloves" id="Item.highland_gloves" />
+					<equipment slot="Cape" id="Item.scarf" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.northern_spear_1_t2" />
+					<equipment slot="Item1" id="Item.battania_mace_1_t2" />
+					<equipment slot="Item2" id="Item.northern_scouts_shield" />
+					<equipment slot="Head" id="Item.roughhide_cap" />
+					<equipment slot="Body" id="Item.nordic_hauberk" />
+					<equipment slot="Leg" id="Item.battania_woodland_boots" />
+					<equipment slot="Gloves" id="Item.leather_gloves" />
+					<equipment slot="Cape" id="Item.scarf" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.northern_spear_1_t2" />
+					<equipment slot="Item1" id="Item.battania_mace_1_t2" />
+					<equipment slot="Item2" id="Item.northern_scouts_shield" />
+					<equipment slot="Head" id="Item.nasalhelm_over_mail" />
+					<equipment slot="Body" id="Item.nordic_hauberk" />
+					<equipment slot="Leg" id="Item.ragged_boots" />
+					<equipment slot="Gloves" id="Item.leather_gloves" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.northern_spear_1_t2" />
+					<equipment slot="Item1" id="Item.battania_mace_2_t2" />
+					<equipment slot="Item2" id="Item.northern_scouts_shield" />
+					<equipment slot="Head" id="Item.northern_fur_cap" />
+					<equipment slot="Body" id="Item.decorated_nordic_hauberk" />
+					<equipment slot="Leg" id="Item.highland_leg_wrappings" />
+					<equipment slot="Gloves" id="Item.highland_gloves" />
+					<equipment slot="Cape" id="Item.scarf" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.northern_spear_1_t2" />
+					<equipment slot="Item1" id="Item.battania_mace_2_t2" />
+					<equipment slot="Item2" id="Item.northern_scouts_shield" />
+					<equipment slot="Head" id="Item.nasalhelm_over_mail" />
+					<equipment slot="Body" id="Item.nordic_hauberk" />
+					<equipment slot="Leg" id="Item.ragged_boots" />
+					<equipment slot="Gloves" id="Item.leather_gloves" />
+				</EquipmentRoster>
+				<equipment
+					slot="Horse"
+					id="Item.sturgia_horse" />
+				<equipment
+					slot="HorseHarness"
+					id="Item.northern_noble_harness" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="veteran_caravan_guard_vaegir"
+			default_group="Cavalry"
+			level="26"
+			name="{=0GkJB08d}Vaegir Veteran Caravan Guard"
+			occupation="CaravanGuard"
+			culture="Culture.vaegir">
+			<face>
+				<face_key_template value="BodyProperty.fighter_sturgia" />
+			</face>
+			<skills>
+				<skill id="Athletics" value="70" />
+				<skill id="Riding" value="70" />
+				<skill id="OneHanded" value="120" />
+				<skill id="TwoHanded" value="70" />
+				<skill id="Polearm" value="130" />
+				<skill id="Bow" value="70" />
+				<skill id="Crossbow" value="20" />
+				<skill id="Throwing" value="130" />
+			</skills>
+			<upgrade_targets></upgrade_targets>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.northern_javelin_3_t4" />
+					<equipment slot="Item1" id="Item.northern_spear_2_t3" />
+					<equipment slot="Item2" id="Item.light_mace_t3" />
+					<equipment slot="Item3" id="Item.northern_horsemans_shield" />
+					<equipment slot="Head" id="Item.nasalhelm_over_leather" />
+					<equipment slot="Body" id="Item.sturgian_chainmale_longsleeve" />
+					<equipment slot="Leg" id="Item.battania_woodland_boots" />
+					<equipment slot="Gloves" id="Item.leather_gloves" />
+					<equipment slot="Cape" id="Item.scarf" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.northern_javelin_3_t4" />
+					<equipment slot="Item1" id="Item.northern_spear_2_t3" />
+					<equipment slot="Item2" id="Item.light_mace_t3" />
+					<equipment slot="Item3" id="Item.northern_horsemans_shield" />
+					<equipment slot="Head" id="Item.nasalhelm_over_mail" />
+					<equipment slot="Body" id="Item.sturgian_chainmale_longsleeve" />
+					<equipment slot="Leg" id="Item.ragged_boots" />
+					<equipment slot="Gloves" id="Item.highland_gloves" />
+					<equipment slot="Cape" id="Item.scarf" />
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.northern_javelin_3_t4" />
+					<equipment slot="Item1" id="Item.northern_spear_2_t3" />
+					<equipment slot="Item2" id="Item.sturgia_sword_5_t4" />
+					<equipment slot="Item3" id="Item.northern_horsemans_shield" />
+					<equipment slot="Head" id="Item.nasalhelm_over_leather" />
+					<equipment slot="Body" id="Item.sturgian_chainmale_longsleeve" />
+					<equipment slot="Leg" id="Item.highland_leg_wrappings" />
+					<equipment slot="Gloves" id="Item.highland_gloves" />
+					<equipment slot="Cape" id="Item.mail_shoulders" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.northern_javelin_3_t4" />
+					<equipment slot="Item1" id="Item.northern_spear_2_t3" />
+					<equipment slot="Item2" id="Item.sturgia_sword_5_t4" />
+					<equipment slot="Item3" id="Item.northern_horsemans_shield" />
+					<equipment slot="Head" id="Item.nasalhelm_over_leather" />
+					<equipment slot="Body" id="Item.sturgian_chainmale_longsleeve" />
+					<equipment slot="Leg" id="Item.highland_leg_wrappings" />
+					<equipment slot="Gloves" id="Item.highland_gloves" />
+					<equipment slot="Cape" id="Item.mail_shoulders" />
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.northern_javelin_3_t4" />
+					<equipment slot="Item1" id="Item.northern_spear_2_t3" />
+					<equipment slot="Item2" id="Item.sturgia_sword_5_t4" />
+					<equipment slot="Item3" id="Item.northern_horsemans_shield" />
+					<equipment slot="Head" id="Item.nasalhelm_over_mail" />
+					<equipment slot="Body" id="Item.sturgian_chainmale_longsleeve" />
+					<equipment slot="Leg" id="Item.ragged_boots" />
+					<equipment slot="Gloves" id="Item.highland_gloves" />
+					<equipment slot="Cape" id="Item.scarf" />
+				</EquipmentRoster>
+				<equipment
+					slot="Horse"
+					id="Item.khuzait_horse" />
+				<equipment
+					slot="HorseHarness"
+					id="Item.steppe_harness" />
+			</Equipments>
+		</NPCCharacter>
+
+        <NPCCharacter id="vaegir_militia_archer"
+            default_group="Ranged"
+            level="11"
+            name="{=jRFfRZv2}Vaegir Militia Archer"
+            occupation="Soldier"
+            culture="Culture.vaegir"
+            skill_template="SkillSet.ranged_skirmisher_level11_template_skills">
+            <face>
+                <face_key_template value="BodyProperty.fighter_battania" />
+            </face>
+            <skills></skills>
+            <upgrade_targets></upgrade_targets>
+            <Equipments>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.hunting_bow" />
+                    <equipment slot="Item1" id="Item.default_arrows" />
+                    <equipment slot="Item3" id="Item.peasant_hatchet_1_t1" />
+                    <equipment slot="Head" id="Item.nordic_fur_cap" />
+                    <equipment slot="Body" id="Item.roughcloth_shortcoat" />
+                    <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+                </EquipmentRoster>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.hunting_bow" />
+                    <equipment slot="Item1" id="Item.default_arrows" />
+                    <equipment slot="Item3" id="Item.peasant_hammer_1_t1" />
+                    <equipment slot="Head" id="Item.nordic_fur_cap" />
+                    <equipment slot="Body" id="Item.northern_tunic" />
+                    <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+                </EquipmentRoster>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.hunting_bow" />
+                    <equipment slot="Item1" id="Item.default_arrows" />
+                    <equipment slot="Item3" id="Item.peasant_hatchet_1_t1" />
+                    <equipment slot="Head" id="Item.nordic_fur_cap" />
+                    <equipment slot="Body" id="Item.northern_leather_vest" />
+                    <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+                    <equipment slot="Cape" id="Item.scarf" />
+                </EquipmentRoster>
+                <EquipmentRoster civilian="true">
+                    <equipment slot="Item0" id="Item.hunting_bow" />
+                    <equipment slot="Item1" id="Item.default_arrows" />
+                    <equipment slot="Item3" id="Item.peasant_hammer_2_t1" />
+                    <equipment slot="Head" id="Item.nordic_fur_cap" />
+                    <equipment slot="Body" id="Item.northern_tunic" />
+                    <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+                </EquipmentRoster>
+            </Equipments>
+        </NPCCharacter>
+        <NPCCharacter id="vaegir_militia_veteran_archer"
+            default_group="Ranged"
+            level="16"
+            name="{=gZ4JeEw4}Vaegir Militia Veteran Archer"
+            occupation="Soldier"
+            culture="Culture.vaegir"
+            skill_template="SkillSet.ranged_skirmisher_level16_template_skills">
+            <face>
+                <face_key_template value="BodyProperty.fighter_sturgia" />
+            </face>
+            <skills></skills>
+            <upgrade_targets></upgrade_targets>
+            <Equipments>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.hunting_bow" />
+                    <equipment slot="Item1" id="Item.default_arrows" />
+                    <equipment slot="Item3" id="Item.small_spurred_axe_t2" />
+                    <equipment slot="Head" id="Item.nordic_fur_cap" />
+                    <equipment slot="Body" id="Item.nordic_padded_cloth" />
+                    <equipment slot="Cape" id="Item.scarf" />
+                    <equipment slot="Gloves" id="Item.highland_gloves" />
+                    <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+                </EquipmentRoster>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.hunting_bow" />
+                    <equipment slot="Item1" id="Item.default_arrows" />
+                    <equipment slot="Item3" id="Item.small_spurred_axe_t2" />
+                    <equipment slot="Head" id="Item.northern_fur_cap" />
+                    <equipment slot="Body" id="Item.heavy_nordic_tunic" />
+                    <equipment slot="Gloves" id="Item.highland_gloves" />
+                    <equipment slot="Cape" id="Item.scarf" />
+                    <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+                </EquipmentRoster>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.nordic_shortbow" />
+                    <equipment slot="Item1" id="Item.default_arrows" />
+                    <equipment slot="Item3" id="Item.small_spurred_axe_t2" />
+                    <equipment slot="Head" id="Item.nordic_fur_cap" />
+                    <equipment slot="Body" id="Item.northern_leather_vest" />
+                    <equipment slot="Gloves" id="Item.highland_gloves" />
+                    <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+                </EquipmentRoster>
+                <EquipmentRoster civilian="true">
+                    <equipment slot="Item0" id="Item.hunting_bow" />
+                    <equipment slot="Item1" id="Item.default_arrows" />
+                    <equipment slot="Item3" id="Item.small_spurred_axe_t2" />
+                    <equipment slot="Head" id="Item.nordic_fur_cap" />
+                    <equipment slot="Body" id="Item.heavy_nordic_tunic" />
+                    <equipment slot="Gloves" id="Item.highland_gloves" />
+                    <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+                </EquipmentRoster>
+            </Equipments>
+        </NPCCharacter>
+        <NPCCharacter id="vaegir_militia_spearman"
+            default_group="Infantry"
+            level="11"
+            name="{=Zmajp2o1}Vaegir Militia Spearman"
+            occupation="Soldier"
+            culture="Culture.vaegir"
+            skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+            <face>
+                <face_key_template value="BodyProperty.fighter_sturgia" />
+            </face>
+            <skills></skills>
+            <upgrade_targets></upgrade_targets>
+            <Equipments>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.northern_spear_1_t2" />
+                    <equipment slot="Item1" id="Item.viking_round_shield" />
+                    <equipment slot="Item2" id="Item.peasant_hammer_2_t1" />
+                    <equipment slot="Head" id="Item.nordic_leather_cap" />
+                    <equipment slot="Body" id="Item.northern_tunic" />
+                    <equipment slot="Leg" id="Item.battania_fur_boots" />
+                    <equipment slot="Gloves" id="Item.highland_gloves" />
+                </EquipmentRoster>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.northern_spear_1_t2" />
+                    <equipment slot="Item1" id="Item.viking_round_shield" />
+                    <equipment slot="Item2" id="Item.peasant_hatchet_1_t1" />
+                    <equipment slot="Body" id="Item.northern_tunic" />
+                    <equipment slot="Leg" id="Item.battania_leather_boots" />
+                    <equipment slot="Gloves" id="Item.highland_gloves" />
+                    <equipment slot="Cape" id="Item.padded_leather_shoulders" />
+                </EquipmentRoster>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.northern_spear_1_t2" />
+                    <equipment slot="Item1" id="Item.viking_round_shield" />
+                    <equipment slot="Item2" id="Item.peasant_hatchet_1_t1" />
+                    <equipment slot="Head" id="Item.nordic_fur_cap" />
+                    <equipment slot="Body" id="Item.tundra_tunic" />
+                    <equipment slot="Cape" id="Item.scarf" />
+                    <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+                    <equipment slot="Gloves" id="Item.highland_gloves" />
+                </EquipmentRoster>
+                <EquipmentRoster civilian="true">
+                    <equipment slot="Item0" id="Item.northern_spear_1_t2" />
+                    <equipment slot="Item1" id="Item.viking_round_shield" />
+                    <equipment slot="Item2" id="Item.peasant_hammer_1_t1" />
+                    <equipment slot="Head" id="Item.nordic_leather_cap" />
+                    <equipment slot="Body" id="Item.roughcloth_shortcoat" />
+                    <equipment slot="Cape" id="Item.scarf" />
+                    <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+                    <equipment slot="Gloves" id="Item.highland_gloves" />
+                </EquipmentRoster>
+            </Equipments>
+        </NPCCharacter>
+        <NPCCharacter id="vaegir_militia_veteran_spearman"
+            default_group="Infantry"
+            level="16"
+            name="{=LVEU4se3}Vaegir Militia Veteran Spearman"
+            occupation="Soldier"
+            culture="Culture.vaegir"
+            skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills">
+            <face>
+                <face_key_template value="BodyProperty.fighter_sturgia" />
+            </face>
+            <skills></skills>
+            <upgrade_targets></upgrade_targets>
+            <Equipments>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.northern_spear_1_t2" />
+                    <equipment slot="Item1" id="Item.northern_round_shield" />
+                    <equipment slot="Item2" id="Item.small_bit_axe_t2" />
+                    <equipment slot="Head" id="Item.nasalhelm_over_leather" />
+                    <equipment slot="Cape" id="Item.battania_civil_cape" />
+                    <equipment slot="Body" id="Item.nordic_sloven" />
+                    <equipment slot="Leg" id="Item.battania_fur_boots" />
+                    <equipment slot="Gloves" id="Item.guarded_armwraps" />
+                </EquipmentRoster>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.northern_spear_1_t2" />
+                    <equipment slot="Item1" id="Item.northern_round_shield" />
+                    <equipment slot="Item2" id="Item.small_bit_axe_t2" />
+                    <equipment slot="Head" id="Item.nasalhelm_over_leather" />
+                    <equipment slot="Cape" id="Item.battania_civil_cape" />
+                    <equipment slot="Body" id="Item.nordic_sloven" />
+                    <equipment slot="Leg" id="Item.battania_leather_boots" />
+                    <equipment slot="Gloves" id="Item.guarded_armwraps" />
+                    <equipment slot="Cape" id="Item.padded_leather_shoulders" />
+                </EquipmentRoster>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.northern_spear_1_t2" />
+                    <equipment slot="Item1" id="Item.northern_round_shield" />
+                    <equipment slot="Item2" id="Item.small_bit_axe_t2" />
+                    <equipment slot="Head" id="Item.roughhide_cap" />
+                    <equipment slot="Cape" id="Item.battania_civil_cape" />
+                    <equipment slot="Body" id="Item.nordic_sloven" />
+                    <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+                    <equipment slot="Gloves" id="Item.guarded_armwraps" />
+                </EquipmentRoster>
+                <EquipmentRoster civilian="true">
+                    <equipment slot="Item0" id="Item.northern_spear_1_t2" />
+                    <equipment slot="Item1" id="Item.northern_round_shield" />
+                    <equipment slot="Item2" id="Item.small_spurred_axe_t2" />
+                    <equipment slot="Head" id="Item.roughhide_cap" />
+                    <equipment slot="Cape" id="Item.battania_civil_cape" />
+                    <equipment slot="Body" id="Item.nordic_sloven" />
+                    <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+                    <equipment slot="Gloves" id="Item.guarded_armwraps" />
+                </EquipmentRoster>
+            </Equipments>
+        </NPCCharacter>
+
+        <NPCCharacter id="vaegir_recruit"
+            default_group="Infantry"
+            level="4"
+            name="{=wld_vaegir_recruit}Vaegir Recruit"
+            is_basic_troop="true"
+            occupation="Soldier"
+            culture="Culture.vaegir">
+            <face>
+                <face_key_template value="BodyProperty.fighter_sturgia"/>
+            </face>
+            <skills >
+                <skill id="Athletics" value="20"/>
+                <skill id="Riding" value="5"/>
+                <skill id="OneHanded" value="20"/>
+                <skill id="TwoHanded" value="10"/>
+                <skill id="Polearm" value="20"/>
+                <skill id="Bow" value="5"/>
+                <skill id="Crossbow" value="0"/>
+                <skill id="Throwing" value="10"/>
+            </skills>
+            <upgrade_targets>
+                <upgrade_target id="NPCCharacter.vaegir_footman"/>
+                <upgrade_target id="NPCCharacter.vaegir_woodman"/>
+            </upgrade_targets>
+            <Equipments>
+            </Equipments>
+        </NPCCharacter>
+        <NPCCharacter id="vaegir_footman"
+            default_group="Infantry"
+            level="9"
+            name="{=wld_vaegir_footman}Vaegir Footman"
+            is_basic_troop="true"
+            occupation="Soldier"
+            culture="Culture.vaegir">
+            <face>
+                <face_key_template value="BodyProperty.fighter_sturgia"/>
+            </face>
+            <skills >
+                <skill id="Athletics" value="40"/>
+                <skill id="Riding" value="15"/>
+                <skill id="OneHanded" value="40"/>
+                <skill id="TwoHanded" value="20"/>
+                <skill id="Polearm" value="40"/>
+                <skill id="Bow" value="15"/>
+                <skill id="Crossbow" value="5"/>
+                <skill id="Throwing" value="20"/>
+            </skills>
+            <upgrade_targets>
+                <upgrade_target id="NPCCharacter.vaegir_skirmisher"/>
+                <upgrade_target id="NPCCharacter.vaegir_veteran"/>
+            </upgrade_targets>
+            <Equipments>
+            </Equipments>
+        </NPCCharacter>
+        <NPCCharacter id="vaegir_skirmisher"
+            default_group="Ranged"
+            level="14"
+            name="{=wld_vaegir_skirmisher}Vaegir Skirmisher"
+            is_basic_troop="true"
+            occupation="Soldier"
+            culture="Culture.vaegir">
+            <face>
+                <face_key_template value="BodyProperty.fighter_sturgia"/>
+            </face>
+            <skills >
+                <skill id="Athletics" value="40"/>
+                <skill id="Riding" value="5"/>
+                <skill id="OneHanded" value="40"/>
+                <skill id="TwoHanded" value="15"/>
+                <skill id="Polearm" value="20"/>
+                <skill id="Bow" value="40"/>
+                <skill id="Crossbow" value="40"/>
+                <skill id="Throwing" value="40"/>
+            </skills>
+            <upgrade_targets>
+                <upgrade_target id="NPCCharacter.vaegir_archer"/>
+            </upgrade_targets>
+            <Equipments>
+            </Equipments>
+        </NPCCharacter>
+        <NPCCharacter id="vaegir_archer"
+            default_group="Ranged"
+            level="19"
+            name="{=wld_vaegir_archer}Vaegir Archer"
+            is_basic_troop="true"
+            occupation="Soldier"
+            culture="Culture.vaegir">
+            <face>
+                <face_key_template value="BodyProperty.fighter_sturgia"/>
+            </face>
+            <skills >
+                <skill id="Athletics" value="70"/>
+                <skill id="Riding" value="10"/>
+                <skill id="OneHanded" value="70"/>
+                <skill id="TwoHanded" value="40"/>
+                <skill id="Polearm" value="30"/>
+                <skill id="Bow" value="100"/>
+                <skill id="Crossbow" value="100"/>
+                <skill id="Throwing" value="100"/>
+            </skills>
+            <upgrade_targets>
+                <upgrade_target id="NPCCharacter.vaegir_marksman"/>
+            </upgrade_targets>
+            <Equipments>
+            </Equipments>
+        </NPCCharacter>
+        <NPCCharacter id="vaegir_marksman"
+            default_group="Ranged"
+            level="24"
+            name="{=wld_vaegir_marksman}Vaegir Marksman"
+            is_basic_troop="true"
+            occupation="Soldier"
+            culture="Culture.vaegir">
+            <face>
+                <face_key_template value="BodyProperty.fighter_sturgia"/>
+            </face>
+            <skills >
+                <skill id="Athletics" value="100"/>
+                <skill id="Riding" value="50"/>
+                <skill id="OneHanded" value="100"/>
+                <skill id="TwoHanded" value="60"/>
+                <skill id="Polearm" value="45"/>
+                <skill id="Bow" value="100"/>
+                <skill id="Crossbow" value="25"/>
+                <skill id="Throwing" value="45"/>
+            </skills>
+            <Equipments>
+            </Equipments>
+        </NPCCharacter>
+        <NPCCharacter id="vaegir_veteran"
+            default_group="Infantry"
+            level="14"
+            name="{=wld_vaegir_veteran}Vaegir Veteran"
+            is_basic_troop="true"
+            occupation="Soldier"
+            culture="Culture.vaegir">
+            <face>
+                <face_key_template value="BodyProperty.fighter_sturgia"/>
+            </face>
+            <skills >
+                <skill id="Athletics" value="70"/>
+                <skill id="Riding" value="30"/>
+                <skill id="OneHanded" value="100"/>
+                <skill id="TwoHanded" value="40"/>
+                <skill id="Polearm" value="70"/>
+                <skill id="Bow" value="30"/>
+                <skill id="Crossbow" value="10"/>
+                <skill id="Throwing" value="40"/>
+            </skills>
+            <upgrade_targets>
+                <upgrade_target id="NPCCharacter.vaegir_infantry"/>
+                <upgrade_target id="NPCCharacter.vaegir_horseman"/>
+            </upgrade_targets>
+            <Equipments>
+            </Equipments>
+        </NPCCharacter>
+        <NPCCharacter id="vaegir_infantry"
+            default_group="Infantry"
+            level="19"
+            name="{=wld_vaegir_infantry}Vaegir Infantry"
+            is_basic_troop="true"
+            occupation="Soldier"
+            culture="Culture.vaegir">
+            <face>
+                <face_key_template value="BodyProperty.fighter_sturgia"/>
+            </face>
+            <skills >
+                <skill id="Athletics" value="100"/>
+                <skill id="Riding" value="45"/>
+                <skill id="OneHanded" value="150"/>
+                <skill id="TwoHanded" value="60"/>
+                <skill id="Polearm" value="100"/>
+                <skill id="Bow" value="45"/>
+                <skill id="Crossbow" value="15"/>
+                <skill id="Throwing" value="60"/>
+            </skills>
+            <upgrade_targets>
+                <upgrade_target id="NPCCharacter.vaegir_guard"/>
+            </upgrade_targets>
+            <Equipments>
+            </Equipments>
+        </NPCCharacter>
+        <NPCCharacter id="vaegir_guard"
+            default_group="Infantry"
+            level="24"
+            name="{=wld_vaegir_guard}Vaegir Guard"
+            is_basic_troop="true"
+            occupation="Soldier"
+            culture="Culture.vaegir">
+            <face>
+                <face_key_template value="BodyProperty.fighter_sturgia"/>
+            </face>
+            <skills >
+                <skill id="Athletics" value="130"/>
+                <skill id="Riding" value="60"/>
+                <skill id="OneHanded" value="200"/>
+                <skill id="TwoHanded" value="80"/>
+                <skill id="Polearm" value="120"/>
+                <skill id="Bow" value="60"/>
+                <skill id="Crossbow" value="20"/>
+                <skill id="Throwing" value="130"/>
+            </skills>
+            <Equipments>
+            </Equipments>
+        </NPCCharacter>
+        <NPCCharacter id="vaegir_horseman"
+            default_group="Cavalry"
+            level="19"
+            name="{=wld_vaegir_horseman}Vaegir Horseman"
+            is_basic_troop="true"
+            occupation="Soldier"
+            culture="Culture.vaegir">
+            <face>
+                <face_key_template value="BodyProperty.fighter_sturgia"/>
+            </face>
+            <skills >
+                <skill id="Athletics" value="130"/>
+                <skill id="Riding" value="45"/>
+                <skill id="OneHanded" value="100"/>
+                <skill id="TwoHanded" value="110"/>
+                <skill id="Polearm" value="40"/>
+                <skill id="Bow" value="45"/>
+                <skill id="Crossbow" value="15"/>
+                <skill id="Throwing" value="50"/>
+            </skills>
+            <upgrade_targets>
+                <upgrade_target id="NPCCharacter.vaegir_knight"/>
+            </upgrade_targets>
+            <Equipments>
+            </Equipments>
+        </NPCCharacter>
+        <NPCCharacter id="vaegir_knight"
+            default_group="Cavalry"
+            level="24"
+            name="{=wld_vaegir_knight}Vaegir Knight"
+            is_basic_troop="true"
+            occupation="Soldier"
+            culture="Culture.vaegir">
+            <face>
+                <face_key_template value="BodyProperty.fighter_sturgia"/>
+            </face>
+            <skills >
+                <skill id="Athletics" value="150"/>
+                <skill id="Riding" value="40"/>
+                <skill id="OneHanded" value="80"/>
+                <skill id="TwoHanded" value="150"/>
+                <skill id="Polearm" value="80"/>
+                <skill id="Bow" value="60"/>
+                <skill id="Crossbow" value="20"/>
+                <skill id="Throwing" value="130"/>
+            </skills>
+            <Equipments>
+            </Equipments>
+        </NPCCharacter>
+</NPCCharacters>

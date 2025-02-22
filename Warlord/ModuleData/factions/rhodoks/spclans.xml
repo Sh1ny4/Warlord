@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Factions>
+        <Faction id="clan_rhodok_1"
+                name="{=3o5s6L3y}dey Meroc"
+                tier="6"
+                owner="Hero.lord_rhodok_1"
+                culture="Culture.rhodok"
+                super_faction="Kingdom.rhodok"
+                is_noble="true"
+                banner_key="11.146.146.5000.5000.764.764.1.0.0.424.143.40.400.400.764.764.0.1.0" />
+</Factions>

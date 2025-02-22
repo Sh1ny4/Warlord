@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+	<Hero id="lord_swadia_1"	faction="Faction.clan_swadia_1"	spouse="Hero.lord_swadia_2"		text="PLACEHOLDER"/>
+	<Hero id="lord_swadia_2"	faction="Faction.clan_swadia_1"	spouse="Hero.lord_swadia_1"/>
+	<Hero id="lord_swadia_7"	faction="Faction.clan_swadia_1"	father="Hero.lord_swadia_1"		mother="Hero.lord_swadia_2"/>
+	<Hero id="lord_swadia_10"	faction="Faction.clan_swadia_1"	father="Hero.lord_swadia_1"		mother="Hero.lord_swadia_2"/>
+	<Hero id="lord_swadia_14"	faction="Faction.clan_swadia_1"	father="Hero.lord_swadia_1"		mother="Hero.lord_swadia_2"/>
+	<Hero id="lord_swadia_141"	faction="Faction.clan_swadia_1"	father="Hero.lord_swadia_1"		mother="Hero.lord_swadia_2"/>
+	<Hero id="lord_swadia_15"	faction="Faction.clan_swadia_1"	father="Hero.lord_swadia_1"		mother="Hero.lord_swadia_2"/>
+	<Hero id="lord_swadia_13"	faction="Faction.clan_swadia_1"/>
+</Heroes>

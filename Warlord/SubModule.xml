@@ -1,0 +1,413 @@
+<Module>
+	<Name value="Warlords"/>
+	<Id value="warlord"/>
+	<Version value="v1.2.12"/>
+	<DefaultModule value="false"/>
+	<ModuleCategory value="Singleplayer"/>
+	<Official value="false"/>
+	<DependedModules>
+		<DependedModule Id="Native" DependentVersion="v1.2.12"/>
+		<DependedModule Id="SandBoxCore" DependentVersion="v1.2.12"/>
+		<DependedModule Id="Sandbox" DependentVersion="v1.2.12"/>
+		<DependedModule Id="CustomBattle" DependentVersion="v1.2.12"/>
+		<DependedModule Id="StoryMode" DependentVersion="v1.2.12"/>
+	</DependedModules>
+	<SubModules>
+		<SubModule>
+			<Name value="wipo" />
+			<DLLName value="wipo.dll" />
+			<SubModuleClassType value="wipo.main" />
+			<Tags />
+		</SubModule>
+	</SubModules>
+	<Xmls>
+		<!-- Map -->
+			<XmlNode><XmlName id="Settlements" path="settlements"/>
+				<IncludedGameTypes>
+					<GameType value = "Campaign"/>
+					<GameType value = "CustomGame"/>
+				</IncludedGameTypes>
+			</XmlNode>
+		<!-- Items -->
+			<XmlNode><XmlName id="Items" path="items/items"/>
+				<IncludedGameTypes>
+					<GameType value = "Campaign"/>
+					<GameType value = "CustomGame"/>
+				</IncludedGameTypes>
+			</XmlNode>
+			<XmlNode><XmlName id="Items" path="items/weapons"/>
+				<IncludedGameTypes>
+					<GameType value = "Campaign"/>
+					<GameType value = "CustomGame"/>
+				</IncludedGameTypes>
+			</XmlNode>
+			<XmlNode><XmlName id="Items" path="items/armors"/>
+				<IncludedGameTypes>
+					<GameType value = "Campaign"/>
+					<GameType value = "CustomGame"/>
+				</IncludedGameTypes>
+			</XmlNode>
+			<XmlNode><XmlName id="Items" path="items/horses_and_others"/>
+				<IncludedGameTypes>
+					<GameType value = "Campaign"/>
+					<GameType value = "CustomGame"/>
+				</IncludedGameTypes>
+			</XmlNode>
+			<XmlNode><XmlName id="CraftingPieces" path="items/crafting_pieces"/>
+				<IncludedGameTypes>
+					<GameType value = "Campaign"/>
+					<GameType value = "CustomGame"/>
+				</IncludedGameTypes>
+			</XmlNode>
+		<!-- Factions -->
+			<!-- common -->
+				<XmlNode><XmlName id="SPCultures" path="factions/common/spcultures"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="NPCCharacters" path="factions/common/spncpcharacters"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="partyTemplates" path="factions/common/partytemplates"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="BodyProperties" path="factions/common/bodyproperties"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="NPCCharacters" path="factions/common/lords"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="Heroes" path="factions/common/heroes"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="Factions" path="factions/common/spclans"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="Kingdoms" path="factions/common/spkingdoms"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="EquipmentRosters" path="factions/common/equipment_sets"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+			<!-- khergits -->
+				<XmlNode><XmlName id="SPCultures" path="factions/khergits/spcultures"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="NPCCharacters" path="factions/khergits/spncpcharacters"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="partyTemplates" path="factions/khergits/partytemplates"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="NPCCharacters" path="factions/khergits/lords"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="Heroes" path="factions/khergits/heroes"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="Factions" path="factions/khergits/spclans"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="Kingdoms" path="factions/khergits/spkingdoms"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="EquipmentRosters" path="factions/khergits/equipment_sets"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+			<!-- nords -->
+				<XmlNode><XmlName id="SPCultures" path="factions/nords/spcultures"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="NPCCharacters" path="factions/nords/spncpcharacters"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="partyTemplates" path="factions/nords/partytemplates"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="NPCCharacters" path="factions/nords/lords"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="Heroes" path="factions/nords/heroes"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="Factions" path="factions/nords/spclans"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="Kingdoms" path="factions/nords/spkingdoms"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="EquipmentRosters" path="factions/nords/equipment_sets"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+			<!-- rhodoks -->
+				<XmlNode><XmlName id="SPCultures" path="factions/rhodoks/spcultures"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="NPCCharacters" path="factions/rhodoks/spncpcharacters"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="partyTemplates" path="factions/rhodoks/partytemplates"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="NPCCharacters" path="factions/rhodoks/lords"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="Heroes" path="factions/rhodoks/heroes"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="Factions" path="factions/rhodoks/spclans"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="Kingdoms" path="factions/rhodoks/spkingdoms"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="EquipmentRosters" path="factions/rhodoks/equipment_sets"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+			<!-- sarranids -->
+				<XmlNode><XmlName id="SPCultures" path="factions/sarranids/spcultures"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="NPCCharacters" path="factions/sarranids/spncpcharacters"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="partyTemplates" path="factions/sarranids/partytemplates"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="NPCCharacters" path="factions/sarranids/lords"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="Heroes" path="factions/sarranids/heroes"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="Factions" path="factions/sarranids/spclans"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="Kingdoms" path="factions/sarranids/spkingdoms"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="EquipmentRosters" path="factions/sarranids/equipment_sets"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+			<!-- swadians -->
+				<XmlNode><XmlName id="SPCultures" path="factions/swadians/spcultures"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="NPCCharacters" path="factions/swadians/spncpcharacters"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="partyTemplates" path="factions/swadians/partytemplates"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="NPCCharacters" path="factions/swadians/lords"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="Heroes" path="factions/swadians/heroes"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="Factions" path="factions/swadians/spclans"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="Kingdoms" path="factions/swadians/spkingdoms"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="EquipmentRosters" path="factions/swadians/equipment_sets"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+			<!-- vaegirs -->
+				<XmlNode><XmlName id="SPCultures" path="factions/vaegirs/spcultures"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="NPCCharacters" path="factions/vaegirs/spncpcharacters"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="partyTemplates" path="factions/vaegirs/partytemplates"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="NPCCharacters" path="factions/vaegirs/lords"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="Heroes" path="factions/vaegirs/heroes"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="Factions" path="factions/vaegirs/spclans"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="Kingdoms" path="factions/vaegirs/spkingdoms"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+				<XmlNode><XmlName id="EquipmentRosters" path="factions/vaegirs/equipment_sets"/>
+					<IncludedGameTypes>
+						<GameType value = "Campaign"/>
+						<GameType value = "CustomGame"/>
+					</IncludedGameTypes>
+				</XmlNode>
+	</Xmls>
+</Module>

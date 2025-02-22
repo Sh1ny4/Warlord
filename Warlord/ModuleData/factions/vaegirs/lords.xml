@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter id="lord_vaegir_1"
+		name="{=rNrq6QdU}Raganvad"
+		age="37"
+		voice="curt"
+		is_hero="true"
+		default_group="Infantry"
+		culture="Culture.vaegir"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.7" key="0000500140BC09429E895C86B34CA38993A369B8B287576979538AC46B678B940177781307C60384000000000000000000000000000000000000000000F05180" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="6" />
+			<Trait id="Commander" value="14" />
+			<Trait id="Politician" value="16" />
+			<Trait id="Manager" value="12" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Honor" value="-1" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Generosity" value="-1" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Authoritarian" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="stu_king_template_bat_m" />
+			<EquipmentSet id="stu_king_template_civ_m" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_vaegir_2"
+		name="{=XqcD0WEu}Asta"
+		age="37"
+		voice="earnest"
+		default_group="Cavalry"
+		is_hero="true"
+		is_female="true"
+		culture="Culture.vaegir"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.4526" build="0.5473" key="000A08044070300E4976245366B465B59A4B8308619547498764AA1275284A240898768909675A3A00000000000000000000000000000000000000006F3C2084" />
+		</face>
+		<skills>
+		</skills>
+		<Traits>
+			<Trait id="Politician" value="14" />
+			<Trait id="Manager" value="14" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Honor" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_medium" />
+			<EquipmentSet id="stu_noncom_template_default" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_vaegir_7"
+		name="{=XDAQgjpH}Simir"
+		age="18"
+		voice="earnest"
+		default_group="HorseArcher"
+		is_hero="true"
+		culture="Culture.vaegir"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5176" build="0.6044" key="0000500440B407823E895C86B34CA38993A369B8B280570970538AC46B6781990079880307C60384000000000000000000000000000000000000000000F05000" />
+		</face>
+		<Traits>
+			<Trait id="HopliteFightingSkills" value="9" />
+			<Trait id="Commander" value="10" />
+			<Trait id="Politician" value="8" />
+			<Trait id="Manager" value="16" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Generosity" value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="stu_bat_template_medium" />
+			<EquipmentSet id="stu_civ_template_default" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_vaegir_7_1"
+		name="{=bFeyvTJj}Mimir"
+		age="18"
+		voice="earnest"
+		default_group="Infantry"
+		is_hero="true"
+		culture="Culture.vaegir"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5089" build="0.4047" key="0000500440B4008E9E895C86B34CA389699869B8B28B576979538AC46CB4C7740076880307C60384000000000000000000000000000000000000000000F05000" />
+		</face>
+		<Traits>
+			<Trait id="HopliteFightingSkills" value="3" />
+			<Trait id="Commander" value="2" />
+			<Trait id="Politician" value="2" />
+			<Trait id="Manager" value="2" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Generosity" value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="stu_bat_template_medium" />
+			<EquipmentSet id="stu_civ_template_default" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_vaegir_10"
+		age="17"
+		name="{=CuH8aalQ}Valla"
+		voice="ironic"
+		is_female="true"
+		is_hero="true"
+		default_group="Cavalry"
+		culture="Culture.vaegir"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.2" build="0.4" key="0005AC0B4070015217A823EA6364A9577C7BCBE6B481144EA0B835CE9AE9AAC701B009140BA86C75000000000000000000000000000000000000000001683080" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="Politician" value="8" />
+			<Trait id="Manager" value="8" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Generosity" value="-1" />
+			<Trait id="Calculating" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_medium" />
+			<EquipmentSet id="stu_noncom_template_default" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_vaegir_13"
+		name="{=hy7mIh48}Vidar"
+		age="52"
+		voice="earnest"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vaegir"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.4221" build="0.7302" key="00005802C000354A7788740C5598FA3C58DD3180B090DA078E6679877C84AFA801BB60130BCB1AF0000000000000000000000000000000000000000073789003" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7" />
+			<Trait id="Commander" value="8" />
+			<Trait id="Politician" value="4" />
+			<Trait id="Manager" value="10" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Generosity" value="1" />
+			<Trait id="Calculating" value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="stu_bat_template_heavy" />
+			<EquipmentSet id="stu_civ_template_default" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_vaegir_13_1"
+		name="{=uqGvaPxz}Lilizha"
+		age="22"
+		is_female="true"
+		voice="curt"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vaegir"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="001108000070200FD33892A397AC34867B393C86ADDA750B66EE13B68C999CD90157761305747845000000000000000000000000000000000000000034A40083" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="Politician" value="6" />
+			<Trait id="Manager" value="4" />
+			<Trait id="Valor" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="stu_bat_template_heavy" />
+			<EquipmentSet id="stu_civ_template_default" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_vaegir_13_2"
+		name="{=gRcc0zjg}Andruta"
+		age="20"
+		is_female="true"
+		voice="curt"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vaegir"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0005B002D0CC101077CA5CE759465522795799844375862757BAB56484A9788E0157761305DBD96A00000000000000000000000000000000000000005C9C4043" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="Politician" value="6" />
+			<Trait id="Manager" value="6" />
+			<Trait id="Valor" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="stu_bat_template_heavy" />
+			<EquipmentSet id="stu_civ_template_default" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_vaegir_13_3"
+		name="{=e8NQzxiE}Luda"
+		age="17"
+		is_female="true"
+		voice="curt"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vaegir"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="00059C02D070300374CAA96A797A77C79CE76A5875B54198B5561928897C487E01D776130DD75BC500000000000000000000000000000000000000001BAC2083" />
+		</face>
+		<skills></skills>
+		<Traits>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="stu_bat_template_heavy" />
+			<EquipmentSet id="stu_civ_template_default" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_vaegir_13_4"
+		name="{=lFV6m1rc}Teta"
+		age="15"
+		is_female="true"
+		voice="curt"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vaegir"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0005400151143004747C738A7A775752715CC25D4B5787956D76849495A949330177761307C5ADB800000000000000000000000000000000000000002EEC2043" />
+		</face>
+		<skills></skills>
+		<Traits>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet id="stu_bat_template_heavy" />
+			<EquipmentSet id="stu_civ_template_default" civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

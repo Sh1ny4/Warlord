@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+	<Hero id="lord_vaegir_1"	faction="Faction.clan_vaegir_1"	spouse="Hero.lord_vaegir_2"		text="PLACEHOLDER"/>
+	<Hero id="lord_vaegir_2"	faction="Faction.clan_vaegir_1"	spouse="Hero.lord_vaegir_1"/>
+	<Hero id="lord_vaegir_13_1"	faction="Faction.clan_vaegir_1"	father="Hero.lord_vaegir_13"/>
+	<Hero id="lord_vaegir_13_2"	faction="Faction.clan_vaegir_1"	father="Hero.lord_vaegir_13"/>
+	<Hero id="lord_vaegir_13_3"	faction="Faction.clan_vaegir_1"	father="Hero.lord_vaegir_13"/>
+	<Hero id="lord_vaegir_13_4"	faction="Faction.clan_vaegir_1"	father="Hero.lord_vaegir_13"/>
+	<Hero id="lord_vaegir_7"	faction="Faction.clan_vaegir_1"	father="Hero.lord_vaegir_1"		mother="Hero.lord_vaegir_2"/>
+	<Hero id="lord_vaegir_7_1"	faction="Faction.clan_vaegir_1"	father="Hero.lord_vaegir_1"		mother="Hero.lord_vaegir_2"/>
+	<Hero id="lord_vaegir_10"	faction="Faction.clan_vaegir_1"	father="Hero.lord_vaegir_1"		mother="Hero.lord_vaegir_2"/>
+</Heroes>

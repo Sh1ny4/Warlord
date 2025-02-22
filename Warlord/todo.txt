@@ -1,0 +1,77 @@
+décorations de carte:
+    chantiers (terrestres et navaux)
+    bateaus de peches en mer 
+    atols, oasis, barriere de corail
+    villes coupés par des fleuves
+    viaduc, aqueduc, routes, canal, phare
+    mines, champs, culture en terrasse, scieries, moulins, marés salants, etc. liés aux villages
+    murailles
+lieux visitables :
+    ruines, épaves, villages fantomes
+    temples, merveilles
+    postes commerciaux
+    base factions mineures
+
+ code à retravailler :
+    levels de clan
+    création de personnage
+    création des armées
+    limite de troupes
+    skills/perks
+    projets
+    économie des items (diviser le prix par le tier ?)
+    scènes en fullscreen
+    système de renom
+
+code à enlever :
+    passage du temps
+    brouillard de guerre
+
+code à ajouter :
+    camps (entrainement de troupes, lecture, chasse)
+    compagnons uniques
+    blocage navmesh pour châteaux
+    systèmes politiques (democracie, parlement, hereditaire)
+    systèmes de recruitement (levy, volontaires, service)
+    voyager avec une caravane
+    manhunters
+
+
+citées 
+    commission d'art
+    attendre coûte de l'argent
+    festivaux liés aux tournois
+    système de messagers
+
+cinematiques 
+    lecture  
+    ouverture d'un workshop, lancement d'une caravane
+    soigner un NPC
+
+buldings/projets : 
+    towns:  
+        walls
+        workshops
+        market
+        guild hall
+        university
+        town hall
+        hospital
+
+    castles : 
+        walls
+        inner garden
+        training ground
+        siege workshops
+        workshops
+        office
+
+    projects:
+        training
+        militia creation
+        influence
+        loyalty
+
+----- commissions -----
+horse armours => chainmail with tableau on top
+pavise but good

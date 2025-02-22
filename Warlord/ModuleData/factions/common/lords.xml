@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<!--main hero-->
+	<NPCCharacter id="main_hero"
+		default_group="Cavalry"
+		is_hero="true"
+		voice="earnest"
+		age="22"
+		is_female="false"
+		culture="Culture.vaegir"
+		name="{=ekcBrNN1}Eren"
+		banner_symbol_mesh_name="test_symbol_a"
+		occupation="Lord"
+		banner_symbol_color="FF000000"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="3" age="22.55" weight="0.5355" build="0.5015" key="00109C0D8000134D59A4894CAAA8A4A6BC7262A86699976479AD7D8A99877A3A007886030768E986000000000000000000000000000000000000000000FC1142" />
+		</face>
+		<skills>
+			<skill id="OneHanded" value="0" />
+			<skill id="TwoHanded" value="0" />
+			<skill id="Polearm" value="0" />
+			<skill id="Bow" value="0" />
+			<skill id="Crossbow" value="0" />
+			<skill id="Throwing" value="0" />
+			<skill id="Riding" value="0" />
+			<skill id="Athletics" value="0" />
+			<skill id="Crafting" value="0" />
+			<skill id="Tactics" value="0" />
+			<skill id="Scouting" value="0" />
+			<skill id="Roguery" value="0" />
+			<skill id="Leadership" value="0" />
+			<skill id="Charm" value="0" />
+			<skill id="Trade" value="0" />
+			<skill id="Steward" value="0" />
+			<skill id="Medicine" value="0" />
+			<skill id="Engineering" value="0" />
+		</skills>
+		<Traits>
+			<Trait id="Commander" value="0" />
+		</Traits>
+		<feats>
+		</feats>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.ridged_sabre_sword_t4" />
+				<equipment slot="Item1" id="Item.khuzait_lance_2_t4" />
+				<equipment slot="Item2" id="Item.steppe_war_bow" />
+				<equipment slot="Item3" id="Item.bodkin_arrows_a" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+				<equipment slot="Cape" id="Item.battania_civil_cloak" />
+				<equipment slot="Horse" id="Item.noble_horse" />
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.khuzait_civil_coat" />
+				<equipment slot="Leg" id="Item.fine_town_boots" />
+				<equipment slot="Item0" id="Item.vlandia_sword_2_t3" />
+			</EquipmentRoster>
+			<equipment slot="Horse" id="Item.saddle_horse" />
+			<equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="main_hero_father"
+		default_group="Cavalry"
+		age="50"
+		voice="earnest"
+		is_hero="true"
+		culture="Culture.vaegir"
+		occupation="Lord"
+		name="{=a2rhPaGB}Baldron"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" key="0005C80000BC214266EA9979568444848885462866B3674479986B98949492360007465707678747000000000000000000000000000000000000000001440081" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6" />
+			<Trait id="Commander" value="6" />
+			<Trait id="Politician" value="3" />
+			<Trait id="Manager" value="4" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_2_t3" />
+				<equipment slot="Item1" id="Item.fortified_kite_shield" />
+				<equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
+				<equipment slot="Leg" id="Item.leather_cavalier_boots" />
+				<equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
+			</EquipmentRoster>
+			<EquipmentSet id="bat_civ_template_default" civilian="true" />
+			<equipment slot="Horse" id="Item.noble_horse" />
+			<equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="main_hero_mother"
+		default_group="Cavalry"
+		age="50"
+		voice="earnest"
+		is_female="true"
+		culture="Culture.vaegir"
+		occupation="Lord"
+		name="{=V44d9fIP}Terra"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" key="0005400A000020057D82975A4558A8889376844AA5C35AC898876294659B8964000276560238A9A6000000000000000000000000000000000000000000A400C1" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="Politician" value="3" />
+			<Trait id="Manager" value="4" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_2_t3" />
+				<equipment slot="Item1" id="Item.fortified_kite_shield" />
+				<equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
+				<equipment slot="Leg" id="Item.leather_cavalier_boots" />
+				<equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
+			</EquipmentRoster>
+			<EquipmentSet id="bat_noncom_template_default" civilian="true" />
+			<equipment slot="Horse" id="Item.noble_horse" />
+			<equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled" />
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

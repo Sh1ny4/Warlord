@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Factions>
+        <Faction id="clan_nord_1"
+                name="{=A4wIVnM4}Gundaroving"
+                tier="6"
+                owner="Hero.lord_nord_1"
+                culture="Culture.nord"
+                super_faction="Kingdom.nord"
+                is_noble="true"
+                banner_key="11.22.22.5000.5000.764.764.1.0.0.505.132.132.400.4000.764.764.0.1.60" />
+</Factions>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Kingdoms>
+        <Kingdom id="vaegir"
+                owner="Hero.lord_vaegir_1" 
+                banner_key="11.22.22.4000.4000.764.764.1.0.0.462.12.12.500.500.764.764.1.0.0" 
+                primary_banner_color="0xffFFFFFF" 
+                secondary_banner_color="0xff000000" 
+                label_color="0xffFFFFFF" 
+                color="0xffFFFFFF" 
+                color2="0xff224277" 
+                alternative_color="0xffFFFFFF" 
+                alternative_color2="0xff224277" 
+                culture="Culture.vaegir" 
+                settlement_banner_mesh="encounter_flag_b" 
+                flag_mesh="info_screen_flags_c" 
+                name="{=!}vaegir" 
+                short_name="{=!}Vaegirs" 
+                title="{=!}Principality of the Vaegirs" 
+                ruler_title="{=!}Grand Prince" 
+                text="PLACEHOLDER">
+                <relationships>
+                </relationships>
+        </Kingdom>
+</Kingdoms>
