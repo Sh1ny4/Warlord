@@ -22,5 +22,6 @@
 	<xsl:template match="Culture[@id='forest_bandits']"/>
 	<xsl:template match="Culture[@id='desert_bandits']"/>
 	<xsl:template match="Culture[@id='steppe_bandits']"/>
+
 	<xsl:template match="Culture[@id='neutral_culture']"/>
 </xsl:stylesheet>
