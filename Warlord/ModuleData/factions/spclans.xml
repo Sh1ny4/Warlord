@@ -16,7 +16,7 @@
 		name="{=o0Xm5Rqk}Playerland"
 		tier="0">
         </Faction>
-	<!-- Other factions -->
+	<!-- Khergit -->
         <Faction id="clan_khergit_1"
                 name="{=CRSFOSil}Urkhunait"
                 tier="6"
@@ -25,6 +25,7 @@
                 super_faction="Kingdom.khergit"
                 is_noble="true"
                 banner_key="11.73.73.5000.5000.764.764.1.0.0.449.40.40.360.360.764.644.0.0.0.449.40.40.360.360.764.884.0.0.180.510.40.40.600.240.764.764.0.0.0"/>
+	<!-- Nord -->
         <Faction id="clan_nord_1"
                 name="{=A4wIVnM4}Gundaroving"
                 tier="6"
@@ -33,6 +34,7 @@
                 super_faction="Kingdom.nord"
                 is_noble="true"
                 banner_key="11.22.22.5000.5000.764.764.1.0.0.505.132.132.400.4000.764.764.0.1.60"/>
+	<!-- Rhodok -->
         <Faction id="clan_rhodok_1"
                 name="{=3o5s6L3y}dey Meroc"
                 tier="6"
@@ -41,6 +43,7 @@
                 super_faction="Kingdom.rhodok"
                 is_noble="true"
                 banner_key="11.146.146.5000.5000.764.764.1.0.0.424.143.40.400.400.764.764.0.1.0"/>
+	<!-- Sarranid -->
         <Faction id="clan_sarranid_1"
                 name="{=9Y1u2onl}Banu Hulyan"
                 tier="6"
@@ -49,6 +52,7 @@
                 super_faction="Kingdom.sarranid"
                 is_noble="true"
                 banner_key="11.5.5.5000.5000.764.764.1.0.0.505.129.129.2000.2000.1624.764.0.0.0.309.129.129.400.400.604.764.0.0.320.309.5.5.400.400.924.764.0.0.140"/>
+	<!-- Swadia -->
         <Faction id="clan_swadia_1"
                 name="{=3o5s6L3y}dey Meroc"
                 tier="6"
@@ -57,6 +61,7 @@
                 super_faction="Kingdom.swadia"
                 is_noble="true"
                 banner_key="11.146.146.5000.5000.764.764.1.0.0.424.143.40.400.400.764.764.0.1.0"/>
+	<!-- Vaegir -->
         <Faction id="clan_vaegir_1"
                 name="{=A4wIVnM4}Gundaroving"
                 tier="6"
