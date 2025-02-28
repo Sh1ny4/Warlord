@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+	<Hero id="main_hero" 			faction="Faction.player_faction" father="Hero.main_hero_father" mother="Hero.main_hero_mother"/>
+	<Hero id="main_hero_father" 	faction="Faction.player_faction" alive="false" spouse="Hero.main_hero_mother"/>
+	<Hero id="main_hero_mother" 	faction="Faction.player_faction" alive="false" spouse="Hero.main_hero_father"/>
+
+	<Hero id="lord_khergit_1"		faction="Faction.clan_khergit_1" spouse="Hero.lord_khergit_2" preferred_upgrade_formation="HorseArcher" text="PLACEHOLDER"/>
+	<Hero id="lord_khergit_2"		faction="Faction.clan_khergit_1" spouse="Hero.lord_khergit_1"/>
+	<Hero id="lord_khergit_13"		faction="Faction.clan_khergit_1" father="Hero.lord_khergit_1"/>
+	<Hero id="lord_khergit_7"		faction="Faction.clan_khergit_1" father="Hero.lord_khergit_1" mother="Hero.lord_khergit_2"/>
+	<Hero id="lord_khergit_10"		faction="Faction.clan_khergit_1" father="Hero.lord_khergit_1" mother="Hero.lord_khergit_2"/>
+	<Hero id="lord_khergit_101"		faction="Faction.clan_khergit_1" father="Hero.lord_khergit_1" mother="Hero.lord_khergit_2"/>
+	
+	<Hero id="lord_nord_1"			faction="Faction.clan_nord_1" spouse="Hero.lord_nord_2" text="PLACEHOLDER"/>
+	<Hero id="lord_nord_2"			faction="Faction.clan_nord_1" spouse="Hero.lord_nord_1"/>
+	<Hero id="lord_nord_13_1"		faction="Faction.clan_nord_1" father="Hero.lord_nord_13"/>
+	<Hero id="lord_nord_13_2"		faction="Faction.clan_nord_1" father="Hero.lord_nord_13"/>
+	<Hero id="lord_nord_13_3"		faction="Faction.clan_nord_1" father="Hero.lord_nord_13"/>
+	<Hero id="lord_nord_13_4"		faction="Faction.clan_nord_1" father="Hero.lord_nord_13"/>
+	<Hero id="lord_nord_7"			faction="Faction.clan_nord_1" father="Hero.lord_nord_1" mother="Hero.lord_nord_2"/>
+	<Hero id="lord_nord_7_1"		faction="Faction.clan_nord_1" father="Hero.lord_nord_1" mother="Hero.lord_nord_2"/>
+	<Hero id="lord_nord_10"			faction="Faction.clan_nord_1" father="Hero.lord_nord_1" mother="Hero.lord_nord_2"/>
+
+	<Hero id="lord_rhodok_1"		faction="Faction.clan_rhodok_1" spouse="Hero.lord_rhodok_2" text="PLACEHOLDER"/>
+	<Hero id="lord_rhodok_2"		faction="Faction.clan_rhodok_1" spouse="Hero.lord_rhodok_1"/>
+	<Hero id="lord_rhodok_7"		faction="Faction.clan_rhodok_1" father="Hero.lord_rhodok_1" mother="Hero.lord_rhodok_2"/>
+	<Hero id="lord_rhodok_10"		faction="Faction.clan_rhodok_1" father="Hero.lord_rhodok_1" mother="Hero.lord_rhodok_2"/>
+	<Hero id="lord_rhodok_14"		faction="Faction.clan_rhodok_1" father="Hero.lord_rhodok_1" mother="Hero.lord_rhodok_2"/>
+	<Hero id="lord_rhodok_141"		faction="Faction.clan_rhodok_1" father="Hero.lord_rhodok_1" mother="Hero.lord_rhodok_2"/>
+	<Hero id="lord_rhodok_15"		faction="Faction.clan_rhodok_1" father="Hero.lord_rhodok_1" mother="Hero.lord_rhodok_2"/>
+	<Hero id="lord_rhodok_13"		faction="Faction.clan_rhodok_1"/>
+
+	<Hero id="lord_sarranid_1"		faction="Faction.clan_sarranid_1" spouse="Hero.lord_sarranid_2" text="PLACEHOLDER"/>
+	<Hero id="lord_sarranid_2"		faction="Faction.clan_sarranid_1" spouse="Hero.lord_sarranid_1"/>
+	<Hero id="lord_sarranid_13"		faction="Faction.clan_sarranid_1" spouse="Hero.lord_sarranid_13_1"/>
+	<Hero id="lord_sarranid_13_1"	faction="Faction.clan_sarranid_1" spouse="Hero.lord_sarranid_13"/>
+	<Hero id="lord_sarranid_13_2"	faction="Faction.clan_sarranid_1" father="Hero.lord_sarranid_13" mother="Hero.lord_sarranid_13_1"/>
+	<Hero id="lord_sarranid_7"		faction="Faction.clan_sarranid_1" father="Hero.lord_sarranid_1" mother="Hero.lord_sarranid_2"/>
+	<Hero id="lord_sarranid_10"		faction="Faction.clan_sarranid_1" father="Hero.lord_sarranid_1" mother="Hero.lord_sarranid_2"/>
+
+	<Hero id="lord_swadia_1"		faction="Faction.clan_swadia_1"	spouse="Hero.lord_swadia_2" text="PLACEHOLDER"/>
+	<Hero id="lord_swadia_2"		faction="Faction.clan_swadia_1"	spouse="Hero.lord_swadia_1"/>
+	<Hero id="lord_swadia_7"		faction="Faction.clan_swadia_1"	father="Hero.lord_swadia_1" mother="Hero.lord_swadia_2"/>
+	<Hero id="lord_swadia_10"		faction="Faction.clan_swadia_1"	father="Hero.lord_swadia_1" mother="Hero.lord_swadia_2"/>
+	<Hero id="lord_swadia_14"		faction="Faction.clan_swadia_1"	father="Hero.lord_swadia_1" mother="Hero.lord_swadia_2"/>
+	<Hero id="lord_swadia_141"		faction="Faction.clan_swadia_1"	father="Hero.lord_swadia_1" mother="Hero.lord_swadia_2"/>
+	<Hero id="lord_swadia_15"		faction="Faction.clan_swadia_1"	father="Hero.lord_swadia_1" mother="Hero.lord_swadia_2"/>
+	<Hero id="lord_swadia_13"		faction="Faction.clan_swadia_1"/>
+
+	<Hero id="lord_vaegir_1"		faction="Faction.clan_vaegir_1"	spouse="Hero.lord_vaegir_2" text="PLACEHOLDER"/>
+	<Hero id="lord_vaegir_7"		faction="Faction.clan_vaegir_1"	father="Hero.lord_vaegir_1" mother="Hero.lord_vaegir_2"/>
+	<Hero id="lord_vaegir_7_1"		faction="Faction.clan_vaegir_1"	father="Hero.lord_vaegir_1" mother="Hero.lord_vaegir_2"/>
+	<Hero id="lord_vaegir_10"		faction="Faction.clan_vaegir_1"	father="Hero.lord_vaegir_1" mother="Hero.lord_vaegir_2"/>
+	<Hero id="lord_vaegir_2"		faction="Faction.clan_vaegir_1"	spouse="Hero.lord_vaegir_1"/>
+	<Hero id="lord_vaegir_13_1"		faction="Faction.clan_vaegir_1"	father="Hero.lord_vaegir_13"/>
+	<Hero id="lord_vaegir_13_2"		faction="Faction.clan_vaegir_1"	father="Hero.lord_vaegir_13"/>
+	<Hero id="lord_vaegir_13_3"		faction="Faction.clan_vaegir_1"	father="Hero.lord_vaegir_13"/>
+	<Hero id="lord_vaegir_13_4"		faction="Faction.clan_vaegir_1"	father="Hero.lord_vaegir_13"/>
+</Heroes>

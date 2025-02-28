@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Heroes>
-	<Hero id="lord_khergit_1"	faction="Faction.clan_khergit_1"	spouse="Hero.lord_khergit_2"		preferred_upgrade_formation="HorseArcher"	text="PLACEHOLDER"/>
-	<Hero id="lord_khergit_2"	faction="Faction.clan_khergit_1"	spouse="Hero.lord_khergit_1"/>
-	<Hero id="lord_khergit_13"	faction="Faction.clan_khergit_1"	father="Hero.lord_khergit_1"/>
-	<Hero id="lord_khergit_7"	faction="Faction.clan_khergit_1"	father="Hero.lord_khergit_1"		mother="Hero.lord_khergit_2"/>
-	<Hero id="lord_khergit_10"	faction="Faction.clan_khergit_1"	father="Hero.lord_khergit_1"		mother="Hero.lord_khergit_2"/>
-	<Hero id="lord_khergit_101"	faction="Faction.clan_khergit_1"	father="Hero.lord_khergit_1"		mother="Hero.lord_khergit_2"/>
-</Heroes>

@@ -1,5 +1,900 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
+	<!-- #region Mods Items -->
+		<!-- head -->
+		<Item id="wld_great_helm" 
+			name="Great Helmet" 
+			subtype="head_armor"
+			mesh="great_helm_base" 
+			culture="Culture.neutral_culture" 
+			weight="4.5"
+			Type="HeadArmor">
+			<ItemComponent>
+				<Armor head_armor="50"
+							has_gender_variations="false" 
+							hair_cover_type="all" 
+							beard_cover_type="all" 
+							modifier_group="plate" 
+							material_type="Plate"/>
+			</ItemComponent>
+			<Flags UseTeamColor="true"/>
+		</Item>
+		<Item id="wld_great_helm_winged" 
+			name="Winged Great Helmet" 
+			subtype="head_armor" 
+			mesh="winged_great_helm_base" 
+			culture="Culture.neutral_culture" 
+			weight="4.8"
+			Type="HeadArmor">
+			<ItemComponent>
+				<Armor head_armor="52" 
+							has_gender_variations="false" 
+							hair_cover_type="all" 
+							beard_cover_type="all" 
+							modifier_group="plate" 
+							material_type="Plate"/>
+			</ItemComponent>
+			<Flags UseTeamColor="true"/>
+		</Item>
+		<Item id="wld_great_helm_brass" 
+			name="Brass Great Helmet" 
+			subtype="head_armor" 
+			mesh="great_helm_brass" 
+			culture="Culture.neutral_culture" 
+			weight="4"
+			Type="HeadArmor">
+			<ItemComponent>
+				<Armor head_armor="50" 
+							has_gender_variations="false" 
+							hair_cover_type="all" 
+							modifier_group="plate" 
+							material_type="Plate" 
+							beard_cover_type="all"/>
+			</ItemComponent>
+			<Flags UseTeamColor="true"/>
+		</Item>
+		<Item id="wld_great_helm_brass_winged"
+			name="Winged  Great Helmet" 
+			subtype="head_armor" 
+			mesh="winged_great_helm_brass" 
+			culture="Culture.neutral_culture" 
+			weight="4.8"
+			Type="HeadArmor">
+			<ItemComponent>
+				<Armor head_armor="52" 
+							has_gender_variations="false" 
+							hair_cover_type="all" 
+							modifier_group="plate" 
+							material_type="Plate" 
+							beard_cover_type="all"/>
+			</ItemComponent>
+			<Flags UseTeamColor="true"/>
+		</Item>
+		<Item id="wld_great_helm_dark" 
+			name="Blackened Great Helmet" 
+			subtype="head_armor" 
+			mesh="great_helm_dark" 
+			culture="Culture.neutral_culture" 
+			weight="4"   
+			Type="HeadArmor">
+			<ItemComponent>
+				<Armor head_armor="50" 
+							has_gender_variations="false" 
+							hair_cover_type="all" 
+							modifier_group="plate"
+							material_type="Plate" 
+							beard_cover_type="all"/>
+			</ItemComponent>
+			<Flags UseTeamColor="true"/>
+		</Item>
+		<Item id="wld_great_helm_dark_wined" 
+			name="Winged Blackened Great Helmet" 
+			subtype="head_armor" 
+			mesh="winged_great_helm_dark" 
+			culture="Culture.neutral_culture"
+			weight="4.8"
+			Type="HeadArmor">
+			<ItemComponent>
+				<Armor head_armor="52" 
+							has_gender_variations="false" 
+							hair_cover_type="all" 
+							modifier_group="plate" 
+							material_type="Plate" 
+							beard_cover_type="all"/>
+			</ItemComponent>
+			<Flags UseTeamColor="true"/>
+		</Item>
+		<Item id="wld_great_helm_royal" 
+			name="Ornate Great Helmet" 
+			subtype="head_armor" 
+			mesh="royal_great_helm" 
+			culture="Culture.neutral_culture" 
+			weight="4.5"
+			Type="HeadArmor">
+			<ItemComponent>
+				<Armor head_armor="55"
+							has_gender_variations="false" 
+							hair_cover_type="all" 
+							modifier_group="plate" 
+							material_type="Plate" 
+							beard_cover_type="all"/>
+			</ItemComponent>
+			<Flags UseTeamColor="false"/>
+		</Item>
+		<Item id="wld_helm_with_visor" 
+			name="Western Helmet With Visor" 
+			subtype="head_armor" 
+			mesh="vlandian_helm_with_visor" 
+			culture="Culture.neutral_culture" 
+			weight="4"
+			Type="HeadArmor">
+			<ItemComponent>
+				<Armor head_armor="55" 
+							has_gender_variations="false" 
+							hair_cover_type="all" 
+							modifier_group="plate" 
+							material_type="Plate" 
+							beard_cover_type="all"/>
+			</ItemComponent>
+			<Flags Civilian="true"/>
+		</Item>
+		<Item id="wld_helm_with_visor_engraved" 
+			name="Ornate Western Helmet With Visor" 
+			subtype="head_armor" 
+			mesh="engraved_vlandian_helm_with_visor" 
+			culture="Culture.neutral_culture" 
+			weight="4"
+			Type="HeadArmor">
+			<ItemComponent>
+				<Armor head_armor="55" 
+							has_gender_variations="false" 
+							hair_cover_type="all" 
+							modifier_group="plate" 
+							material_type="Plate" 
+							beard_cover_type="all"/>
+			</ItemComponent>
+			<Flags Civilian="true"/>
+		</Item>
+		<Item id="wld_helm_with_visor_ornate"
+			name="Ornate Western Helmet With Visor" 
+			subtype="head_armor" 
+			mesh="crowned_royal_vlandian_helm_with_visor" 
+			culture="Culture.neutral_culture" 
+			weight="4"
+			Type="HeadArmor">
+			<ItemComponent>
+				<Armor head_armor="58" 
+							has_gender_variations="false" 
+							hair_cover_type="all" 
+							modifier_group="plate" 
+							material_type="Plate" 
+							beard_cover_type="all"/>
+			</ItemComponent>
+			<Flags Civilian="true"/>
+		</Item>
+		<Item id="wld_helm_with_visor_crowned" 
+			name="Crowned Western Helmet With Visor" 
+			subtype="head_armor" 
+			mesh="crowned_vlandian_helm_with_visor" 
+			culture="Culture.neutral_culture" 
+			weight="4"
+			Type="HeadArmor">
+			<ItemComponent>
+				<Armor head_armor="58" 
+							has_gender_variations="false" 
+							hair_cover_type="all"
+							modifier_group="plate" 
+							material_type="Plate"
+							beard_cover_type="all"/>
+			</ItemComponent>
+			<Flags Civilian="true"/>
+		</Item>
+		<Item id="wld_bacinet_with_facemask" 
+			name="bacinet with facemask" 
+			subtype="head_armor" 
+			mesh="sa_bacinet_with_facemask" 
+			culture="Culture.neutral_culture" 
+			weight="4.5"
+			Type="HeadArmor">
+			<ItemComponent>
+				<Armor head_armor="54" 
+							has_gender_variations="false" 
+							hair_cover_type="all" 
+							modifier_group="plate" 
+							material_type="Plate" 
+							beard_cover_type="all"/>
+			</ItemComponent>
+			<Flags UseTeamColor="false"/>
+		</Item>
+		<Item id="wld_helm_faceplate_blackend_brass" 
+			name="Western Ornate Full Plate Helmet" 
+			subtype="head_armor" 
+			mesh="vlandian_helm_with_faceplate_black" 
+			culture="Culture.neutral_culture" 
+			weight="4"
+			Type="HeadArmor">
+			<ItemComponent>
+				<Armor head_armor="52" 
+							has_gender_variations="false" 
+							hair_cover_type="all" 
+							modifier_group="plate" 
+							material_type="Plate" 
+							beard_cover_type="all"/>
+			</ItemComponent>
+			<Flags UseTeamColor="false"/>
+		</Item>
+		<Item id="wld_helm_faceplate_brass" 
+			name="Western Ornate Full Plate Helmet" 
+			subtype="head_armor" 
+			mesh="vlandian_helm_with_faceplate_brass" 
+			culture="Culture.neutral_culture" 
+			weight="4"
+			Type="HeadArmor">
+			<ItemComponent>
+				<Armor head_armor="52" 
+							has_gender_variations="false" 
+							hair_cover_type="all" 
+							modifier_group="plate" 
+							material_type="Plate" 
+							beard_cover_type="all"/>
+			</ItemComponent>
+			<Flags UseTeamColor="false"/>
+		</Item>
+		<Item id="wld_helm_faceplate_painted" 
+			name="Western Painted Full Plate Helmet" 
+			subtype="head_armor" 
+			mesh="vlandian_helm_with_faceplate_paint" 
+			culture="Culture.neutral_culture" 
+			weight="4"
+			Type="HeadArmor">
+			<ItemComponent>
+				<Armor head_armor="52" 
+							has_gender_variations="false" 
+							hair_cover_type="all" 
+							modifier_group="plate" 
+							material_type="Plate" 
+							beard_cover_type="all"/>
+			</ItemComponent>
+			<Flags UseTeamColor="true"/>
+		</Item>
+		<Item id="wld_helm_icon"
+			name="Vaegir Decorated Helmet" 
+			subtype="head_armor" 
+			mesh="rus_helm_icon" 
+			culture="Culture.neutral_culture"  
+			weight="4" 
+			Type="HeadArmor">
+			<ItemComponent>
+					<Armor head_armor="54" 
+						has_gender_variations="false" 
+						hair_cover_type="all" 
+						modifier_group="plate" 
+						material_type="Plate" 
+						beard_cover_type="all"/>
+			</ItemComponent>
+			<Flags UseTeamColor="false"/>
+		</Item>
+		<Item id="wld_helm_noble"
+			name="Vaegir Noble Helmet" 
+			subtype="head_armor" 
+			mesh="rus_helm_noble" 
+			culture="Culture.neutral_culture"  
+			weight="4"
+			Type="HeadArmor">
+			<ItemComponent>
+					<Armor head_armor="54" 
+						has_gender_variations="false" 
+						hair_cover_type="all" 
+						modifier_group="plate" 
+						material_type="Plate" 
+						beard_cover_type="all"/>
+			</ItemComponent>
+			<Flags UseTeamColor="false"/>
+		</Item>
+		<Item id="wld_helm_noble_icon"
+			name="Vaegir Decorated Noble Helmet" 
+			subtype="head_armor" 
+			mesh="rus_helm_noble_icon"
+			culture="Culture.neutral_culture"  
+			weight="4" 
+			Type="HeadArmor">
+			<ItemComponent>
+					<Armor head_armor="54" 
+						has_gender_variations="false" 
+						hair_cover_type="all" 
+						modifier_group="plate" 
+						material_type="Plate" 
+						beard_cover_type="all"/>
+			</ItemComponent>
+			<Flags UseTeamColor="false"/>
+		</Item>
+		<Item id="wld_helm_regular"
+			name="Vaegir Helmet" 
+			subtype="head_armor" 
+			mesh="rus_helm_regular"
+			culture="Culture.neutral_culture"  
+			weight="4" 
+			Type="HeadArmor">
+			<ItemComponent>
+					<Armor head_armor="54" 
+						has_gender_variations="false" 
+						hair_cover_type="all" 
+						modifier_group="plate" 
+						material_type="Plate" 
+						beard_cover_type="all"/>
+			</ItemComponent>
+			<Flags UseTeamColor="false"/>
+		</Item>
+		<Item id="wld_helm_regular2"
+			name="Vaegir Helmet" 
+			subtype="head_armor" 
+			mesh="rus_helm_regular2"
+			culture="Culture.neutral_culture"  
+			weight="4" 
+			Type="HeadArmor">
+			<ItemComponent>
+					<Armor head_armor="54" 
+						has_gender_variations="false" 
+						hair_cover_type="all" 
+						modifier_group="plate" 
+						material_type="Plate" 
+						beard_cover_type="all"/>
+			</ItemComponent>
+			<Flags UseTeamColor="false"/>
+		</Item>
+		<Item id="wld_open_helm"
+			name="Vaegir Helmet" 
+			subtype="head_armor" 
+			mesh="rus_open_helm"
+			culture="Culture.neutral_culture"  
+			weight="4" 
+			Type="HeadArmor">
+			<ItemComponent>
+					<Armor head_armor="48" 
+						has_gender_variations="false" 
+						hair_cover_type="all" 
+						modifier_group="plate" 
+						material_type="Plate" 
+						beard_cover_type="all"/>
+			</ItemComponent>
+			<Flags UseTeamColor="false"/>
+		</Item>
+		<Item id="wld_vaegir_helm"
+			name="War Mask" 
+			subtype="head_armor" 
+			mesh="vaegir_helm"
+			culture="Culture.neutral_culture"  
+			weight="4" 
+			Type="HeadArmor">
+			<ItemComponent>
+					<Armor head_armor="54" 
+						has_gender_variations="false" 
+						hair_cover_type="all" 
+						modifier_group="plate" 
+						material_type="Plate" 
+						beard_cover_type="all"/>
+					</ItemComponent>
+					<Flags UseTeamColor="false"/>
+		</Item>
+		<Item id="wld_vaegir_helm_open"
+			name="War helmet" 
+			subtype="head_armor" 
+			mesh="vaegir_helm_open"
+			culture="Culture.neutral_culture"  
+			weight="3.5" 
+			Type="HeadArmor">
+			<ItemComponent>
+			<Armor head_armor="48" 
+					has_gender_variations="false" 
+					hair_cover_type="all" 
+					modifier_group="plate" 
+					material_type="Plate" 
+					beard_cover_type="all"/>
+			</ItemComponent>
+			<Flags UseTeamColor="false"/>
+		</Item>
+
+		<!-- Shoulders -->
+		<Item id="wld_swadian_shoulders" 
+			name="Western Shoulder Plates" 
+			mesh="swadian_shoulders" 
+			culture="Culture.neutral_culture" 
+			weight="3.6"
+			Type="Cape">
+			<ItemComponent>
+				<Armor body_armor="20" 
+							arm_armor="10" 
+							modifier_group="plate" 
+							material_type="Plate"/>
+			</ItemComponent>
+			<Flags/>
+		</Item>
+		<Item id="wld_engraved_swadian_shoulders" 
+			name="Western Ornate Shoulder Plates" 
+			mesh="engraved_swadian_shoulders"
+			culture="Culture.neutral_culture" 
+			weight="3.6"
+			Type="Cape">
+			<ItemComponent>
+				<Armor body_armor="20" 
+							arm_armor="10" 
+							modifier_group="plate" 
+							material_type="Plate"/>
+			</ItemComponent>
+			<Flags/>
+		</Item>
+		<Item id="wld_Western_chain_shoulders" 
+			name="Western chain shoulders" 
+			mesh="chain_shoulders"
+			culture="Culture.neutral_culture"
+			weight="3.6"
+			Type="Cape">
+			<ItemComponent>
+				<Armor body_armor="12" 
+							modifier_group="Chainmail" 
+							material_type="Chainmail"/>
+			</ItemComponent>
+			<Flags/>
+		</Item>
+		<Item id="wld_eastern_heavy_lamellar_armor"
+			name="Heavy Lamellar Armor"
+			mesh="sturgia_cavalry_armor_reinforced"
+			weight="25"
+			Type="BodyArmor">
+			<ItemComponent>
+			<Armor body_armor="46"
+					arm_armor="14"
+					leg_armor="20"
+					covers_body="true"
+					modifier_group="plate"
+					material_type="Plate"/>
+			</ItemComponent>
+		</Item>
+
+		<!-- gloves -->
+		<Item id="wld_ChurburghGauntlet" 
+			name="Plate Mittens" 
+			mesh="sa_1churburghgauntlet" 
+			subtype="body_armor"
+			culture="Culture.neutral_culture" 
+			weight="2.9" 
+			Type="HandArmor">
+			<ItemComponent>
+				<Armor arm_armor="30" 
+						covers_hands="true" 
+						modifier_group="Plate" 
+						material_type="Plate"/>
+			</ItemComponent>
+			<Flags UseTeamColor="false"/>
+		</Item>
+		<Item id="wld_ChurburghGauntlet_trimmed" 
+			name="Trimmed Plate Mittens" 
+			mesh="sa_churburghgauntlet" 
+			subtype="body_armor"
+			culture="Culture.neutral_culture" 
+			weight="2.9" 
+			Type="HandArmor">
+			<ItemComponent>
+				<Armor arm_armor="30" 
+						covers_hands="true" 
+						modifier_group="Plate" 
+						material_type="Plate"/>
+			</ItemComponent>
+			<Flags UseTeamColor="false"/>
+		</Item>
+		<Item id="wld_ChurburghGauntlet_black" 
+				name="Blackend Plate Mittens" 
+				mesh="sa_2churburghgauntlet" 
+				subtype="body_armor"
+				culture="Culture.neutral_culture" 
+				weight="2.9" 
+				Type="HandArmor">
+			<ItemComponent>
+				<Armor arm_armor="30" 
+						covers_hands="true" 
+						modifier_group="Plate" 
+						material_type="Plate"/>
+			</ItemComponent>
+			<Flags UseTeamColor="false"/>
+		</Item>
+
+		<!-- Body Armours-->
+		<Item id="wld_coat_of_plates1_c" 
+			name="coat of plates" 
+			mesh="coat_of_plates1_c"
+			subtype="body_armor" 
+			culture="Culture.neutral_culture"
+			weight="25.11" 
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor body_armor="45" 
+						leg_armor="20" 
+						arm_armor="20" 
+						covers_body="true"
+						modifier_group="chain" 
+						material_type="Chainmail"/>
+			</ItemComponent>
+			<Flags UseTeamColor="true"/>
+		</Item>
+		<Item id="wld_coat_of_plates2_c" 
+			name="coat of plates royal pattern" 
+			mesh="coat_of_plates2_c"
+			subtype="body_armor"  
+			value="70000"
+			culture="Culture.neutral_culture" 
+			weight="25.11"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor body_armor="45" 
+						leg_armor="20" 
+						arm_armor="20" 
+						covers_body="true" 
+						modifier_group="chain" 
+						material_type="Chainmail"/>
+			</ItemComponent>
+			<Flags UseTeamColor="true"/>
+		</Item>
+		<Item id="wld_coat_of_plates3_c" 
+			name="coat of plates lys pattern" 
+			mesh="coat_of_plates3_c"
+			subtype="body_armor"
+			culture="Culture.neutral_culture" 
+			weight="25.11"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor body_armor="45"
+						leg_armor="20" 
+						arm_armor="20" 
+						covers_body="true" 
+						modifier_group="chain" 
+						material_type="Chainmail"/>
+			</ItemComponent>
+			<Flags UseTeamColor="true"/>
+		</Item>
+		<Item id="wld_coat_of_plates4_c" 
+			name="coat of plates checker pattern" 
+			mesh="coat_of_plates4_c" 
+			subtype="body_armor" 
+			culture="Culture.neutral_culture"
+			weight="25.11"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor body_armor="45" 
+						leg_armor="20" 
+						arm_armor="20" 
+						covers_body="true" 
+						modifier_group="chain" 
+						material_type="Chainmail"/>
+			</ItemComponent>
+			<Flags UseTeamColor="true"/>
+		</Item>
+		<Item id="wld_coat_of_plates5_c"
+			name="coat of plates cross pattern"
+			mesh="coat_of_plates5_c"
+			subtype="body_armor"
+			culture="Culture.neutral_culture"
+			weight="25.11"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor body_armor="45" 
+					leg_armor="20" 
+					arm_armor="20"
+					covers_body="true" 
+					modifier_group="chain" 
+					material_type="Chainmail"/>
+			</ItemComponent>
+			<Flags UseTeamColor="true"/>
+		</Item>
+		<Item id="wld_swadian_plate_armor" 
+			name="Western Plate Armor" 
+			mesh="swadian_plate_armor" 
+			subtype="body_armor"
+			culture="Culture.neutral_culture"
+			weight="29"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor body_armor="58" 
+						leg_armor="25" 
+						arm_armor="25" 
+						covers_body="true" 
+						modifier_group="Plate"
+						material_type="Plate"/>
+			</ItemComponent>
+			<Flags UseTeamColor="true"/>
+		</Item>
+		<Item id="wld_swadian_plate_armor_striped"
+			name="Western Plate Armor"
+			mesh="swadian_striped_plate_armor"
+			subtype="body_armor"
+			culture="Culture.neutral_culture" 
+			weight="29"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor body_armor="58" 
+						leg_armor="25" 
+						arm_armor="25" 
+						covers_body="true" 
+						modifier_group="Plate" 
+						material_type="Plate"/>
+			</ItemComponent>
+			<Flags UseTeamColor="true"/>
+		</Item>
+		<Item id="wld_swadian_plate_with_armguards" 
+			name="Western Cuirass With Armguards" 
+			mesh="swadian_plate_with_armguards" 
+			subtype="body_armor"
+			culture="Culture.neutral_culture"
+			weight="26.5"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor body_armor="58" 
+						leg_armor="25" 
+						arm_armor="20" 
+						covers_body="true" 
+						modifier_group="Plate" 
+						material_type="Plate"/>
+			</ItemComponent>
+			<Flags UseTeamColor="true"/>
+		</Item>
+		<Item id="wld_swadian_plate_armor_skirt" 
+			name="Western Plate Armor With skirt" 
+			mesh="sa_surcoatplate"
+			subtype="body_armor"
+			culture="Culture.neutral_culture"
+			weight="29"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor body_armor="58" 
+						leg_armor="30" 
+						arm_armor="25" 
+						covers_body="true" 
+						modifier_group="plate" 
+						material_type="Plate"/>
+			</ItemComponent>
+			<Flags UseTeamColor="true"/>
+		</Item>
+		<Item id="wld_mail_with_tabbard1" 
+			name="Mail With Tabbard"
+			mesh="mail_with_tabbard1"
+			subtype="body_armor"
+			culture="Culture.neutral_culture"
+			weight="29"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor body_armor="36" 
+					leg_armor="15" 
+					arm_armor="20" 
+					covers_body="true" 
+					modifier_group="Chainmail" 
+					material_type="Chainmail"/>
+			</ItemComponent>
+			<Flags UseTeamColor="true"/>
+		</Item>
+		<Item id="wld_mail_with_tabbard2" 
+			name="Mail With Tabbard" 
+			mesh="mail_with_tabbard2" 
+			subtype="body_armor"   
+			culture="Culture.neutral_culture" 
+			weight="29" 
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor body_armor="36" 
+					leg_armor="15" 
+					arm_armor="20" 
+					covers_body="true" 
+					modifier_group="Chainmail" 
+					material_type="Chainmail"/>
+			</ItemComponent>
+			<Flags UseTeamColor="true"/>
+		</Item>
+		<Item id="wld_mail_with_tabbard3" 
+			name="Mail With Tabbard" 
+			mesh="mail_with_tabbard3" 
+			subtype="body_armor"
+			culture="Culture.neutral_culture" 
+			weight="29" 
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor body_armor="36" 
+					leg_armor="15" 
+					arm_armor="20" 
+					covers_body="true" 
+					modifier_group="Chainmail" 
+					material_type="Chainmail"/>
+			</ItemComponent>
+			<Flags UseTeamColor="true"/>
+		</Item>
+		<Item id="wld_mail_with_tabbard4" 
+			name="Mail With Tabbard" 
+			mesh="mail_with_tabbard4" 
+			subtype="body_armor"   
+			culture="Culture.neutral_culture"
+			weight="29" 
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor body_armor="36" 
+					leg_armor="15" 
+					arm_armor="20" 
+					covers_body="true" 
+					modifier_group="Chainmail" 
+					material_type="Chainmail"/>
+			</ItemComponent>
+			<Flags UseTeamColor="true"/>
+		</Item>
+		<Item id="wld_mail_with_tabbard5" 
+			name="Mail With Tabbard" 
+			mesh="mail_with_tabbard5" 
+			subtype="body_armor"
+			culture="Culture.neutral_culture" 
+			weight="29" 
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor body_armor="36" 
+					leg_armor="15" 
+					arm_armor="20" 
+					covers_body="true" 
+					modifier_group="Chainmail" 
+					material_type="Chainmail"/>
+			</ItemComponent>
+			<Flags UseTeamColor="true"/>
+		</Item>
+		<Item id="wld_coat1"
+			name="Tabbard over Coat of plate"
+			mesh="coat1"
+			subtype="body_armor"
+			culture="Culture.neutral_culture"
+			weight="30"
+			Type="BodyArmor">
+			<ItemComponent>
+			<Armor body_armor="43"
+					leg_armor="20"
+					arm_armor="16"
+					covers_body="true"
+					modifier_group="plate"
+					material_type="Plate"/>
+			</ItemComponent>
+			<Flags UseTeamColor="true"/>
+		</Item>
+		<Item id="wld_coat2" 
+			name="Tabbard over Coat of plate" 
+			mesh="coat2" 
+			subtype="body_armor"
+			culture="Culture.neutral_culture"
+			weight="30"
+			Type="BodyArmor">
+			<ItemComponent>
+			<Armor body_armor="43"
+					leg_armor="20"
+					arm_armor="16"
+					covers_body="true"
+					modifier_group="plate"
+					material_type="Plate"/>
+			</ItemComponent>
+			<Flags UseTeamColor="true"/>
+		</Item>
+		<Item id="wld_coat3" 
+			name="Tabbard over Coat of plate" 
+			mesh="coat3"
+			subtype="body_armor"
+			culture="Culture.neutral_culture"
+			weight="30"
+			Type="BodyArmor">
+			<ItemComponent>
+			<Armor body_armor="43"
+					leg_armor="20"
+					arm_armor="16"
+					covers_body="true"
+					modifier_group="plate"
+					material_type="Plate"/>
+			</ItemComponent>
+			<Flags UseTeamColor="true"/>
+		</Item>
+		<Item id="wld_armour"
+			name="Vaegir coat of plates" 
+			mesh="Rus_armour" 
+			subtype="body_armor"
+			culture="Culture.neutral_culture"  
+			weight="24" 
+			Type="BodyArmor">
+			<ItemComponent>
+			<Armor body_armor="52" 
+					leg_armor="15" 
+					arm_armor="5" 
+					covers_body="true" 
+					modifier_group="Plate" 
+					material_type="Plate"/>
+			</ItemComponent>
+			<Flags UseTeamColor="true"/>
+		</Item>
+		<Item id="wld_armour2"
+			name="Vaegir coat of plates" 
+			mesh="Rus_armour2" 
+			subtype="body_armor" 
+			culture="Culture.neutral_culture"  
+			weight="24" 
+			Type="BodyArmor">
+			<ItemComponent>
+			<Armor body_armor="52" 
+					leg_armor="15" 
+					arm_armor="5" 
+					covers_body="true" 
+					modifier_group="Plate" 
+					material_type="Plate"/>
+			</ItemComponent>
+			<Flags UseTeamColor="true"/>
+		</Item>
+		<Item id="wld_eastern_heavy_lamellar_shoulders"
+			name="Heavy Lamellar Shoulderguard"
+			mesh="sturgia_cavalry_shoulderguards"
+			weight="5.0"
+			Type="Cape">
+			<ItemComponent>
+			<Armor body_armor="6"
+					arm_armor="14"
+					modifier_group="plate"
+					material_type="Plate"/>
+			</ItemComponent>
+		</Item>
+
+		<!-- Boots -->
+		<Item id="wld_plate_boots" 
+			name="Plate Boots" 
+			mesh="plateboot" 
+			culture="Culture.neutral_culture" 
+			weight="1.8"
+			Type="LegArmor">
+			<ItemComponent>
+				<Armor leg_armor="28" 
+						covers_legs="true" 
+						modifier_group="plate" 
+						material_type="Plate"/>
+			</ItemComponent>
+			<Flags/>
+		</Item>
+		<Item id="wld_ChurburghBoots" 
+			name="Plate Boots" 
+			mesh="sa_1churburghboots" 
+			culture="Culture.neutral_culture" 
+			weight="2.5"
+			Type="LegArmor">
+			<ItemComponent>
+				<Armor leg_armor="30" 
+						covers_legs="true" 
+						modifier_group="plate" 
+						material_type="Plate"/>
+			</ItemComponent>
+			<Flags/>
+		</Item>
+		<Item id="wld_ChurburghBoots_trimmed" 
+			name="Trimmed Plate Boots" 
+			mesh="sa_churburghboots" 
+			culture="Culture.neutral_culture" 
+			weight="2.5"
+			Type="LegArmor">
+			<ItemComponent>
+				<Armor leg_armor="30" 
+						covers_legs="true" 
+						modifier_group="plate" 
+						material_type="Plate"/>
+			</ItemComponent>
+			<Flags/>
+		</Item>
+		<Item id="wld_ChurburghBoots_black" 
+			name="Blackend Plate Boots" 
+			mesh="sa_2churburghboots" 
+			culture="Culture.neutral_culture" 
+			weight="2.5"
+			Type="LegArmor">
+			<ItemComponent>
+				<Armor leg_armor="30" 
+						covers_legs="true" 
+						modifier_group="plate"
+						material_type="Plate"/>
+			</ItemComponent>
+			<Flags/>
+		</Item>
+	<!-- #endregion -->
+
 	<!-- #region Aserai Armors -->
 	<Item id="headscarf_d"
 		name="{=wW3iouiU}Hijab"
@@ -14,9 +909,9 @@
 				hair_cover_type="all"
 				modifier_group="cloth_unarmoured"
 				material_type="Cloth"
-				beard_cover_type="type3" />
+				beard_cover_type="type3"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="open_head_scarf"
 		name="{=qsVRoGUv}Open Head Scarf"
@@ -31,9 +926,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type3"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="woven_turban"
 		name="{=ArPvuBYK}Woven Turban"
@@ -50,9 +945,9 @@
 				hair_cover_type="all"
 				modifier_group="cloth_unarmoured"
 				material_type="Cloth"
-				beard_cover_type="type4" />
+				beard_cover_type="type4"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="turban"
 		name="{=8SNS2wF9}Turban"
@@ -67,9 +962,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type3"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="desert_cap"
 		name="{=U0bVXSVs}Wrapped Cap"
@@ -84,9 +979,9 @@
 				hair_cover_type="type1"
 				beard_cover_type="none"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="wrapped_desert_cap"
 		name="{=3UxfT9Bu}Wrapped Leather Cap"
@@ -101,9 +996,9 @@
 				hair_cover_type="type2"
 				beard_cover_type="type2"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="aserai_villager_female_headdress"
 		name="{=2U17pNiY}Rural Headdress"
@@ -116,9 +1011,9 @@
 			<Armor head_armor="3"
 				hair_cover_type="all"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="tuareg"
 		name="{=nZ2MJWhM}Tribal Turban"
@@ -134,9 +1029,9 @@
 				has_gender_variations="false"
 				hair_cover_type="type2"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="head_scarf"
 		name="{=Gzc0Ql3a}Colored Hijab"
@@ -151,9 +1046,9 @@
 				hair_cover_type="all"
 				modifier_group="cloth_unarmoured"
 				material_type="Cloth"
-				beard_cover_type="type2" />
+				beard_cover_type="type2"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="desert_headdress"
 		name="{=4n6n3KL7}Desert Headdress"
@@ -166,9 +1061,9 @@
 			<Armor head_armor="6"
 				hair_cover_type="all"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="female_head_wrap"
 		name="{=KhXnRIan}Female Headwrap"
@@ -182,9 +1077,9 @@
 				has_gender_variations="false"
 				hair_cover_type="all"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="aserai_female_civil_hscarf"
 		name="{=NEupkuqV}Desert Headscarf"
@@ -198,9 +1093,9 @@
 				has_gender_variations="false"
 				hair_cover_type="all"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="aserai_female_civil_hscarf_b"
 		name="{=sc2x2QRe}Headscarf with Fez"
@@ -214,9 +1109,9 @@
 				has_gender_variations="false"
 				hair_cover_type="type2"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="aserai_civil_c_head"
 		name="{=ZFETxZKP}Keffiyeh with Silken Band"
@@ -230,9 +1125,9 @@
 				has_gender_variations="true"
 				hair_cover_type="type2"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="aserai_civil_f_cape"
 		name="{=AoJ4Ztl2}Bandit Leather Hood"
@@ -247,9 +1142,9 @@
 				hair_cover_type="type2"
 				beard_cover_type="type3"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="aserai_civil_d_hscarf"
 		name="{=l91l1TJo}Colored Turban"
@@ -263,9 +1158,9 @@
 				has_gender_variations="true"
 				hair_cover_type="type1"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="aserai_civil_e_hscarf"
 		name="{=f2awUw9x}Colored Keffiyeh"
@@ -279,9 +1174,9 @@
 				has_gender_variations="true"
 				hair_cover_type="all"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="aserai_civil_hscarf_b"
 		name="{=OrEgjXZ1}Roughspun Keffiyeh"
@@ -296,9 +1191,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type3"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="aserai_civil_hscarf_a"
 		name="{=W8OGOfyt}Keffiyeh with Brown Band"
@@ -312,9 +1207,9 @@
 				has_gender_variations="true"
 				hair_cover_type="all"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="tied_head_wrapping"
 		name="{=ndfDy5B8}Tied Head Wrapping"
@@ -331,9 +1226,9 @@
 				hair_cover_type="all"
 				modifier_group="cloth_unarmoured"
 				material_type="Cloth"
-				beard_cover_type="type4" />
+				beard_cover_type="type4"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="tight_head_scarf"
 		name="{=U4n0uSlg}Tight Head Scarf"
@@ -350,9 +1245,9 @@
 				hair_cover_type="all"
 				modifier_group="cloth_unarmoured"
 				material_type="Cloth"
-				beard_cover_type="all" />
+				beard_cover_type="all"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="closed_head_scarf"
 		name="{=gUTqDROO}Closed Head Scarf"
@@ -369,9 +1264,9 @@
 				hair_cover_type="all"
 				modifier_group="cloth_unarmoured"
 				material_type="Cloth"
-				beard_cover_type="all" />
+				beard_cover_type="all"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="open_desert_helmet"
 		name="{=NB9bQt6O}Spiked Helmet with Open Turban"
@@ -388,9 +1283,9 @@
 				hair_cover_type="all"
 				modifier_group="plate"
 				material_type="Plate"
-				beard_cover_type="type3" />
+				beard_cover_type="type3"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="closed_desert_helmet"
 		name="{=T6ObiB5P}Spiked Helmet with Closed Turban "
@@ -405,9 +1300,9 @@
 				hair_cover_type="all"
 				beard_cover_type="all"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="loose_wrapped_desert_helmet"
 		name="{=PVWsZleW}Helmet with Open Turban "
@@ -422,9 +1317,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type2"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="trailed_desert_helmet"
 		name="{=2N0ZP2GB}Helmet with Turban and Coif"
@@ -441,9 +1336,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type4"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="desert_helmet_with_mail"
 		name="{=ebPu5G8o}Mamluke Helmet with Mail"
@@ -459,9 +1354,9 @@
 				has_gender_variations="false"
 				hair_cover_type="all"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="desert_helmet"
 		name="{=BryUh6yQ}Steel Cap"
@@ -476,9 +1371,9 @@
 				hair_cover_type="type1"
 				beard_cover_type="none"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="pointed_skullcap_over_mail"
 		name="{=py7VUj47}Pointed Skullcap over Gambeson"
@@ -493,9 +1388,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type2"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="pointed_skullcap_over_laced_coif"
 		name="{=6n44BIll}Pointed Skullcap over Laced Coif"
@@ -512,9 +1407,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type2"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="pointed_skullcap_over_cloth_headwrap"
 		name="{=LqA9uBH9}Pointed Skullcap over Cloth Headwrap"
@@ -531,9 +1426,9 @@
 				hair_cover_type="all"
 				modifier_group="plate"
 				material_type="Plate"
-				beard_cover_type="all" />
+				beard_cover_type="all"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="aserai_crown"
 		name="{=6Dk7LClc}Luxury Turban Over Helmet"
@@ -548,9 +1443,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type4"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="pointed_skullcap_over_mail_coif"
 		name="{=ZOWdFaUi}Pointed Skullcap over Mail Coif"
@@ -565,9 +1460,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type3"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="closed_desert_helmet_with_mail"
 		name="{=SVTa5spB}Closed Steel Cap"
@@ -582,9 +1477,9 @@
 				hair_cover_type="all"
 				beard_cover_type="all"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="emirs_helmet"
 		name="{=efW2XbK8}Emir Helmet"
@@ -601,9 +1496,9 @@
 				hair_cover_type="all"
 				modifier_group="chain"
 				material_type="Chainmail"
-				beard_cover_type="type3" />
+				beard_cover_type="type3"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="desert_mail_coif"
 		name="{=RraboU6p}Wrapped Helmet with Mail Coif"
@@ -620,9 +1515,9 @@
 				hair_cover_type="all"
 				modifier_group="chain"
 				material_type="Chainmail"
-				beard_cover_type="type4" />
+				beard_cover_type="type4"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="aserai_lord_helmet_a"
 		name="{=VBrLhqiJ}Noble Crowned Lord Helmet"
@@ -640,9 +1535,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type3"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="southern_noble_helmet"
 		name="{=Z95RglmZ}Noble Steel Cap"
@@ -659,9 +1554,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type3"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="southern_lord_helmet"
 		name="{=GdM7iaV9}Lordly Steel Cap"
@@ -678,9 +1573,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type4"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="pointed_skullcap_with_mail"
 		name="{=3DV3GoHb}Pointed Skullcap with Mail"
@@ -697,9 +1592,9 @@
 				hair_cover_type="all"
 				modifier_group="plate"
 				material_type="Plate"
-				beard_cover_type="type2" />
+				beard_cover_type="type2"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="aserai_battle_crown"
 		name="{=fBAf3OWb}Ornate Desert Battle Crown"
@@ -717,9 +1612,9 @@
 				hair_cover_type="all"
 				modifier_group="plate"
 				material_type="Plate"
-				beard_cover_type="type3" />
+				beard_cover_type="type3"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="brass_aserai_helmet_closed"
 		name="{=pxTmx2ka}Brass Southern Closed Helmet"
@@ -737,9 +1632,9 @@
 				hair_cover_type="all"
 				modifier_group="plate"
 				material_type="Plate"
-				beard_cover_type="all" />
+				beard_cover_type="all"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="brass_aserai_helmet_b_closed"
 		name="{=HrLupYXP}Brass Southern Closed Helmet with Turban"
@@ -757,9 +1652,9 @@
 				hair_cover_type="all"
 				modifier_group="plate"
 				material_type="Plate"
-				beard_cover_type="all" />
+				beard_cover_type="all"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="brass_aserai_helmet_open"
 		name="{=uRsU67qC}Brass Southern Helmet"
@@ -777,9 +1672,9 @@
 				hair_cover_type="all"
 				modifier_group="plate"
 				material_type="Plate"
-				beard_cover_type="none" />
+				beard_cover_type="none"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="brass_aserai_helmet_b_open"
 		name="{=ahN0UNxw}Brass Southern Helmet with Turban"
@@ -797,9 +1692,9 @@
 				hair_cover_type="all"
 				modifier_group="plate"
 				material_type="Plate"
-				beard_cover_type="none" />
+				beard_cover_type="none"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="brass_aserai_helmet_leather"
 		name="{=dHv9Dbkp}Brass Southern Helmet with Leather Flaps"
@@ -817,9 +1712,9 @@
 				hair_cover_type="all"
 				modifier_group="plate"
 				material_type="Plate"
-				beard_cover_type="none" />
+				beard_cover_type="none"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="brass_aserai_helmet_b_leather"
 		name="{=E5b3gc6R}Brass Turbaned Helmet with Leather Flaps"
@@ -837,9 +1732,9 @@
 				hair_cover_type="all"
 				modifier_group="plate"
 				material_type="Plate"
-				beard_cover_type="none" />
+				beard_cover_type="none"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<!-- #endregion -->
 	<!-- #region Battania Armors -->
@@ -857,9 +1752,9 @@
 				has_gender_variations="false"
 				hair_cover_type="all"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="wrapped_headcloth"
 		name="{=hRHPPQQP}Wrapped Headcloth"
@@ -875,9 +1770,9 @@
 				has_gender_variations="false"
 				hair_cover_type="all"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="leather_studdedhelm"
 		name="{=qxExIHbx}Leather Studded Helm"
@@ -893,9 +1788,9 @@
 				has_gender_variations="false"
 				hair_cover_type="type1"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="battania_civil_hood"
 		name="{=UC2XfY7V}Cloth Hood"
@@ -911,9 +1806,9 @@
 				has_gender_variations="false"
 				hair_cover_type="type3"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="wolfhead"
 		name="{=B7tbURzI}Wolf Head"
@@ -929,9 +1824,9 @@
 				has_gender_variations="false"
 				hair_cover_type="all"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="battania_fur_helmet"
 		name="{=WkYsiU1c}Cap with Fur Coif"
@@ -947,9 +1842,9 @@
 				has_gender_variations="true"
 				hair_cover_type="all"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="bearhead"
 		name="{=GXmDq2KR}Bear Head"
@@ -965,9 +1860,9 @@
 				has_gender_variations="false"
 				hair_cover_type="all"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="leather_studdedhelm_over_thinhide"
 		name="{=2m1kWsao}Leather Studded Helm over Thinhide"
@@ -983,9 +1878,9 @@
 				has_gender_variations="false"
 				hair_cover_type="all"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="leather_studdedhelm_over_headcloth"
 		name="{=beMSPAOG}Leather Studded Helm over Headcloth"
@@ -1001,9 +1896,9 @@
 				has_gender_variations="false"
 				hair_cover_type="all"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="roughscale_helmet"
 		name="{=jakLnIQv}Roughscale Helmet"
@@ -1019,9 +1914,9 @@
 				has_gender_variations="false"
 				hair_cover_type="all"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="leather_studdedhelm_over_roughscale"
 		name="{=X1Wn0sBa}Leather Studded Helm over Roughscale"
@@ -1037,9 +1932,9 @@
 				has_gender_variations="false"
 				hair_cover_type="all"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<!-- #endregion -->
 	<!-- #region Khuzait Head Armors -->
@@ -1057,9 +1952,9 @@
 				has_gender_variations="false"
 				hair_cover_type="type2"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="fur_hood"
 		name="{=C8nk7NEf}Thick Fur Hood"
@@ -1075,9 +1970,9 @@
 				has_gender_variations="false"
 				hair_cover_type="type3"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="peaked_fur_hood"
 		name="{=8tHbqjmB}Peaked Fur Hood"
@@ -1093,9 +1988,9 @@
 				has_gender_variations="false"
 				hair_cover_type="type3"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="nomad_cap"
 		name="{=Oa4h7TVi}Nomad Cap"
@@ -1110,9 +2005,9 @@
 				hair_cover_type="type1"
 				beard_cover_type="none"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="decorated_nomad_cap"
 		name="{=smHA8Apa}Decorated Nomad Cap"
@@ -1127,9 +2022,9 @@
 				hair_cover_type="type1"
 				beard_cover_type="none"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="eastern_cap"
 		name="{=h9PP7EWc}Cap with Neck Flap"
@@ -1145,9 +2040,9 @@
 				has_gender_variations="false"
 				hair_cover_type="type2"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="fur_hat"
 		name="{=kEInAJ2P}Nomad Fur Cap"
@@ -1163,9 +2058,9 @@
 				has_gender_variations="false"
 				hair_cover_type="type1"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="nomad_padded_hood"
 		name="{=yMi4ijgI}Nomad Padded Hood"
@@ -1181,9 +2076,9 @@
 				has_gender_variations="false"
 				hair_cover_type="type2"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="khuzait_crown"
 		name="{=noqT1MMC}Ornate Steel Cap"
@@ -1201,9 +2096,9 @@
 				hair_cover_type="type1"
 				beard_cover_type="none"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="plumed_fur_lined_helmet"
 		name="{=ZRDoABz9}Plumed Fur Lined Helmet"
@@ -1219,9 +2114,9 @@
 				has_gender_variations="false"
 				hair_cover_type="type2"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="nomad_helmet"
 		name="{=WvDZMmaj}Nomad Helmet"
@@ -1237,9 +2132,9 @@
 				has_gender_variations="false"
 				hair_cover_type="all"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="plumed_nomad_helmet"
 		name="{=m3Nv9rt2}Plumed Nomad Helmet"
@@ -1254,9 +2149,9 @@
 				hair_cover_type="type3"
 				beard_cover_type="none"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="steppe_helmet"
 		name="{=VwQJ4aLY}Infantry Steel Helmet"
@@ -1272,9 +2167,9 @@
 				has_gender_variations="false"
 				hair_cover_type="type2"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="plumed_lamellar_helmet"
 		name="{=YqhOxb1Z}Plumed Lamellar Helmet"
@@ -1290,9 +2185,9 @@
 				has_gender_variations="false"
 				hair_cover_type="type2"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="spiked_helmet_with_facemask"
 		name="{=5n4rWI9T}Spiked Helmet with Facemask"
@@ -1309,9 +2204,9 @@
 				hair_cover_type="all"
 				beard_cover_type="all"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="spiked_helmet"
 		name="{=ygfhbfr0}Spiked Helmet"
@@ -1328,9 +2223,9 @@
 				hair_cover_type="all"
 				modifier_group="plate"
 				material_type="Plate"
-				beard_cover_type="type2" />
+				beard_cover_type="type2"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="eastern_vendel_helmet"
 		name="{=OrMbh1dn}Heavy Lancer Helmet"
@@ -1345,9 +2240,9 @@
 				hair_cover_type="type3"
 				beard_cover_type="all"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="khuzait_noble_helmet_with_feathers"
 		name="{=n1A47HcZ}Noble Lancer Helmet"
@@ -1364,9 +2259,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type2"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="khuzait_noble_helmet_with_fur"
 		name="{=rUMPiiox}Furred Noble Lancer Helmet"
@@ -1383,9 +2278,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type4"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="khuzait_noble_helmet_with_neckguard"
 		name="{=KD3OTFlE}Plumed Noble Lancer Helmet with Neckguard"
@@ -1402,9 +2297,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type4"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="khuzait_battle_crown"
 		name="{=5c4cHL9Z}Khuzait Battle Crown"
@@ -1422,9 +2317,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type2"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<!-- #endregion -->
 	<!-- #region Vlandia Armors -->
@@ -1441,9 +2336,9 @@
 				hair_cover_type="all"
 				modifier_group="cloth"
 				material_type="Cloth"
-				beard_cover_type="type3" />
+				beard_cover_type="type3"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="padded_coif"
 		name="{=zQv3w264}Padded Half Coif"
@@ -1460,9 +2355,9 @@
 				hair_cover_type="all"
 				modifier_group="cloth"
 				material_type="Cloth"
-				beard_cover_type="type3" />
+				beard_cover_type="type3"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="laced_coif"
 		name="{=qFL0VxZX}Laced Coif"
@@ -1479,9 +2374,9 @@
 				hair_cover_type="all"
 				modifier_group="cloth"
 				material_type="Cloth"
-				beard_cover_type="type3" />
+				beard_cover_type="type3"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="cloth_headwrap"
 		name="{=frwBm3Oh}Cloth Headwrap"
@@ -1498,9 +2393,9 @@
 				hair_cover_type="all"
 				modifier_group="cloth_unarmoured"
 				material_type="Cloth"
-				beard_cover_type="all" />
+				beard_cover_type="all"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="padded_cap"
 		name="{=Dc4ia4m9}Padded Cap"
@@ -1516,9 +2411,9 @@
 				has_gender_variations="false"
 				hair_cover_type="type3"
 				modifier_group="cloth"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="arming_coif"
 		name="{=mlJKNbbn}Leather Coif"
@@ -1534,9 +2429,9 @@
 				has_gender_variations="false"
 				hair_cover_type="type3"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="open_padded_coif"
 		name="{=WUArer5A}Open Padded Coif"
@@ -1553,9 +2448,9 @@
 				hair_cover_type="all"
 				modifier_group="cloth"
 				material_type="Cloth"
-				beard_cover_type="type2" />
+				beard_cover_type="type2"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="head_piece"
 		name="{=oa2XYnHC}Female Rural Scarf"
@@ -1569,9 +2464,9 @@
 				has_gender_variations="false"
 				hair_cover_type="all"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="head_wrapped"
 		name="{=SugbcP3D}Female Rural Headwrap"
@@ -1585,9 +2480,9 @@
 				has_gender_variations="false"
 				hair_cover_type="all"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="headscarf"
 		name="{=9efOcFRL}Loose Head Scarf"
@@ -1602,9 +2497,9 @@
 				hair_cover_type="all"
 				modifier_group="cloth_unarmoured"
 				material_type="Cloth"
-				beard_cover_type="type3" />
+				beard_cover_type="type3"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="headscarf_c"
 		name="{=ZhcOdFgK}Luxurious Head Scarf"
@@ -1619,9 +2514,9 @@
 				hair_cover_type="all"
 				modifier_group="cloth_unarmoured"
 				material_type="Cloth"
-				beard_cover_type="type3" />
+				beard_cover_type="type3"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="womens_headwrap_c"
 		name="{=Qyg2bJLX}Rural Head Wrap"
@@ -1635,9 +2530,9 @@
 				has_gender_variations="false"
 				hair_cover_type="all"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="head_wrapping"
 		name="{=sDKfIQbO}Peasant Head Wrapping"
@@ -1651,9 +2546,9 @@
 				has_gender_variations="false"
 				hair_cover_type="all"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 		<!-- wrapped very tight: maidservants, not for aristocrats -->
 	</Item>
 	<Item id="cervelliere_over_arming_coif"
@@ -1669,9 +2564,9 @@
 				hair_cover_type="type2"
 				beard_cover_type="none"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="kettle_helmet_with_leather"
 		name="{=ZV1bKLUn}Kettle Helmet with Leather"
@@ -1688,9 +2583,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type2"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="kettle_helmet_over_padded_coif"
 		name="{=1GpTOIqU}Kettle Helmet over Padded Coif"
@@ -1707,9 +2602,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type3"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="kettle_helmet_over_laced_coif"
 		name="{=AB1mV5Pg}Kettle Helmet over Laced Coif"
@@ -1726,9 +2621,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type2"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="kettle_helmet_over_padded_cap"
 		name="{=2qisE5ys}Kettle Helmet over Padded Cap"
@@ -1744,9 +2639,9 @@
 				has_gender_variations="false"
 				hair_cover_type="type2"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="kettle_helmet_over_padded_cloth"
 		name="{=VcbEaV7T}Kettle Helmet over Padded Cloth"
@@ -1763,9 +2658,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type2"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="kettle_hat_over_padded_coif"
 		name="{=2MdVVkVL}Kettle Hat over Padded Coif"
@@ -1780,9 +2675,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type3"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="guards_kettle_over_padded_coif"
 		name="{=YQd9C8u2}Kettle over Padded Coif"
@@ -1799,9 +2694,9 @@
 				hair_cover_type="all"
 				modifier_group="plate"
 				material_type="Plate"
-				beard_cover_type="type2" />
+				beard_cover_type="type2"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="guards_kettle_over_laced_coif"
 		name="{=20moIxs1}Kettle over Laced Coif"
@@ -1818,9 +2713,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type2"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="nasal_helmet_over_padded_coif"
 		name="{=Tp7zXWGa}Nasal Helmet over Padded Coif"
@@ -1837,9 +2732,9 @@
 				hair_cover_type="all"
 				modifier_group="plate"
 				material_type="Plate"
-				beard_cover_type="type3" />
+				beard_cover_type="type3"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="nasal_helmet_over_laced_coif"
 		name="{=FWFDkjBk}Nasal Helmet over Laced Coif"
@@ -1856,9 +2751,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type2"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="nasal_helmet_over_cloth_headwrap"
 		name="{=olamAwhb}Nasal Helmet over Cloth Headwrap"
@@ -1875,9 +2770,9 @@
 				hair_cover_type="all"
 				modifier_group="plate"
 				material_type="Plate"
-				beard_cover_type="all" />
+				beard_cover_type="all"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="nasal_helmet_over_padded_cloth"
 		name="{=bubcrmTC}Nasal Helmet over Padded Cloth"
@@ -1892,9 +2787,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type2"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="segmented_skullcap_over_padded_coif"
 		name="{=zAvb7WKe}Segmented Skullcap over Padded Coif"
@@ -1909,9 +2804,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type1"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="segmented_skullcap_over_laced_coif"
 		name="{=VylHwqVq}Segmented Skullcap over Laced Coif"
@@ -1926,9 +2821,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type2"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="segmented_skullcap_over_padded_cloth"
 		name="{=b1pqUQju}Segmented Skullcap over Padded Cloth"
@@ -1945,9 +2840,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type2"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="peaked_helmet_over_laced_coif"
 		name="{=Rhfp7ath}Peaked Helmet over Laced Coif"
@@ -1963,9 +2858,9 @@
 				has_gender_variations="false"
 				hair_cover_type="all"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="peaked_helmet_over_padded_cloth"
 		name="{=TFT2Xapz}Peaked Helmet over Padded Cloth"
@@ -1982,9 +2877,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type2"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="segmented_cervelliere_over_padded_cloth"
 		name="{=vsavMoLZ}Segmented Cervelliere over Padded Cloth"
@@ -2001,9 +2896,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type2"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="cervelliere_over_cloth_headwrap"
 		name="{=e9BpfZ9L}Cervelliere over Cloth Headwrap"
@@ -2020,9 +2915,9 @@
 				hair_cover_type="all"
 				beard_cover_type="all"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="cervelliere_over_laced_coif"
 		name="{=bfFNYaiU}Cervelliere over Laced Coif"
@@ -2039,9 +2934,9 @@
 				hair_cover_type="all"
 				modifier_group="plate"
 				material_type="Plate"
-				beard_cover_type="type2" />
+				beard_cover_type="type2"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="cervelliere_over_padded_cap"
 		name="{=wG582fzT}Cervelliere over Padded Cap"
@@ -2056,9 +2951,9 @@
 				hair_cover_type="type2"
 				beard_cover_type="none"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="nasal_cervelliere_over_padded_coif"
 		name="{=JjLQ2VdT}Nasal Cervelliere over Padded Coif"
@@ -2073,9 +2968,9 @@
 				hair_cover_type="all"
 				modifier_group="plate"
 				material_type="Plate"
-				beard_cover_type="type3" />
+				beard_cover_type="type3"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="nasal_cervelliere_over_laced_coif"
 		name="{=h6UXvU3B}Nasal Cervelliere over Laced Coif"
@@ -2090,9 +2985,9 @@
 				hair_cover_type="all"
 				modifier_group="plate"
 				material_type="Plate"
-				beard_cover_type="type3" />
+				beard_cover_type="type3"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="nasal_cervelliere_over_padded_cap"
 		name="{=4BfbPgkY}Nasal Cervelliere over Padded Cap"
@@ -2108,9 +3003,9 @@
 				has_gender_variations="false"
 				hair_cover_type="type2"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="padded_leather_cape"
 		name="{=SHZ0P7Iu}Padded Leather Cape"
@@ -2126,9 +3021,9 @@
 				has_gender_variations="false"
 				hair_cover_type="type2"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="kettle_helmet_over_arming_coif"
 		name="{=3iq3rOh8}Kettle Helmet over Arming Coif"
@@ -2143,9 +3038,9 @@
 				hair_cover_type="type3"
 				beard_cover_type="none"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="peaked_helmet_over_mail_coif"
 		name="{=AdafHtud}Peaked Helmet over Mail Coif"
@@ -2162,9 +3057,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type3"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="nasal_cervelliere_over_mail_coif"
 		name="{=mRGIxvYh}Nasal Cervelliere over Mail Coif"
@@ -2179,9 +3074,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type4"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="guards_kettle_over_mail_coif"
 		name="{=S1SUK8zk}Kettle over Mail Coif"
@@ -2196,9 +3091,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type3"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="segmented_cervelliere_over_laced_coif"
 		name="{=GnkKOx5H}Segmented Cervelliere over Laced Coif"
@@ -2213,9 +3108,9 @@
 				beard_cover_type="type2"
 				modifier_group="plate"
 				material_type="Plate"
-				hair_cover_type="all" />
+				hair_cover_type="all"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="kettle_hat_over_padded_cloth"
 		name="{=wBfGpcCO}Kettle Hat over Padded Cloth"
@@ -2232,9 +3127,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type2"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="kettle_hat_over_mail_coif"
 		name="{=tMLH04n4}Kettle Hat over Mail Coif"
@@ -2249,9 +3144,9 @@
 				hair_cover_type="all"
 				beard_cover_type="all"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="nasal_helmet_over_mail_coif"
 		name="{=PVgSGCYK}Nasal Helmet over Mail Coif"
@@ -2266,9 +3161,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type4"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="segmented_cervelliere_over_mail_coif"
 		name="{=WMqHlEvb}Segmented Cervelliere over Mail Coif"
@@ -2285,9 +3180,9 @@
 				hair_cover_type="all"
 				modifier_group="plate"
 				material_type="Plate"
-				beard_cover_type="type4" />
+				beard_cover_type="type4"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="kettle_helmet_over_mail"
 		name="{=zZ2G7uIO}Kettle Helmet over Mail"
@@ -2302,9 +3197,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type2"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="nasal_helmet_over_mail"
 		name="{=tpQLvMSM}Nasal Helmet over Mail"
@@ -2319,9 +3214,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type2"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="segmented_skullcap_over_mail_coif"
 		name="{=P8GrNSkF}Segmented Skullcap over Mail Coif"
@@ -2336,9 +3231,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type4"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="peaked_helmet_over_mail"
 		name="{=JvhvtKsT}Peaked Helmet over Mail"
@@ -2353,9 +3248,9 @@
 				hair_cover_type="all"
 				modifier_group="plate"
 				material_type="Plate"
-				beard_cover_type="type2" />
+				beard_cover_type="type2"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="segmented_cervelliere_over_mail"
 		name="{=bdpjqoGe}Segmented Cervelliere over Mail"
@@ -2370,9 +3265,9 @@
 				hair_cover_type="all"
 				modifier_group="plate"
 				material_type="Plate"
-				beard_cover_type="type2" />
+				beard_cover_type="type2"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="western_crowned_helmet"
 		name="{=EPaqJLSg}Crowned Helmet"
@@ -2390,9 +3285,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type3"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="western_plated_helmet"
 		name="{=9j9fb5pR}Plated Helmet with Sideguards"
@@ -2409,9 +3304,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type3"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="vlandia_lord_helmet_b2"
 		name="{=o67ySkfH}Plated Helmet"
@@ -2428,9 +3323,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type2"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="western_crowned_plated_helmet"
 		name="{=uz24W7s4}Crowned Plate Helmet"
@@ -2448,9 +3343,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type4"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="kettle_helmet_with_mail"
 		name="{=UsOgGylA}Kettle Helmet with Mail"
@@ -2466,9 +3361,9 @@
 				has_gender_variations="false"
 				hair_cover_type="all"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<!-- #endregion -->
 	<!-- #region Sturgia Armors -->
@@ -2484,9 +3379,9 @@
 				has_gender_variations="false"
 				hair_cover_type="all"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="nordic_leather_cap"
 		name="{=ByxdPJzA}Fur Cap with Ear Flaps"
@@ -2502,9 +3397,9 @@
 				has_gender_variations="false"
 				hair_cover_type="type1"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="nordic_fur_cap"
 		name="{=cjH1WFwy}Fur Rimmed Cap"
@@ -2519,9 +3414,9 @@
 				hair_cover_type="type2"
 				beard_cover_type="none"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="northern_fur_cap"
 		name="{=TwuAVsCn}Fur Cap"
@@ -2536,9 +3431,9 @@
 				hair_cover_type="type2"
 				beard_cover_type="none"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="roughhide_cap"
 		name="{=p6NIgRpk}Roughhide Cap"
@@ -2553,9 +3448,9 @@
 				hair_cover_type="type2"
 				beard_cover_type="none"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="goggled_helmet_over_leather"
 		name="{=E3XTFDXt}Goggled Helmet over Leather"
@@ -2570,9 +3465,9 @@
 				hair_cover_type="type3"
 				beard_cover_type="none"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="nasalhelm_over_leather"
 		name="{=ONaWEKSy}Nasalhelm over Leather"
@@ -2587,9 +3482,9 @@
 				hair_cover_type="type3"
 				beard_cover_type="none"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="sturgia_heavy_cavalary_helmet"
 		name="{=bXVSSptk}Heavy Cavalry Helmet"
@@ -2604,9 +3499,9 @@
 				hair_cover_type="all"
 				beard_cover_type="none"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="nasal_helmet"
 		name="{=k4kivaf5}Steel Cap with Nose Guard"
@@ -2620,9 +3515,9 @@
 				has_gender_variations="false"
 				hair_cover_type="type1"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="spangenhelm_with_leather"
 		name="{=3Z91Nxbf}Spangenhelm with Leather"
@@ -2639,9 +3534,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type2"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="nasal_helmet_with_leather"
 		name="{=TxAYmCjr}Nasal Helmet with Leather"
@@ -2658,9 +3553,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type2"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="nasal_helmet_with_mail"
 		name="{=EWR2MNeM}Nasal Helmet with Mail"
@@ -2676,9 +3571,9 @@
 				has_gender_variations="false"
 				hair_cover_type="all"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="spangenhelm_with_padded_cloth"
 		name="{=ebHdQfbX}Spangenhelm with Padded Cloth"
@@ -2695,9 +3590,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type3"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="sturgian_crown"
 		name="{=5kAqcWac}Jeweled Fur Rimmed Helmet"
@@ -2714,9 +3609,9 @@
 				has_gender_variations="false"
 				hair_cover_type="type1"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="decorated_goggled_helmet"
 		name="{=NhDpFjF0}Reinforced Closed Goggled Helmet"
@@ -2731,9 +3626,9 @@
 				hair_cover_type="all"
 				beard_cover_type="all"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="closed_goggled_helmet"
 		name="{=aYLCCpS4}Northern Closed Warlord Helmet"
@@ -2748,9 +3643,9 @@
 				hair_cover_type="all"
 				beard_cover_type="all"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="goggled_helmet_over_full_mail"
 		name="{=mU5CY4bz}Closed Huscarl Helmet"
@@ -2765,9 +3660,9 @@
 				hair_cover_type="all"
 				beard_cover_type="all"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="lendman_helmet_over_full_mail"
 		name="{=lawHibbG}Warlord Helmet over Full Mail"
@@ -2782,9 +3677,9 @@
 				hair_cover_type="all"
 				beard_cover_type="all"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="northern_warlord_helmet"
 		name="{=JjaUzfDK}Warlord Helmet with Cheek Guards"
@@ -2799,9 +3694,9 @@
 				hair_cover_type="type3"
 				beard_cover_type="type1"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="sturgian_lord_helmet_a"
 		name="{=Pqua61u8}Ridged Warlord Helmet"
@@ -2818,9 +3713,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type2"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="sturgian_lord_helmet_c"
 		name="{=wvnJzwbU}Plated Warlord Helmet"
@@ -2837,9 +3732,9 @@
 				hair_cover_type="all"
 				beard_cover_type="all"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="nasalhelm_over_mail"
 		name="{=1bdDdwub}Nasalhelm over Mail"
@@ -2854,9 +3749,9 @@
 				hair_cover_type="all"
 				beard_cover_type="none"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="goggled_helmet_over_mail"
 		name="{=qc0P0b2r}Goggled Helmet over Mail"
@@ -2871,9 +3766,9 @@
 				hair_cover_type="all"
 				beard_cover_type="none"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="lendman_helmet_over_mail"
 		name="{=VYmHTbTY}Warlord Helmet over Mail"
@@ -2888,9 +3783,9 @@
 				hair_cover_type="all"
 				beard_cover_type="none"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="northern_goggled_helmet"
 		name="{=ISCtxKub}Sea Raider Goggled Helmet"
@@ -2905,9 +3800,9 @@
 				hair_cover_type="all"
 				beard_cover_type="none"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="sturgian_helmet_closed"
 		name="{=2iDtlgM0}Closed Warlord Helmet"
@@ -2922,9 +3817,9 @@
 				hair_cover_type="all"
 				beard_cover_type="all"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="sturgian_helmet_open"
 		name="{=IGazuB9B}Mailed Nasal Helmet"
@@ -2939,9 +3834,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type2"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="sturgian_helmet_base"
 		name="{=Nv0eZmGL}Steel Nasal Cap"
@@ -2956,9 +3851,9 @@
 				hair_cover_type="type3"
 				beard_cover_type="none"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="sturgian_helmet_b_open"
 		name="{=LRbGXEw2}Plumed Decorated Mailed Nasal Helmet"
@@ -2973,9 +3868,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type2"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="sturgian_helmet_b_close"
 		name="{=zBRB0P5M}Closed Decorated Goggled Helmet"
@@ -2990,9 +3885,9 @@
 				hair_cover_type="all"
 				beard_cover_type="all"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="sturgian_battle_crown"
 		name="{=OFxwPQyA}Battle Crown"
@@ -3008,9 +3903,9 @@
 				hair_cover_type="all"
 				beard_cover_type="none"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<!-- #endregion -->
 	<!-- #region Empire Armors -->
@@ -3029,9 +3924,9 @@
 				hair_cover_type="all"
 				modifier_group="cloth"
 				material_type="Cloth"
-				beard_cover_type="type3" />
+				beard_cover_type="type3"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="laced_cloth_coif"
 		name="{=kmdjRAoG}Laced Cloth Coif"
@@ -3047,9 +3942,9 @@
 				has_gender_variations="false"
 				hair_cover_type="all"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="imperial_leather_coif"
 		name="{=mlJKNbbn}Leather Coif"
@@ -3065,9 +3960,9 @@
 				has_gender_variations="false"
 				hair_cover_type="all"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="imperial_cloth_coif"
 		name="{=g5BPd0Oc}Cloth Coif"
@@ -3083,9 +3978,9 @@
 				has_gender_variations="false"
 				hair_cover_type="all"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="leather_cap"
 		name="{=uLpnmNkZ}Leather Cap"
@@ -3102,9 +3997,9 @@
 				hair_cover_type="type3"
 				beard_cover_type="type2"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="pilgrim_hood"
 		name="{=VXFwEF3M}Pilgrim Hood"
@@ -3120,9 +4015,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type3"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="imperial_mail_coif"
 		name="{=77RIGK7B}Mail Coif"
@@ -3139,9 +4034,9 @@
 				hair_cover_type="all"
 				modifier_group="chain"
 				material_type="Chainmail"
-				beard_cover_type="type2" />
+				beard_cover_type="type2"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="imperial_open_mail_coif"
 		name="{=OpYdqPWs}Open Mail Coif"
@@ -3158,9 +4053,9 @@
 				hair_cover_type="all"
 				modifier_group="chain"
 				material_type="Chainmail"
-				beard_cover_type="type3" />
+				beard_cover_type="type3"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="mail_coif"
 		name="{=Qywm0F8B}Mail Coif with Helmet Padding"
@@ -3177,9 +4072,9 @@
 				hair_cover_type="all"
 				modifier_group="chain"
 				material_type="Chainmail"
-				beard_cover_type="type4" />
+				beard_cover_type="type4"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="open_mail_coif"
 		name="{=OpYdqPWs}Open Mail Coif"
@@ -3196,9 +4091,9 @@
 				hair_cover_type="all"
 				beard_cover_type="type2"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="empire_crown"
 		name="{=udQSdRXR}Jeweled Crown"
@@ -3214,7 +4109,7 @@
 				hair_cover_type="type2"
 				beard_cover_type="none"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
 	</Item>
 	<Item id="empire_crown_v2"
@@ -3231,9 +4126,9 @@
 				hair_cover_type="none"
 				beard_cover_type="none"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="false" />
+		<Flags Civilian="true" UseTeamColor="false"/>
 	</Item>
 	<Item id="empire_crown_north"
 		name="{=WF14UrdR}Golden Laurel Crown"
@@ -3248,9 +4143,9 @@
 				has_gender_variations="false"
 				hair_cover_type="none"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="false" />
+		<Flags Civilian="true" UseTeamColor="false"/>
 	</Item>
 	<Item id="empire_crown_west"
 		name="{=u5eafobF}Imperial Jeweled Band"
@@ -3265,9 +4160,9 @@
 				has_gender_variations="false"
 				hair_cover_type="none"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="false" />
+		<Flags Civilian="true" UseTeamColor="false"/>
 	</Item>
 	<Item id="vlandia_crown"
 		name="{=1b6T0M72}Austere Crown"
@@ -3282,9 +4177,9 @@
 				has_gender_variations="false"
 				hair_cover_type="none"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="false" />
+		<Flags Civilian="true" UseTeamColor="false"/>
 	</Item>
 	<Item id="imperial_goggled_helmet"
 		name="{=xJTfOqD6}Goggled Cataphract Helmet"
@@ -3299,9 +4194,9 @@
 				hair_cover_type="all"
 				beard_cover_type="all"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<!-- #endregion -->
 	<!-- #region Looters Armors -->
@@ -3319,9 +4214,9 @@
 				has_gender_variations="false"
 				hair_cover_type="type2"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="vlandia_bandit_cape_b"
 		name="{=7D3jvAfS}Hide Cap"
@@ -3337,9 +4232,9 @@
 				has_gender_variations="false"
 				hair_cover_type="type2"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<!-- #endregion -->
 	<!-- #region Neutral Armors -->
@@ -3355,9 +4250,9 @@
 				has_gender_variations="false"
 				hair_cover_type="type1"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<!-- #endregion -->
 
@@ -3372,9 +4267,9 @@
 		<ItemComponent>
 			<Armor body_armor="2"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="desert_fabric_shoulderpad"
 		name="{=EyQTfFS6}Woven Shoulder Pad"
@@ -3387,9 +4282,9 @@
 			<Armor body_armor="3"
 				arm_armor="1"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="leopard_pelt"
 		name="{=QxzcuhmA}Leopard Pelt"
@@ -3402,9 +4297,9 @@
 			<Armor body_armor="5"
 				arm_armor="2"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="aserai_horseman_shoulder"
 		name="{=5gsp0xUN}Ringmail Shoulder Guard"
@@ -3419,9 +4314,9 @@
 			<Armor body_armor="7"
 				arm_armor="4"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="desert_leather_shoulderpad"
 		name="{=9w40yGlZ}Leather Shoulder Guard"
@@ -3434,9 +4329,9 @@
 			<Armor body_armor="4"
 				arm_armor="2"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<!-- #endregion -->
 	<!-- #region Battania Shoulder Armors -->
@@ -3450,9 +4345,9 @@
 		<ItemComponent>
 			<Armor body_armor="2"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="wolf_shoulder"
 		name="{=beg6guIH}Wolf Pelt Cape"
@@ -3467,7 +4362,7 @@
 			<Armor body_armor="6"
 				arm_armor="3"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
 	</Item>
 	<Item id="bearskin"
@@ -3483,9 +4378,9 @@
 			<Armor body_armor="9"
 				arm_armor="3"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="armored_bearskin"
 		name="{=FOx5vZSJ}Armored Bearskin"
@@ -3499,9 +4394,9 @@
 		<ItemComponent>
 			<Armor body_armor="12"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="rough_bearskin"
 		name="{=KKWEkA4P}Rough Bearskin"
@@ -3515,9 +4410,9 @@
 			<Armor body_armor="9"
 				arm_armor="5"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<!-- #endregion -->
 	<!-- #region Khuzait Shoulder Armors -->
@@ -3534,9 +4429,9 @@
 			<Armor body_armor="1"
 				arm_armor="8"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="leather_lamellar_shoulders"
 		name="{=AHQQp0O0}Leather Lamellar Shoulder Guards"
@@ -3549,9 +4444,9 @@
 			<Armor body_armor="6"
 				arm_armor="6"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="reinforced_suede_shoulders"
 		name="{=uIov9Yo9}Reinforced Suede Shoulder Guards"
@@ -3566,9 +4461,9 @@
 			<Armor body_armor="1"
 				arm_armor="7"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="eastern_studded_shoulders"
 		name="{=t6pQ6Vxc}Reinforced Studded Shoulder Guards"
@@ -3581,9 +4476,9 @@
 			<Armor body_armor="9"
 				arm_armor="6"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="a_khuzait_leather_shoulder_b_a"
 		name="{=567zyLq5}Cured Studded Leather Shoulders"
@@ -3596,9 +4491,9 @@
 			<Armor body_armor="4"
 				arm_armor="7"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="a_khuzait_leather_shoulder_b_b"
 		name="{=Q19xluDy}Reinforced Studded Neckguard"
@@ -3610,9 +4505,9 @@
 		<ItemComponent>
 			<Armor body_armor="8"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="a_leather_lamellar_armor_shoulder_a"
 		name="{=zf2GUNfh}Decorated Lamellar Leather Shoulder Guards"
@@ -3625,9 +4520,9 @@
 			<Armor body_armor="2"
 				arm_armor="7"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="khuzait_leather_pauldron"
 		name="{=UTXWsY1Y}Reinforced Leather Pauldrons"
@@ -3640,9 +4535,9 @@
 			<Armor body_armor="2"
 				arm_armor="8"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="lamellar_shoulders"
 		name="{=vo9kYKNQ}Lamellar Shoulder Pieces"
@@ -3655,9 +4550,9 @@
 			<Armor body_armor="12"
 				arm_armor="12"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="a_metal_lamellar_armor_shoulder_a"
 		name="{=Uo2t80GH}Decorated Steel Lamellar Shoulder Pieces"
@@ -3670,9 +4565,9 @@
 			<Armor body_armor="2"
 				arm_armor="12"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="brass_lamellar_shoulder"
 		name="{=RmPPVmgJ}Bronze Lamellar Shoulder Pieces"
@@ -3685,10 +4580,10 @@
 			<Armor body_armor="5"
 				arm_armor="11"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
 		<Flags
-			UseTeamColor="true" />
+			UseTeamColor="true"/>
 	</Item>
 	<Item id="a_brass_lamellar_shoulder_a"
 		name="{=NuWovN18}Bronze Lamellar Shoulder Guards"
@@ -3701,10 +4596,10 @@
 			<Armor body_armor="1"
 				arm_armor="5"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
 		<Flags
-			UseTeamColor="true" />
+			UseTeamColor="true"/>
 	</Item>
 	<Item id="a_brass_lamellar_shoulder_b"
 		name="{=D2ZuOT3H}Reinforced Bronze Lamellar Shoulder Guards"
@@ -3717,10 +4612,10 @@
 			<Armor body_armor="1"
 				arm_armor="10"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
 		<Flags
-			UseTeamColor="true" />
+			UseTeamColor="true"/>
 	</Item>
 	<Item id="brass_lamellar_shoulder_white"
 		name="{=DbEzJcbD}Lamellar Pauldrons"
@@ -3733,10 +4628,10 @@
 			<Armor body_armor="6"
 				arm_armor="12"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
 		<Flags
-			UseTeamColor="true" />
+			UseTeamColor="true"/>
 	</Item>
 	<Item id="a_brass_lamellar_shoulder_white_a"
 		name="{=QlpyR6uc}Lamellar Shoulder Guards"
@@ -3749,10 +4644,10 @@
 			<Armor body_armor="5"
 				arm_armor="1"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
 		<Flags
-			UseTeamColor="true" />
+			UseTeamColor="true"/>
 	</Item>
 	<Item id="a_brass_lamellar_shoulder_white_b"
 		name="{=XpzvP7hE}Reinforced Lamellar Shoulder Guards"
@@ -3765,10 +4660,10 @@
 			<Armor body_armor="1"
 				arm_armor="11"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
 		<Flags
-			UseTeamColor="true" />
+			UseTeamColor="true"/>
 	</Item>
 	<!-- #endregion -->
 	<!-- #region Vlandia Shoulder Armors -->
@@ -3785,9 +4680,9 @@
 			<Armor body_armor="3"
 				arm_armor="1"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="padded_leather_shoulders"
 		name="{=Bl72Ribb}Padded Leather Shoulders"
@@ -3800,9 +4695,9 @@
 			<Armor body_armor="9"
 				arm_armor="4"
 				modifier_group="cloth"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="chainmail_shoulder_armor"
 		name="{=P9wiCrIU}Reinforced Mail Shoulders"
@@ -3815,9 +4710,9 @@
 			<Armor body_armor="9"
 				arm_armor="4"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<!-- #endregion -->
 	<!-- #region Sturgia Shoulder Armors -->
@@ -3832,9 +4727,9 @@
 			<Armor body_armor="1"
 				arm_armor="4"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="mail_shoulders"
 		name="{=W9bsRAfD}Mail Shoulder Guards"
@@ -3849,9 +4744,9 @@
 			<Armor body_armor="9"
 				arm_armor="5"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<!-- #endregion -->
 	<!-- #region Empire Shoulder Armors -->
@@ -3866,10 +4761,10 @@
 			<Armor body_armor="7"
 				arm_armor="9"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
 		<Flags
-			UseTeamColor="true" />
+			UseTeamColor="true"/>
 	</Item>
 	<Item id="woven_leather_shoulders"
 		name="{=c7UNJSNi}Woven Leather Shoulders"
@@ -3882,9 +4777,9 @@
 			<Armor body_armor="2"
 				arm_armor="6"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="a_empire_plated_shoulder_b"
 		name="{=DbEzJcbD}Lamellar Pauldrons"
@@ -3897,9 +4792,9 @@
 			<Armor body_armor="1"
 				arm_armor="8"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="studded_imperial_neckguard"
 		name="{=kjzCaoMK}Neckguard with Bronze Plate Pauldrons"
@@ -3912,9 +4807,9 @@
 			<Armor body_armor="8"
 				arm_armor="11"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="empire_plate_armor_shoulder_a"
 		name="{=P96J2c61}Bronze Plate Pauldrons"
@@ -3927,9 +4822,9 @@
 			<Armor body_armor="2"
 				arm_armor="10"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="empire_plate_armor_shoulder_b"
 		name="{=27GO9o9K}Iron Plate Pauldrons"
@@ -3942,9 +4837,9 @@
 			<Armor body_armor="2"
 				arm_armor="11"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<!-- #endregion -->
 	<!-- #region Neutral Shoulder Armors -->
@@ -3959,9 +4854,9 @@
 			<Armor body_armor="2"
 				arm_armor="1"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="female_scarf"
 		name="{=HJdIkdm2}Thick Scarf"
@@ -3973,9 +4868,9 @@
 		<ItemComponent>
 			<Armor body_armor="3"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="scarf"
 		name="{=GNdVXMue}Scarf"
@@ -3989,9 +4884,9 @@
 		<ItemComponent>
 			<Armor body_armor="3"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="wrapped_scarf"
 		name="{=h1bcf5zn}Shawl"
@@ -4005,9 +4900,9 @@
 		<ItemComponent>
 			<Armor body_armor="2"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="empire_cape_a"
 		name="{=KQ9h5eAe}Heavy Cloak"
@@ -4022,9 +4917,9 @@
 			<Armor body_armor="3"
 				arm_armor="2"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="fur_cloak_a"
 		name="{=ujntvg7M}Fur Cloak With Round Plate"
@@ -4037,9 +4932,9 @@
 			<Armor body_armor="13"
 				arm_armor="6"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="fur_cloak_b"
 		name="{=mTsEaNKb}Fur Cloak"
@@ -4052,9 +4947,9 @@
 			<Armor body_armor="5"
 				arm_armor="1"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="fur_cloak_c"
 		name="{=p0Xgt48l}Large Fur Cloak With Round Plate"
@@ -4067,9 +4962,9 @@
 			<Armor body_armor="14"
 				arm_armor="7"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<!-- #endregion -->
 
@@ -4088,9 +4983,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="layered_robe"
 		name="{=fk42FxCE}Layered Robe"
@@ -4107,9 +5002,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="desert_robe"
 		name="{=K2JbjKLG}Simple Kaftan"
@@ -4127,9 +5022,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="aserai_tunic_waistcoat"
 		name="{=whiQg21b}Luxury Kaftan"
@@ -4145,9 +5040,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="thick_sleeved_robe"
 		name="{=MKT5IzWm}Thick Sleeved Robe"
@@ -4163,9 +5058,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="aserai_villager_female_dress"
 		name="{=tuEQnm2r}Villager Short Dress"
@@ -4182,9 +5077,9 @@
 				covers_body="false"
 				body_mesh_type="shoulders"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="fine_southern_dress"
 		name="{=atu9tCq8}Tailored Dress"
@@ -4201,9 +5096,9 @@
 				covers_body="false"
 				body_mesh_type="shoulders"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="aserai_female_civil_a"
 		name="{=qi1lkMqk}Feminine Kaftan"
@@ -4220,9 +5115,9 @@
 				covers_body="true"
 				body_mesh_type="shoulders"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="aserai_female_civil_b"
 		name="{=i6QMSiut}Kaftan with Waistband"
@@ -4239,9 +5134,9 @@
 				covers_body="true"
 				body_mesh_type="shoulders"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="aserai_civil_a"
 		name="{=HXNb6Cqz}Luxury Kaftan with Waistband"
@@ -4257,9 +5152,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="aserai_civil_b"
 		name="{=v4THTk5O}Kaftan with Leather Belt"
@@ -4275,9 +5170,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="aserai_civil_c"
 		name="{=CBUdkmIw}Colored Kaftan"
@@ -4293,9 +5188,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="aserai_civil_d"
 		name="{=SW3lkPHe}Colored Bisht"
@@ -4311,9 +5206,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="aserai_civil_e"
 		name="{=FAPHmzxQ}Thawb"
@@ -4329,9 +5224,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="aserai_civil_f"
 		name="{=bLgnonyc}Simple Peasant Robe"
@@ -4347,9 +5242,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="tassled_southern_robes"
 		name="{=cMdtLfGB}Tassled Robes"
@@ -4365,9 +5260,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="eastern_silk_clothing"
 		name="{=XiwTesky}Silk Kaftan"
@@ -4382,9 +5277,9 @@
 				arm_armor="3"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="short_padded_robe"
 		name="{=QzAvlan7}Short Padded Robe"
@@ -4403,9 +5298,9 @@
 				has_gender_variations="false"
 				covers_body="true"
 				modifier_group="cloth"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="desert_padded_cloth"
 		name="{=wWqavjat}Light Long Padded Armor"
@@ -4421,9 +5316,9 @@
 				arm_armor="6"
 				covers_body="true"
 				modifier_group="cloth"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="studded_leather_coat"
 		name="{=XkL1Re8b}Studded Leather Coat"
@@ -4440,9 +5335,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="leather_strips_over_padded_robe"
 		name="{=iVataLxL}Leather Strips over Padded Robe"
@@ -4461,9 +5356,9 @@
 				has_gender_variations="false"
 				covers_body="true"
 				modifier_group="cloth"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="aserai_robe_c_chain"
 		name="{=gSWtpl8a}Robe over Mail Shirt"
@@ -4480,9 +5375,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="long_padded_robe"
 		name="{=0SsLGsXk}Long Padded Robe"
@@ -4499,9 +5394,9 @@
 				has_gender_variations="false"
 				covers_body="true"
 				modifier_group="cloth"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="aserai_horseman_armor"
 		name="{=NTaol1uQ}Ring Mail"
@@ -4520,9 +5415,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="ringed_desert_armor"
 		name="{=7EAEIUIY}Heavy Ring Mail"
@@ -4537,9 +5432,9 @@
 				arm_armor="8"
 				covers_body="true"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="aserai_archer_armor"
 		name="{=2cSOn9qb}Gambeson over Mail Armor"
@@ -4558,9 +5453,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="desert_robe_over_mail"
 		name="{=k71X3WNK}Robe over Mail Hauberk"
@@ -4576,9 +5471,9 @@
 				arm_armor="12"
 				covers_body="true"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="desert_lamellar"
 		name="{=xlLoyxXT}Light Lamellar Armor"
@@ -4595,9 +5490,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="sturgia_cavalry_armor"
 		name="{=ALbtxxyC}Cavalry Lamellar Armor"
@@ -4615,9 +5510,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="desert_scale_armor"
 		name="{=VkRIefyW}Luxury Scale Armor"
@@ -4633,9 +5528,9 @@
 				arm_armor="14"
 				covers_body="true"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="stitched_leather_over_mail"
 		name="{=omLMiX89}Stitched Leather over Mail"
@@ -4651,9 +5546,9 @@
 				arm_armor="14"
 				covers_body="true"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="southern_lamellar_armor"
 		name="{=3lauB1HH}Bronze Lamellar Vest over Gambeson"
@@ -4671,9 +5566,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="aserai_armor_02"
 		name="{=blEEEOdy}Southern Chain Mail"
@@ -4689,9 +5584,9 @@
 				arm_armor="13"
 				covers_body="true"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="aserai_armor_02_b"
 		name="{=dAgxHUsJ}Southern Decorated Chain Mail"
@@ -4707,9 +5602,9 @@
 				arm_armor="13"
 				covers_body="true"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="aserai_chain_plate_armor_a"
 		name="{=YTST4rdh}Southern Reinforced Mail Armor"
@@ -4725,9 +5620,9 @@
 				arm_armor="16"
 				covers_body="true"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="aserai_chain_plate_armor_b"
 		name="{=EvW5Xzt2}Southern Reinforced Sleeveless Mail Armor"
@@ -4743,9 +5638,9 @@
 				arm_armor="6"
 				covers_body="true"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="aserai_chain_plate_armor_c"
 		name="{=Mm1QAtPx}Southern Reinforced Mail Vest"
@@ -4761,9 +5656,9 @@
 				arm_armor="6"
 				covers_body="true"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="aserai_chain_plate_armor_d"
 		name="{=zVieddxB}Southern Reinforced Short Mail Armor"
@@ -4779,9 +5674,9 @@
 				arm_armor="16"
 				covers_body="true"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="aserai_brass_plate_a"
 		name="{=bxzrU99N}Southern Mail Shirt with Brass Plates"
@@ -4797,9 +5692,9 @@
 				arm_armor="18"
 				covers_body="true"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="aserai_brass_plate_b"
 		name="{=OyBdFyeV}Southern Sleeveless Mail Shirt with Brass Plates"
@@ -4815,9 +5710,9 @@
 				arm_armor="6"
 				covers_body="true"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<!-- #endregion -->
 	<!-- #region Battania Body Armors -->
@@ -4836,10 +5731,10 @@
 				covers_body="false"
 				has_gender_variations="false"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
 		<Flags
-			DoesNotHideChest="true" UseTeamColor="true" Civilian="true" />
+			DoesNotHideChest="true" UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="armored_baggy_trunks"
 		name="{=w6j8Oaai}Armored Baggy Trunks"
@@ -4857,10 +5752,10 @@
 				covers_body="false"
 				has_gender_variations="false"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
 		<Flags
-			DoesNotHideChest="true" UseTeamColor="true" />
+			DoesNotHideChest="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="studded_fur_armor"
 		name="{=tXbRb3QO}Studded Fur Armor"
@@ -4877,9 +5772,9 @@
 				arm_armor="3"
 				covers_body="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="battanian_scale_armor_a"
 		name="{=QlvnKQbc}Highland Scale Armor over Mail Armor"
@@ -4897,9 +5792,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="battanian_scale_armor_b"
 		name="{=oJKXjRJ3}Highland Scale Armor over Cloth"
@@ -4917,9 +5812,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<!-- #endregion -->
 	<!-- #region Khuzait Armors -->
@@ -4937,9 +5832,9 @@
 				arm_armor="1"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="steppe_robe"
 		name="{=HVJ9ax8Z}Steppe Robe"
@@ -4956,9 +5851,9 @@
 				arm_armor="2"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="studded_leather_waistcoat"
 		name="{=dIfcfMbY}Studded Leather Waistcoat"
@@ -4974,9 +5869,9 @@
 				has_gender_variations="true"
 				covers_body="false"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" DoesNotHideChest="true" UseTeamColor="true" />
+		<Flags Civilian="true" DoesNotHideChest="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="khuzait_dress"
 		name="{=7uJkrHeg}Aproned Feminine Coat"
@@ -4992,9 +5887,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="khuzait_dress_b"
 		name="{=NMSEAA4A}Dress with Fur"
@@ -5010,9 +5905,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="steppe_dress"
 		name="{=QfqwaRZ2}Envelope Dress"
@@ -5028,9 +5923,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="khuzait_civil_coat"
 		name="{=6VW6zVa3}Luxury Coat"
@@ -5046,9 +5941,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="khuzait_civil_coat_b"
 		name="{=S1XL4KJh}Luxury Thick Coat"
@@ -5064,9 +5959,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="reinforced_suede_armor"
 		name="{=XU9WgcIO}Reinforced Suede Armor"
@@ -5084,9 +5979,9 @@
 				has_gender_variations="false"
 				covers_body="true"
 				modifier_group="cloth"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="studded_steppe_leather"
 		name="{=Qd0tQLpA}Studded Leather Armor"
@@ -5104,9 +5999,9 @@
 				has_gender_variations="false"
 				covers_body="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="belted_leather_cuirass"
 		name="{=CLYcnUra}Belted Leather Cuirass"
@@ -5122,9 +6017,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="crude_leather_armor"
 		name="{=j2IVY6G6}Crude Hide Armor"
@@ -5140,9 +6035,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="khuzait_belt_leather"
 		name="{=4B2i8oxo}Coat with Mirrored Belt"
@@ -5158,9 +6053,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="khuzait_fortified_armor"
 		name="{=KVG0Tzaa}Reinforced Mirror Armor"
@@ -5176,9 +6071,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="khuzait_sturdy_armor"
 		name="{=1WLiLoL5}Mirrored Leather Armor"
@@ -5194,9 +6089,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="eastern_stitched_leather_coat"
 		name="{=PeozdF9h}Stitched Cured Leather Coat"
@@ -5211,9 +6106,9 @@
 				arm_armor="6"
 				covers_body="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="leather_lamellar_armor"
 		name="{=cjhhuTZD}Cured Leather Lamellar Armor"
@@ -5228,9 +6123,9 @@
 				arm_armor="6"
 				covers_body="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="studded_leather_over_aketon"
 		name="{=dS4zm0UT}Studded Leather over Aketon"
@@ -5245,9 +6140,9 @@
 				arm_armor="7"
 				covers_body="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="eastern_lamellar_armor"
 		name="{=tG1Q8r2u}Lancer Lamellar Armor"
@@ -5262,9 +6157,9 @@
 				arm_armor="7"
 				covers_body="true"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="khuzait_lamellar_strapped"
 		name="{=jimBaHvz}Reinforced Leather Armor"
@@ -5280,9 +6175,9 @@
 				has_gender_variations="false"
 				covers_body="true"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="eastern_plated_leather_vest"
 		name="{=BbhGL8XT}Brigandine Vest"
@@ -5297,9 +6192,9 @@
 				arm_armor="2"
 				covers_body="true"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="eastern_plated_leather"
 		name="{=FDEIHpIN}Mirrored Brigandine Armor"
@@ -5314,9 +6209,9 @@
 				arm_armor="14"
 				covers_body="true"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="khuzait_heavy_armor"
 		name="{=CttLMqiq}Khan's Coat of Plates"
@@ -5331,9 +6226,9 @@
 				arm_armor="23"
 				covers_body="true"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<!-- #endregion -->
 	<!-- #region Vlandia Body Armors -->
@@ -5352,9 +6247,9 @@
 				arm_armor="1"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="cloth_tunic"
 		name="{=OJIRIm4j}Simple Cloth Tunic"
@@ -5370,9 +6265,9 @@
 				arm_armor="1"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="long_hemp_tunic"
 		name="{=NUHzapSv}Long Hemp Tunic"
@@ -5387,9 +6282,9 @@
 				arm_armor="2"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="long_woolen_tunic"
 		name="{=U8QfF3Gw}Long Woolen Tunic"
@@ -5406,9 +6301,9 @@
 				arm_armor="1"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="vlandian_noble_woman_dress"
 		name="{=pbxbCnVy}Silken Noble Dress"
@@ -5425,9 +6320,9 @@
 				covers_body="false"
 				body_mesh_type="shoulders"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="vlandian_woman_dress"
 		name="{=qPm3xaiP}Aproned Dress"
@@ -5444,9 +6339,9 @@
 				covers_body="false"
 				body_mesh_type="shoulders"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="vlandian_corset_dress"
 		name="{=4eSEJor3}Corseted Dress"
@@ -5462,9 +6357,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="monk_robe"
 		name="{=QuaE76ua}Scholar Robe"
@@ -5479,9 +6374,9 @@
 				arm_armor="1"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="padded_leather_shirt"
 		name="{=tiTTWhpW}Padded Leather Shirt"
@@ -5496,9 +6391,9 @@
 				arm_armor="4"
 				covers_body="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="padded_coat"
 		name="{=QbfOXJas}Padded Footman Coat"
@@ -5516,9 +6411,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="leather_coat_over_cloth"
 		name="{=wKucIANJ}Leather Coat over Cloth"
@@ -5536,9 +6431,9 @@
 				arm_armor="2"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="aketon"
 		name="{=7b8Cwogx}Aketon"
@@ -5553,9 +6448,9 @@
 				arm_armor="3"
 				covers_body="true"
 				modifier_group="cloth"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="leather_coat"
 		name="{=ZqTFQeai}Leather Tunic"
@@ -5573,9 +6468,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="sleeveless_padded_short_coat"
 		name="{=bz5lXkHS}Sleeveless Padded Short Coat"
@@ -5593,9 +6488,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="sleeveless_padded_coat"
 		name="{=lZ93DOrn}Sleeveless Padded Coat"
@@ -5613,9 +6508,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="padded_short_coat"
 		name="{=4pqIsPhp}Padded Short Coat"
@@ -5631,9 +6526,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="leather_scale_armor"
 		name="{=PL5SG9hI}Leather Scale Armor"
@@ -5651,9 +6546,9 @@
 				arm_armor="6"
 				covers_body="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="woven_leather_vest"
 		name="{=LgftnHPs}Woven Leather Vest"
@@ -5671,9 +6566,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="vlandia_chainmail"
 		name="{=atSRQkCE}Heavy Mail Hauberk"
@@ -5689,9 +6584,9 @@
 				has_gender_variations="false"
 				covers_body="true"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="white_coat_over_mail"
 		name="{=YxglkaXU}White Tabard over Mail Hauberk"
@@ -5709,9 +6604,9 @@
 				has_gender_variations="false"
 				covers_body="true"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="red_coat_over_mail"
 		name="{=aM2EPdXj}Red Tabard over Mail Hauberk"
@@ -5729,7 +6624,7 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
 	</Item>
 	<Item id="mail_shirt"
@@ -5747,9 +6642,9 @@
 				arm_armor="11"
 				covers_body="true"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="plated_leather_coat"
 		name="{=OvlG2Vu1}Rough Brigandine"
@@ -5767,9 +6662,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="coat_of_plates_over_mail"
 		name="{=PtfbqMeg}Brigandine over Mail"
@@ -5786,9 +6681,9 @@
 				arm_armor="14"
 				covers_body="true"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="banded_leather_over_mail"
 		name="{=iAWzr8Q0}Banded Leather over Mail"
@@ -5803,9 +6698,9 @@
 				arm_armor="8"
 				covers_body="true"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<!-- #endregion -->
 	<!-- #region Sturgia Body Armors -->
@@ -5825,9 +6720,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="nordic_tunic"
 		name="{=9aehD627}Luxury Tunic"
@@ -5845,9 +6740,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="tundra_tunic"
 		name="{=ya4i8G3y}Belted Tunic"
@@ -5865,9 +6760,9 @@
 				has_gender_variations="false"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="roughcloth_shortcoat"
 		name="{=hXijcZyp}Roughcloth Shortcoat"
@@ -5884,9 +6779,9 @@
 				arm_armor="1"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="northern_dress"
 		name="{=DUp0MKZQ}Cold Weather Dress"
@@ -5902,9 +6797,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="laced_dress"
 		name="{=PP5SzUx0}Laced Dress"
@@ -5921,9 +6816,9 @@
 				covers_body="false"
 				body_mesh_type="shoulders"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="cut_dress"
 		name="{=mzc6SKeH}Frilled Dress"
@@ -5939,9 +6834,9 @@
 				has_gender_variations="true"
 				covers_body="false"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="cut_dress_with_pouch"
 		name="{=deA729dQ}Cut Dress with Pouch"
@@ -5956,9 +6851,9 @@
 				has_gender_variations="true"
 				covers_body="false"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="dress_with_overall"
 		name="{=MLBA8tej}Dress"
@@ -5974,9 +6869,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="plain_dress"
 		name="{=t695AnJU}Plain Dress"
@@ -5992,9 +6887,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="heavy_nordic_tunic"
 		name="{=CAO0bycV}Heavy Tunic"
@@ -6010,9 +6905,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="light_tunic"
 		name="{=JCdVJYnQ}Light Tunic"
@@ -6030,9 +6925,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="fur_trimmed_tunic"
 		name="{=SvYpE52J}Fur Trimmed Tunic"
@@ -6050,9 +6945,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="fur_trimmed_short_tunic"
 		name="{=VaqBBaQu}Fur Trimmed Short Tunic"
@@ -6070,9 +6965,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="decorated_short_tunic"
 		name="{=oQSZ0XgP}Decorated Thick Tunic"
@@ -6090,9 +6985,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="sturgia_light_tunic"
 		name="{=lB4UF1GT}Long Tunic"
@@ -6110,9 +7005,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="nordic_sloven_leather"
 		name="{=FRWm800F}Sloven Leather"
@@ -6128,9 +7023,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="heavy_nordic_coat"
 		name="{=SsCM14Xu}Sleeved Heavy Tunic"
@@ -6148,9 +7043,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="northern_padded_gambeson"
 		name="{=fwxHsC1h}Short Gambeson over Tunic"
@@ -6166,9 +7061,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="northern_padded_cloth"
 		name="{=vCywYDmp}Light Padded Armor"
@@ -6186,9 +7081,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="nordic_padded_cloth"
 		name="{=WLJOnehi}Reinforced Thick Tunic"
@@ -6204,9 +7099,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="northern_leather_vest"
 		name="{=C8bVbM65}Tunic with Leather Vest"
@@ -6222,9 +7117,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="stitched_leather_vest"
 		name="{=xa7KRSCy}Stitched Leather Vest"
@@ -6241,9 +7136,9 @@
 				arm_armor="3"
 				covers_body="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="nordic_sloven"
 		name="{=c7wcTevc}Leather Armor over Heavy Cloth"
@@ -6261,9 +7156,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="layered_leather_tunic"
 		name="{=4KYF5iCd}Layered Leather Tunic"
@@ -6280,9 +7175,9 @@
 				arm_armor="2"
 				covers_body="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="northern_leather_tabard"
 		name="{=0a6Vz7wi}Leather Tabard"
@@ -6297,9 +7192,9 @@
 				arm_armor="6"
 				covers_body="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="northern_lamellar_armor"
 		name="{=hXB6gvD2}Cured Leather Lamellar Shirt "
@@ -6317,9 +7212,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="decorated_nordic_hauberk"
 		name="{=bAidg8fV}Huscarl Decorated Mail Shirt"
@@ -6337,9 +7232,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="nordic_sloven_over_mail"
 		name="{=6XxiMU52}Leather Tabard over Mail"
@@ -6355,9 +7250,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="nordic_hauberk"
 		name="{=1jX7yxSW}Huscarl Mail Shirt"
@@ -6375,9 +7270,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="leather_and_iron_plate_armor"
 		name="{=camFHYrN}Leather Armor with Iron Plates"
@@ -6394,9 +7289,9 @@
 				arm_armor="4"
 				covers_body="true"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="northern_coat_of_plates"
 		name="{=w4RuDABQ}Coat Of Plates"
@@ -6411,9 +7306,9 @@
 				arm_armor="6"
 				covers_body="true"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="nordic_lamellar_armor"
 		name="{=wRZ3LExm}Bronze Scale Vest over Gambeson"
@@ -6431,9 +7326,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="nordic_lamellar_vest"
 		name="{=QaTkvy56}Bronze Scale Vest"
@@ -6449,9 +7344,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="sturgian_fortified_armor"
 		name="{=KwbnODoT}Brigandine over Hauberk"
@@ -6469,9 +7364,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="sturgian_lamellar_base"
 		name="{=TeIcf3Cd}Heavy Lamellar over Mail Armor"
@@ -6487,10 +7382,10 @@
 				arm_armor="7"
 				covers_body="true"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
 		<Flags
-			UseTeamColor="true" />
+			UseTeamColor="true"/>
 	</Item>
 	<Item id="sturgian_lamellar_fortified"
 		name="{=D358wBWJ}Heavy Lamellar over Hauberk"
@@ -6505,9 +7400,9 @@
 				arm_armor="15"
 				covers_body="true"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="sturgian_chainmale_longsleeve"
 		name="{=4cHMe6H2}Decorated Hauberk"
@@ -6525,9 +7420,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="sturgian_chainmale_shortsleeve"
 		name="{=eHyxxxoK}Huscarl Hauberk"
@@ -6545,9 +7440,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="sturgian_lamellar_gambeson"
 		name="{=luoXhz19}Heavy Lamellar Vest"
@@ -6563,9 +7458,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="sturgian_lamellar_gambeson_heavy"
 		name="{=luoXhz19}Heavy Lamellar Vest"
@@ -6581,9 +7476,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<!-- #endregion -->
 	<!-- #region Empire Body Armors -->
@@ -6601,9 +7496,9 @@
 				has_gender_variations="false"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="fine_town_tunic"
 		name="{=vbPBXiPC}Rich Tunic"
@@ -6618,9 +7513,9 @@
 				arm_armor="1"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="hemp_tunic"
 		name="{=yTWOMSmv}Hemp Tunic"
@@ -6637,9 +7532,9 @@
 				arm_armor="1"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="tied_cloth_tunic"
 		name="{=MQ8LCvCE}Tied Cloth Tunic"
@@ -6656,9 +7551,9 @@
 				arm_armor="1"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="vlandian_dress"
 		name="{=eRZK8Kbp}Rich Dress"
@@ -6674,9 +7569,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="empire_dress"
 		name="{=JsmnUp0T}Ladies Dress"
@@ -6692,9 +7587,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="empire_dress_b"
 		name="{=VqFV9LS4}Red Dress"
@@ -6710,9 +7605,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="footmans_tunic"
 		name="{=2AcfBbCR}Military Tunic"
@@ -6729,9 +7624,9 @@
 				arm_armor="1"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="tunic_with_shoulder_pads"
 		name="{=y3oIzUEp}Tunic with Shoulder Pads"
@@ -6746,9 +7641,9 @@
 				arm_armor="2"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="tunic_with_rolled_cloth"
 		name="{=QaysED62}Tunic with Rolled Cloth"
@@ -6765,9 +7660,9 @@
 				arm_armor="2"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="imperial_robes"
 		name="{=R45H8quo}Toga"
@@ -6783,9 +7678,9 @@
 				has_gender_variations="false"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="leather_tunic"
 		name="{=ZqTFQeai}Leather Tunic"
@@ -6801,9 +7696,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="imperial_padded_cloth"
 		name="{=CqMQXzUd}Infantryman Rough Gambeson"
@@ -6818,9 +7713,9 @@
 				arm_armor="6"
 				covers_body="true"
 				modifier_group="cloth"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="khuzait_leather_stitched"
 		name="{=z7oMeRl3}Thick Brigandine Vest"
@@ -6836,9 +7731,9 @@
 				has_gender_variations="false"
 				covers_body="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="empire_warrior_padded_armor_e"
 		name="{=1BXuUR3s}Infantryman Long Gambeson"
@@ -6853,9 +7748,9 @@
 				arm_armor="5"
 				covers_body="true"
 				modifier_group="cloth"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="woven_leather_coat"
 		name="{=wE7RWmIF}Boarskin Leather Coat"
@@ -6870,9 +7765,9 @@
 				arm_armor="4"
 				covers_body="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="empire_horseman_armor"
 		name="{=wJ4Y9IFc}Cavalryman Mail Shirt"
@@ -6890,9 +7785,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<!-- #endregion -->
 	<!-- #region Looters Body Armors -->
@@ -6911,9 +7806,9 @@
 				has_gender_variations="true"
 				covers_body="false"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" DoesNotHideChest="true" />
+		<Flags UseTeamColor="true" Civilian="true" DoesNotHideChest="true"/>
 	</Item>
 	<Item id="tattered_rags"
 		name="{=F9GB8lMZ}Tattered Rags"
@@ -6931,9 +7826,9 @@
 				has_gender_variations="true"
 				covers_body="false"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" DoesNotHideChest="true" />
+		<Flags Civilian="true" DoesNotHideChest="true"/>
 	</Item>
 	<Item id="bandit_leather_water_flask"
 		name="{=8hDoWBIa}Commoner Shirt"
@@ -6951,9 +7846,9 @@
 				covers_body="false"
 				body_mesh_type="shoulders"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="torn_bandit_clothes"
 		name="{=qhbOjHRI}Torn Padded Garments"
@@ -6971,9 +7866,9 @@
 				covers_body="false"
 				body_mesh_type="shoulders"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="bandit_envelope_dress_v1"
 		name="{=jbxeZs8K}Commoner Tunic"
@@ -6991,9 +7886,9 @@
 				covers_body="false"
 				body_mesh_type="shoulders"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="bandit_envelope_dress_v2"
 		name="{=qILO0HdK}Sleeveless Enveloped Padded Garments"
@@ -7010,9 +7905,9 @@
 				has_gender_variations="true"
 				covers_body="false"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="bandit_fur_a"
 		name="{=v6W9XaDI}Old Fur Armor"
@@ -7028,9 +7923,9 @@
 				has_gender_variations="true"
 				covers_body="false"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="bandit_fur_b"
 		name="{=j7EZxCiG}Old Fur Coat"
@@ -7046,9 +7941,9 @@
 				has_gender_variations="true"
 				covers_body="false"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" DoesNotHideChest="true" />
+		<Flags Civilian="true" DoesNotHideChest="true"/>
 	</Item>
 	<Item id="empire_short_dress"
 		name="{=KdbHrcQx}Short Tunic"
@@ -7064,9 +7959,9 @@
 				has_gender_variations="true"
 				covers_body="false"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" DoesNotHideChest="true" UseTeamColor="true" />
+		<Flags Civilian="true" DoesNotHideChest="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="fur_skirt"
 		name="{=Z9RlnXrD}Fur Skirt"
@@ -7083,9 +7978,9 @@
 				has_gender_variations="true"
 				covers_body="false"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" DoesNotHideChest="true" />
+		<Flags UseTeamColor="true" DoesNotHideChest="true"/>
 	</Item>
 	<Item id="fur_skirt_with_tunic"
 		name="{=qT6jIu3v}Fur Skirt with Tunic"
@@ -7103,9 +7998,9 @@
 				has_gender_variations="false"
 				covers_body="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="ragged_robes"
 		name="{=tVyuxl8e}Ragged Robes"
@@ -7122,9 +8017,9 @@
 				arm_armor="1"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="fur_waistcoat_over_tunic"
 		name="{=XH9f3yOX}Fur Waistcoat over Tunic"
@@ -7142,9 +8037,9 @@
 				has_gender_variations="false"
 				covers_body="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="sleeveless_fur_coat"
 		name="{=1cYka5tR}Sleeveless Fur Coat"
@@ -7161,9 +8056,9 @@
 				arm_armor="2"
 				covers_body="false"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="fur_coat_over_tunic"
 		name="{=dVekhkIU}Fur Coat over Tunic"
@@ -7180,9 +8075,9 @@
 				covers_body="true"
 				has_gender_variations="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="bandit_gambeson"
 		name="{=bTUGfbH5}Rugged Gambeson"
@@ -7199,9 +8094,9 @@
 				has_gender_variations="true"
 				covers_body="false"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="rough_fur_armor"
 		name="{=qo8hwDNU}Rough Fur Armor"
@@ -7216,9 +8111,9 @@
 				arm_armor="3"
 				covers_body="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="padded_leather_overcoat"
 		name="{=CtJPuRDa}Padded Leather Overcoat"
@@ -7234,9 +8129,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="vlandia_bandit_a"
 		name="{=AobNdBBU}Cheap Paddings"
@@ -7252,9 +8147,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="vlandia_bandit_b"
 		name="{=BavVxSoC}Cheap Colored Clothes"
@@ -7270,9 +8165,9 @@
 				has_gender_variations="true"
 				covers_body="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" />
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="vlandia_bandit_c"
 		name="{=hELN8VXv}Torn Robe"
@@ -7287,9 +8182,9 @@
 				has_gender_variations="true"
 				covers_body="false"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" DoesNotHideChest="true" />
+		<Flags UseTeamColor="true" DoesNotHideChest="true"/>
 	</Item>
 	<!-- #endregion -->
 	<!-- #region Neutral Body Armors -->
@@ -7306,9 +8201,9 @@
 				arm_armor="2"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="half_apron"
 		name="{=FOJHPU5N}Half Apron"
@@ -7323,9 +8218,9 @@
 				arm_armor="1"
 				covers_body="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true" />
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="merchants_fur_coat"
 		name="{=2KQbV4To}Merchant Fur Coat"
@@ -7340,9 +8235,9 @@
 				arm_armor="4"
 				covers_body="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="leather_apron"
 		name="{=r0Ln9bAp}Leather Apron"
@@ -7359,9 +8254,9 @@
 				arm_armor="2"
 				covers_body="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true" />
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<!-- #endregion -->
 
@@ -7377,9 +8272,9 @@
 		<ItemComponent>
 			<Armor arm_armor="9"
 				modifier_group="cloth"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<!-- #endregion -->
 	<!-- #region Battania Arm Armors -->
@@ -7395,10 +8290,10 @@
 			<Armor arm_armor="3"
 				covers_hands="false"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
 		<Flags Civilian="true"
-			UseTeamColor="true" />
+			UseTeamColor="true"/>
 	</Item>
 	<Item id="armwraps"
 		name="{=oEJnxsQ1}Armwraps"
@@ -7411,9 +8306,9 @@
 		<ItemComponent>
 			<Armor arm_armor="3"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="guarded_armwraps"
 		name="{=a1BGHdaU}Guarded Armwraps"
@@ -7426,9 +8321,9 @@
 		<ItemComponent>
 			<Armor arm_armor="7"
 				modifier_group="cloth"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="rough_tied_bracers"
 		name="{=uEPRE33m}Rough Tied Bracers"
@@ -7441,9 +8336,9 @@
 			<Armor arm_armor="9"
 				covers_hands="false"
 				modifier_group="cloth"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="buttoned_leather_bracers"
 		name="{=iD0ePqi7}Buttoned Leather Bracers"
@@ -7456,9 +8351,9 @@
 			<Armor arm_armor="4"
 				covers_hands="false"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="strapped_leather_bracers"
 		name="{=DOYS7dmq}Strapped Leather Bracers"
@@ -7471,9 +8366,9 @@
 			<Armor arm_armor="5"
 				covers_hands="false"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="roughtied_leather_bracers"
 		name="{=e4lKZhgv}Roughtied Leather Bracers"
@@ -7486,9 +8381,9 @@
 			<Armor arm_armor="3"
 				covers_hands="false"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="battania_noble_bracers"
 		name="{=wLAL9NRB}Fian Bracers"
@@ -7502,9 +8397,9 @@
 			<Armor arm_armor="18"
 				covers_hands="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="highland_gloves"
 		name="{=4HcrY0S2}Fur Rimmed Leather Gloves"
@@ -7518,9 +8413,9 @@
 			<Armor arm_armor="8"
 				covers_hands="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<!-- #endregion -->
 	<!-- #region Khuzait Arm Armors -->
@@ -7535,9 +8430,9 @@
 			<Armor arm_armor="3"
 				covers_hands="false"
 				modifier_group="cloth"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="steppe_leather_vambraces"
 		name="{=LoUxaFeE}Leather Vambraces"
@@ -7550,9 +8445,9 @@
 			<Armor arm_armor="12"
 				covers_hands="false"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="studded_leather_vambraces"
 		name="{=bxa4JHlU}Studded Leather Vambraces"
@@ -7565,9 +8460,9 @@
 			<Armor arm_armor="11"
 				covers_hands="false"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="studded_vambraces"
 		name="{=8uBew3nD}Studded Vambraces"
@@ -7581,9 +8476,9 @@
 			<Armor arm_armor="5"
 				covers_hands="false"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="eastern_plated_leather_vambraces"
 		name="{=mvTueU1y}Plated Leather Vambraces"
@@ -7596,9 +8491,9 @@
 			<Armor arm_armor="24"
 				covers_hands="false"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<!-- #endregion -->
 	<!-- #region Vlandia Arm Armors -->
@@ -7614,9 +8509,9 @@
 			<Armor arm_armor="20"
 				covers_hands="true"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="reinforced_mail_mitten"
 		name="{=dPQGxmJ7}Reinforced Mail Mittens"
@@ -7630,9 +8525,9 @@
 			<Armor arm_armor="23"
 				covers_hands="true"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="lordly_mail_mitten"
 		name="{=VDMkVMxt}Heavy Mail Mittens"
@@ -7645,9 +8540,9 @@
 			<Armor arm_armor="24"
 				covers_hands="true"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="reinforced_leather_vambraces"
 		name="{=2Ilvjlz9}Splint Vambraces"
@@ -7660,9 +8555,9 @@
 			<Armor arm_armor="20"
 				covers_hands="false"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="khuzait_heavy_armor_bracer"
 		name="{=NfFAgMUE}Khan's Plated Bracers"
@@ -7675,9 +8570,9 @@
 			<Armor arm_armor="23"
 				covers_hands="false"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<!-- #endregion -->
 	<!-- #region Sturgia Arm Armors -->
@@ -7692,9 +8587,9 @@
 			<Armor arm_armor="18"
 				covers_hands="true"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="northern_brass_bracers"
 		name="{=Xrb43Fv4}Bronze Bracers"
@@ -7707,9 +8602,9 @@
 			<Armor arm_armor="22"
 				covers_hands="false"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<!-- #endregion -->
 	<!-- #region Empire Arm Armors -->
@@ -7724,9 +8619,9 @@
 			<Armor arm_armor="6"
 				covers_hands="false"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="padded_mitten"
 		name="{=J3YHMkL3}Padded Mittens"
@@ -7740,9 +8635,9 @@
 			<Armor arm_armor="9"
 				covers_hands="true"
 				modifier_group="cloth"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="plated_strip_gauntlets"
 		name="{=ulaMq9HL}Plated Striped Vambraces"
@@ -7755,9 +8650,9 @@
 			<Armor arm_armor="22"
 				covers_hands="false"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="lordly_padded_mitten"
 		name="{=t01v8qW7}Lordly Padded Mittens"
@@ -7771,9 +8666,9 @@
 			<Armor arm_armor="18"
 				covers_hands="true"
 				modifier_group="cloth"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="reinforced_padded_mitten"
 		name="{=PLtQdf23}Reinforced Padded Mittens"
@@ -7787,9 +8682,9 @@
 			<Armor arm_armor="18"
 				covers_hands="true"
 				modifier_group="cloth"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<!-- #endregion -->
 	<!-- #region Neutral Arm Armors -->
@@ -7804,9 +8699,9 @@
 			<Armor arm_armor="4"
 				covers_hands="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="padded_vambrace"
 		name="{=MamotK0a}Padded Vambraces"
@@ -7819,9 +8714,9 @@
 		<ItemComponent>
 			<Armor arm_armor="7"
 				modifier_group="cloth"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<!-- #endregion -->
 
@@ -7837,9 +8732,9 @@
 			<Armor leg_armor="2"
 				covers_legs="false"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="wrapped_shoes"
 		name="{=4YxbZlbi}Wrapped Shoes"
@@ -7852,9 +8747,9 @@
 			<Armor leg_armor="4"
 				covers_legs="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<!-- #endregion -->
 	<!-- #region Battania Leg Armors -->
@@ -7870,9 +8765,9 @@
 			<Armor leg_armor="8"
 				covers_legs="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="rough_tied_boots"
 		name="{=Oo0baNaq}Rough Tied Boots"
@@ -7885,9 +8780,9 @@
 			<Armor leg_armor="6"
 				covers_legs="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="battania_leather_boots"
 		name="{=4Ygp7P0Y}Highborn Leather Boots"
@@ -7901,9 +8796,9 @@
 			<Armor leg_armor="5"
 				covers_legs="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="battania_woodland_boots"
 		name="{=L7qYlJqn}Woodland Boots"
@@ -7917,9 +8812,9 @@
 			<Armor leg_armor="6"
 				covers_legs="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="battania_fur_boots"
 		name="{=jVK5B86k}Fur Boots"
@@ -7933,9 +8828,9 @@
 			<Armor leg_armor="6"
 				covers_legs="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="highland_boots"
 		name="{=FQqaVHq2}Forester Boots"
@@ -7949,9 +8844,9 @@
 			<Armor leg_armor="5"
 				covers_legs="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="wrapped_leather_boots"
 		name="{=WahziEXA}Wrapped Leather Boots"
@@ -7964,9 +8859,9 @@
 			<Armor leg_armor="7"
 				covers_legs="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="belted_leather_boots"
 		name="{=bFm9jOft}Belted Leather Boots"
@@ -7979,9 +8874,9 @@
 			<Armor leg_armor="5"
 				covers_legs="false"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="turndown_leather_boots"
 		name="{=xwWYJb5A}Folded Leather Boots"
@@ -7994,9 +8889,9 @@
 			<Armor leg_armor="9"
 				covers_legs="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<!-- #endregion -->
 	<!-- #region Khuzait Leg Armors -->
@@ -8011,9 +8906,9 @@
 			<Armor leg_armor="6"
 				covers_legs="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="khuzait_curved_boots"
 		name="{=D9JrTpwU}Curved Boots"
@@ -8026,9 +8921,9 @@
 			<Armor leg_armor="5"
 				covers_legs="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="woven_leather_boots"
 		name="{=J00AF9Qv}Woven Leather Boots"
@@ -8041,9 +8936,9 @@
 			<Armor leg_armor="5"
 				covers_legs="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="steppe_leather_boots"
 		name="{=VpxHysbZ}Sturdy Leather Boots"
@@ -8057,9 +8952,9 @@
 			<Armor leg_armor="4"
 				covers_legs="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="reinforced_suede_boots"
 		name="{=9Eyd2qGo}Reinforced Suede Boots"
@@ -8073,9 +8968,9 @@
 			<Armor leg_armor="20"
 				covers_legs="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="leather_boots"
 		name="{=IOOTPpYj}Fur Rimmed Curved Boots"
@@ -8089,9 +8984,9 @@
 			<Armor leg_armor="4"
 				covers_legs="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<!-- #endregion -->
 	<!-- #region Vlandia Leg Armors -->
@@ -8106,9 +9001,9 @@
 			<Armor leg_armor="22"
 				covers_legs="true"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="strapped_mail_chausses"
 		name="{=aYoIrpe0}Strapped Mail Chausses"
@@ -8122,9 +9017,9 @@
 			<Armor leg_armor="23"
 				covers_legs="true"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<Item id="leather_cavalier_boots"
 		name="{=oEvhhNNR}Leather Cavalier Boots"
@@ -8137,9 +9032,9 @@
 			<Armor leg_armor="6"
 				covers_legs="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="mail_cavalier_boots"
 		name="{=tWfAPrPa}Mail Cavalier Boots"
@@ -8153,9 +9048,9 @@
 			<Armor leg_armor="12"
 				covers_legs="true"
 				modifier_group="chain"
-				material_type="Chainmail" />
+				material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<!-- #endregion -->
 	<!-- #region Sturgia Leg Armors -->
@@ -8170,9 +9065,9 @@
 			<Armor leg_armor="5"
 				covers_legs="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="sturgia_boots_b"
 		name="{=6QNQosHv}Tied Leather Boots"
@@ -8185,9 +9080,9 @@
 			<Armor leg_armor="6"
 				covers_legs="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="sturgia_boots_c"
 		name="{=4KZekKff}Tied Boots"
@@ -8200,10 +9095,10 @@
 			<Armor leg_armor="4"
 				covers_legs="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
 		<Flags Civilian="true"
-			UseTeamColor="true" />
+			UseTeamColor="true"/>
 	</Item>
 	<Item id="sturgia_boots_d"
 		name="{=FptcHNb9}Wrapped Boots"
@@ -8216,10 +9111,10 @@
 			<Armor leg_armor="3"
 				covers_legs="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
 		<Flags Civilian="true"
-			UseTeamColor="true" />
+			UseTeamColor="true"/>
 	</Item>
 	<Item id="northern_plated_boots"
 		name="{=18ZFPXsO}Huscarl Plated Boots"
@@ -8232,9 +9127,9 @@
 			<Armor leg_armor="18"
 				covers_legs="true"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<!-- #endregion -->
 	<!-- #region Empire Leg Armors -->
@@ -8249,9 +9144,9 @@
 			<Armor leg_armor="4"
 				covers_legs="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="folded_town_boots"
 		name="{=oH8iFEv7}Folded Town Boots"
@@ -8264,9 +9159,9 @@
 			<Armor leg_armor="4"
 				covers_legs="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="empire_horseman_boots"
 		name="{=uvSXUgT8}Horseman Boots"
@@ -8280,9 +9175,9 @@
 			<Armor leg_armor="5"
 				covers_legs="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="strapped_leather_boots"
 		name="{=tMwsE9IR}Strapped Leather Boots"
@@ -8296,9 +9191,9 @@
 			<Armor leg_armor="5"
 				covers_legs="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="plated_strip_boots"
 		name="{=Fb7PrJuc}Splint Boots"
@@ -8311,9 +9206,9 @@
 			<Armor leg_armor="22"
 				covers_legs="true"
 				modifier_group="plate"
-				material_type="Plate" />
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags />
+		<Flags/>
 	</Item>
 	<!-- #endregion -->
 	<!-- #region Neutral Leg Armors -->
@@ -8328,9 +9223,9 @@
 			<Armor leg_armor="1"
 				covers_legs="false"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="leather_shoes"
 		name="{=Kgnm0FkE}Leather Shoes"
@@ -8344,9 +9239,9 @@
 			<Armor leg_armor="3"
 				covers_legs="true"
 				modifier_group="leather"
-				material_type="Leather" />
+				material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="ragged_boots"
 		name="{=Szuxa9Bs}Ragged Boots"
@@ -8360,9 +9255,9 @@
 			<Armor leg_armor="5"
 				covers_legs="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<Item id="strapped_shoes"
 		name="{=LOPavWRp}Strapped Shoes"
@@ -8376,9 +9271,9 @@
 			<Armor leg_armor="5"
 				covers_legs="true"
 				modifier_group="cloth_unarmoured"
-				material_type="Cloth" />
+				material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" />
+		<Flags Civilian="true"/>
 	</Item>
 	<!-- #endregion -->
 </Items>
