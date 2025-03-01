@@ -1,44 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-	<!-- #region Weapons -->
-	<Item id="torch"
-		name="{=ErOLa263}Torch"
-		is_merchandise="false"
-		body_name="bo_mace_a"
-		recalculate_body="true"
-		mesh="torch_g"
-		prefab="torch_a_wm_only_flame"
-		culture="Culture.neutral_culture"
-		value="4"
-		weight="0.2"
-		Type="OneHandedWeapon"
-		item_holsters="abdomen_left">
-		<ItemComponent>
-			<Weapon weapon_class="OneHandedAxe"
-				weapon_balance="100"
-				thrust_speed="78"
-				speed_rating="97"
-				missile_speed="0"
-				weapon_length="65"
-				swing_damage="6"
-				swing_damage_type="Blunt"
-				item_usage="torch"
-				physics_material="metal_weapon">
-				<WeaponFlags MeleeWeapon="true"/>
-			</Weapon>
-		</ItemComponent>
-		<Flags DropOnWeaponChange="true"
-			ForceAttachOffHandPrimaryItemBone="true"
-			HeldInOffHand="true"
-			HasToBeHeldUp="true"/>
-	</Item>
 	<!-- #region Used Peasant Weapons -->
 	<!-- Tier 1 -->
 	<CraftedItem id="peasant_maul_t1"
 		name="{=nTc20R1R}Makeshift Sledgehammer"
 		crafting_template="TwoHandedMace"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		modifier_group="cheap_weapon">
 		<Pieces>
 			<!-- head is wrong breaks saves if removed dont use this item -->
@@ -49,7 +16,6 @@
 	<CraftedItem id="peasant_maul_t1_2"
 		name="{=gYpNILVC}Sledgehammer"
 		crafting_template="TwoHandedMace"
-		culture="Culture.neutral_culture"
 		modifier_group="cheap_weapon">
 		<Pieces>
 			<Piece id="hammer_head_11" Type="Blade" scale_factor="102"/>
@@ -138,193 +104,6 @@
 			<Piece id="spear_handle_1" Type="Handle" scale_factor="100"/>
 		</Pieces>
 	</CraftedItem>
-	<!-- #endregion -->
-	<!-- #region Special Wepaons -->
-	<CraftedItem id="wooden_sword_t1"
-		name="{=1HWRwbwT}Wooden Sword"
-		is_merchandise="false"
-		crafting_template="OneHandedSword"
-		has_modifier="false">
-		<Pieces>
-			<Piece id="wood_blade_1" Type="Blade" scale_factor="110"/>
-			<Piece id="wood_guard_1" Type="Guard"/>
-			<Piece id="wood_grip_1" Type="Handle" scale_factor="110"/>
-			<Piece id="wood_pommel_1" Type="Pommel"/>
-		</Pieces>
-	</CraftedItem>
-	<CraftedItem id="wooden_sword_t2"
-		name="{=1HWRwbwT}Wooden Sword"
-		is_merchandise="false"
-		crafting_template="OneHandedSword"
-		has_modifier="false">
-		<Pieces>
-			<Piece id="wood_blade_2" Type="Blade" scale_factor="110"/>
-			<Piece id="wood_guard_1" Type="Guard"/>
-			<Piece id="wood_grip_1" Type="Handle" scale_factor="110"/>
-			<Piece id="wood_pommel_1" Type="Pommel"/>
-		</Pieces>
-	</CraftedItem>
-	<CraftedItem id="wooden_2hsword_t1"
-		name="{=bt0uFefo}Wooden Twohander"
-		is_merchandise="false"
-		crafting_template="TwoHandedSword"
-		has_modifier="false">
-		<Pieces>
-			<Piece id="wood_blade_1" Type="Blade" scale_factor="105"/>
-			<Piece id="wood_guard_1" Type="Guard"/>
-			<Piece id="wood_grip_2" Type="Handle"/>
-			<Piece id="wood_pommel_1" Type="Pommel"/>
-		</Pieces>
-	</CraftedItem>
-	<CraftedItem id="practice_spear_t1"
-		name="{=H9hzBJz3}Practice Spear"
-		is_merchandise="false"
-		crafting_template="TwoHandedPolearm"
-		has_modifier="false">
-		<Pieces>
-			<Piece id="spear_blade_34" Type="Blade"/>
-			<Piece id="default_polearm_guard" Type="Guard"/>
-			<Piece id="spear_handle_3" Type="Handle"/>
-			<Piece id="default_polearm_pommel" Type="Pommel"/>
-		</Pieces>
-	</CraftedItem>
-	<Item id="horse_whip"
-		name="{=HclLXEaT}Horse Whip"
-		is_merchandise="false"
-		body_name="bo_mace_a"
-		recalculate_body="true"
-		mesh="horse_whip"
-		weight="0.2"
-		value="1"
-		Type="OneHandedWeapon"
-		item_holsters="sword_left_hip">
-		<ItemComponent>
-			<Weapon weapon_class="OneHandedSword"
-				weapon_balance="100"
-				thrust_speed="79"
-				speed_rating="99"
-				physics_material="wood_weapon"
-				missile_speed="0"
-				weapon_length="95"
-				thrust_damage="6"
-				thrust_damage_type="Blunt"
-				swing_damage="5"
-				swing_damage_type="Blunt"
-				item_usage="onehanded_block_shield_swing">
-				<WeaponFlags MeleeWeapon="true"/>
-			</Weapon>
-		</ItemComponent>
-		<Flags/>
-	</Item>
-	<Item id="push_fork"
-		name="{=l69aXkKH}Push Fork"
-		is_merchandise="false"
-		body_name="bo_push_fork"
-		recalculate_body="true"
-		mesh="push_fork"
-		subtype="two_handed_wpn"
-		weight="2"
-		difficulty="0"
-		appearance="0.1"
-		Type="Polearm"
-		item_holsters="polearm_back:polearm_back_2">
-		<ItemComponent>
-			<Weapon weapon_class="TwoHandedPolearm"
-				weapon_balance="100"
-				thrust_speed="56"
-				speed_rating="70"
-				physics_material="wood_weapon"
-				weapon_length="200"
-				swing_damage="5"
-				thrust_damage="2"
-				swing_damage_type="Blunt"
-				thrust_damage_type="Blunt"
-				item_usage="polearm_block_thrust">
-				<WeaponFlags MeleeWeapon="true"
-					PenaltyWithShield="true"
-					NotUsableWithOneHand="true"
-					TwoHandIdleOnMount="true"
-					WideGrip="true"/>
-			</Weapon>
-		</ItemComponent>
-		<Flags
-			WoodenParry="true"
-			DropOnWeaponChange="true"
-			DoNotScaleBodyAccordingToWeaponLength="true"
-			QuickFadeOut="true"/>
-	</Item>
-	<Item id="training_bow"
-		name="{=SUSbUAEl}Practice Bow"
-		body_name="bo_composite_shotbow_b"
-		mesh="shortbow_b"
-		weight="0.3"
-		difficulty="0"
-		appearance="1"
-		is_merchandise="false"
-		Type="Bow"
-		item_holsters="bow_back_2:bow_hip:bow_hip_2:bow_back">
-		<ItemComponent>
-			<Weapon weapon_class="Bow"
-				ammo_class="Arrow"
-				ammo_limit="1"
-				thrust_speed="92"
-				speed_rating="87"
-				missile_speed="84"
-				weapon_length="106"
-				accuracy="99"
-				thrust_damage="30"
-				thrust_damage_type="Pierce"
-				item_usage="bow"
-				physics_material="wood_weapon"
-				center_of_mass="0.0,0,-0.1">
-				<WeaponFlags RangedWeapon="true"
-					HasString="true"
-					StringHeldByHand="true"
-					NotUsableWithOneHand="true"
-					TwoHandIdleOnMount="true"
-					AutoReload="true"
-					UnloadWhenSheathed="true"/>
-			</Weapon>
-		</ItemComponent>
-		<Flags ForceAttachOffHandPrimaryItemBone="true"/>
-	</Item>
-	<Item id="training_longbow"
-		name="{=cmuMaYGR}Practice Longbow"
-		body_name="bo_composite_longbow_a"
-		mesh="longbow_a"
-		culture="Culture.neutral_culture"
-		is_merchandise="false"
-		subtype="bow"
-		weight="0.5"
-		difficulty="0"
-		appearance="1"
-		Type="Bow"
-		item_holsters="bow_back:bow_back_2:bow_hip:bow_hip_2">
-		<ItemComponent>
-			<Weapon weapon_class="Bow"
-				ammo_class="Arrow"
-				ammo_limit="1"
-				thrust_speed="84"
-				speed_rating="80"
-				missile_speed="84"
-				weapon_length="120"
-				accuracy="100"
-				thrust_damage="30"
-				thrust_damage_type="Pierce"
-				item_usage="long_bow"
-				physics_material="wood_weapon"
-				center_of_mass="0.15,0,0">
-				<WeaponFlags RangedWeapon="true"
-					HasString="true"
-					StringHeldByHand="true"
-					NotUsableWithOneHand="true"
-					TwoHandIdleOnMount="true"
-					AutoReload="true"
-					UnloadWhenSheathed="true"/>
-			</Weapon>
-		</ItemComponent>
-		<Flags ForceAttachOffHandPrimaryItemBone="true"/>
-	</Item>
 	<!-- #endregion -->
 	<!-- #region Reward Weapons -->
 	<CraftedItem id="winds_fury_sword_t3"
@@ -490,7 +269,6 @@
 	<CraftedItem id="aserai_axe_1_t2"
 		name="{=bcjcw1o9}Wood Splitter Axe"
 		crafting_template="OneHandedAxe"
-		culture="Culture.neutral_culture"
 		modifier_group="axe">
 		<Pieces>
 			<Piece id="axe_craft_33_head" Type="Blade" scale_factor="100"/>
@@ -500,7 +278,6 @@
 	<CraftedItem id="aserai_axe_2_t2"
 		name="{=89OWzLBb}Bamboo Handled Ascia Axe"
 		crafting_template="OneHandedAxe"
-		culture="Culture.neutral_culture"
 		modifier_group="axe">
 		<Pieces>
 			<Piece id="axe_craft_30_head" Type="Blade" scale_factor="100"/>
@@ -510,7 +287,6 @@
 	<CraftedItem id="sturgia_axe_2_t2"
 		name="{=hQrLHkaU}Galloglaich Axe"
 		crafting_template="OneHandedAxe"
-		culture="Culture.neutral_culture"
 		modifier_group="axe">
 		<Pieces>
 			<Piece id="axe_craft_20_head" Type="Blade" scale_factor="110"/>
@@ -520,7 +296,6 @@
 	<CraftedItem id="battania_axe_1_t2"
 		name="{=ljOwXClb}Norse Hatchet"
 		crafting_template="OneHandedAxe"
-		culture="Culture.neutral_culture"
 		modifier_group="axe">
 		<Pieces>
 			<Piece id="axe_craft_2_head" Type="Blade" scale_factor="100"/>
@@ -539,7 +314,6 @@
 	<CraftedItem id="southern_small_axe_t2"
 		name="{=bdTQG99v}Bamboo Handled Axe"
 		crafting_template="OneHandedAxe"
-		culture="Culture.neutral_culture"
 		modifier_group="axe">
 		<Pieces>
 			<Piece id="axe_craft_27_head" Type="Blade" scale_factor="100"/>
@@ -549,7 +323,6 @@
 	<CraftedItem id="small_bit_axe_t2"
 		name="{=XRaPBg6d}Small Bit Axe"
 		crafting_template="OneHandedAxe"
-		culture="Culture.neutral_culture"
 		modifier_group="axe">
 		<Pieces>
 			<Piece id="axe_craft_35_head" Type="Blade" scale_factor="100"/>
@@ -560,7 +333,6 @@
 	<CraftedItem id="northern_battle_axe_t3"
 		name="{=DFcMeRdB}Simple Raider Battle Axe"
 		crafting_template="OneHandedAxe"
-		culture="Culture.neutral_culture"
 		modifier_group="axe">
 		<Pieces>
 			<Piece id="axe_craft_36_head" Type="Blade" scale_factor="100"/>
@@ -570,7 +342,6 @@
 	<CraftedItem id="vlandia_axe_1_t3"
 		name="{=KanKBHcS}Infantry Axe"
 		crafting_template="OneHandedAxe"
-		culture="Culture.neutral_culture"
 		modifier_group="axe">
 		<Pieces>
 			<Piece id="axe_craft_20_head" Type="Blade" scale_factor="100"/>
@@ -580,7 +351,6 @@
 	<CraftedItem id="sturgia_axe_3_t3"
 		name="{=xgOuAWEE}Commoner Axe"
 		crafting_template="OneHandedAxe"
-		culture="Culture.neutral_culture"
 		modifier_group="axe">
 		<Pieces>
 			<Piece id="axe_craft_21_head" Type="Blade" scale_factor="100"/>
@@ -590,7 +360,6 @@
 	<CraftedItem id="imperial_axe_t3"
 		name="{=tsaSBPKu}Tzikourion"
 		crafting_template="OneHandedAxe"
-		culture="Culture.neutral_culture"
 		modifier_group="axe">
 		<Pieces>
 			<Piece id="axe_craft_29_head" Type="Blade" scale_factor="100"/>
@@ -600,7 +369,6 @@
 	<CraftedItem id="woodland_axe_t3"
 		name="{=6q0nmVtg}Woodland Axe"
 		crafting_template="OneHandedAxe"
-		culture="Culture.neutral_culture"
 		modifier_group="axe">
 		<Pieces>
 			<Piece id="axe_craft_28_head" Type="Blade" scale_factor="100"/>
@@ -629,7 +397,6 @@
 	<CraftedItem id="vlandia_axe_2_t4"
 		name="{=SDBvC0ON}Spiked Battle Axe"
 		crafting_template="OneHandedAxe"
-		culture="Culture.neutral_culture"
 		modifier_group="axe">
 		<Pieces>
 			<Piece id="axe_craft_25_head" Type="Blade" scale_factor="100"/>
@@ -639,7 +406,6 @@
 	<CraftedItem id="sturgia_axe_4_t4"
 		name="{=Qpl5aCb0}Veteran Warrior Axe"
 		crafting_template="OneHandedAxe"
-		culture="Culture.neutral_culture"
 		modifier_group="axe">
 		<Pieces>
 			<Piece id="axe_craft_11_head" Type="Blade" scale_factor="100"/>
@@ -649,7 +415,6 @@
 	<CraftedItem id="battania_axe_2_t4"
 		name="{=pjvwuVuc}One Handed Bearded Axe"
 		crafting_template="OneHandedAxe"
-		culture="Culture.neutral_culture"
 		modifier_group="axe">
 		<Pieces>
 			<Piece id="axe_craft_23_head" Type="Blade" scale_factor="100"/>
@@ -659,7 +424,6 @@
 	<CraftedItem id="bamboo_axe_t4"
 		name="{=FAzGPJn6}Bamboo Axe"
 		crafting_template="OneHandedAxe"
-		culture="Culture.neutral_culture"
 		modifier_group="axe">
 		<Pieces>
 			<Piece id="axe_craft_19_head" Type="Blade" scale_factor="100"/>
@@ -679,7 +443,6 @@
 	<CraftedItem id="sturgia_axe_5_t5"
 		name="{=uSBxV2Ob}Rectangular Bitted Axe"
 		crafting_template="OneHandedAxe"
-		culture="Culture.neutral_culture"
 		modifier_group="axe">
 		<Pieces>
 			<Piece id="axe_craft_8_head" Type="Blade" scale_factor="100"/>
@@ -689,7 +452,6 @@
 	<CraftedItem id="battania_axe_3_t5"
 		name="{=pP0GacSW}Round Bitted Fine Steel Hatchet"
 		crafting_template="OneHandedAxe"
-		culture="Culture.neutral_culture"
 		modifier_group="axe">
 		<Pieces>
 			<Piece id="axe_craft_9_head" Type="Blade" scale_factor="100"/>
@@ -702,7 +464,6 @@
 	<CraftedItem id="battania_2haxe_1_t2"
 		name="{=bNABNs8O}Square Bit Two Handed Axe"
 		crafting_template="TwoHandedAxe"
-		culture="Culture.neutral_culture"
 		modifier_group="axe">
 		<Pieces>
 			<Piece id="axe_craft_14_head" Type="Blade" scale_factor="100"/>
@@ -722,7 +483,6 @@
 	<CraftedItem id="aserai_2haxe_1_t3"
 		name="{=HECAP8QW}Short Handled Bardiche"
 		crafting_template="TwoHandedAxe"
-		culture="Culture.neutral_culture"
 		modifier_group="axe">
 		<Pieces>
 			<Piece id="axe_craft_16_head" Type="Blade" scale_factor="100"/>
@@ -741,7 +501,6 @@
 	<CraftedItem id="northern_axe_t3"
 		name="{=QnyD1yWB}Northlander Broad Axe"
 		crafting_template="TwoHandedAxe"
-		culture="Culture.neutral_culture"
 		modifier_group="axe">
 		<Pieces>
 			<Piece id="axe_craft_7_head" Type="Blade" scale_factor="100"/>
@@ -752,7 +511,6 @@
 	<CraftedItem id="vlandia_2haxe_1_t4"
 		name="{=K2Xtca1a}Short Bill"
 		crafting_template="TwoHandedAxe"
-		culture="Culture.neutral_culture"
 		modifier_group="axe">
 		<Pieces>
 			<Piece id="axe_craft_17_head" Type="Blade" scale_factor="100"/>
@@ -762,7 +520,6 @@
 	<CraftedItem id="aserai_2haxe_2_t4"
 		name="{=BAsjzOiH}Executioner Axe"
 		crafting_template="TwoHandedAxe"
-		culture="Culture.neutral_culture"
 		modifier_group="axe">
 		<Pieces>
 			<Piece id="axe_craft_16_head" Type="Blade" scale_factor="100"/>
@@ -772,7 +529,6 @@
 	<CraftedItem id="sturgia_2haxe_1_t4"
 		name="{=jhFSLdve}Drilled Two Handed Axe"
 		crafting_template="TwoHandedAxe"
-		culture="Culture.neutral_culture"
 		modifier_group="axe">
 		<Pieces>
 			<Piece id="axe_craft_1_head" Type="Blade" scale_factor="100"/>
@@ -782,7 +538,6 @@
 	<CraftedItem id="hooked_axe_t4"
 		name="{=P9PcIk4q}Hooked Cavalry Axe"
 		crafting_template="TwoHandedAxe"
-		culture="Culture.neutral_culture"
 		modifier_group="axe">
 		<Pieces>
 			<Piece id="axe_craft_34_head" Type="Blade" scale_factor="100"/>
@@ -793,7 +548,6 @@
 	<CraftedItem id="aserai_2haxe_3_t5"
 		name="{=hTPJXK1w}Heavy Executioner Axe"
 		crafting_template="TwoHandedAxe"
-		culture="Culture.neutral_culture"
 		modifier_group="axe">
 		<Pieces>
 			<Piece id="axe_craft_38_head" Type="Blade" scale_factor="100"/>
@@ -803,7 +557,6 @@
 	<CraftedItem id="sturgia_2haxe_2_t5"
 		name="{=cKtkyroA}Northlander Decorated Two Handed Axe"
 		crafting_template="TwoHandedAxe"
-		culture="Culture.neutral_culture"
 		modifier_group="axe">
 		<Pieces>
 			<Piece id="axe_craft_22_head" Type="Blade" scale_factor="100"/>
@@ -816,7 +569,6 @@
 	<CraftedItem id="western_spear_1_t2"
 		name="{=hyq1zBg5}Simple Commoner Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_1" Type="Blade" scale_factor="90"/>
@@ -826,7 +578,6 @@
 	<CraftedItem id="western_spear_2_t2"
 		name="{=bue69aD4}Simple Short Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_9" Type="Blade" scale_factor="90"/>
@@ -836,7 +587,6 @@
 	<CraftedItem id="eastern_spear_1_t2"
 		name="{=yCvBx27Z}Jagged Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_35" Type="Blade" scale_factor="95"/>
@@ -846,7 +596,6 @@
 	<CraftedItem id="northern_spear_1_t2"
 		name="{=RzLZHrYT}Short Simple Raider Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_15" Type="Blade" scale_factor="100"/>
@@ -856,7 +605,6 @@
 	<CraftedItem id="imperial_spear_t2"
 		name="{=Vyw5KNxR}Short Militia Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_3" Type="Blade" scale_factor="90"/>
@@ -866,7 +614,6 @@
 	<CraftedItem id="highland_spear_t2"
 		name="{=rhWOdhjr}Highland War Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_13" Type="Blade" scale_factor="90"/>
@@ -877,7 +624,6 @@
 	<CraftedItem id="military_fork_t2"
 		name="{=FbG3CW5p}Military Fork"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_26" Type="Blade" scale_factor="100"/>
@@ -888,7 +634,6 @@
 	<CraftedItem id="western_spear_3_t3"
 		name="{=WQksMqMR}Tall Tipped Long Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_8" Type="Blade" scale_factor="90"/>
@@ -899,7 +644,6 @@
 	<CraftedItem id="western_spear_4_t3"
 		name="{=NFT4sLva}Tall Tipped Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_8" Type="Blade" scale_factor="94"/>
@@ -909,7 +653,6 @@
 	<CraftedItem id="eastern_spear_2_t3"
 		name="{=G7EbBKuA}Narrow Long Headed Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_14" Type="Blade" scale_factor="110"/>
@@ -919,7 +662,6 @@
 	<CraftedItem id="eastern_spear_3_t3"
 		name="{=YGndAhTr}Weighted Steppe Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_35" Type="Blade" scale_factor="95"/>
@@ -931,7 +673,6 @@
 	<CraftedItem id="highland_spear_3_t3"
 		name="{=HVcwvRMF}Reinforced Highland Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_8" Type="Blade" scale_factor="100"/>
@@ -941,7 +682,6 @@
 	<CraftedItem id="southern_spear_3_t3"
 		name="{=zH0QF7mE}Knob Headed Spear with Frills"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_14" Type="Blade" scale_factor="100"/>
@@ -952,7 +692,6 @@
 	<CraftedItem id="southern_spear_4_t3"
 		name="{=IDfl59yt}Knob Headed Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_14" Type="Blade" scale_factor="100"/>
@@ -963,7 +702,6 @@
 	<CraftedItem id="northern_spear_2_t3"
 		name="{=xTyib5ms}Broad Leaf Shaped Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_40" Type="Blade" scale_factor="90"/>
@@ -974,7 +712,6 @@
 	<CraftedItem id="eastern_throwing_spear_1_t3"
 		name="{=EgrNdBct}Jagged Throwing Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_35" Type="Blade" scale_factor="100"/>
@@ -995,7 +732,6 @@
 	<CraftedItem id="western_spear_4_t4"
 		name="{=t28VYqjP}Long Fine Steel Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_4" Type="Blade" scale_factor="100"/>
@@ -1007,7 +743,6 @@
 	<CraftedItem id="western_spear_5_t4"
 		name="{=jcOJqWGA}Fine Steel Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_4" Type="Blade" scale_factor="90"/>
@@ -1019,7 +754,6 @@
 	<CraftedItem id="eastern_spear_4_t4"
 		name="{=bwXACVOb}Fine Steel Leaf Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_42" Type="Blade" scale_factor="100"/>
@@ -1031,7 +765,6 @@
 	<CraftedItem id="highland_spear_4_t4"
 		name="{=duIWCjdD}Steel Tipped Hooked Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_36" Type="Blade" scale_factor="100"/>
@@ -1043,7 +776,6 @@
 	<CraftedItem id="northern_spear_3_t4"
 		name="{=ZLpYFYXo}Jagged Fine Steel Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_36" Type="Blade" scale_factor="100"/>
@@ -1055,7 +787,6 @@
 	<CraftedItem id="southern_spear_3_t4"
 		name="{=vXYlLH6L}Long Thamaskene Tipped Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_11" Type="Blade" scale_factor="100"/>
@@ -1067,7 +798,6 @@
 	<CraftedItem id="eastern_throwing_spear_2_t4"
 		name="{=kJzIZMBR}Triangular Throwing Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_13" Type="Blade" scale_factor="90"/>
@@ -1079,7 +809,6 @@
 	<CraftedItem id="imperial_throwing_spear_1_t4"
 		name="{=rkqaCud5}Pilum"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_38" Type="Blade" scale_factor="90"/>
@@ -1102,7 +831,6 @@
 	<CraftedItem id="eastern_spear_5_t5"
 		name="{=mWxNSjSP}Thin Fine Steel Hewing Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_27" Type="Blade" scale_factor="100"/>
@@ -1114,7 +842,6 @@
 	<CraftedItem id="northern_spear_4_t5"
 		name="{=N28bDEhh}Fine Steel Hewing Spear"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_13" Type="Blade" scale_factor="90"/>
@@ -1168,7 +895,6 @@
 	<CraftedItem id="vlandia_pike_1_t5"
 		name="{=h60wQVVX}Pike"
 		crafting_template="Pike"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_6" Type="Blade" scale_factor="110"/>
@@ -1181,7 +907,6 @@
 	<CraftedItem id="billhook_polearm_t2"
 		name="{=Dj64aJKQ}Billhook"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_33" Type="Blade" scale_factor="100"/>
@@ -1194,7 +919,6 @@
 	<CraftedItem id="sturgia_polearm_1_t5"
 		name="{=160aqzPm}Warrazor"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_43" Type="Blade" scale_factor="90"/>
@@ -1206,7 +930,6 @@
 	<CraftedItem id="empire_polearm_1_t4"
 		name="{=7LmUe8fQ}Menavlion"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_7" Type="Blade" scale_factor="100"/>
@@ -1218,7 +941,6 @@
 	<CraftedItem id="khuzait_polearm_1_t4"
 		name="{=6hwZwODh}Glaive"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_19" Type="Blade" scale_factor="100"/>
@@ -1230,7 +952,6 @@
 	<CraftedItem id="easter_polesword_t4"
 		name="{=1mCmYNl6}Polesword"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_22" Type="Blade" scale_factor="100"/>
@@ -1242,7 +963,6 @@
 	<CraftedItem id="battania_polearm_1_t5"
 		name="{=V4b2ZRTH}Rhomphaia"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_44" Type="Blade" scale_factor="90"/>
@@ -1255,7 +975,6 @@
 	<CraftedItem id="vlandia_polearm_1_t5"
 		name="{=zbsajPMp}Voulge"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="axe_craft_10_head" Type="Blade" scale_factor="100"/>
@@ -1267,7 +986,6 @@
 	<CraftedItem id="empire_polearm_2_t5"
 		name="{=UunjXpgb}Fine Steel Menavlion"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_18" Type="Blade" scale_factor="100"/>
@@ -1279,7 +997,6 @@
 	<CraftedItem id="khuzait_polearm_2_t5"
 		name="{=JxV66l02}Long Glaive"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_24" Type="Blade" scale_factor="100"/>
@@ -1294,7 +1011,6 @@
 	<CraftedItem id="vlandia_lance_1_t3"
 		name="{=j4XraSN6}Light Lance"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_20" Type="Blade" scale_factor="100"/>
@@ -1304,7 +1020,6 @@
 	<CraftedItem id="empire_lance_1_t3"
 		name="{=TQ1MVhIX}Light Cavalry Lance"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_23" Type="Blade" scale_factor="100"/>
@@ -1314,7 +1029,6 @@
 	<CraftedItem id="khuzait_lance_1_t3"
 		name="{=UWvOndG0}Light Steppe Rider Lance"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_35" Type="Blade" scale_factor="100"/>
@@ -1326,7 +1040,6 @@
 	<CraftedItem id="aserai_lance_1_t5"
 		name="{=hsRwbHSk}Mamluke Lance"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_42" Type="Blade" scale_factor="100"/>
@@ -1336,7 +1049,6 @@
 	<CraftedItem id="vlandia_lance_2_t4"
 		name="{=o5kKAbRu}Knight Lance"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_11" Type="Blade" scale_factor="110"/>
@@ -1346,7 +1058,6 @@
 	<CraftedItem id="empire_lance_2_t4"
 		name="{=VP74qdJ3}Courser Lance"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_4" Type="Blade" scale_factor="100"/>
@@ -1356,7 +1067,6 @@
 	<CraftedItem id="sturgia_lance_1_t4"
 		name="{=3yh33obu}Druzhinnik Lance"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_41" Type="Blade" scale_factor="100"/>
@@ -1366,7 +1076,6 @@
 	<CraftedItem id="khuzait_lance_2_t4"
 		name="{=k9bmPuTB}Heavy Cavalry Lance"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_36" Type="Blade" scale_factor="110"/>
@@ -1377,7 +1086,6 @@
 	<CraftedItem id="vlandia_lance_3_t5"
 		name="{=sWUbsPty}Heavy Knight Lance"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_5" Type="Blade" scale_factor="110"/>
@@ -1387,7 +1095,6 @@
 	<CraftedItem id="sturgia_lance_2_t5"
 		name="{=tzoARfAm}Heavy Druzhinnik Lance"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_13" Type="Blade" scale_factor="110"/>
@@ -1397,7 +1104,6 @@
 	<CraftedItem id="empire_lance_3_t5"
 		name="{=eND6ECxg}Cataphract Lance"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_6" Type="Blade" scale_factor="110"/>
@@ -1407,7 +1113,6 @@
 	<CraftedItem id="khuzait_lance_3_t5"
 		name="{=EBRG6qbv}Noble Cavalry Lance"
 		crafting_template="TwoHandedPolearm"
-		culture="Culture.neutral_culture"
 		modifier_group="polearm">
 		<Pieces>
 			<Piece id="spear_blade_13" Type="Blade" scale_factor="110"/>
@@ -1422,7 +1127,6 @@
 	<CraftedItem id="vlandia_sword_1_t2"
 		name="{=w9RLq82l}Iron Arming Sword"
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="vlandian_blade_1" Type="Blade" scale_factor="100"/>
@@ -1434,7 +1138,6 @@
 	<CraftedItem id="empire_sword_1_t2"
 		name="{=1CamO1P3}Iron Spatha"
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="empire_blade_4" Type="Blade" scale_factor="100"/>
@@ -1446,7 +1149,6 @@
 	<CraftedItem id="aserai_sword_1_t2"
 		name="{=fHj6NbWy}Iron Flyssa"
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="aserai_blade_4" Type="Blade" scale_factor="100"/>
@@ -1458,7 +1160,6 @@
 	<CraftedItem id="aserai_sword_2_t2"
 		name="{=JPByibJQ}Iron Scimitar"
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="aserai_blade_3" Type="Blade" scale_factor="100"/>
@@ -1470,7 +1171,6 @@
 	<CraftedItem id="khuzait_sword_1_t2"
 		name="{=QjdyYS0m}Iron Saber"
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="khuzait_blade_7" Type="Blade" scale_factor="100"/>
@@ -1482,7 +1182,6 @@
 	<CraftedItem id="sturgia_sword_1_t2"
 		name="{=Ag6dujzl}Tapered Blade"
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="sturgian_blade_1" Type="Blade" scale_factor="100"/>
@@ -1494,7 +1193,6 @@
 	<CraftedItem id="battania_sword_1_t2"
 		name="{=habJjtmv}Ridged Iron Broadsword"
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="battania_blade_3_iron" Type="Blade" scale_factor="100"/>
@@ -1517,7 +1215,6 @@
 	<CraftedItem id="simple_sabre_sword_t2"
 		name="{=oQmUlQWp}Simple Saber "
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="khuzait_blade_6" Type="Blade" scale_factor="100"/>
@@ -1529,7 +1226,6 @@
 	<CraftedItem id="simple_back_sword_t2"
 		name="{=IK2Z9zWk}Simple Scimitar"
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="khuzait_blade_7" Type="Blade" scale_factor="90"/>
@@ -1541,7 +1237,6 @@
 	<CraftedItem id="iron_spatha_sword_t2"
 		name="{=1CamO1P3}Iron Spatha"
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="empire_blade_2" Type="Blade" scale_factor="90"/>
@@ -1554,7 +1249,6 @@
 	<CraftedItem id="vlandia_sword_2_t3"
 		name="{=ha3rVEzP}Ridged Tipped Arming Sword"
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="vlandian_blade_4" Type="Blade" scale_factor="100"/>
@@ -1566,7 +1260,6 @@
 	<CraftedItem id="empire_sword_2_t3"
 		name="{=4OaVIYuD}Spatha With Narrow Fuller"
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="empire_blade_1" Type="Blade" scale_factor="100"/>
@@ -1578,7 +1271,6 @@
 	<CraftedItem id="empire_sword_3_t3"
 		name="{=M2wvaObX}Spatha"
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="empire_blade_1" Type="Blade" scale_factor="100"/>
@@ -1590,7 +1282,6 @@
 	<CraftedItem id="aserai_sword_3_t3"
 		name="{=bANXyotg}Slightly Ridged Flyssa"
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="aserai_blade_2" Type="Blade" scale_factor="100"/>
@@ -1602,7 +1293,6 @@
 	<CraftedItem id="khuzait_sword_2_t3"
 		name="{=jSspzlmR}Straight Saber"
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="khuzait_blade_5" Type="Blade" scale_factor="100"/>
@@ -1614,7 +1304,6 @@
 	<CraftedItem id="khuzait_sword_3_t3"
 		name="{=eaALL6uO}Long Saber"
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="khuzait_blade_5" Type="Blade" scale_factor="100"/>
@@ -1626,7 +1315,6 @@
 	<CraftedItem id="sturgia_sword_2_t3"
 		name="{=FQHaFsyQ}Backsword"
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="sturgian_blade_5" Type="Blade" scale_factor="100"/>
@@ -1638,7 +1326,6 @@
 	<CraftedItem id="sturgia_sword_3_t3"
 		name="{=MRIdGqhA}Pointy Warsword"
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="sturgian_blade_7" Type="Blade" scale_factor="100"/>
@@ -1650,7 +1337,6 @@
 	<CraftedItem id="battania_sword_2_t3"
 		name="{=HwO0AYul}Broad Ridged Shortsword"
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="battania_blade_4" Type="Blade" scale_factor="100"/>
@@ -1662,7 +1348,6 @@
 	<CraftedItem id="battania_sword_3_t3"
 		name="{=8jEDX9J4}Broadsword"
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="battania_blade_3" Type="Blade" scale_factor="100"/>
@@ -1696,7 +1381,6 @@
 	<CraftedItem id="broad_ild_sword_t3"
 		name="{=e8amL6a1}Broad Ild"
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="khuzait_blade_5" Type="Blade" scale_factor="100"/>
@@ -1742,7 +1426,6 @@
 	<CraftedItem id="vlandia_sword_3_t4"
 		name="{=8mpp8ZCL}Knightly Arming Sword"
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="vlandian_blade_7" Type="Blade" scale_factor="110"/>
@@ -1754,7 +1437,6 @@
 	<CraftedItem id="vlandia_sword_4_t4"
 		name="{=ksxylfU4}Ridged Arming Sword"
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="vlandian_blade_5" Type="Blade" scale_factor="105"/>
@@ -1766,7 +1448,6 @@
 	<CraftedItem id="empire_sword_4_t4"
 		name="{=AMIdBVZb}Fine Steel Spatha"
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="empire_blade_6" Type="Blade" scale_factor="105"/>
@@ -1778,7 +1459,6 @@
 	<CraftedItem id="empire_sword_5_t4"
 		name="{=OLTUHPaD}Fine Steel Paramerion"
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="empire_blade_5" Type="Blade" scale_factor="105"/>
@@ -1790,7 +1470,6 @@
 	<CraftedItem id="aserai_sword_4_t4"
 		name="{=dCbrowBV}Fine Steel Long Kaskara"
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="aserai_blade_10" Type="Blade" scale_factor="105"/>
@@ -1802,7 +1481,6 @@
 	<CraftedItem id="aserai_sword_5_t4"
 		name="{=fuyj7s3F}Long Fine Steel Scimitar"
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="aserai_blade_8" Type="Blade" scale_factor="110"/>
@@ -1814,7 +1492,6 @@
 	<CraftedItem id="aserai_sword_6_t4"
 		name="{=Yd4lmlQp}Narrow Fine Steel Kaskara"
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="aserai_blade_1" Type="Blade" scale_factor="105"/>
@@ -1826,7 +1503,6 @@
 	<CraftedItem id="khuzait_sword_4_t4"
 		name="{=gadEbFyj}Fine Steel Saber"
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="khuzait_blade_1" Type="Blade" scale_factor="105"/>
@@ -1838,7 +1514,6 @@
 	<CraftedItem id="khuzait_sword_5_t4"
 		name="{=4YTJJaTG}Heavy Sabre"
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="khuzait_blade_2" Type="Blade" scale_factor="110"/>
@@ -1850,7 +1525,6 @@
 	<CraftedItem id="sturgia_sword_4_t4"
 		name="{=EadnjRjs}Long Warsword"
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="sturgian_blade_2" Type="Blade" scale_factor="105"/>
@@ -1862,7 +1536,6 @@
 	<CraftedItem id="sturgia_sword_5_t4"
 		name="{=SGdY9jmK}Fullered Narrow Warsword"
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="sturgian_blade_6" Type="Blade" scale_factor="110"/>
@@ -1874,7 +1547,6 @@
 	<CraftedItem id="battania_sword_4_t4"
 		name="{=57jpWo7g}Fine Steel Cavalry Broadsword"
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="battania_blade_1" Type="Blade" scale_factor="110"/>
@@ -1897,7 +1569,6 @@
 	<CraftedItem id="ridged_sabre_sword_t4"
 		name="{=8fK5E68M}Ridged Saber "
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="khuzait_blade_8" Type="Blade" scale_factor="90"/>
@@ -1920,7 +1591,6 @@
 	<CraftedItem id="desert_long_sword_t4"
 		name="{=gsGjXj8J}Desert Long Sword"
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="aserai_blade_7" Type="Blade" scale_factor="100"/>
@@ -1933,7 +1603,6 @@
 	<CraftedItem id="vlandia_sword_5_t5"
 		name="{=VAcSEseI}Wide Fullered Broad Arming Sword"
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="vlandian_blade_3" Type="Blade" scale_factor="100"/>
@@ -1945,7 +1614,6 @@
 	<CraftedItem id="empire_sword_6_t5"
 		name="{=1bc4kTaz}Thamaskene Steel Spathion"
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="empire_blade_7" Type="Blade" scale_factor="100"/>
@@ -1957,7 +1625,6 @@
 	<CraftedItem id="aserai_sword_7_t5"
 		name="{=zBUT90xQ}Thamaskene Steel Kaskara"
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="aserai_blade_11" Type="Blade" scale_factor="100"/>
@@ -1969,7 +1636,6 @@
 	<CraftedItem id="sturgia_sword_5_t5"
 		name="{=jfWzICId}Fullered Long Warsword"
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="sturgian_blade_8" Type="Blade" scale_factor="100"/>
@@ -1981,7 +1647,6 @@
 	<CraftedItem id="battania_sword_5_t5"
 		name="{=l9kAJ1Xh}Highland Broad Blade"
 		crafting_template="OneHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="battania_blade_5" Type="Blade" scale_factor="100"/>
@@ -1994,7 +1659,6 @@
 		name="{=Zcaucj4W}Decorated Arming Sword"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="vlandian_noble_blade_4" Type="Blade" scale_factor="105"/>
@@ -2007,7 +1671,6 @@
 		name="{=ZsaukY0N}Arming Sword with Circle"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="vlandian_noble_blade_1" Type="Blade" scale_factor="100"/>
@@ -2020,7 +1683,6 @@
 		name="{=P9FUrH8a}Gold Engraved Arming Sword"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="vlandian_noble_blade_2" Type="Blade" scale_factor="105"/>
@@ -2033,7 +1695,6 @@
 		name="{=4q69NwNy}Crescent Guarded Arming Sword"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="vlandian_noble_blade_3" Type="Blade"/>
@@ -2046,7 +1707,6 @@
 		name="{=GyYsQlVd}Decorated Short Spatha"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="empire_noble_blade_1" Type="Blade" scale_factor="100"/>
@@ -2059,7 +1719,6 @@
 		name="{=Rcc0JW6H}Thamaskene Steel Spatha"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="empire_blade_7" Type="Blade" scale_factor="100"/>
@@ -2072,7 +1731,6 @@
 		name="{=HpdJJO9g}Spatha Blade with Ring Pommel"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="empire_noble_blade_4" Type="Blade" scale_factor="90"/>
@@ -2085,7 +1743,6 @@
 		name="{=iEbP2INp}Decorated Kaskara"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="aserai_noble_blade_2" Type="Blade" scale_factor="100"/>
@@ -2098,7 +1755,6 @@
 		name="{=93OHSnEV}Decorated Long Scimitar"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="aserai_noble_blade_1" Type="Blade" scale_factor="100"/>
@@ -2111,7 +1767,6 @@
 		name="{=bohbzGjg}Decorated Scimitar with Wide Grip"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="aserai_noble_blade_4" Type="Blade" scale_factor="100"/>
@@ -2124,7 +1779,6 @@
 		name="{=0lNp3f76}Engraved Angular Kaskara"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="aserai_noble_blade_3" Type="Blade" scale_factor="100"/>
@@ -2137,7 +1791,6 @@
 		name="{=v7WQhge3}Decorated Saber"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="khuzait_noble_blade_2" Type="Blade" scale_factor="100"/>
@@ -2150,7 +1803,6 @@
 		name="{=a10taTGb}Lion Imprinted Saber"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="khuzait_noble_blade_1" Type="Blade" scale_factor="100"/>
@@ -2163,7 +1815,6 @@
 		name="{=tpUzcdY6}Tall Gripped Ild Sword"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="khuzait_noble_blade_2" Type="Blade" scale_factor="100"/>
@@ -2176,7 +1827,6 @@
 		name="{=lXwaLAYP}Thamaskene Steel Warsword"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="sturgian_noble_blade_2" Type="Blade" scale_factor="100"/>
@@ -2189,7 +1839,6 @@
 		name="{=4wQRk3f5}Decorated Long Warsword"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="sturgian_noble_blade_3" Type="Blade" scale_factor="100"/>
@@ -2202,7 +1851,6 @@
 		name="{=QA5zGCKf}Decorated Fullered Sword"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="sturgian_noble_blade_1" Type="Blade" scale_factor="100"/>
@@ -2215,7 +1863,6 @@
 		name="{=06Qoh8AO}Gold Bound Short Warsword"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="sturgian_noble_blade_4" Type="Blade" scale_factor="100"/>
@@ -2228,7 +1875,6 @@
 		name="{=VucrovFw}Engraved Backsword"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="battania_noble_blade_1" Type="Blade" scale_factor="100"/>
@@ -2241,7 +1887,6 @@
 		name="{=finesteelbladeweapon}Highland Fine Steel Blade"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="battania_blade_3_fine_steel" Type="Blade" scale_factor="100"/>
@@ -2254,7 +1899,6 @@
 		name="{=Cr5ak47X}Decorated Broadsword"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="battania_noble_blade_2" Type="Blade" scale_factor="90"/>
@@ -2269,7 +1913,6 @@
 	<CraftedItem id="battania_2hsword_1_t2"
 		name="{=DQaV0i5W}Iron Broadsword"
 		crafting_template="TwoHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="battania_blade_3_iron" Type="Blade" scale_factor="110"/>
@@ -2293,7 +1936,6 @@
 	<CraftedItem id="battania_2hsword_2_t3"
 		name="{=YrAVxmFn}Highland Broadsword"
 		crafting_template="TwoHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="battania_blade_3" Type="Blade" scale_factor="110"/>
@@ -2305,7 +1947,6 @@
 	<CraftedItem id="battania_2hsword_3_t3"
 		name="{=NaaM2O2g}Northlander Wide Fullered Greatsword"
 		crafting_template="TwoHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="sturgian_blade_3" Type="Blade" scale_factor="110"/>
@@ -2328,7 +1969,6 @@
 	<CraftedItem id="western_2hsword_t3"
 		name="{=ekUvh8Em}Tapered Two-Hander"
 		crafting_template="TwoHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="vlandian_blade_8" Type="Blade" scale_factor="100"/>
@@ -2340,7 +1980,6 @@
 	<CraftedItem id="kaskara_2hsword_t3"
 		name="{=24MA4JLX}Ridged Long Kaskara"
 		crafting_template="TwoHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="vlandian_blade_8" Type="Blade" scale_factor="100"/>
@@ -2353,7 +1992,6 @@
 	<CraftedItem id="battania_2hsword_4_t4"
 		name="{=QLcP8bIs}Falx"
 		crafting_template="TwoHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="battania_blade_6" Type="Blade" scale_factor="110"/>
@@ -2365,7 +2003,6 @@
 	<CraftedItem id="northern_2hsword_t4"
 		name="{=1WxLaeQE}Fine Steel Two Handed Sword"
 		crafting_template="TwoHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="sturgian_blade_4" Type="Blade" scale_factor="100"/>
@@ -2377,7 +2014,6 @@
 	<CraftedItem id="battania_2hsword_5_t4"
 		name="{=WUasz2kP}Highland Fine Two Handed Sword"
 		crafting_template="TwoHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="empire_blade_6" Type="Blade" scale_factor="100"/>
@@ -2389,7 +2025,6 @@
 	<CraftedItem id="western_2hsword_t4"
 		name="{=rtRGq1uU}Broad Two Hander"
 		crafting_template="TwoHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="vlandian_blade_2" Type="Blade" scale_factor="100"/>
@@ -2423,7 +2058,6 @@
 	<CraftedItem id="southern_broad_2hsword_t4"
 		name="{=LVQworUy}Broad Kaskara"
 		crafting_template="TwoHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="aserai_blade_5" Type="Blade" scale_factor="100"/>
@@ -2436,7 +2070,6 @@
 	<CraftedItem id="battania_2hsword_5_t5"
 		name="{=62nIvqbA}Battanian Mountain Blade"
 		crafting_template="TwoHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="battania_blade_5" Type="Blade" scale_factor="110"/>
@@ -2448,7 +2081,6 @@
 	<CraftedItem id="vlandia_2hsword_1_t5"
 		name="{=9ZiUK3JJ}Wide Fullered Broad Two Hander"
 		crafting_template="TwoHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="vlandian_blade_3" Type="Blade" scale_factor="100"/>
@@ -2460,7 +2092,6 @@
 	<CraftedItem id="vlandia_2hsword_2_t5"
 		name="{=VAO11FSu}Thamaskene Steel Two Hander"
 		crafting_template="TwoHandedSword"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="vlandian_blade_3" Type="Blade" scale_factor="110"/>
@@ -2474,7 +2105,6 @@
 	<CraftedItem id="seax"
 		name="{=3Pv0SlYj}Seax"
 		crafting_template="Dagger"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="dagger_blade_3" Type="Blade" scale_factor="93"/>
@@ -2486,7 +2116,6 @@
 	<CraftedItem id="celtic_dagger"
 		name="{=vPXWpJTP}Highland Dagger"
 		crafting_template="Dagger"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="dagger_blade_13" Type="Blade" scale_factor="94"/>
@@ -2498,7 +2127,6 @@
 	<CraftedItem id="pugio"
 		name="{=bVzkrtUc}Pugio"
 		crafting_template="Dagger"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="dagger_blade_11" Type="Blade" scale_factor="90"/>
@@ -2510,7 +2138,6 @@
 	<CraftedItem id="hooked_cleaver"
 		name="{=elTXYb9f}Falx Knife"
 		crafting_template="Dagger"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="dagger_blade_9" Type="Blade" scale_factor="106"/>
@@ -2522,7 +2149,6 @@
 	<CraftedItem id="gladius_b"
 		name="{=AOZbTGOS}Xiphos"
 		crafting_template="Dagger"
-		culture="Culture.neutral_culture"
 		modifier_group="sword">
 		<Pieces>
 			<Piece id="dagger_blade_11" Type="Blade" scale_factor="110"/>
@@ -2537,7 +2163,6 @@
 	<CraftedItem id="vlandia_mace_1_t2"
 		name="{=7jH0kuof}Spiked Mace"
 		crafting_template="Mace"
-		culture="Culture.neutral_culture"
 		modifier_group="mace">
 		<Pieces>
 			<Piece id="mace_head_22" Type="Blade" scale_factor="110"/>
@@ -2547,7 +2172,6 @@
 	<CraftedItem id="empire_mace_1_t2"
 		name="{=HaK3y9yi}Spiked Club"
 		crafting_template="Mace"
-		culture="Culture.neutral_culture"
 		modifier_group="mace">
 		<Pieces>
 			<Piece id="mace_head_23" Type="Blade" scale_factor="100"/>
@@ -2557,7 +2181,6 @@
 	<CraftedItem id="aserai_mace_1_t2"
 		name="{=wxL5TdDv}Militia Mace"
 		crafting_template="Mace"
-		culture="Culture.neutral_culture"
 		modifier_group="mace">
 		<Pieces>
 			<Piece id="mace_head_17" Type="Blade" scale_factor="110"/>
@@ -2567,7 +2190,6 @@
 	<CraftedItem id="aserai_mace_2_t2"
 		name="{=6QI8X6CY}Fullered Light Mace"
 		crafting_template="Mace"
-		culture="Culture.neutral_culture"
 		modifier_group="mace">
 		<Pieces>
 			<Piece id="mace_head_1" Type="Blade" scale_factor="100"/>
@@ -2577,7 +2199,6 @@
 	<CraftedItem id="khuzait_mace_1_t2"
 		name="{=N8VJWdVY}Steppe Light Mace"
 		crafting_template="Mace"
-		culture="Culture.neutral_culture"
 		modifier_group="mace">
 		<Pieces>
 			<Piece id="mace_head_14" Type="Blade"/>
@@ -2588,7 +2209,6 @@
 	<CraftedItem id="battania_mace_1_t2"
 		name="{=knobbedclubweapon}Knobbed Club"
 		crafting_template="Mace"
-		culture="Culture.neutral_culture"
 		modifier_group="mace">
 		<Pieces>
 			<Piece id="mace_head_6" Type="Blade" scale_factor="100"/>
@@ -2598,7 +2218,6 @@
 	<CraftedItem id="battania_mace_2_t2"
 		name="{=0SpLcthg}Highland Spiked Club"
 		crafting_template="Mace"
-		culture="Culture.neutral_culture"
 		modifier_group="mace">
 		<Pieces>
 			<Piece id="mace_head_5" Type="Blade" scale_factor="100"/>
@@ -2609,7 +2228,6 @@
 	<CraftedItem id="aserai_mace_3_t3"
 		name="{=FJDCc3Y2}Heavy Horsemans Mace"
 		crafting_template="Mace"
-		culture="Culture.neutral_culture"
 		modifier_group="mace">
 		<Pieces>
 			<Piece id="mace_head_19" Type="Blade" scale_factor="110"/>
@@ -2619,7 +2237,6 @@
 	<CraftedItem id="battania_mace_1_t3"
 		name="{=9pD32UdV}Highland Mace"
 		crafting_template="Mace"
-		culture="Culture.neutral_culture"
 		modifier_group="mace">
 		<Pieces>
 			<Piece id="mace_head_9" Type="Blade"/>
@@ -2660,7 +2277,6 @@
 	<CraftedItem id="vlandia_mace_2_t4"
 		name="{=dSTxsYsh}Fullered Cavalry Mace"
 		crafting_template="Mace"
-		culture="Culture.neutral_culture"
 		modifier_group="mace">
 		<Pieces>
 			<Piece id="mace_head_16" Type="Blade"/>
@@ -2671,7 +2287,6 @@
 	<CraftedItem id="empire_mace_2_t4"
 		name="{=4cMV1pY3}Imperial Light Mace"
 		crafting_template="Mace"
-		culture="Culture.neutral_culture"
 		modifier_group="mace">
 		<Pieces>
 			<Piece id="mace_head_3" Type="Blade"/>
@@ -2682,7 +2297,6 @@
 	<CraftedItem id="empire_mace_3_t4"
 		name="{=YLplNGxb}Calradic Mace"
 		crafting_template="Mace"
-		culture="Culture.neutral_culture"
 		modifier_group="mace">
 		<Pieces>
 			<Piece id="mace_head_8" Type="Blade"/>
@@ -2693,7 +2307,6 @@
 	<CraftedItem id="aserai_mace_4_t4"
 		name="{=JM8Mjfa0}Spiralled Mace"
 		crafting_template="Mace"
-		culture="Culture.neutral_culture"
 		modifier_group="mace">
 		<Pieces>
 			<Piece id="mace_head_15" Type="Blade" scale_factor="100"/>
@@ -2703,7 +2316,6 @@
 	<CraftedItem id="khuzait_mace_2_t4"
 		name="{=fcgDtZy7}Eastern Heavy Mace"
 		crafting_template="Mace"
-		culture="Culture.neutral_culture"
 		modifier_group="mace">
 		<Pieces>
 			<Piece id="mace_head_11" Type="Blade" scale_factor="100"/>
@@ -2713,7 +2325,6 @@
 	<CraftedItem id="khuzait_mace_3_t4"
 		name="{=b88lWWOo}Fine Steel Mace"
 		crafting_template="Mace"
-		culture="Culture.neutral_culture"
 		modifier_group="mace">
 		<Pieces>
 			<Piece id="mace_head_10" Type="Blade" scale_factor="100"/>
@@ -2723,7 +2334,6 @@
 	<CraftedItem id="shishpar_mace_t4"
 		name="{=9EWN9SiT}Light Shishpar Mace"
 		crafting_template="Mace"
-		culture="Culture.neutral_culture"
 		modifier_group="mace">
 		<Pieces>
 			<Piece id="mace_head_21" Type="Blade"/>
@@ -2734,7 +2344,6 @@
 	<CraftedItem id="eastern_steel_mace_t4"
 		name="{=xYk4953c}Steel Mace"
 		crafting_template="Mace"
-		culture="Culture.neutral_culture"
 		modifier_group="mace">
 		<Pieces>
 			<Piece id="mace_head_26" Type="Blade"/>
@@ -2746,7 +2355,6 @@
 	<CraftedItem id="vlandia_mace_3_t5"
 		name="{=rnzpyc0N}Pernach"
 		crafting_template="Mace"
-		culture="Culture.neutral_culture"
 		modifier_group="mace">
 		<Pieces>
 			<Piece id="mace_head_2" Type="Blade"/>
@@ -2757,7 +2365,6 @@
 	<CraftedItem id="empire_mace_4_t5"
 		name="{=UMX05EQF}Light Royal Mace"
 		crafting_template="Mace"
-		culture="Culture.neutral_culture"
 		modifier_group="mace">
 		<Pieces>
 			<Piece id="mace_head_13" Type="Blade"/>
@@ -2768,7 +2375,6 @@
 	<CraftedItem id="empire_mace_5_t5"
 		name="{=Kv4zAMIh}Cataphract Mace"
 		crafting_template="Mace"
-		culture="Culture.neutral_culture"
 		modifier_group="mace">
 		<Pieces>
 			<Piece id="mace_head_7" Type="Blade" scale_factor="100"/>
@@ -2778,7 +2384,6 @@
 	<CraftedItem id="khuzait_mace_4_t5"
 		name="{=fz23ajFz}Heavy Flanged Mace"
 		crafting_template="Mace"
-		culture="Culture.neutral_culture"
 		modifier_group="mace">
 		<Pieces>
 			<Piece id="mace_head_12" Type="Blade"/>
@@ -2803,7 +2408,6 @@
 	<CraftedItem id="northern_javelin_1_t2"
 		name="{=1oQWbXJw}Fish Harpoon"
 		crafting_template="Javelin"
-		culture="Culture.neutral_culture"
 		modifier_group="spear_dart_throwing">
 		<Pieces>
 			<Piece id="spear_blade_16" Type="Blade" scale_factor="90"/>
@@ -2815,7 +2419,6 @@
 	<CraftedItem id="eastern_javelin_1_t2"
 		name="{=N0ErUFHS}Jagged Javelin"
 		crafting_template="Javelin"
-		culture="Culture.neutral_culture"
 		modifier_group="spear_dart_throwing">
 		<Pieces>
 			<Piece id="spear_blade_35" Type="Blade" scale_factor="100"/>
@@ -2828,7 +2431,6 @@
 	<CraftedItem id="western_javelin_2_t3"
 		name="{=oV5AhcDl}Lowland Javelin"
 		crafting_template="Javelin"
-		culture="Culture.neutral_culture"
 		modifier_group="spear_dart_throwing">
 		<Pieces>
 			<Piece id="spear_blade_1" Type="Blade" scale_factor="100"/>
@@ -2840,7 +2442,6 @@
 	<CraftedItem id="generic_javelin_1_t3"
 		name="{=YPUDAJDH}Harpoon"
 		crafting_template="Javelin"
-		culture="Culture.neutral_culture"
 		modifier_group="spear_dart_throwing">
 		<Pieces>
 			<Piece id="spear_blade_10" Type="Blade" scale_factor="90"/>
@@ -2852,7 +2453,6 @@
 	<CraftedItem id="northern_javelin_2_t3"
 		name="{=ObGN145P}Woodland Javelin"
 		crafting_template="Javelin"
-		culture="Culture.neutral_culture"
 		modifier_group="spear_dart_throwing">
 		<Pieces>
 			<Piece id="spear_blade_14" Type="Blade" scale_factor="100"/>
@@ -2864,7 +2464,6 @@
 	<CraftedItem id="eastern_javelin_2_t3"
 		name="{=Th4E7v2h}Horseman Javelin"
 		crafting_template="Javelin"
-		culture="Culture.neutral_culture"
 		modifier_group="spear_dart_throwing">
 		<Pieces>
 			<Piece id="spear_blade_37" Type="Blade" scale_factor="100"/>
@@ -2877,7 +2476,6 @@
 	<CraftedItem id="western_javelin_3_t4"
 		name="{=vmz4vfu5}Hooked Javelin"
 		crafting_template="Javelin"
-		culture="Culture.neutral_culture"
 		modifier_group="spear_dart_throwing">
 		<Pieces>
 			<Piece id="spear_blade_10" Type="Blade" scale_factor="100"/>
@@ -2889,7 +2487,6 @@
 	<CraftedItem id="northern_javelin_3_t4"
 		name="{=ppiy9Cwl}Broad Blade Javelin"
 		crafting_template="Javelin"
-		culture="Culture.neutral_culture"
 		modifier_group="spear_dart_throwing">
 		<Pieces>
 			<Piece id="spear_blade_42" Type="Blade" scale_factor="100"/>
@@ -2901,7 +2498,6 @@
 	<CraftedItem id="eastern_javelin_3_t4"
 		name="{=Z6Ak3H6G}Jereed"
 		crafting_template="Javelin"
-		culture="Culture.neutral_culture"
 		modifier_group="spear_dart_throwing">
 		<Pieces>
 			<Piece id="spear_blade_27" Type="Blade" scale_factor="100"/>
@@ -2915,8 +2511,7 @@
 	<!-- Tier 2 -->
 	<CraftedItem id="highland_throwing_axe_1_t2"
 		name="{=GrfnpDxu}Highland Throwing Axe"
-		crafting_template="ThrowingAxe"
-		culture="Culture.neutral_culture">
+		crafting_template="ThrowingAxe">
 		<Pieces>
 			<Piece id="axe_craft_4_head" Type="Blade" scale_factor="100"/>
 			<Piece id="axe_craft_12_handle" Type="Handle" scale_factor="100"/>
@@ -2926,7 +2521,6 @@
 	<CraftedItem id="southern_throwing_axe_1_t4"
 		name="{=X31qND4N}Tribesman Throwing Axe"
 		crafting_template="ThrowingAxe"
-		culture="Culture.neutral_culture"
 		modifier_group="axe_throwing">
 		<Pieces>
 			<Piece id="axe_craft_4_head" Type="Blade" scale_factor="100"/>
@@ -2936,7 +2530,6 @@
 	<CraftedItem id="northern_throwing_axe_1_t1"
 		name="{=WWRKeqwD}Raider Throwing Axe"
 		crafting_template="ThrowingAxe"
-		culture="Culture.neutral_culture"
 		modifier_group="axe_throwing">
 		<Pieces>
 			<Piece id="axe_craft_13_head" Type="Blade" scale_factor="100"/>
@@ -2946,7 +2539,6 @@
 	<CraftedItem id="woodland_throwing_axe_1_t1"
 		name="{=GrfnpDxu}Highland Throwing Axe"
 		crafting_template="ThrowingAxe"
-		culture="Culture.neutral_culture"
 		modifier_group="axe_throwing">
 		<Pieces>
 			<Piece id="axe_craft_13_head" Type="Blade" scale_factor="100"/>
@@ -2956,7 +2548,6 @@
 	<CraftedItem id="western_throwing_axe_1_t1"
 		name="{=F4xD8gjJ}Francesca"
 		crafting_template="ThrowingAxe"
-		culture="Culture.neutral_culture"
 		modifier_group="axe_throwing">
 		<Pieces>
 			<Piece id="axe_craft_4_head" Type="Blade"/>
@@ -2967,7 +2558,6 @@
 	<!-- #region Used Throwing Daggers -->
 	<CraftedItem id="lowland_throwing_knife"
 		name="{=zvIax8Kt}Lowland Throwing Knife"
-		culture="Culture.neutral_culture"
 		crafting_template="ThrowingKnife"
 		modifier_group="knife_throwing">
 		<Pieces>
@@ -2979,7 +2569,6 @@
 	</CraftedItem>
 	<CraftedItem id="leafblade_throwing_knife"
 		name="{=te48yHa8}Leafblade Throwing Knife"
-		culture="Culture.neutral_culture"
 		crafting_template="ThrowingKnife"
 		modifier_group="knife_throwing">
 		<Pieces>
@@ -2992,7 +2581,6 @@
 	<CraftedItem id="desert_throwing_knife"
 		name="{=JXSZelwE}Tribesman Throwing Daggers"
 		crafting_template="ThrowingKnife"
-		culture="Culture.neutral_culture"
 		modifier_group="knife_throwing">
 		<Pieces>
 			<Piece id="dagger_blade_13" Type="Blade" scale_factor="110"/>
@@ -3004,7 +2592,6 @@
 	<CraftedItem id="celtic_throwing_dagger"
 		name="{=koOrDa9q}Highland Throwing Dagger"
 		crafting_template="ThrowingKnife"
-		culture="Culture.neutral_culture"
 		modifier_group="knife_throwing">
 		<Pieces>
 			<Piece id="dagger_blade_10" Type="Blade" scale_factor="90"/>
@@ -3016,7 +2603,6 @@
 	<CraftedItem id="empire_throwingknife_t5"
 		name="{=QA3k2I4A}Broad Bladed Throwing Knives"
 		crafting_template="ThrowingKnife"
-		culture="Culture.neutral_culture"
 		modifier_group="knife_throwing">
 		<Pieces>
 			<Piece id="dagger_blade_12" Type="Blade" scale_factor="110"/>
@@ -3439,7 +3025,6 @@
 		name="{=wltdyF2j}Hunting Bow"
 		body_name="bo_composite_shotbow_h"
 		mesh="shortbow_h"
-		culture="Culture.neutral_culture"
 		weight="0.3"
 		difficulty="0"
 		appearance="1"
@@ -3475,7 +3060,6 @@
 		name="{=YGQ6UXCo}Mountain Hunting Bow"
 		body_name="bo_composite_shotbow_h"
 		mesh="shortbow_i"
-		culture="Culture.neutral_culture"
 		weight="0.3"
 		difficulty="0"
 		appearance="1"
@@ -3511,7 +3095,6 @@
 		name="{=steppebowitem}Steppe Bow"
 		body_name="bo_composite_shotbow_g"
 		mesh="shortbow_g"
-		culture="Culture.neutral_culture"
 		weight="0.3"
 		difficulty="0"
 		appearance="1"
@@ -3547,7 +3130,6 @@
 		name="{=KTegaNPW}Longbow"
 		body_name="bo_composite_longbow_e"
 		mesh="longbow_f"
-		culture="Culture.neutral_culture"
 		weight="0.4"
 		difficulty="15"
 		appearance="1"
@@ -3583,7 +3165,6 @@
 		name="{=mTWvG1xz}Ranger Bow"
 		body_name="bo_composite_longbow_e"
 		mesh="longbow_e"
-		culture="Culture.neutral_culture"
 		weight="0.4"
 		difficulty="15"
 		appearance="1"
@@ -3655,7 +3236,6 @@
 		name="{=w6EU77OH}Steppe Recurve Bow"
 		body_name="bo_composite_shotbow_c"
 		mesh="shortbow_d"
-		culture="Culture.neutral_culture"
 		weight="0.3"
 		difficulty="30"
 		appearance="0.4"
@@ -3691,7 +3271,6 @@
 		name="{=E7miRMw1}Heavy Recurve Bow"
 		body_name="bo_composite_shotbow_b"
 		mesh="shortbow_b"
-		culture="Culture.neutral_culture"
 		weight="0.3"
 		difficulty="30"
 		appearance="0.4"
@@ -3727,7 +3306,6 @@
 		name="{=tEimkEsU}Nordic Shortbow"
 		body_name="bo_composite_shotbow_c"
 		mesh="shortbow_e"
-		culture="Culture.neutral_culture"
 		weight="0.3"
 		difficulty="30"
 		appearance="0.6"
@@ -3763,7 +3341,6 @@
 		name="{=A6llHL9s}Lowland Longbow"
 		body_name="bo_composite_longbow_a"
 		mesh="longbow_a"
-		culture="Culture.neutral_culture"
 		subtype="bow"
 		weight="0.5"
 		difficulty="30"
@@ -3800,7 +3377,6 @@
 		name="{=ZQv5Bcl2}Tribesman Bow"
 		body_name="bo_composite_longbow_g"
 		mesh="longbow_h"
-		culture="Culture.neutral_culture"
 		weight="0.5"
 		difficulty="30"
 		appearance="0.6"
@@ -3837,7 +3413,6 @@
 		name="{=wfhHGTbl}Steppe War Bow"
 		body_name="bo_composite_shotbow_a"
 		mesh="shortbow_a"
-		culture="Culture.neutral_culture"
 		weight="0.3"
 		difficulty="50"
 		appearance="0.25"
@@ -3873,7 +3448,6 @@
 		name="{=RcCtV0aS}Woodland Yew Bow"
 		body_name="bo_composite_longbow_a"
 		mesh="longbow_d"
-		culture="Culture.neutral_culture"
 		weight="0.5"
 		difficulty="50"
 		appearance="0.3"
@@ -3909,7 +3483,6 @@
 		name="{=ZFwKlHIJ}Woodland Longbow"
 		body_name="bo_composite_longbow_a"
 		mesh="longbow_c"
-		culture="Culture.neutral_culture"
 		weight="0.1"
 		difficulty="50"
 		appearance="0.1"
@@ -3945,7 +3518,6 @@
 		name="{=OjHwbgeY}Strong Tribesman Bow"
 		body_name="bo_composite_longbow_g"
 		mesh="longbow_i"
-		culture="Culture.neutral_culture"
 		weight="0.3"
 		difficulty="50"
 		appearance="0.1"
@@ -3981,7 +3553,6 @@
 		name="{=ifzgMcrK}Nomad Bow"
 		body_name="bo_composite_longbow_g"
 		mesh="longbow_g"
-		culture="Culture.neutral_culture"
 		weight="0.5"
 		difficulty="50"
 		appearance="0.3"
@@ -4017,7 +3588,6 @@
 		name="{=9YbFEaZ1}Yew Bow"
 		body_name="bo_composite_longbow_a"
 		mesh="longbow_b"
-		culture="Culture.neutral_culture"
 		difficulty="50"
 		weight="0.5"
 		appearance="0.4"
@@ -4127,7 +3697,6 @@
 		name="{=LAEaH3zB}Simple Light Crossbow"
 		body_name="bo_cross_bow_heavy"
 		mesh="crossbow_a"
-		culture="Culture.neutral_culture"
 		weight="1.0"
 		appearance="0.8"
 		difficulty="0"
@@ -4163,7 +3732,6 @@
 		name="{=r07M9xbT}Heavy Crossbow"
 		body_name="bo_cross_bow_heavy"
 		mesh="crossbow_b"
-		culture="Culture.neutral_culture"
 		weight="2.7"
 		appearance="0.7"
 		difficulty="20"
@@ -4200,7 +3768,6 @@
 		name="{=0e17RZrZ}Arbalest"
 		body_name="bo_cross_bow_heavy"
 		mesh="crossbow_c"
-		culture="Culture.neutral_culture"
 		weight="3.0"
 		appearance="0.4"
 		difficulty="20"
@@ -4236,7 +3803,6 @@
 		name="{=K1UFTirG}Light Crossbow"
 		body_name="bo_composite_crossbows"
 		mesh="crossbow_e"
-		culture="Culture.neutral_culture"
 		weight="2.2"
 		appearance="0.4"
 		difficulty="20"
@@ -4273,7 +3839,6 @@
 		name="{=CPI0wkaZ}Hickory Crossbow"
 		body_name="bo_composite_crossbows"
 		mesh="crossbow_d"
-		culture="Culture.neutral_culture"
 		weight="2.2"
 		appearance="0.6"
 		Type="Crossbow"
@@ -4309,7 +3874,6 @@
 	<Item id="crossbow_g"
 		name="{=I1yTY2rx}Fine Light Crossbow"
 		body_name="bo_composite_crossbows"
-		culture="Culture.neutral_culture"
 		mesh="crossbow_g"
 		weight="2.2"
 		appearance="0.7"
@@ -4347,7 +3911,6 @@
 		name="{=TBW9E2ao}Bound Crossbow"
 		body_name="bo_cross_bow_heavy"
 		mesh="crossbow_f"
-		culture="Culture.neutral_culture"
 		weight="2.0"
 		appearance="0.8"
 		difficulty="70"
@@ -4429,7 +3992,6 @@
 		mesh="arrow_roman_a"
 		holster_mesh="quiver_roman_a"
 		holster_mesh_with_weapon="quiver_roman_a"
-		culture="Culture.neutral_culture"
 		weight="0.05"
 		is_merchandise="false"
 		flying_mesh="arrow_bl_flying"
@@ -4614,7 +4176,6 @@
 		body_name="bo_capsule_arrow"
 		holster_body_name="bo_axe_short"
 		mesh="arrow_bl_e"
-		culture="Culture.neutral_culture"
 		weight="0.036"
 		appearance="1"
 		flying_mesh="arrow_bl_flying"
@@ -4652,7 +4213,6 @@
 		body_name="bo_capsule_arrow"
 		holster_body_name="bo_axe_short"
 		mesh="arrow_bl_f"
-		culture="Culture.neutral_culture"
 		weight="0.036"
 		appearance="1"
 		flying_mesh="arrow_bl_flying"
@@ -4914,7 +4474,6 @@
 		holster_mesh="bolt_bl_b_quiver"
 		flying_mesh="bolt_bl_flying"
 		holster_mesh_with_weapon="bolt_bl_b_quiver"
-		culture="Culture.neutral_culture"
 		weight="0.08"
 		appearance="1"
 		Type="Bolts"
@@ -4952,7 +4511,6 @@
 		holster_mesh="bolt_bl_c_quiver"
 		holster_mesh_with_weapon="bolt_bl_c_quiver"
 		flying_mesh="bolt_bl_flying"
-		culture="Culture.neutral_culture"
 		weight="0.04"
 		appearance="1"
 		Type="Bolts"
@@ -4990,7 +4548,6 @@
 		holster_mesh="bolt_bl_d_quiver"
 		holster_mesh_with_weapon="bolt_bl_d_quiver"
 		flying_mesh="bolt_bl_flying"
-		culture="Culture.neutral_culture"
 		weight="0.06"
 		appearance="1"
 		Type="Bolts"
@@ -5028,7 +4585,6 @@
 		holster_mesh="bolt_bl_e_quiver"
 		holster_mesh_with_weapon="bolt_bl_e_quiver"
 		flying_mesh="bolt_bl_flying"
-		culture="Culture.neutral_culture"
 		weight="0.04"
 		appearance="1"
 		Type="Bolts"
@@ -5066,7 +4622,6 @@
 		mesh="arrow_bl_i"
 		holster_mesh="arrow_bl_i_quiver"
 		holster_mesh_with_weapon="arrow_bl_i_quiver"
-		culture="Culture.neutral_culture"
 		weight="0.05"
 		flying_mesh="arrow_bl_flying"
 		appearance="1"
@@ -5102,7 +4657,6 @@
 		name="{=cG1g4T3t}Sparring Flyssa"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		has_modifier="false">
 		<Pieces>
 			<Piece id="aserai_blade_4_blunt" Type="Blade" scale_factor="100"/>
@@ -5115,7 +4669,6 @@
 		name="{=Kba6rxWK}Sparring Scimitar"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		has_modifier="false">
 		<Pieces>
 			<Piece id="aserai_blade_3_blunt" Type="Blade" scale_factor="100"/>
@@ -5128,7 +4681,6 @@
 		name="{=YmoddWwb}Sparring Seax"
 		crafting_template="Dagger"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		has_modifier="false">
 		<Pieces>
 			<Piece id="dagger_blade_3_blunt" Type="Blade" scale_factor="93"/>
@@ -5141,7 +4693,6 @@
 		name="{=BACi0kaM}Sparring Jagged Spear"
 		crafting_template="TwoHandedPolearm"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		has_modifier="false">
 		<Pieces>
 			<Piece id="spear_blade_35_blunt" Type="Blade" scale_factor="95"/>
@@ -5151,8 +4702,7 @@
 	<CraftedItem id="khuzait_polearm_1_t4_blunt"
 		name="{=YQ9ybgmj}Sparring Glaive"
 		crafting_template="TwoHandedPolearm"
-		is_merchandise="false"
-		culture="Culture.neutral_culture">
+		is_merchandise="false">
 		<Pieces>
 			<Piece id="spear_blade_19_blunt" Type="Blade" scale_factor="100"/>
 			<Piece id="default_polearm_guard" Type="Guard" scale_factor="100"/>
@@ -5164,7 +4714,6 @@
 		name="{=es77bJBa}Sparring Throwing Dagger"
 		crafting_template="ThrowingKnife"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		has_modifier="false">
 		<Pieces>
 			<Piece id="dagger_blade_13_blunt" Type="Blade" scale_factor="110"/>
@@ -5177,7 +4726,6 @@
 		name="{=B0E6Zfyk}Sparring Javelin"
 		crafting_template="Javelin"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		has_modifier="false">
 		<Pieces>
 			<Piece id="spear_blade_35_blunt" Type="Blade" scale_factor="100"/>
@@ -5190,7 +4738,6 @@
 		name="{=8WlRREMh}Sparring Bamboo Handled Axe"
 		crafting_template="OneHandedAxe"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		has_modifier="false">
 		<Pieces>
 			<Piece id="axe_craft_30_head_blunt" Type="Blade" scale_factor="100"/>
@@ -5201,7 +4748,6 @@
 		name="{=APO9YcBv}Sparring Two Handed Axe"
 		crafting_template="TwoHandedAxe"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		has_modifier="false">
 		<Pieces>
 			<Piece id="axe_craft_14_head_blunt" Type="Blade" scale_factor="100"/>
@@ -5212,7 +4758,6 @@
 		name="{=lGHrlYqQ}Sparring Twohander"
 		crafting_template="TwoHandedSword"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		has_modifier="false">
 		<Pieces>
 			<Piece id="battania_blade_3_iron_blunt" Type="Blade" scale_factor="110"/>
@@ -5224,8 +4769,7 @@
 	<CraftedItem id="battania_sword_1_t2_blunt"
 		name="{=D1webCRZ}Sparring Broadsword"
 		crafting_template="OneHandedSword"
-		is_merchandise="false"
-		culture="Culture.neutral_culture">
+		is_merchandise="false">
 		<Pieces>
 			<Piece id="battania_blade_3_blunt" Type="Blade" scale_factor="100"/>
 			<Piece id="battania_guard_7" Type="Guard" scale_factor="100"/>
@@ -5237,7 +4781,6 @@
 		name="{=2Igdc86g}Sparing Spatha"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		has_modifier="false">
 		<Pieces>
 			<Piece id="empire_blade_4_blunt" Type="Blade" scale_factor="100"/>
@@ -5262,7 +4805,6 @@
 		name="{=XU0b0yiW}Sparring Lance"
 		crafting_template="TwoHandedPolearm"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		has_modifier="false">
 		<Pieces>
 			<Piece id="spear_blade_23_blunt" Type="Blade" scale_factor="100"/>
@@ -5273,7 +4815,6 @@
 		name="{=LpN4YWb2}Sparring Saber"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		has_modifier="false">
 		<Pieces>
 			<Piece id="khuzait_blade_7_blunt" Type="Blade" scale_factor="100"/>
@@ -5286,7 +4827,6 @@
 		name="{=LLaFEt1m}Sparring Arming Sword"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		has_modifier="false">
 		<Pieces>
 			<Piece id="vlandian_blade_1_blunt" Type="Blade" scale_factor="100"/>
@@ -5299,7 +4839,6 @@
 		name="{=EbWA5mcO}Sparring Billhook"
 		crafting_template="TwoHandedPolearm"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		has_modifier="false">
 		<Pieces>
 			<Piece id="spear_blade_33_blunt" Type="Blade" scale_factor="100"/>
@@ -5312,7 +4851,6 @@
 		name="{=XU0b0yiW}Sparring Lance"
 		crafting_template="TwoHandedPolearm"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		has_modifier="false">
 		<Pieces>
 			<Piece id="spear_blade_20_blunt" Type="Blade" scale_factor="100"/>
@@ -5323,7 +4861,6 @@
 		name="{=5dQdBOTa}Sparring Galloglaich Axe"
 		crafting_template="OneHandedAxe"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		has_modifier="false">
 		<Pieces>
 			<Piece id="axe_craft_20_head_blunt" Type="Blade" scale_factor="110"/>
@@ -5333,8 +4870,7 @@
 	<CraftedItem id="northern_throwing_axe_1_t1_blunt"
 		name="{=M75Ybg6r}Sparring Throwing Axe"
 		crafting_template="ThrowingAxe"
-		is_merchandise="false"
-		culture="Culture.neutral_culture">
+		is_merchandise="false">
 		<Pieces>
 			<Piece id="axe_craft_13_head_blunt" Type="Blade" scale_factor="100"/>
 			<Piece id="axe_craft_11_handle" Type="Handle" scale_factor="100"/>
@@ -5344,7 +4880,6 @@
 		name="{=HIjSiX4E}Sparring Spear"
 		crafting_template="TwoHandedPolearm"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		has_modifier="false">
 		<Pieces>
 			<Piece id="spear_blade_15_blunt" Type="Blade" scale_factor="100"/>
@@ -5355,7 +4890,6 @@
 		name="{=Rwp23MLA}Sparring Blade"
 		crafting_template="OneHandedSword"
 		is_merchandise="false"
-		culture="Culture.neutral_culture"
 		has_modifier="false">
 		<Pieces>
 			<Piece id="sturgian_blade_1_blunt" Type="Blade" scale_factor="100"/>
@@ -5368,7 +4902,6 @@
 		name="{=4Ea6pr5p}Sparring Crossbow"
 		body_name="bo_cross_bow_heavy"
 		mesh="crossbow_a"
-		culture="Culture.neutral_culture"
 		weight="1.0"
 		appearance="0.8"
 		difficulty="0"
@@ -5408,7 +4941,6 @@
 		shield_body_name="bo_aserai_shields_d"
 		recalculate_body="false"
 		mesh="aserai_shields_d"
-		culture="Culture.neutral_culture"
 		weight="7.3"
 		is_merchandise="false"
 		appearance="1"
@@ -5445,7 +4977,6 @@
 		shield_body_name="bo_battania_targe_b"
 		recalculate_body="false"
 		mesh="battania_targe_b"
-		culture="Culture.neutral_culture"
 		weight="2.5"
 		appearance="1.1"
 		Type="Shield"
@@ -5517,7 +5048,6 @@
 		shield_body_name="bo_shield_khuzait_infantary_a"
 		recalculate_body="false"
 		mesh="shield_khuzait_infantary_a"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="2.7"
 		is_merchandise="false"
@@ -5667,7 +5197,6 @@
 		shield_body_name="bo_sturgia_shield_a"
 		recalculate_body="false"
 		mesh="sturgia_shield_a"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="4.7"
 		difficulty="0"
@@ -5704,7 +5233,6 @@
 		shield_body_name="bo_sturgia_shield_b"
 		recalculate_body="false"
 		mesh="sturgia_shield_b"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="6.9"
 		difficulty="0"
@@ -5741,7 +5269,6 @@
 		shield_body_name="bo_sturgia_shield_c"
 		recalculate_body="false"
 		mesh="sturgia_shield_c"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="7.3"
 		difficulty="0"
@@ -5778,7 +5305,6 @@
 		shield_body_name="bo_sturgia_old_shield"
 		recalculate_body="false"
 		mesh="sturgia_old_shield_a"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="7.3"
 		difficulty="0"
@@ -5815,7 +5341,6 @@
 		shield_body_name="bo_sturgia_old_shield"
 		recalculate_body="false"
 		mesh="sturgia_old_shield_b"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="7.3"
 		difficulty="0"
@@ -5852,7 +5377,6 @@
 		shield_body_name="bo_sturgia_old_shield"
 		recalculate_body="false"
 		mesh="sturgia_old_shield_c"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="7.3"
 		difficulty="0"
@@ -5889,7 +5413,6 @@
 		shield_body_name="bo_aserai_shields_b"
 		recalculate_body="false"
 		mesh="aserai_shields_b"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="2.1"
 		appearance="0.7"
@@ -5925,7 +5448,6 @@
 		shield_body_name="bo_aserai_shields_c"
 		recalculate_body="false"
 		mesh="aserai_shields_c"
-		culture="Culture.neutral_culture"
 		weight="7.3"
 		appearance="0.9"
 		Type="Shield"
@@ -5960,7 +5482,6 @@
 		shield_body_name="bo_aserai_shields_d"
 		recalculate_body="false"
 		mesh="aserai_shields_d"
-		culture="Culture.neutral_culture"
 		weight="7.3"
 		appearance="1"
 		Type="Shield"
@@ -5995,7 +5516,6 @@
 		shield_body_name="bo_aserai_shields_e"
 		recalculate_body="false"
 		mesh="aserai_shields_e"
-		culture="Culture.neutral_culture"
 		weight="7.3"
 		appearance="1"
 		Type="Shield"
@@ -6030,7 +5550,6 @@
 		shield_body_name="bo_aserai_shields_f"
 		recalculate_body="false"
 		mesh="aserai_shields_f"
-		culture="Culture.neutral_culture"
 		weight="7.3"
 		appearance="0.7"
 		Type="Shield"
@@ -6064,7 +5583,6 @@
 		shield_body_name="bo_aserai_shields_g"
 		recalculate_body="false"
 		mesh="aserai_shields_g"
-		culture="Culture.neutral_culture"
 		weight="4"
 		appearance="0.9"
 		Type="Shield"
@@ -6099,7 +5617,6 @@
 		shield_body_name="bo_aserai_shields_h"
 		recalculate_body="false"
 		mesh="aserai_shields_h"
-		culture="Culture.neutral_culture"
 		weight="7.3"
 		appearance="1"
 		Type="Shield"
@@ -6134,7 +5651,6 @@
 		shield_body_name="bo_battania_targe_b"
 		recalculate_body="false"
 		mesh="battania_targe_b"
-		culture="Culture.neutral_culture"
 		weight="2.5"
 		appearance="1.1"
 		Type="Shield"
@@ -6169,7 +5685,6 @@
 		shield_body_name="bo_battania_shield_targe_a"
 		recalculate_body="false"
 		mesh="battania_shield_targe_a"
-		culture="Culture.neutral_culture"
 		weight="2.5"
 		appearance="1.6"
 		Type="Shield"
@@ -6204,7 +5719,6 @@
 		shield_body_name="bo_aserai_shields_i"
 		recalculate_body="false"
 		mesh="aserai_shields_i"
-		culture="Culture.neutral_culture"
 		weight="7.3"
 		appearance="1"
 		Type="Shield"
@@ -6238,7 +5752,6 @@
 		shield_body_name="bo_battania_large_shield_a"
 		recalculate_body="false"
 		mesh="battania_large_shield_a"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="3.5"
 		appearance="1.1"
@@ -6274,7 +5787,6 @@
 		shield_body_name="bo_battania_large_shield_b"
 		recalculate_body="false"
 		mesh="battania_large_shield_b"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="3.5"
 		appearance="1"
@@ -6310,7 +5822,6 @@
 		shield_body_name="bo_battania_large_shield_c"
 		recalculate_body="false"
 		mesh="battania_large_shield_c"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="3.5"
 		appearance="0.5"
@@ -6518,7 +6029,6 @@
 		shield_body_name="bo_kite_shield_e"
 		recalculate_body="false"
 		mesh="kite_shield_e"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="7.0"
 		appearance="0.7"
@@ -6928,7 +6438,6 @@
 		shield_body_name="bo_heater_shield_b"
 		recalculate_body="false"
 		mesh="heater_shield_b"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="4.7"
 		appearance="1"
@@ -6963,7 +6472,6 @@
 		shield_body_name="bo_heater_shield_c"
 		recalculate_body="false"
 		mesh="heater_shield_c"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="4.7"
 		appearance="1"
@@ -6998,7 +6506,6 @@
 		shield_body_name="bo_heater_shield_d"
 		recalculate_body="false"
 		mesh="heater_shield_d"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="4.7"
 		appearance="1"
@@ -7033,7 +6540,6 @@
 		shield_body_name="bo_heater_shield_e"
 		recalculate_body="false"
 		mesh="heater_shield_e"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="4.7"
 		appearance="1"
@@ -7068,7 +6574,6 @@
 		shield_body_name="bo_heater_shield_f"
 		recalculate_body="false"
 		mesh="heater_shield_f"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="4.7"
 		appearance="1"
@@ -7103,7 +6608,6 @@
 		shield_body_name="bo_heater_shield_g"
 		recalculate_body="false"
 		mesh="heater_shield_g"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="3.3"
 		appearance="0.7"
@@ -7138,7 +6642,6 @@
 		shield_body_name="bo_heater_shield_h"
 		recalculate_body="false"
 		mesh="heater_shield_h"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="2.5"
 		appearance="1"
@@ -7173,7 +6676,6 @@
 		shield_body_name="bo_heater_shield_i"
 		recalculate_body="false"
 		mesh="heater_shield_i"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="4.7"
 		appearance="0.7"
@@ -7208,7 +6710,6 @@
 		shield_body_name="bo_heater_shield_j"
 		recalculate_body="false"
 		mesh="heater_shield_j"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="4.7"
 		appearance="1"
@@ -7243,7 +6744,6 @@
 		shield_body_name="bo_heater_shield_k"
 		recalculate_body="false"
 		mesh="heater_shield_k"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="2.1"
 		appearance="0.6"
@@ -7278,7 +6778,6 @@
 		shield_body_name="bo_shield_aserai_cavalary_a"
 		recalculate_body="false"
 		mesh="shield_aserai_cavalary_a"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="4.7"
 		appearance="0.1"
@@ -7313,7 +6812,6 @@
 		shield_body_name="bo_shield_aserai_cavalary_b"
 		recalculate_body="false"
 		mesh="shield_aserai_cavalary_b"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="4.7"
 		appearance="1"
@@ -7348,7 +6846,6 @@
 		shield_body_name="bo_shield_aserai_cavalary_c"
 		recalculate_body="false"
 		mesh="shield_aserai_cavalary_c"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="4.7"
 		appearance="0.7"
@@ -7383,7 +6880,6 @@
 		shield_body_name="bo_shield_aserai_infantary_a"
 		recalculate_body="false"
 		mesh="shield_aserai_infantary_a"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="4.7"
 		appearance="1"
@@ -7418,7 +6914,6 @@
 		shield_body_name="bo_shield_aserai_infantary_b"
 		recalculate_body="false"
 		mesh="shield_aserai_infantary_b"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="4.7"
 		appearance="0.8"
@@ -7453,7 +6948,6 @@
 		shield_body_name="bo_shield_aserai_infantary_c"
 		recalculate_body="false"
 		mesh="shield_aserai_infantary_c"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="4.7"
 		appearance="0.7"
@@ -7488,7 +6982,6 @@
 		shield_body_name="bo_shield_battania_cavalary_a"
 		recalculate_body="false"
 		mesh="shield_battania_cavalary_a"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="4.7"
 		appearance="0.9"
@@ -7523,7 +7016,6 @@
 		shield_body_name="bo_shield_battania_cavalary_b"
 		recalculate_body="false"
 		mesh="shield_battania_cavalary_b"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="4.7"
 		appearance="0.9"
@@ -7558,7 +7050,6 @@
 		shield_body_name="bo_shield_khuzait_cavalary_a"
 		recalculate_body="false"
 		mesh="shield_khuzait_cavalary_a"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="4.7"
 		appearance="0.9"
@@ -7593,7 +7084,6 @@
 		shield_body_name="bo_shield_khuzait_cavalary_b"
 		recalculate_body="false"
 		mesh="shield_khuzait_cavalary_b"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="4.7"
 		appearance="0.9"
@@ -7696,7 +7186,6 @@
 		shield_body_name="bo_shield_khuzait_infantary_a"
 		recalculate_body="false"
 		mesh="shield_khuzait_infantary_a"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="2.7"
 		appearance="1"
@@ -7731,7 +7220,6 @@
 		shield_body_name="bo_shield_khuzait_infantary_a"
 		recalculate_body="false"
 		mesh="shield_khuzait_infantary_a"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="2.7"
 		appearance="1"
@@ -7766,7 +7254,6 @@
 		shield_body_name="bo_shield_khuzait_infantary_b"
 		recalculate_body="false"
 		mesh="shield_khuzait_infantary_b"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="4.7"
 		appearance="0.7"
@@ -7801,7 +7288,6 @@
 		shield_body_name="bo_shield_khuzait_infantary_b"
 		recalculate_body="false"
 		mesh="shield_khuzait_infantary_b"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="4.7"
 		appearance="0.7"
@@ -7836,7 +7322,6 @@
 		shield_body_name="bo_cap_shield_sturgia_cavalary_a"
 		recalculate_body="false"
 		mesh="shield_sturgia_cavalary_a"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="4.7"
 		appearance="0.7"
@@ -7871,7 +7356,6 @@
 		shield_body_name="bo_shield_sturgia_cavalary_b"
 		recalculate_body="false"
 		mesh="shield_sturgia_cavalary_b"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="4.7"
 		appearance="0.7"
@@ -7906,7 +7390,6 @@
 		shield_body_name="bo_shield_sturgia_infantary_a"
 		recalculate_body="false"
 		mesh="shield_sturgia_infantary_a"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="3.5"
 		appearance="1"
@@ -7942,7 +7425,6 @@
 		shield_body_name="bo_cap_shield_sturgia_infantary_b"
 		recalculate_body="false"
 		mesh="shield_sturgia_infantary_b"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="3.3"
 		difficulty="0"
@@ -7979,7 +7461,6 @@
 		shield_body_name="bo_shield_vlandia_cavalary_a"
 		recalculate_body="false"
 		mesh="shield_vlandia_cavalary_a"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="4.7"
 		appearance="1"
@@ -8014,7 +7495,6 @@
 		shield_body_name="bo_shield_vlandia_cavalary_b"
 		recalculate_body="false"
 		mesh="shield_vlandia_cavalary_b"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="4.7"
 		appearance="0.6"
@@ -8049,7 +7529,6 @@
 		shield_body_name="bo_shield_vlandia_cavalary_c"
 		recalculate_body="false"
 		mesh="shield_vlandia_cavalary_c"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="4.7"
 		appearance="0.9"
@@ -8085,7 +7564,6 @@
 		shield_body_name="bo_shield_vlandia_infantary_a"
 		recalculate_body="false"
 		mesh="shield_vlandia_infantary_a"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="4.7"
 		appearance="1"
@@ -8120,7 +7598,6 @@
 		shield_body_name="bo_shield_vlandia_infantary_b"
 		recalculate_body="false"
 		mesh="shield_vlandia_infantary_b"
-		culture="Culture.neutral_culture"
 		using_tableau="true"
 		weight="4.7"
 		appearance="0.7"

@@ -2,573 +2,241 @@
 <Items>
 	<!-- #region Mods Items -->
 		<!-- head -->
-		<Item id="wld_great_helm" 
-			name="Great Helmet" 
+		<Item id="wld_helm_with_visor"
+			name="Western Helmet With Visor"
 			subtype="head_armor"
-			mesh="great_helm_base" 
-			culture="Culture.neutral_culture" 
-			weight="4.5"
-			Type="HeadArmor">
-			<ItemComponent>
-				<Armor head_armor="50"
-							has_gender_variations="false" 
-							hair_cover_type="all" 
-							beard_cover_type="all" 
-							modifier_group="plate" 
-							material_type="Plate"/>
-			</ItemComponent>
-			<Flags UseTeamColor="true"/>
-		</Item>
-		<Item id="wld_great_helm_winged" 
-			name="Winged Great Helmet" 
-			subtype="head_armor" 
-			mesh="winged_great_helm_base" 
-			culture="Culture.neutral_culture" 
-			weight="4.8"
-			Type="HeadArmor">
-			<ItemComponent>
-				<Armor head_armor="52" 
-							has_gender_variations="false" 
-							hair_cover_type="all" 
-							beard_cover_type="all" 
-							modifier_group="plate" 
-							material_type="Plate"/>
-			</ItemComponent>
-			<Flags UseTeamColor="true"/>
-		</Item>
-		<Item id="wld_great_helm_brass" 
-			name="Brass Great Helmet" 
-			subtype="head_armor" 
-			mesh="great_helm_brass" 
-			culture="Culture.neutral_culture" 
+			mesh="vlandian_helm_with_visor"
 			weight="4"
-			Type="HeadArmor">
-			<ItemComponent>
-				<Armor head_armor="50" 
-							has_gender_variations="false" 
-							hair_cover_type="all" 
-							modifier_group="plate" 
-							material_type="Plate" 
-							beard_cover_type="all"/>
-			</ItemComponent>
-			<Flags UseTeamColor="true"/>
-		</Item>
-		<Item id="wld_great_helm_brass_winged"
-			name="Winged  Great Helmet" 
-			subtype="head_armor" 
-			mesh="winged_great_helm_brass" 
-			culture="Culture.neutral_culture" 
-			weight="4.8"
-			Type="HeadArmor">
-			<ItemComponent>
-				<Armor head_armor="52" 
-							has_gender_variations="false" 
-							hair_cover_type="all" 
-							modifier_group="plate" 
-							material_type="Plate" 
-							beard_cover_type="all"/>
-			</ItemComponent>
-			<Flags UseTeamColor="true"/>
-		</Item>
-		<Item id="wld_great_helm_dark" 
-			name="Blackened Great Helmet" 
-			subtype="head_armor" 
-			mesh="great_helm_dark" 
-			culture="Culture.neutral_culture" 
-			weight="4"   
-			Type="HeadArmor">
-			<ItemComponent>
-				<Armor head_armor="50" 
-							has_gender_variations="false" 
-							hair_cover_type="all" 
-							modifier_group="plate"
-							material_type="Plate" 
-							beard_cover_type="all"/>
-			</ItemComponent>
-			<Flags UseTeamColor="true"/>
-		</Item>
-		<Item id="wld_great_helm_dark_wined" 
-			name="Winged Blackened Great Helmet" 
-			subtype="head_armor" 
-			mesh="winged_great_helm_dark" 
-			culture="Culture.neutral_culture"
-			weight="4.8"
-			Type="HeadArmor">
-			<ItemComponent>
-				<Armor head_armor="52" 
-							has_gender_variations="false" 
-							hair_cover_type="all" 
-							modifier_group="plate" 
-							material_type="Plate" 
-							beard_cover_type="all"/>
-			</ItemComponent>
-			<Flags UseTeamColor="true"/>
-		</Item>
-		<Item id="wld_great_helm_royal" 
-			name="Ornate Great Helmet" 
-			subtype="head_armor" 
-			mesh="royal_great_helm" 
-			culture="Culture.neutral_culture" 
-			weight="4.5"
 			Type="HeadArmor">
 			<ItemComponent>
 				<Armor head_armor="55"
-							has_gender_variations="false" 
-							hair_cover_type="all" 
-							modifier_group="plate" 
-							material_type="Plate" 
-							beard_cover_type="all"/>
-			</ItemComponent>
-			<Flags UseTeamColor="false"/>
-		</Item>
-		<Item id="wld_helm_with_visor" 
-			name="Western Helmet With Visor" 
-			subtype="head_armor" 
-			mesh="vlandian_helm_with_visor" 
-			culture="Culture.neutral_culture" 
-			weight="4"
-			Type="HeadArmor">
-			<ItemComponent>
-				<Armor head_armor="55" 
-							has_gender_variations="false" 
-							hair_cover_type="all" 
-							modifier_group="plate" 
-							material_type="Plate" 
-							beard_cover_type="all"/>
+					has_gender_variations="false"
+					hair_cover_type="all"
+					modifier_group="plate"
+					material_type="Plate"
+					beard_cover_type="all"/>
 			</ItemComponent>
 			<Flags Civilian="true"/>
 		</Item>
-		<Item id="wld_helm_with_visor_engraved" 
-			name="Ornate Western Helmet With Visor" 
-			subtype="head_armor" 
-			mesh="engraved_vlandian_helm_with_visor" 
-			culture="Culture.neutral_culture" 
+		<Item id="wld_helm_with_visor_engraved"
+			name="Ornate Western Helmet With Visor"
+			subtype="head_armor"
+			mesh="engraved_vlandian_helm_with_visor"
 			weight="4"
 			Type="HeadArmor">
 			<ItemComponent>
-				<Armor head_armor="55" 
-							has_gender_variations="false" 
-							hair_cover_type="all" 
-							modifier_group="plate" 
-							material_type="Plate" 
-							beard_cover_type="all"/>
+				<Armor head_armor="55"
+					has_gender_variations="false"
+					hair_cover_type="all"
+					modifier_group="plate"
+					material_type="Plate"
+					beard_cover_type="all"/>
 			</ItemComponent>
 			<Flags Civilian="true"/>
 		</Item>
 		<Item id="wld_helm_with_visor_ornate"
-			name="Ornate Western Helmet With Visor" 
-			subtype="head_armor" 
-			mesh="crowned_royal_vlandian_helm_with_visor" 
-			culture="Culture.neutral_culture" 
+			name="Ornate Western Helmet With Visor"
+			subtype="head_armor"
+			mesh="crowned_royal_vlandian_helm_with_visor"
 			weight="4"
 			Type="HeadArmor">
 			<ItemComponent>
-				<Armor head_armor="58" 
-							has_gender_variations="false" 
-							hair_cover_type="all" 
-							modifier_group="plate" 
-							material_type="Plate" 
-							beard_cover_type="all"/>
+				<Armor head_armor="58"
+					has_gender_variations="false"
+					hair_cover_type="all"
+					modifier_group="plate"
+					material_type="Plate"
+					beard_cover_type="all"/>
 			</ItemComponent>
 			<Flags Civilian="true"/>
 		</Item>
-		<Item id="wld_helm_with_visor_crowned" 
-			name="Crowned Western Helmet With Visor" 
-			subtype="head_armor" 
-			mesh="crowned_vlandian_helm_with_visor" 
-			culture="Culture.neutral_culture" 
+		<Item id="wld_helm_with_visor_crowned"
+			name="Crowned Western Helmet With Visor"
+			subtype="head_armor"
+			mesh="crowned_vlandian_helm_with_visor"
 			weight="4"
 			Type="HeadArmor">
 			<ItemComponent>
-				<Armor head_armor="58" 
-							has_gender_variations="false" 
-							hair_cover_type="all"
-							modifier_group="plate" 
-							material_type="Plate"
-							beard_cover_type="all"/>
+				<Armor head_armor="58"
+					has_gender_variations="false"
+					hair_cover_type="all"
+					modifier_group="plate"
+					material_type="Plate"
+					beard_cover_type="all"/>
 			</ItemComponent>
 			<Flags Civilian="true"/>
 		</Item>
-		<Item id="wld_bacinet_with_facemask" 
-			name="bacinet with facemask" 
-			subtype="head_armor" 
-			mesh="sa_bacinet_with_facemask" 
-			culture="Culture.neutral_culture" 
+		<Item id="wld_bacinet_with_facemask"
+			name="bacinet with facemask"
+			subtype="head_armor"
+			mesh="sa_bacinet_with_facemask"
 			weight="4.5"
 			Type="HeadArmor">
 			<ItemComponent>
-				<Armor head_armor="54" 
-							has_gender_variations="false" 
-							hair_cover_type="all" 
-							modifier_group="plate" 
-							material_type="Plate" 
-							beard_cover_type="all"/>
-			</ItemComponent>
-			<Flags UseTeamColor="false"/>
-		</Item>
-		<Item id="wld_helm_faceplate_blackend_brass" 
-			name="Western Ornate Full Plate Helmet" 
-			subtype="head_armor" 
-			mesh="vlandian_helm_with_faceplate_black" 
-			culture="Culture.neutral_culture" 
-			weight="4"
-			Type="HeadArmor">
-			<ItemComponent>
-				<Armor head_armor="52" 
-							has_gender_variations="false" 
-							hair_cover_type="all" 
-							modifier_group="plate" 
-							material_type="Plate" 
-							beard_cover_type="all"/>
-			</ItemComponent>
-			<Flags UseTeamColor="false"/>
-		</Item>
-		<Item id="wld_helm_faceplate_brass" 
-			name="Western Ornate Full Plate Helmet" 
-			subtype="head_armor" 
-			mesh="vlandian_helm_with_faceplate_brass" 
-			culture="Culture.neutral_culture" 
-			weight="4"
-			Type="HeadArmor">
-			<ItemComponent>
-				<Armor head_armor="52" 
-							has_gender_variations="false" 
-							hair_cover_type="all" 
-							modifier_group="plate" 
-							material_type="Plate" 
-							beard_cover_type="all"/>
-			</ItemComponent>
-			<Flags UseTeamColor="false"/>
-		</Item>
-		<Item id="wld_helm_faceplate_painted" 
-			name="Western Painted Full Plate Helmet" 
-			subtype="head_armor" 
-			mesh="vlandian_helm_with_faceplate_paint" 
-			culture="Culture.neutral_culture" 
-			weight="4"
-			Type="HeadArmor">
-			<ItemComponent>
-				<Armor head_armor="52" 
-							has_gender_variations="false" 
-							hair_cover_type="all" 
-							modifier_group="plate" 
-							material_type="Plate" 
-							beard_cover_type="all"/>
-			</ItemComponent>
-			<Flags UseTeamColor="true"/>
-		</Item>
-		<Item id="wld_helm_icon"
-			name="Vaegir Decorated Helmet" 
-			subtype="head_armor" 
-			mesh="rus_helm_icon" 
-			culture="Culture.neutral_culture"  
-			weight="4" 
-			Type="HeadArmor">
-			<ItemComponent>
-					<Armor head_armor="54" 
-						has_gender_variations="false" 
-						hair_cover_type="all" 
-						modifier_group="plate" 
-						material_type="Plate" 
-						beard_cover_type="all"/>
-			</ItemComponent>
-			<Flags UseTeamColor="false"/>
-		</Item>
-		<Item id="wld_helm_noble"
-			name="Vaegir Noble Helmet" 
-			subtype="head_armor" 
-			mesh="rus_helm_noble" 
-			culture="Culture.neutral_culture"  
-			weight="4"
-			Type="HeadArmor">
-			<ItemComponent>
-					<Armor head_armor="54" 
-						has_gender_variations="false" 
-						hair_cover_type="all" 
-						modifier_group="plate" 
-						material_type="Plate" 
-						beard_cover_type="all"/>
-			</ItemComponent>
-			<Flags UseTeamColor="false"/>
-		</Item>
-		<Item id="wld_helm_noble_icon"
-			name="Vaegir Decorated Noble Helmet" 
-			subtype="head_armor" 
-			mesh="rus_helm_noble_icon"
-			culture="Culture.neutral_culture"  
-			weight="4" 
-			Type="HeadArmor">
-			<ItemComponent>
-					<Armor head_armor="54" 
-						has_gender_variations="false" 
-						hair_cover_type="all" 
-						modifier_group="plate" 
-						material_type="Plate" 
-						beard_cover_type="all"/>
-			</ItemComponent>
-			<Flags UseTeamColor="false"/>
-		</Item>
-		<Item id="wld_helm_regular"
-			name="Vaegir Helmet" 
-			subtype="head_armor" 
-			mesh="rus_helm_regular"
-			culture="Culture.neutral_culture"  
-			weight="4" 
-			Type="HeadArmor">
-			<ItemComponent>
-					<Armor head_armor="54" 
-						has_gender_variations="false" 
-						hair_cover_type="all" 
-						modifier_group="plate" 
-						material_type="Plate" 
-						beard_cover_type="all"/>
-			</ItemComponent>
-			<Flags UseTeamColor="false"/>
-		</Item>
-		<Item id="wld_helm_regular2"
-			name="Vaegir Helmet" 
-			subtype="head_armor" 
-			mesh="rus_helm_regular2"
-			culture="Culture.neutral_culture"  
-			weight="4" 
-			Type="HeadArmor">
-			<ItemComponent>
-					<Armor head_armor="54" 
-						has_gender_variations="false" 
-						hair_cover_type="all" 
-						modifier_group="plate" 
-						material_type="Plate" 
-						beard_cover_type="all"/>
-			</ItemComponent>
-			<Flags UseTeamColor="false"/>
-		</Item>
-		<Item id="wld_open_helm"
-			name="Vaegir Helmet" 
-			subtype="head_armor" 
-			mesh="rus_open_helm"
-			culture="Culture.neutral_culture"  
-			weight="4" 
-			Type="HeadArmor">
-			<ItemComponent>
-					<Armor head_armor="48" 
-						has_gender_variations="false" 
-						hair_cover_type="all" 
-						modifier_group="plate" 
-						material_type="Plate" 
-						beard_cover_type="all"/>
-			</ItemComponent>
-			<Flags UseTeamColor="false"/>
-		</Item>
-		<Item id="wld_vaegir_helm"
-			name="War Mask" 
-			subtype="head_armor" 
-			mesh="vaegir_helm"
-			culture="Culture.neutral_culture"  
-			weight="4" 
-			Type="HeadArmor">
-			<ItemComponent>
-					<Armor head_armor="54" 
-						has_gender_variations="false" 
-						hair_cover_type="all" 
-						modifier_group="plate" 
-						material_type="Plate" 
-						beard_cover_type="all"/>
-					</ItemComponent>
-					<Flags UseTeamColor="false"/>
-		</Item>
-		<Item id="wld_vaegir_helm_open"
-			name="War helmet" 
-			subtype="head_armor" 
-			mesh="vaegir_helm_open"
-			culture="Culture.neutral_culture"  
-			weight="3.5" 
-			Type="HeadArmor">
-			<ItemComponent>
-			<Armor head_armor="48" 
-					has_gender_variations="false" 
-					hair_cover_type="all" 
-					modifier_group="plate" 
-					material_type="Plate" 
+				<Armor head_armor="54"
+					has_gender_variations="false"
+					hair_cover_type="all"
+					modifier_group="plate"
+					material_type="Plate"
 					beard_cover_type="all"/>
 			</ItemComponent>
 			<Flags UseTeamColor="false"/>
 		</Item>
 
 		<!-- Shoulders -->
-		<Item id="wld_swadian_shoulders" 
-			name="Western Shoulder Plates" 
-			mesh="swadian_shoulders" 
-			culture="Culture.neutral_culture" 
+		<Item id="wld_plate_shoulders"
+			name="Western Shoulder Plates"
+			mesh="swadian_shoulders"
 			weight="3.6"
 			Type="Cape">
 			<ItemComponent>
-				<Armor body_armor="20" 
-							arm_armor="10" 
-							modifier_group="plate" 
-							material_type="Plate"/>
+				<Armor body_armor="20"
+					arm_armor="10"
+					modifier_group="plate"
+					material_type="Plate"/>
 			</ItemComponent>
 			<Flags/>
 		</Item>
-		<Item id="wld_engraved_swadian_shoulders" 
-			name="Western Ornate Shoulder Plates" 
+		<Item id="wld_plate_shoulders_engraved"
+			name="Western Ornate Shoulder Plates"
 			mesh="engraved_swadian_shoulders"
-			culture="Culture.neutral_culture" 
 			weight="3.6"
 			Type="Cape">
 			<ItemComponent>
-				<Armor body_armor="20" 
-							arm_armor="10" 
-							modifier_group="plate" 
-							material_type="Plate"/>
+				<Armor body_armor="20"
+					arm_armor="10"
+					modifier_group="plate"
+					material_type="Plate"/>
 			</ItemComponent>
 			<Flags/>
 		</Item>
-		<Item id="wld_Western_chain_shoulders" 
-			name="Western chain shoulders" 
+		<Item id="wld_chain_shoulders"
+			name="Western chain shoulders"
 			mesh="chain_shoulders"
 			culture="Culture.neutral_culture"
 			weight="3.6"
 			Type="Cape">
 			<ItemComponent>
-				<Armor body_armor="12" 
-							modifier_group="Chainmail" 
-							material_type="Chainmail"/>
+				<Armor body_armor="12"
+					modifier_group="Chainmail"
+					material_type="Chainmail"/>
 			</ItemComponent>
 			<Flags/>
 		</Item>
-		<Item id="wld_eastern_heavy_lamellar_armor"
-			name="Heavy Lamellar Armor"
-			mesh="sturgia_cavalry_armor_reinforced"
-			weight="25"
-			Type="BodyArmor">
-			<ItemComponent>
-			<Armor body_armor="46"
-					arm_armor="14"
-					leg_armor="20"
-					covers_body="true"
-					modifier_group="plate"
-					material_type="Plate"/>
-			</ItemComponent>
-		</Item>
 
 		<!-- gloves -->
-		<Item id="wld_ChurburghGauntlet" 
-			name="Plate Mittens" 
-			mesh="sa_1churburghgauntlet" 
+		<Item id="wld_plate_mittens"
+			name="Plate Mittens"
+			mesh="sa_1churburghgauntlet"
 			subtype="body_armor"
-			culture="Culture.neutral_culture" 
-			weight="2.9" 
+			weight="2.9"
 			Type="HandArmor">
 			<ItemComponent>
-				<Armor arm_armor="30" 
-						covers_hands="true" 
-						modifier_group="Plate" 
-						material_type="Plate"/>
+				<Armor arm_armor="30"
+					covers_hands="true"
+					modifier_group="Plate"
+					material_type="Plate"/>
 			</ItemComponent>
 			<Flags UseTeamColor="false"/>
 		</Item>
-		<Item id="wld_ChurburghGauntlet_trimmed" 
-			name="Trimmed Plate Mittens" 
-			mesh="sa_churburghgauntlet" 
+		<Item id="wld_plate_mittens_trimmed"
+			name="Trimmed Plate Mittens"
+			mesh="sa_churburghgauntlet"
 			subtype="body_armor"
-			culture="Culture.neutral_culture" 
-			weight="2.9" 
+			weight="2.9"
 			Type="HandArmor">
 			<ItemComponent>
-				<Armor arm_armor="30" 
-						covers_hands="true" 
-						modifier_group="Plate" 
-						material_type="Plate"/>
+				<Armor arm_armor="30"
+					covers_hands="true"
+					modifier_group="Plate"
+					material_type="Plate"/>
 			</ItemComponent>
 			<Flags UseTeamColor="false"/>
 		</Item>
-		<Item id="wld_ChurburghGauntlet_black" 
-				name="Blackend Plate Mittens" 
-				mesh="sa_2churburghgauntlet" 
-				subtype="body_armor"
-				culture="Culture.neutral_culture" 
-				weight="2.9" 
-				Type="HandArmor">
+		<Item id="wld_plate_mittens_black"
+			name="Blackend Plate Mittens"
+			mesh="sa_2churburghgauntlet"
+			subtype="body_armor"
+			weight="2.9"
+			Type="HandArmor">
 			<ItemComponent>
-				<Armor arm_armor="30" 
-						covers_hands="true" 
-						modifier_group="Plate" 
-						material_type="Plate"/>
+				<Armor arm_armor="30"
+					covers_hands="true"
+					modifier_group="Plate"
+					material_type="Plate"/>
 			</ItemComponent>
 			<Flags UseTeamColor="false"/>
 		</Item>
 
 		<!-- Body Armours-->
-		<Item id="wld_coat_of_plates1_c" 
-			name="coat of plates" 
+		<Item id="wld_coat_of_plates"
+			name="coat of plates"
 			mesh="coat_of_plates1_c"
-			subtype="body_armor" 
-			culture="Culture.neutral_culture"
-			weight="25.11" 
-			Type="BodyArmor">
-			<ItemComponent>
-				<Armor body_armor="45" 
-						leg_armor="20" 
-						arm_armor="20" 
-						covers_body="true"
-						modifier_group="chain" 
-						material_type="Chainmail"/>
-			</ItemComponent>
-			<Flags UseTeamColor="true"/>
-		</Item>
-		<Item id="wld_coat_of_plates2_c" 
-			name="coat of plates royal pattern" 
-			mesh="coat_of_plates2_c"
-			subtype="body_armor"  
-			value="70000"
-			culture="Culture.neutral_culture" 
-			weight="25.11"
-			Type="BodyArmor">
-			<ItemComponent>
-				<Armor body_armor="45" 
-						leg_armor="20" 
-						arm_armor="20" 
-						covers_body="true" 
-						modifier_group="chain" 
-						material_type="Chainmail"/>
-			</ItemComponent>
-			<Flags UseTeamColor="true"/>
-		</Item>
-		<Item id="wld_coat_of_plates3_c" 
-			name="coat of plates lys pattern" 
-			mesh="coat_of_plates3_c"
 			subtype="body_armor"
-			culture="Culture.neutral_culture" 
+			culture="Culture.neutral_culture"
 			weight="25.11"
 			Type="BodyArmor">
 			<ItemComponent>
 				<Armor body_armor="45"
-						leg_armor="20" 
-						arm_armor="20" 
-						covers_body="true" 
-						modifier_group="chain" 
-						material_type="Chainmail"/>
+					leg_armor="20"
+					arm_armor="20"
+					covers_body="true"
+					modifier_group="chain"
+					material_type="Chainmail"/>
 			</ItemComponent>
 			<Flags UseTeamColor="true"/>
 		</Item>
-		<Item id="wld_coat_of_plates4_c" 
-			name="coat of plates checker pattern" 
-			mesh="coat_of_plates4_c" 
-			subtype="body_armor" 
+		<Item id="wld_coat_of_plates_royal"
+			name="coat of plates royal pattern"
+			mesh="coat_of_plates2_c"
+			subtype="body_armor"  
+			value="70000"
+			weight="25.11"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor body_armor="45"
+					leg_armor="20"
+					arm_armor="20"
+					covers_body="true"
+					modifier_group="chain"
+					material_type="Chainmail"/>
+			</ItemComponent>
+			<Flags UseTeamColor="true"/>
+		</Item>
+		<Item id="wld_coat_of_plates_lys"
+			name="coat of plates lys pattern"
+			mesh="coat_of_plates3_c"
+			subtype="body_armor"
+			weight="25.11"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor body_armor="45"
+					leg_armor="20"
+					arm_armor="20"
+					covers_body="true"
+					modifier_group="chain"
+					material_type="Chainmail"/>
+			</ItemComponent>
+			<Flags UseTeamColor="true"/>
+		</Item>
+		<Item id="wld_coat_of_plates_checker"
+			name="coat of plates checker pattern"
+			mesh="coat_of_plates4_c"
+			subtype="body_armor"
 			culture="Culture.neutral_culture"
 			weight="25.11"
 			Type="BodyArmor">
 			<ItemComponent>
-				<Armor body_armor="45" 
-						leg_armor="20" 
-						arm_armor="20" 
-						covers_body="true" 
-						modifier_group="chain" 
-						material_type="Chainmail"/>
+				<Armor body_armor="45"
+					leg_armor="20"
+					arm_armor="20"
+					covers_body="true"
+					modifier_group="chain"
+					material_type="Chainmail"/>
 			</ItemComponent>
 			<Flags UseTeamColor="true"/>
 		</Item>
-		<Item id="wld_coat_of_plates5_c"
+		<Item id="wld_coat_of_plates_cross"
 			name="coat of plates cross pattern"
 			mesh="coat_of_plates5_c"
 			subtype="body_armor"
@@ -576,84 +244,83 @@
 			weight="25.11"
 			Type="BodyArmor">
 			<ItemComponent>
-				<Armor body_armor="45" 
-					leg_armor="20" 
+				<Armor body_armor="45"
+					leg_armor="20"
 					arm_armor="20"
-					covers_body="true" 
-					modifier_group="chain" 
+					covers_body="true"
+					modifier_group="chain"
 					material_type="Chainmail"/>
 			</ItemComponent>
 			<Flags UseTeamColor="true"/>
 		</Item>
-		<Item id="wld_swadian_plate_armor" 
-			name="Western Plate Armor" 
-			mesh="swadian_plate_armor" 
+		<Item id="wld_plate_armor"
+			name="Western Plate Armor"
+			mesh="swadian_plate_armor"
 			subtype="body_armor"
 			culture="Culture.neutral_culture"
 			weight="29"
 			Type="BodyArmor">
 			<ItemComponent>
-				<Armor body_armor="58" 
-						leg_armor="25" 
-						arm_armor="25" 
-						covers_body="true" 
-						modifier_group="Plate"
-						material_type="Plate"/>
+				<Armor body_armor="58"
+					leg_armor="25"
+					arm_armor="25"
+					covers_body="true"
+					modifier_group="Plate"
+					material_type="Plate"/>
 			</ItemComponent>
 			<Flags UseTeamColor="true"/>
 		</Item>
-		<Item id="wld_swadian_plate_armor_striped"
+		<Item id="wld_plate_armor_striped"
 			name="Western Plate Armor"
 			mesh="swadian_striped_plate_armor"
 			subtype="body_armor"
-			culture="Culture.neutral_culture" 
 			weight="29"
 			Type="BodyArmor">
 			<ItemComponent>
-				<Armor body_armor="58" 
-						leg_armor="25" 
-						arm_armor="25" 
-						covers_body="true" 
-						modifier_group="Plate" 
-						material_type="Plate"/>
+				<Armor body_armor="58"
+					leg_armor="25"
+					arm_armor="25"
+					covers_body="true"
+					modifier_group="Plate"
+					material_type="Plate"/>
 			</ItemComponent>
 			<Flags UseTeamColor="true"/>
 		</Item>
-		<Item id="wld_swadian_plate_with_armguards" 
-			name="Western Cuirass With Armguards" 
-			mesh="swadian_plate_with_armguards" 
+		<Item id="wld_plate_armor_armguards"
+			name="Western Cuirass With Armguards"
+			mesh="swadian_plate_with_armguards"
 			subtype="body_armor"
 			culture="Culture.neutral_culture"
 			weight="26.5"
 			Type="BodyArmor">
 			<ItemComponent>
-				<Armor body_armor="58" 
-						leg_armor="25" 
-						arm_armor="20" 
-						covers_body="true" 
-						modifier_group="Plate" 
-						material_type="Plate"/>
+				<Armor body_armor="58"
+					leg_armor="25"
+					arm_armor="20"
+					covers_body="true"
+					modifier_group="Plate"
+					material_type="Plate"/>
 			</ItemComponent>
 			<Flags UseTeamColor="true"/>
 		</Item>
-		<Item id="wld_swadian_plate_armor_skirt" 
-			name="Western Plate Armor With skirt" 
+		<Item id="wld_plate_armor_skirt"
+			name="Western Plate Armor With skirt"
 			mesh="sa_surcoatplate"
 			subtype="body_armor"
 			culture="Culture.neutral_culture"
 			weight="29"
 			Type="BodyArmor">
 			<ItemComponent>
-				<Armor body_armor="58" 
-						leg_armor="30" 
-						arm_armor="25" 
-						covers_body="true" 
-						modifier_group="plate" 
-						material_type="Plate"/>
+				<Armor body_armor="58"
+					leg_armor="30"
+					arm_armor="25"
+					covers_body="true"
+					modifier_group="plate"
+					material_type="Plate"/>
 			</ItemComponent>
 			<Flags UseTeamColor="true"/>
 		</Item>
-		<Item id="wld_mail_with_tabbard1" 
+		<Item id="wld_tabbard_over_mail_1"
 			name="Mail With Tabbard"
 			mesh="mail_with_tabbard1"
 			subtype="body_armor"
@@ -661,84 +328,81 @@
 			weight="29"
 			Type="BodyArmor">
 			<ItemComponent>
-				<Armor body_armor="36" 
-					leg_armor="15" 
-					arm_armor="20" 
-					covers_body="true" 
-					modifier_group="Chainmail" 
+				<Armor body_armor="36"
+					leg_armor="15"
+					arm_armor="20"
+					covers_body="true"
+					modifier_group="Chainmail"
 					material_type="Chainmail"/>
 			</ItemComponent>
 			<Flags UseTeamColor="true"/>
 		</Item>
-		<Item id="wld_mail_with_tabbard2" 
-			name="Mail With Tabbard" 
-			mesh="mail_with_tabbard2" 
+		<Item id="wld_tabbard_over_mail_2"
+			name="Mail With Tabbard"
+			mesh="mail_with_tabbard2"
 			subtype="body_armor"   
-			culture="Culture.neutral_culture" 
-			weight="29" 
+			weight="29"
 			Type="BodyArmor">
 			<ItemComponent>
-				<Armor body_armor="36" 
-					leg_armor="15" 
-					arm_armor="20" 
-					covers_body="true" 
-					modifier_group="Chainmail" 
+				<Armor body_armor="36"
+					leg_armor="15"
+					arm_armor="20"
+					covers_body="true"
+					modifier_group="Chainmail"
 					material_type="Chainmail"/>
 			</ItemComponent>
 			<Flags UseTeamColor="true"/>
 		</Item>
-		<Item id="wld_mail_with_tabbard3" 
-			name="Mail With Tabbard" 
-			mesh="mail_with_tabbard3" 
+		<Item id="wld_tabbard_over_mail_3"
+			name="Mail With Tabbard"
+			mesh="mail_with_tabbard3"
 			subtype="body_armor"
-			culture="Culture.neutral_culture" 
-			weight="29" 
+			weight="29"
 			Type="BodyArmor">
 			<ItemComponent>
-				<Armor body_armor="36" 
-					leg_armor="15" 
-					arm_armor="20" 
-					covers_body="true" 
-					modifier_group="Chainmail" 
+				<Armor body_armor="36"
+					leg_armor="15"
+					arm_armor="20"
+					covers_body="true"
+					modifier_group="Chainmail"
 					material_type="Chainmail"/>
 			</ItemComponent>
 			<Flags UseTeamColor="true"/>
 		</Item>
-		<Item id="wld_mail_with_tabbard4" 
-			name="Mail With Tabbard" 
-			mesh="mail_with_tabbard4" 
+		<Item id="wld_tabbard_over_mail_4"
+			name="Mail With Tabbard"
+			mesh="mail_with_tabbard4"
 			subtype="body_armor"   
 			culture="Culture.neutral_culture"
-			weight="29" 
+			weight="29"
 			Type="BodyArmor">
 			<ItemComponent>
-				<Armor body_armor="36" 
-					leg_armor="15" 
-					arm_armor="20" 
-					covers_body="true" 
-					modifier_group="Chainmail" 
+				<Armor body_armor="36"
+					leg_armor="15"
+					arm_armor="20"
+					covers_body="true"
+					modifier_group="Chainmail"
 					material_type="Chainmail"/>
 			</ItemComponent>
 			<Flags UseTeamColor="true"/>
 		</Item>
-		<Item id="wld_mail_with_tabbard5" 
-			name="Mail With Tabbard" 
-			mesh="mail_with_tabbard5" 
+		<Item id="wld_tabbard_over_mail_5"
+			name="Mail With Tabbard"
+			mesh="mail_with_tabbard5"
 			subtype="body_armor"
-			culture="Culture.neutral_culture" 
-			weight="29" 
+			weight="29"
 			Type="BodyArmor">
 			<ItemComponent>
-				<Armor body_armor="36" 
-					leg_armor="15" 
-					arm_armor="20" 
-					covers_body="true" 
-					modifier_group="Chainmail" 
+				<Armor body_armor="36"
+					leg_armor="15"
+					arm_armor="20"
+					covers_body="true"
+					modifier_group="Chainmail"
 					material_type="Chainmail"/>
 			</ItemComponent>
 			<Flags UseTeamColor="true"/>
 		</Item>
-		<Item id="wld_coat1"
+		<Item id="wld_tabbard_over_plate_1"
 			name="Tabbard over Coat of plate"
 			mesh="coat1"
 			subtype="body_armor"
@@ -746,7 +410,7 @@
 			weight="30"
 			Type="BodyArmor">
 			<ItemComponent>
-			<Armor body_armor="43"
+				<Armor body_armor="43"
 					leg_armor="20"
 					arm_armor="16"
 					covers_body="true"
@@ -755,15 +419,15 @@
 			</ItemComponent>
 			<Flags UseTeamColor="true"/>
 		</Item>
-		<Item id="wld_coat2" 
-			name="Tabbard over Coat of plate" 
-			mesh="coat2" 
+		<Item id="wld_tabbard_over_plate_2"
+			name="Tabbard over Coat of plate"
+			mesh="coat2"
 			subtype="body_armor"
 			culture="Culture.neutral_culture"
 			weight="30"
 			Type="BodyArmor">
 			<ItemComponent>
-			<Armor body_armor="43"
+				<Armor body_armor="43"
 					leg_armor="20"
 					arm_armor="16"
 					covers_body="true"
@@ -772,15 +436,15 @@
 			</ItemComponent>
 			<Flags UseTeamColor="true"/>
 		</Item>
-		<Item id="wld_coat3" 
-			name="Tabbard over Coat of plate" 
+		<Item id="wld_tabbard_over_plate_3"
+			name="Tabbard over Coat of plate"
 			mesh="coat3"
 			subtype="body_armor"
 			culture="Culture.neutral_culture"
 			weight="30"
 			Type="BodyArmor">
 			<ItemComponent>
-			<Armor body_armor="43"
+				<Armor body_armor="43"
 					leg_armor="20"
 					arm_armor="16"
 					covers_body="true"
@@ -789,107 +453,57 @@
 			</ItemComponent>
 			<Flags UseTeamColor="true"/>
 		</Item>
-		<Item id="wld_armour"
-			name="Vaegir coat of plates" 
-			mesh="Rus_armour" 
-			subtype="body_armor"
-			culture="Culture.neutral_culture"  
-			weight="24" 
-			Type="BodyArmor">
-			<ItemComponent>
-			<Armor body_armor="52" 
-					leg_armor="15" 
-					arm_armor="5" 
-					covers_body="true" 
-					modifier_group="Plate" 
-					material_type="Plate"/>
-			</ItemComponent>
-			<Flags UseTeamColor="true"/>
-		</Item>
-		<Item id="wld_armour2"
-			name="Vaegir coat of plates" 
-			mesh="Rus_armour2" 
-			subtype="body_armor" 
-			culture="Culture.neutral_culture"  
-			weight="24" 
-			Type="BodyArmor">
-			<ItemComponent>
-			<Armor body_armor="52" 
-					leg_armor="15" 
-					arm_armor="5" 
-					covers_body="true" 
-					modifier_group="Plate" 
-					material_type="Plate"/>
-			</ItemComponent>
-			<Flags UseTeamColor="true"/>
-		</Item>
-		<Item id="wld_eastern_heavy_lamellar_shoulders"
-			name="Heavy Lamellar Shoulderguard"
-			mesh="sturgia_cavalry_shoulderguards"
-			weight="5.0"
-			Type="Cape">
-			<ItemComponent>
-			<Armor body_armor="6"
-					arm_armor="14"
-					modifier_group="plate"
-					material_type="Plate"/>
-			</ItemComponent>
-		</Item>
 
 		<!-- Boots -->
-		<Item id="wld_plate_boots" 
-			name="Plate Boots" 
-			mesh="plateboot" 
-			culture="Culture.neutral_culture" 
+		<Item id="wld_plate_boots_"
+			name="Plate Boots"
+			mesh="plateboot"
 			weight="1.8"
 			Type="LegArmor">
 			<ItemComponent>
-				<Armor leg_armor="28" 
-						covers_legs="true" 
-						modifier_group="plate" 
-						material_type="Plate"/>
+				<Armor leg_armor="28"
+					covers_legs="true"
+					modifier_group="plate"
+					material_type="Plate"/>
 			</ItemComponent>
 			<Flags/>
 		</Item>
-		<Item id="wld_ChurburghBoots" 
-			name="Plate Boots" 
-			mesh="sa_1churburghboots" 
-			culture="Culture.neutral_culture" 
+		<Item id="wld_plate_boots"
+			name="Plate Boots"
+			mesh="sa_1churburghboots"
 			weight="2.5"
 			Type="LegArmor">
 			<ItemComponent>
-				<Armor leg_armor="30" 
-						covers_legs="true" 
-						modifier_group="plate" 
-						material_type="Plate"/>
+				<Armor leg_armor="30"
+					covers_legs="true"
+					modifier_group="plate"
+					material_type="Plate"/>
 			</ItemComponent>
 			<Flags/>
 		</Item>
-		<Item id="wld_ChurburghBoots_trimmed" 
-			name="Trimmed Plate Boots" 
-			mesh="sa_churburghboots" 
-			culture="Culture.neutral_culture" 
+		<Item id="wld_plate_boots_trimmed"
+			name="Trimmed Plate Boots"
+			mesh="sa_churburghboots"
 			weight="2.5"
 			Type="LegArmor">
 			<ItemComponent>
-				<Armor leg_armor="30" 
-						covers_legs="true" 
-						modifier_group="plate" 
-						material_type="Plate"/>
+				<Armor leg_armor="30"
+					covers_legs="true"
+					modifier_group="plate"
+					material_type="Plate"/>
 			</ItemComponent>
 			<Flags/>
 		</Item>
-		<Item id="wld_ChurburghBoots_black" 
-			name="Blackend Plate Boots" 
-			mesh="sa_2churburghboots" 
-			culture="Culture.neutral_culture" 
+		<Item id="wld_plate_boots_black"
+			name="Blackend Plate Boots"
+			mesh="sa_2churburghboots"
 			weight="2.5"
 			Type="LegArmor">
 			<ItemComponent>
-				<Armor leg_armor="30" 
-						covers_legs="true" 
-						modifier_group="plate"
-						material_type="Plate"/>
+				<Armor leg_armor="30"
+					covers_legs="true"
+					modifier_group="plate"
+					material_type="Plate"/>
 			</ItemComponent>
 			<Flags/>
 		</Item>
@@ -899,9 +513,7 @@
 	<Item id="headscarf_d"
 		name="{=wW3iouiU}Hijab"
 		mesh="headscarf_d"
-		culture="Culture.neutral_culture"
 		weight="0.5"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="3"
@@ -916,9 +528,7 @@
 	<Item id="open_head_scarf"
 		name="{=qsVRoGUv}Open Head Scarf"
 		mesh="aserai_helmet_c"
-		culture="Culture.neutral_culture"
 		weight="0.5"
-		appearance="1.4"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="6"
@@ -934,10 +544,7 @@
 		name="{=ArPvuBYK}Woven Turban"
 		subtype="head_armor"
 		mesh="aserai_helmet_h"
-		culture="Culture.neutral_culture"
 		weight="0.8"
-		appearance="1.8"
-		difficulty="0"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="6"
@@ -952,9 +559,7 @@
 	<Item id="turban"
 		name="{=8SNS2wF9}Turban"
 		mesh="aserai_helmet_i"
-		culture="Culture.neutral_culture"
 		weight="0.5"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="4"
@@ -969,9 +574,7 @@
 	<Item id="desert_cap"
 		name="{=U0bVXSVs}Wrapped Cap"
 		mesh="aserai_helmet_m"
-		culture="Culture.neutral_culture"
 		weight="0.4"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="6"
@@ -986,9 +589,7 @@
 	<Item id="wrapped_desert_cap"
 		name="{=3UxfT9Bu}Wrapped Leather Cap"
 		mesh="aserai_helmet_o"
-		culture="Culture.neutral_culture"
 		weight="0.5"
-		appearance="0.8"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="12"
@@ -1003,9 +604,7 @@
 	<Item id="aserai_villager_female_headdress"
 		name="{=2U17pNiY}Rural Headdress"
 		mesh="aserai_villager_female_headdress"
-		culture="Culture.neutral_culture"
 		weight="0.2"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="3"
@@ -1019,10 +618,7 @@
 		name="{=nZ2MJWhM}Tribal Turban"
 		subtype="head_armor"
 		mesh="tuareg_b"
-		culture="Culture.neutral_culture"
 		weight="0.6"
-		appearance="1.5"
-		difficulty="0"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="7"
@@ -1036,9 +632,7 @@
 	<Item id="head_scarf"
 		name="{=Gzc0Ql3a}Colored Hijab"
 		mesh="head_scarf_b"
-		culture="Culture.neutral_culture"
 		weight="0.1"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="2"
@@ -1053,9 +647,7 @@
 	<Item id="desert_headdress"
 		name="{=4n6n3KL7}Desert Headdress"
 		mesh="aserai_female_costume_headdress"
-		culture="Culture.neutral_culture"
 		weight="0.2"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="6"
@@ -1068,9 +660,7 @@
 	<Item id="female_head_wrap"
 		name="{=KhXnRIan}Female Headwrap"
 		mesh="female_peasant_cape_c"
-		culture="Culture.neutral_culture"
 		weight="0.1"
-		appearance="0.8"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="2"
@@ -1084,9 +674,7 @@
 	<Item id="aserai_female_civil_hscarf"
 		name="{=NEupkuqV}Desert Headscarf"
 		mesh="aserai_female_civil_hscarf"
-		culture="Culture.neutral_culture"
 		weight="0.3"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="3"
@@ -1100,9 +688,7 @@
 	<Item id="aserai_female_civil_hscarf_b"
 		name="{=sc2x2QRe}Headscarf with Fez"
 		mesh="aserai_female_civil_hscarf_b"
-		culture="Culture.neutral_culture"
 		weight="0.4"
-		appearance="2.45"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="4"
@@ -1116,9 +702,7 @@
 	<Item id="aserai_civil_c_head"
 		name="{=ZFETxZKP}Keffiyeh with Silken Band"
 		mesh="aserai_civil_c_head"
-		culture="Culture.neutral_culture"
 		weight="0.2"
-		appearance="2"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="4"
@@ -1132,9 +716,7 @@
 	<Item id="aserai_civil_f_cape"
 		name="{=AoJ4Ztl2}Bandit Leather Hood"
 		mesh="aserai_civil_f_cape"
-		culture="Culture.neutral_culture"
 		weight="0.1"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="5"
@@ -1149,9 +731,7 @@
 	<Item id="aserai_civil_d_hscarf"
 		name="{=l91l1TJo}Colored Turban"
 		mesh="aserai_civil_d_hscarf"
-		culture="Culture.neutral_culture"
 		weight="0.2"
-		appearance="2"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="5"
@@ -1165,9 +745,7 @@
 	<Item id="aserai_civil_e_hscarf"
 		name="{=f2awUw9x}Colored Keffiyeh"
 		mesh="aserai_civil_e_hscarf"
-		culture="Culture.neutral_culture"
 		weight="0.1"
-		appearance="2"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="5"
@@ -1181,9 +759,7 @@
 	<Item id="aserai_civil_hscarf_b"
 		name="{=OrEgjXZ1}Roughspun Keffiyeh"
 		mesh="aserai_civil_hscarf_b"
-		culture="Culture.neutral_culture"
 		weight="0.2"
-		appearance="1.7"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="6"
@@ -1198,9 +774,7 @@
 	<Item id="aserai_civil_hscarf_a"
 		name="{=W8OGOfyt}Keffiyeh with Brown Band"
 		mesh="aserai_civil_hscarf_a"
-		culture="Culture.neutral_culture"
 		weight="0.2"
-		appearance="1.8"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="4"
@@ -1215,10 +789,7 @@
 		name="{=ndfDy5B8}Tied Head Wrapping"
 		subtype="head_armor"
 		mesh="aserai_helmet_p"
-		culture="Culture.neutral_culture"
 		weight="0.5"
-		appearance="1.3"
-		difficulty="0"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="5"
@@ -1234,10 +805,7 @@
 		name="{=U4n0uSlg}Tight Head Scarf"
 		subtype="head_armor"
 		mesh="aserai_helmet_f"
-		culture="Culture.neutral_culture"
 		weight="0.7"
-		appearance="2"
-		difficulty="0"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="7"
@@ -1253,10 +821,7 @@
 		name="{=gUTqDROO}Closed Head Scarf"
 		subtype="head_armor"
 		mesh="aserai_helmet_d"
-		culture="Culture.neutral_culture"
 		weight="0.6"
-		appearance="2"
-		difficulty="0"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="6"
@@ -1272,10 +837,7 @@
 		name="{=NB9bQt6O}Spiked Helmet with Open Turban"
 		subtype="head_armor"
 		mesh="aserai_helmet_a"
-		culture="Culture.neutral_culture"
 		weight="1.3"
-		difficulty="0"
-		appearance="2"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="22"
@@ -1290,9 +852,7 @@
 	<Item id="closed_desert_helmet"
 		name="{=T6ObiB5P}Spiked Helmet with Closed Turban "
 		mesh="aserai_helmet_b"
-		culture="Culture.neutral_culture"
 		weight="2.4"
-		appearance="1.4"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="23"
@@ -1307,9 +867,7 @@
 	<Item id="loose_wrapped_desert_helmet"
 		name="{=PVWsZleW}Helmet with Open Turban "
 		mesh="aserai_helmet_e"
-		culture="Culture.neutral_culture"
 		weight="2.1"
-		appearance="1.5"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="26"
@@ -1325,10 +883,7 @@
 		name="{=2N0ZP2GB}Helmet with Turban and Coif"
 		subtype="head_armor"
 		mesh="aserai_helmet_g"
-		culture="Culture.neutral_culture"
 		weight="2.2"
-		difficulty="0"
-		appearance="1.4"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="20"
@@ -1344,10 +899,7 @@
 		name="{=ebPu5G8o}Mamluke Helmet with Mail"
 		subtype="head_armor"
 		mesh="aserai_helmet_l"
-		culture="Culture.neutral_culture"
 		weight="2.9"
-		difficulty="0"
-		appearance="1.2"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="45"
@@ -1361,9 +913,7 @@
 	<Item id="desert_helmet"
 		name="{=BryUh6yQ}Steel Cap"
 		mesh="aserai_helmet_n"
-		culture="Culture.neutral_culture"
 		weight="1.2"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="18"
@@ -1378,9 +928,7 @@
 	<Item id="pointed_skullcap_over_mail"
 		name="{=py7VUj47}Pointed Skullcap over Gambeson"
 		mesh="vlandia_helmet_l_b"
-		culture="Culture.neutral_culture"
 		weight="2.2"
-		appearance="2.5"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="32"
@@ -1396,10 +944,7 @@
 		name="{=6n44BIll}Pointed Skullcap over Laced Coif"
 		subtype="head_armor"
 		mesh="vlandia_helmet_l_c"
-		culture="Culture.neutral_culture"
 		weight="2.2"
-		difficulty="0"
-		appearance="1.7"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="32"
@@ -1415,10 +960,7 @@
 		name="{=LqA9uBH9}Pointed Skullcap over Cloth Headwrap"
 		subtype="head_armor"
 		mesh="vlandia_helmet_l_d"
-		culture="Culture.neutral_culture"
 		weight="2.1"
-		difficulty="0"
-		appearance="1.6"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="30"
@@ -1433,9 +975,7 @@
 	<Item id="aserai_crown"
 		name="{=6Dk7LClc}Luxury Turban Over Helmet"
 		mesh="aserai_crown"
-		culture="Culture.neutral_culture"
 		weight="2.8"
-		appearance="8"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="42"
@@ -1450,9 +990,7 @@
 	<Item id="pointed_skullcap_over_mail_coif"
 		name="{=ZOWdFaUi}Pointed Skullcap over Mail Coif"
 		mesh="vlandia_helmet_l_a"
-		culture="Culture.neutral_culture"
 		weight="2.8"
-		appearance="2.7"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="37"
@@ -1467,9 +1005,7 @@
 	<Item id="closed_desert_helmet_with_mail"
 		name="{=SVTa5spB}Closed Steel Cap"
 		mesh="aserai_helmet_k"
-		culture="Culture.neutral_culture"
 		weight="3.2"
-		appearance="2.5"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="52"
@@ -1485,10 +1021,7 @@
 		name="{=efW2XbK8}Emir Helmet"
 		subtype="head_armor"
 		mesh="aserai_helmet_r"
-		culture="Culture.neutral_culture"
 		weight="3.0"
-		difficulty="0"
-		appearance="1.5"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="46"
@@ -1504,10 +1037,7 @@
 		name="{=RraboU6p}Wrapped Helmet with Mail Coif"
 		subtype="head_armor"
 		mesh="aserai_helmet_j"
-		culture="Culture.neutral_culture"
 		weight="3.0"
-		difficulty="0"
-		appearance="3"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="46"
@@ -1522,12 +1052,9 @@
 	<Item id="aserai_lord_helmet_a"
 		name="{=VBrLhqiJ}Noble Crowned Lord Helmet"
 		mesh="aserai_lord_helmet_a"
-		culture="Culture.neutral_culture"
 		is_merchandise="true"
 		subtype="head_armor"
 		weight="3.4"
-		difficulty="0"
-		appearance="4.5"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="45"
@@ -1542,11 +1069,8 @@
 	<Item id="southern_noble_helmet"
 		name="{=Z95RglmZ}Noble Steel Cap"
 		mesh="aserai_lord_helmet_b"
-		culture="Culture.neutral_culture"
 		subtype="head_armor"
 		weight="3.5"
-		difficulty="0"
-		appearance="5.4"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="46"
@@ -1561,11 +1085,8 @@
 	<Item id="southern_lord_helmet"
 		name="{=GdM7iaV9}Lordly Steel Cap"
 		mesh="aserai_lord_helmet_c"
-		culture="Culture.neutral_culture"
 		subtype="head_armor"
 		weight="2.9"
-		difficulty="0"
-		appearance="4.2"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="46"
@@ -1581,10 +1102,7 @@
 		name="{=3DV3GoHb}Pointed Skullcap with Mail"
 		subtype="head_armor"
 		mesh="vlandia_helmet_l_v"
-		culture="Culture.neutral_culture"
 		weight="2.6"
-		difficulty="0"
-		appearance="2.4"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="35"
@@ -1600,11 +1118,8 @@
 		name="{=fBAf3OWb}Ornate Desert Battle Crown"
 		subtype="head_armor"
 		mesh="aserai_battle_crown"
-		culture="Culture.neutral_culture"
 		is_merchandise="true"
 		weight="2.8"
-		difficulty="0"
-		appearance="9"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="44"
@@ -1620,11 +1135,8 @@
 		name="{=pxTmx2ka}Brass Southern Closed Helmet"
 		subtype="head_armor"
 		mesh="brass_aserai_helmet_closed"
-		culture="Culture.neutral_culture"
 		is_merchandise="true"
 		weight="2.5"
-		difficulty="0"
-		appearance="7"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="42"
@@ -1640,11 +1152,8 @@
 		name="{=HrLupYXP}Brass Southern Closed Helmet with Turban"
 		subtype="head_armor"
 		mesh="brass_aserai_helmet_b_closed"
-		culture="Culture.neutral_culture"
 		is_merchandise="true"
 		weight="2.55"
-		difficulty="0"
-		appearance="8"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="43"
@@ -1660,11 +1169,8 @@
 		name="{=uRsU67qC}Brass Southern Helmet"
 		subtype="head_armor"
 		mesh="brass_aserai_helmet_open"
-		culture="Culture.neutral_culture"
 		is_merchandise="true"
 		weight="2.2"
-		difficulty="0"
-		appearance="7"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="38"
@@ -1680,11 +1186,8 @@
 		name="{=ahN0UNxw}Brass Southern Helmet with Turban"
 		subtype="head_armor"
 		mesh="brass_aserai_helmet_b_open"
-		culture="Culture.neutral_culture"
 		is_merchandise="true"
 		weight="2.3"
-		difficulty="0"
-		appearance="8"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="39"
@@ -1700,11 +1203,8 @@
 		name="{=dHv9Dbkp}Brass Southern Helmet with Leather Flaps"
 		subtype="head_armor"
 		mesh="brass_aserai_helmet_leather"
-		culture="Culture.neutral_culture"
 		is_merchandise="true"
 		weight="1.8"
-		difficulty="0"
-		appearance="6"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="36"
@@ -1720,11 +1220,8 @@
 		name="{=E5b3gc6R}Brass Turbaned Helmet with Leather Flaps"
 		subtype="head_armor"
 		mesh="brass_aserai_helmet_b_leather"
-		culture="Culture.neutral_culture"
 		is_merchandise="true"
 		weight="1.9"
-		difficulty="0"
-		appearance="7"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="37"
@@ -1742,10 +1239,7 @@
 		name="{=Q50hfNjW}Thinhide Coif"
 		subtype="head_armor"
 		mesh="battania_helmet_a"
-		culture="Culture.neutral_culture"
 		weight="0.5"
-		difficulty="0"
-		appearance="1.6"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="9"
@@ -1760,10 +1254,7 @@
 		name="{=hRHPPQQP}Wrapped Headcloth"
 		subtype="head_armor"
 		mesh="battania_helmet_b"
-		culture="Culture.neutral_culture"
 		weight="0.2"
-		difficulty="0"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="5"
@@ -1778,10 +1269,7 @@
 		name="{=qxExIHbx}Leather Studded Helm"
 		subtype="head_armor"
 		mesh="battania_helmet_k"
-		culture="Culture.neutral_culture"
 		weight="0.5"
-		difficulty="0"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="8"
@@ -1796,10 +1284,7 @@
 		name="{=UC2XfY7V}Cloth Hood"
 		subtype="head_armor"
 		mesh="battania_civil_hood"
-		culture="Culture.neutral_culture"
 		weight="0.3"
-		difficulty="0"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="6"
@@ -1814,10 +1299,7 @@
 		name="{=B7tbURzI}Wolf Head"
 		subtype="head_armor"
 		mesh="battania_helmet_i"
-		culture="Culture.neutral_culture"
 		weight="1.3"
-		difficulty="0"
-		appearance="1.5"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="16"
@@ -1832,10 +1314,7 @@
 		name="{=WkYsiU1c}Cap with Fur Coif"
 		subtype="head_armor"
 		mesh="battania_fur_helmet_a"
-		culture="Culture.neutral_culture"
 		weight="1.3"
-		difficulty="0"
-		appearance="2"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="20"
@@ -1850,10 +1329,7 @@
 		name="{=GXmDq2KR}Bear Head"
 		subtype="head_armor"
 		mesh="battania_helmet_g"
-		culture="Culture.neutral_culture"
 		weight="1.4"
-		difficulty="0"
-		appearance="2"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="24"
@@ -1868,10 +1344,7 @@
 		name="{=2m1kWsao}Leather Studded Helm over Thinhide"
 		subtype="head_armor"
 		mesh="battania_helmet_k_a"
-		culture="Culture.neutral_culture"
 		weight="0.8"
-		difficulty="0"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="12"
@@ -1886,10 +1359,7 @@
 		name="{=beMSPAOG}Leather Studded Helm over Headcloth"
 		subtype="head_armor"
 		mesh="battania_helmet_k_b"
-		culture="Culture.neutral_culture"
 		weight="0.7"
-		difficulty="0"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="10"
@@ -1904,10 +1374,7 @@
 		name="{=jakLnIQv}Roughscale Helmet"
 		subtype="head_armor"
 		mesh="battania_helmet_e"
-		culture="Culture.neutral_culture"
 		weight="2.2"
-		difficulty="0"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="26"
@@ -1922,10 +1389,7 @@
 		name="{=X1Wn0sBa}Leather Studded Helm over Roughscale"
 		subtype="head_armor"
 		mesh="battania_helmet_k_e"
-		culture="Culture.neutral_culture"
 		weight="2.1"
-		difficulty="0"
-		appearance="1.1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="22"
@@ -1942,10 +1406,7 @@
 		name="{=3bqwOJ8z}Upturned Fur Cap"
 		subtype="head_armor"
 		mesh="khuzait_helmet_a"
-		culture="Culture.neutral_culture"
 		weight="0.6"
-		difficulty="0"
-		appearance="1.4"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="10"
@@ -1960,10 +1421,7 @@
 		name="{=C8nk7NEf}Thick Fur Hood"
 		subtype="head_armor"
 		mesh="khuzait_helmet_d"
-		culture="Culture.neutral_culture"
 		weight="0.6"
-		difficulty="0"
-		appearance="1.2"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="12"
@@ -1978,10 +1436,7 @@
 		name="{=8tHbqjmB}Peaked Fur Hood"
 		subtype="head_armor"
 		mesh="khuzait_helmet_e"
-		culture="Culture.neutral_culture"
 		weight="0.7"
-		difficulty="0"
-		appearance="1.2"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="13"
@@ -1995,9 +1450,7 @@
 	<Item id="nomad_cap"
 		name="{=Oa4h7TVi}Nomad Cap"
 		mesh="khuzait_helmet_h"
-		culture="Culture.neutral_culture"
 		weight="0.3"
-		appearance="1.7"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="4"
@@ -2012,9 +1465,7 @@
 	<Item id="decorated_nomad_cap"
 		name="{=smHA8Apa}Decorated Nomad Cap"
 		mesh="khuzait_helmet_i"
-		culture="Culture.neutral_culture"
 		weight="0.4"
-		appearance="1.6"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="6"
@@ -2030,10 +1481,7 @@
 		name="{=h9PP7EWc}Cap with Neck Flap"
 		subtype="head_armor"
 		mesh="khuzait_helmet_n"
-		culture="Culture.neutral_culture"
 		weight="0.3"
-		difficulty="0"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="6"
@@ -2048,10 +1496,7 @@
 		name="{=kEInAJ2P}Nomad Fur Cap"
 		subtype="head_armor"
 		mesh="khuzait_helmet_o"
-		culture="Culture.neutral_culture"
 		weight="0.35"
-		difficulty="0"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="7"
@@ -2066,10 +1511,7 @@
 		name="{=yMi4ijgI}Nomad Padded Hood"
 		subtype="head_armor"
 		mesh="khuzait_helmet_p"
-		culture="Culture.neutral_culture"
 		weight="0.6"
-		difficulty="0"
-		appearance="2"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="12"
@@ -2083,12 +1525,9 @@
 	<Item id="khuzait_crown"
 		name="{=noqT1MMC}Ornate Steel Cap"
 		mesh="khuzait_crown"
-		culture="Culture.neutral_culture"
 		is_merchandise="false"
 		subtype="head_armor"
 		weight="1.4"
-		difficulty="0"
-		appearance="8"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="22"
@@ -2104,10 +1543,7 @@
 		name="{=ZRDoABz9}Plumed Fur Lined Helmet"
 		subtype="head_armor"
 		mesh="khuzait_helmet_b"
-		culture="Culture.neutral_culture"
 		weight="2.1"
-		difficulty="0"
-		appearance="1.6"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="24"
@@ -2122,10 +1558,7 @@
 		name="{=WvDZMmaj}Nomad Helmet"
 		subtype="head_armor"
 		mesh="khuzait_helmet_j"
-		culture="Culture.neutral_culture"
 		weight="2.1"
-		difficulty="0"
-		appearance="2.2"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="31"
@@ -2139,9 +1572,7 @@
 	<Item id="plumed_nomad_helmet"
 		name="{=m3Nv9rt2}Plumed Nomad Helmet"
 		mesh="khuzait_helmet_k"
-		culture="Culture.neutral_culture"
 		weight="2.6"
-		appearance="3.2"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="32"
@@ -2157,10 +1588,7 @@
 		name="{=VwQJ4aLY}Infantry Steel Helmet"
 		subtype="head_armor"
 		mesh="khuzait_helmet_l"
-		culture="Culture.neutral_culture"
 		weight="2.2"
-		difficulty="0"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="33"
@@ -2175,10 +1603,7 @@
 		name="{=YqhOxb1Z}Plumed Lamellar Helmet"
 		subtype="head_armor"
 		mesh="khuzait_helmet_c"
-		culture="Culture.neutral_culture"
 		weight="2.8"
-		difficulty="0"
-		appearance="2.6"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="36"
@@ -2193,10 +1618,7 @@
 		name="{=5n4rWI9T}Spiked Helmet with Facemask"
 		subtype="head_armor"
 		mesh="khuzait_helmet_f"
-		culture="Culture.neutral_culture"
 		weight="4.5"
-		difficulty="0"
-		appearance="2.4"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="51"
@@ -2212,10 +1634,7 @@
 		name="{=ygfhbfr0}Spiked Helmet"
 		subtype="head_armor"
 		mesh="khuzait_helmet_g"
-		culture="Culture.neutral_culture"
 		weight="3.5"
-		difficulty="0"
-		appearance="2.2"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="48"
@@ -2230,9 +1649,7 @@
 	<Item id="eastern_vendel_helmet"
 		name="{=OrMbh1dn}Heavy Lancer Helmet"
 		mesh="khuzait_helmet_m"
-		culture="Culture.neutral_culture"
 		weight="4"
-		appearance="3.55"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="51"
@@ -2247,11 +1664,8 @@
 	<Item id="khuzait_noble_helmet_with_feathers"
 		name="{=n1A47HcZ}Noble Lancer Helmet"
 		mesh="khuzait_lord_helmet_a"
-		culture="Culture.neutral_culture"
 		subtype="head_armor"
 		weight="3.4"
-		difficulty="0"
-		appearance="4.6"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="48"
@@ -2266,11 +1680,8 @@
 	<Item id="khuzait_noble_helmet_with_fur"
 		name="{=rUMPiiox}Furred Noble Lancer Helmet"
 		mesh="khuzait_lord_helmet_c"
-		culture="Culture.neutral_culture"
 		subtype="head_armor"
 		weight="3.4"
-		difficulty="0"
-		appearance="3.6"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="45"
@@ -2285,11 +1696,8 @@
 	<Item id="khuzait_noble_helmet_with_neckguard"
 		name="{=KD3OTFlE}Plumed Noble Lancer Helmet with Neckguard"
 		mesh="khuzait_lord_helmet_b"
-		culture="Culture.neutral_culture"
 		subtype="head_armor"
 		weight="3.6"
-		difficulty="0"
-		appearance="3.6"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="48"
@@ -2304,12 +1712,9 @@
 	<Item id="khuzait_battle_crown"
 		name="{=5c4cHL9Z}Khuzait Battle Crown"
 		mesh="khuzait_battle_crown"
-		culture="Culture.neutral_culture"
 		is_merchandise="false"
 		subtype="head_armor"
 		weight="2.7"
-		difficulty="0"
-		appearance="4"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="36"
@@ -2326,9 +1731,7 @@
 	<Item id="arming_cap"
 		name="{=SV1pTR2P}Padded Coif"
 		mesh="arming_cap_a"
-		culture="Culture.neutral_culture"
 		weight="0.4"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="18"
@@ -2344,10 +1747,7 @@
 		name="{=zQv3w264}Padded Half Coif"
 		subtype="head_armor"
 		mesh="vlandia_helmet_b"
-		culture="Culture.neutral_culture"
 		weight="0.7"
-		difficulty="0"
-		appearance="1.2"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="14"
@@ -2363,10 +1763,7 @@
 		name="{=qFL0VxZX}Laced Coif"
 		subtype="head_armor"
 		mesh="vlandia_helmet_c"
-		culture="Culture.neutral_culture"
 		weight="0.6"
-		difficulty="0"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="14"
@@ -2382,10 +1779,7 @@
 		name="{=frwBm3Oh}Cloth Headwrap"
 		subtype="head_armor"
 		mesh="vlandia_helmet_d"
-		culture="Culture.neutral_culture"
 		weight="0.4"
-		difficulty="0"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="6"
@@ -2401,10 +1795,7 @@
 		name="{=Dc4ia4m9}Padded Cap"
 		subtype="head_armor"
 		mesh="vlandia_helmet_e"
-		culture="Culture.neutral_culture"
 		weight="0.2"
-		difficulty="0"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="11"
@@ -2419,10 +1810,7 @@
 		name="{=mlJKNbbn}Leather Coif"
 		subtype="head_armor"
 		mesh="vlandia_helmet_f"
-		culture="Culture.neutral_culture"
 		weight="0.3"
-		difficulty="0"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="9"
@@ -2437,10 +1825,7 @@
 		name="{=WUArer5A}Open Padded Coif"
 		subtype="head_armor"
 		mesh="vlandia_helmet_y"
-		culture="Culture.neutral_culture"
 		weight="0.6"
-		difficulty="0"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="14"
@@ -2455,9 +1840,7 @@
 	<Item id="head_piece"
 		name="{=oa2XYnHC}Female Rural Scarf"
 		mesh="head_scarf_c"
-		culture="Culture.neutral_culture"
 		weight="0.2"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="3"
@@ -2471,9 +1854,7 @@
 	<Item id="head_wrapped"
 		name="{=SugbcP3D}Female Rural Headwrap"
 		mesh="womens_headwrap"
-		culture="Culture.neutral_culture"
 		weight="0.3"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="1"
@@ -2487,9 +1868,7 @@
 	<Item id="headscarf"
 		name="{=9efOcFRL}Loose Head Scarf"
 		mesh="headscarf"
-		culture="Culture.neutral_culture"
 		weight="0.5"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="3"
@@ -2504,9 +1883,7 @@
 	<Item id="headscarf_c"
 		name="{=ZhcOdFgK}Luxurious Head Scarf"
 		mesh="headscarf_c"
-		culture="Culture.neutral_culture"
 		weight="0.3"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="3"
@@ -2521,9 +1898,7 @@
 	<Item id="womens_headwrap_c"
 		name="{=Qyg2bJLX}Rural Head Wrap"
 		mesh="womens_headwrap_c"
-		culture="Culture.neutral_culture"
 		weight="0.1"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="1"
@@ -2537,9 +1912,7 @@
 	<Item id="head_wrapping"
 		name="{=sDKfIQbO}Peasant Head Wrapping"
 		mesh="head_scarf_d"
-		culture="Culture.neutral_culture"
 		weight="0.05"
-		appearance="0.5"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="1"
@@ -2549,14 +1922,11 @@
 				material_type="Cloth"/>
 		</ItemComponent>
 		<Flags Civilian="true" UseTeamColor="true"/>
-		<!-- wrapped very tight: maidservants, not for aristocrats -->
 	</Item>
 	<Item id="cervelliere_over_arming_coif"
 		name="{=7dAy51ln}Cervelliere over Arming Coif"
 		mesh="vlandia_helmet_n_f"
-		culture="Culture.neutral_culture"
 		weight="1.9"
-		appearance="1.25"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="19"
@@ -2572,10 +1942,7 @@
 		name="{=ZV1bKLUn}Kettle Helmet with Leather"
 		subtype="head_armor"
 		mesh="kettle_helmet_leather"
-		culture="Culture.neutral_culture"
 		weight="2.4"
-		difficulty="0"
-		appearance="1.6"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="33"
@@ -2591,10 +1958,7 @@
 		name="{=1GpTOIqU}Kettle Helmet over Padded Coif"
 		subtype="head_armor"
 		mesh="vlandia_helmet_h_b"
-		culture="Culture.neutral_culture"
 		weight="2.68"
-		difficulty="0"
-		appearance="1.2"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="36"
@@ -2610,10 +1974,7 @@
 		name="{=AB1mV5Pg}Kettle Helmet over Laced Coif"
 		subtype="head_armor"
 		mesh="vlandia_helmet_h_c"
-		culture="Culture.neutral_culture"
 		weight="2.5"
-		difficulty="0"
-		appearance="2"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="35"
@@ -2629,10 +1990,7 @@
 		name="{=2qisE5ys}Kettle Helmet over Padded Cap"
 		subtype="head_armor"
 		mesh="vlandia_helmet_h_e"
-		culture="Culture.neutral_culture"
 		weight="2.25"
-		difficulty="0"
-		appearance="1.4"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="33"
@@ -2647,10 +2005,7 @@
 		name="{=VcbEaV7T}Kettle Helmet over Padded Cloth"
 		subtype="head_armor"
 		mesh="vlandia_helmet_h_y"
-		culture="Culture.neutral_culture"
 		weight="2.6"
-		difficulty="0"
-		appearance="1.3"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="33"
@@ -2665,9 +2020,7 @@
 	<Item id="kettle_hat_over_padded_coif"
 		name="{=2MdVVkVL}Kettle Hat over Padded Coif"
 		mesh="vlandia_helmet_i_b"
-		culture="Culture.neutral_culture"
 		weight="2.6"
-		appearance="1.9"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="36"
@@ -2683,10 +2036,7 @@
 		name="{=YQd9C8u2}Kettle over Padded Coif"
 		subtype="head_armor"
 		mesh="vlandia_helmet_j_b"
-		culture="Culture.neutral_culture"
 		weight="3"
-		difficulty="0"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="34"
@@ -2702,10 +2052,7 @@
 		name="{=20moIxs1}Kettle over Laced Coif"
 		subtype="head_armor"
 		mesh="vlandia_helmet_j_c"
-		culture="Culture.neutral_culture"
 		weight="3"
-		difficulty="0"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="33"
@@ -2721,10 +2068,7 @@
 		name="{=Tp7zXWGa}Nasal Helmet over Padded Coif"
 		subtype="head_armor"
 		mesh="vlandia_helmet_p_b"
-		culture="Culture.neutral_culture"
 		weight="2.4"
-		difficulty="0"
-		appearance="2"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="36"
@@ -2740,10 +2084,7 @@
 		name="{=FWFDkjBk}Nasal Helmet over Laced Coif"
 		subtype="head_armor"
 		mesh="vlandia_helmet_p_c"
-		culture="Culture.neutral_culture"
 		weight="2.3"
-		difficulty="0"
-		appearance="2"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="32"
@@ -2759,10 +2100,7 @@
 		name="{=olamAwhb}Nasal Helmet over Cloth Headwrap"
 		subtype="head_armor"
 		mesh="vlandia_helmet_p_d"
-		culture="Culture.neutral_culture"
 		weight="2"
-		difficulty="0"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="26"
@@ -2777,9 +2115,7 @@
 	<Item id="nasal_helmet_over_padded_cloth"
 		name="{=bubcrmTC}Nasal Helmet over Padded Cloth"
 		mesh="vlandia_helmet_p_y"
-		culture="Culture.neutral_culture"
 		weight="2.2"
-		appearance="1.2"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="29"
@@ -2794,9 +2130,7 @@
 	<Item id="segmented_skullcap_over_padded_coif"
 		name="{=zAvb7WKe}Segmented Skullcap over Padded Coif"
 		mesh="vlandia_helmet_r_b"
-		culture="Culture.neutral_culture"
 		weight="2.3"
-		appearance="1.4"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="29"
@@ -2811,9 +2145,7 @@
 	<Item id="segmented_skullcap_over_laced_coif"
 		name="{=VylHwqVq}Segmented Skullcap over Laced Coif"
 		mesh="vlandia_helmet_r_c"
-		culture="Culture.neutral_culture"
 		weight="1.2"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="17"
@@ -2829,10 +2161,7 @@
 		name="{=b1pqUQju}Segmented Skullcap over Padded Cloth"
 		subtype="head_armor"
 		mesh="vlandia_helmet_r_y"
-		culture="Culture.neutral_culture"
 		weight="2.6"
-		difficulty="0"
-		appearance="2.8"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="28"
@@ -2848,10 +2177,7 @@
 		name="{=Rhfp7ath}Peaked Helmet over Laced Coif"
 		subtype="head_armor"
 		mesh="vlandia_helmet_t_c"
-		culture="Culture.neutral_culture"
 		weight="2.8"
-		difficulty="0"
-		appearance="1.8"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="37"
@@ -2866,10 +2192,7 @@
 		name="{=TFT2Xapz}Peaked Helmet over Padded Cloth"
 		subtype="head_armor"
 		mesh="vlandia_helmet_t_y"
-		culture="Culture.neutral_culture"
 		weight="2.5"
-		difficulty="0"
-		appearance="1.8"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="36"
@@ -2885,10 +2208,7 @@
 		name="{=vsavMoLZ}Segmented Cervelliere over Padded Cloth"
 		subtype="head_armor"
 		mesh="vlandia_helmet_u_y"
-		culture="Culture.neutral_culture"
 		weight="2.8"
-		difficulty="0"
-		appearance="1.4"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="28"
@@ -2904,10 +2224,7 @@
 		name="{=e9BpfZ9L}Cervelliere over Cloth Headwrap"
 		subtype="head_armor"
 		mesh="vlandia_helmet_n_d"
-		culture="Culture.neutral_culture"
 		weight="2"
-		difficulty="0"
-		appearance="1.3"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="20"
@@ -2923,10 +2240,7 @@
 		name="{=bfFNYaiU}Cervelliere over Laced Coif"
 		subtype="head_armor"
 		mesh="vlandia_helmet_n_c"
-		culture="Culture.neutral_culture"
 		weight="2.1"
-		difficulty="0"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="29"
@@ -2941,9 +2255,7 @@
 	<Item id="cervelliere_over_padded_cap"
 		name="{=wG582fzT}Cervelliere over Padded Cap"
 		mesh="vlandia_helmet_n_e"
-		culture="Culture.neutral_culture"
 		weight="2.1"
-		appearance="1.4"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="20"
@@ -2958,9 +2270,7 @@
 	<Item id="nasal_cervelliere_over_padded_coif"
 		name="{=JjLQ2VdT}Nasal Cervelliere over Padded Coif"
 		mesh="vlandia_helmet_o_b"
-		culture="Culture.neutral_culture"
 		weight="2.2"
-		appearance="1.5"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="25"
@@ -2975,9 +2285,7 @@
 	<Item id="nasal_cervelliere_over_laced_coif"
 		name="{=h6UXvU3B}Nasal Cervelliere over Laced Coif"
 		mesh="vlandia_helmet_o_c"
-		culture="Culture.neutral_culture"
 		weight="2.1"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="28"
@@ -2993,10 +2301,7 @@
 		name="{=4BfbPgkY}Nasal Cervelliere over Padded Cap"
 		subtype="head_armor"
 		mesh="vlandia_helmet_o_e"
-		culture="Culture.neutral_culture"
 		weight="2"
-		difficulty="0"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="22"
@@ -3011,10 +2316,7 @@
 		name="{=SHZ0P7Iu}Padded Leather Cape"
 		subtype="head_armor"
 		mesh="shoulder_padding_cape"
-		culture="Culture.neutral_culture"
 		weight="0.4"
-		difficulty="0"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="11"
@@ -3028,9 +2330,7 @@
 	<Item id="kettle_helmet_over_arming_coif"
 		name="{=3iq3rOh8}Kettle Helmet over Arming Coif"
 		mesh="vlandia_helmet_h_f"
-		culture="Culture.neutral_culture"
 		weight="2.3"
-		appearance="1.3"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="32"
@@ -3046,10 +2346,7 @@
 		name="{=AdafHtud}Peaked Helmet over Mail Coif"
 		subtype="head_armor"
 		mesh="vlandia_helmet_t_a"
-		culture="Culture.neutral_culture"
 		weight="3"
-		difficulty="0"
-		appearance="2"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="42"
@@ -3064,9 +2361,7 @@
 	<Item id="nasal_cervelliere_over_mail_coif"
 		name="{=mRGIxvYh}Nasal Cervelliere over Mail Coif"
 		mesh="vlandia_helmet_o_a"
-		culture="Culture.neutral_culture"
 		weight="2.6"
-		appearance="2"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="36"
@@ -3081,9 +2376,7 @@
 	<Item id="guards_kettle_over_mail_coif"
 		name="{=S1SUK8zk}Kettle over Mail Coif"
 		mesh="vlandia_helmet_j_a"
-		culture="Culture.neutral_culture"
 		weight="3.6"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="38"
@@ -3098,9 +2391,7 @@
 	<Item id="segmented_cervelliere_over_laced_coif"
 		name="{=GnkKOx5H}Segmented Cervelliere over Laced Coif"
 		mesh="vlandia_helmet_u_c"
-		culture="Culture.neutral_culture"
 		weight="2.3"
-		appearance="1.4"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="24"
@@ -3116,10 +2407,7 @@
 		name="{=wBfGpcCO}Kettle Hat over Padded Cloth"
 		subtype="head_armor"
 		mesh="vlandia_helmet_i_y"
-		culture="Culture.neutral_culture"
 		weight="2.4"
-		difficulty="0"
-		appearance="1.9"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="34"
@@ -3134,9 +2422,7 @@
 	<Item id="kettle_hat_over_mail_coif"
 		name="{=tMLH04n4}Kettle Hat over Mail Coif"
 		mesh="vlandia_helmet_i_a"
-		culture="Culture.neutral_culture"
 		weight="2.9"
-		appearance="2.8"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="42"
@@ -3151,9 +2437,7 @@
 	<Item id="nasal_helmet_over_mail_coif"
 		name="{=PVgSGCYK}Nasal Helmet over Mail Coif"
 		mesh="vlandia_helmet_p_a"
-		culture="Culture.neutral_culture"
 		weight="3.3"
-		appearance="2"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="38"
@@ -3169,10 +2453,7 @@
 		name="{=WMqHlEvb}Segmented Cervelliere over Mail Coif"
 		subtype="head_armor"
 		mesh="vlandia_helmet_u_a"
-		culture="Culture.neutral_culture"
 		weight="2.9"
-		difficulty="0"
-		appearance="1.5"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="28"
@@ -3187,9 +2468,7 @@
 	<Item id="kettle_helmet_over_mail"
 		name="{=zZ2G7uIO}Kettle Helmet over Mail"
 		mesh="vlandia_helmet_h_v"
-		culture="Culture.neutral_culture"
 		weight="2.8"
-		appearance="2"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="40"
@@ -3204,9 +2483,7 @@
 	<Item id="nasal_helmet_over_mail"
 		name="{=tpQLvMSM}Nasal Helmet over Mail"
 		mesh="vlandia_helmet_p_v"
-		culture="Culture.neutral_culture"
 		weight="3.1"
-		appearance="2"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="36"
@@ -3221,9 +2498,7 @@
 	<Item id="segmented_skullcap_over_mail_coif"
 		name="{=P8GrNSkF}Segmented Skullcap over Mail Coif"
 		mesh="vlandia_helmet_r_a"
-		culture="Culture.neutral_culture"
 		weight="3.2"
-		appearance="2"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="42"
@@ -3238,9 +2513,7 @@
 	<Item id="peaked_helmet_over_mail"
 		name="{=JvhvtKsT}Peaked Helmet over Mail"
 		mesh="vlandia_helmet_t_v"
-		culture="Culture.neutral_culture"
 		weight="2.8"
-		appearance="1.9"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="40"
@@ -3255,9 +2528,7 @@
 	<Item id="segmented_cervelliere_over_mail"
 		name="{=bdpjqoGe}Segmented Cervelliere over Mail"
 		mesh="vlandia_helmet_u_v"
-		culture="Culture.neutral_culture"
 		weight="2.85"
-		appearance="1.45"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="26"
@@ -3272,12 +2543,9 @@
 	<Item id="western_crowned_helmet"
 		name="{=EPaqJLSg}Crowned Helmet"
 		mesh="vlandia_lord_helmet_a"
-		culture="Culture.neutral_culture"
 		is_merchandise="false"
 		subtype="head_armor"
 		weight="3.4"
-		difficulty="0"
-		appearance="5"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="46"
@@ -3292,11 +2560,8 @@
 	<Item id="western_plated_helmet"
 		name="{=9j9fb5pR}Plated Helmet with Sideguards"
 		mesh="vlandia_lord_helmet_b"
-		culture="Culture.neutral_culture"
 		subtype="head_armor"
 		weight="3.9"
-		difficulty="0"
-		appearance="4"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="52"
@@ -3311,11 +2576,8 @@
 	<Item id="vlandia_lord_helmet_b2"
 		name="{=o67ySkfH}Plated Helmet"
 		mesh="vlandia_lord_helmet_b2"
-		culture="Culture.neutral_culture"
 		subtype="head_armor"
 		weight="3"
-		difficulty="0"
-		appearance="3"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="30"
@@ -3330,12 +2592,9 @@
 	<Item id="western_crowned_plated_helmet"
 		name="{=uz24W7s4}Crowned Plate Helmet"
 		mesh="vlandia_lord_helmet_c"
-		culture="Culture.neutral_culture"
 		is_merchandise="false"
 		subtype="head_armor"
 		weight="3.6"
-		difficulty="0"
-		appearance="4.2"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="48"
@@ -3351,10 +2610,7 @@
 		name="{=UsOgGylA}Kettle Helmet with Mail"
 		subtype="head_armor"
 		mesh="kettle_helmet_reinforced"
-		culture="Culture.neutral_culture"
 		weight="2.9"
-		difficulty="0"
-		appearance="1.5"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="36"
@@ -3370,9 +2626,7 @@
 	<Item id="womens_headwrap_b"
 		name="{=N3SgmNxe}Head Scarf"
 		mesh="womens_headwrap_b"
-		culture="Culture.neutral_culture"
 		weight="0.2"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="1"
@@ -3387,10 +2641,7 @@
 		name="{=ByxdPJzA}Fur Cap with Ear Flaps"
 		subtype="head_armor"
 		mesh="sturgia_leather_cap_a"
-		culture="Culture.neutral_culture"
 		weight="0.4"
-		difficulty="0"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="7"
@@ -3404,9 +2655,7 @@
 	<Item id="nordic_fur_cap"
 		name="{=cjH1WFwy}Fur Rimmed Cap"
 		mesh="sturgia_helmet_m"
-		culture="Culture.neutral_culture"
 		weight="0.3"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="8"
@@ -3421,9 +2670,7 @@
 	<Item id="northern_fur_cap"
 		name="{=TwuAVsCn}Fur Cap"
 		mesh="sturgia_helmet_j"
-		culture="Culture.neutral_culture"
 		weight="0.5"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="9"
@@ -3438,9 +2685,7 @@
 	<Item id="roughhide_cap"
 		name="{=p6NIgRpk}Roughhide Cap"
 		mesh="sturgia_helmet_d"
-		culture="Culture.neutral_culture"
 		weight="0.5"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="7"
@@ -3455,9 +2700,7 @@
 	<Item id="goggled_helmet_over_leather"
 		name="{=E3XTFDXt}Goggled Helmet over Leather"
 		mesh="sturgia_helmet_b"
-		culture="Culture.neutral_culture"
 		weight="3.1"
-		appearance="1.6"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="46"
@@ -3472,9 +2715,7 @@
 	<Item id="nasalhelm_over_leather"
 		name="{=ONaWEKSy}Nasalhelm over Leather"
 		mesh="sturgia_helmet_f"
-		culture="Culture.neutral_culture"
 		weight="1.9"
-		appearance="1.5"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="23"
@@ -3489,9 +2730,7 @@
 	<Item id="sturgia_heavy_cavalary_helmet"
 		name="{=bXVSSptk}Heavy Cavalry Helmet"
 		mesh="sturgia_helmet_o"
-		culture="Culture.neutral_culture"
 		weight="3.8"
-		appearance="3.8"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="46"
@@ -3506,9 +2745,7 @@
 	<Item id="nasal_helmet"
 		name="{=k4kivaf5}Steel Cap with Nose Guard"
 		mesh="nasal_helmet_a"
-		culture="Culture.neutral_culture"
 		weight="1.8"
-		appearance="2"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="22"
@@ -3523,10 +2760,7 @@
 		name="{=3Z91Nxbf}Spangenhelm with Leather"
 		subtype="head_armor"
 		mesh="spangenhelm_a"
-		culture="Culture.neutral_culture"
 		weight="1.2"
-		difficulty="0"
-		appearance="1.6"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="20"
@@ -3542,10 +2776,7 @@
 		name="{=TxAYmCjr}Nasal Helmet with Leather"
 		subtype="head_armor"
 		mesh="nasal_helmet_neckguard"
-		culture="Culture.neutral_culture"
 		weight="2.2"
-		difficulty="0"
-		appearance="3"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="37"
@@ -3561,10 +2792,7 @@
 		name="{=EWR2MNeM}Nasal Helmet with Mail"
 		subtype="head_armor"
 		mesh="nasal_helmet_reinforced"
-		culture="Culture.neutral_culture"
 		weight="2.5"
-		difficulty="0"
-		appearance="3"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="39"
@@ -3579,10 +2807,7 @@
 		name="{=ebHdQfbX}Spangenhelm with Padded Cloth"
 		subtype="head_armor"
 		mesh="spangenhelm_arming"
-		culture="Culture.neutral_culture"
 		weight="1.9"
-		difficulty="0"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="18"
@@ -3598,11 +2823,8 @@
 		name="{=5kAqcWac}Jeweled Fur Rimmed Helmet"
 		subtype="head_armor"
 		mesh="sturgian_crown"
-		culture="Culture.neutral_culture"
 		is_merchandise="false"
 		weight="2.4"
-		difficulty="0"
-		appearance="2.0"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="41"
@@ -3616,9 +2838,7 @@
 	<Item id="decorated_goggled_helmet"
 		name="{=NhDpFjF0}Reinforced Closed Goggled Helmet"
 		mesh="sturgia_helmet_n"
-		culture="Culture.neutral_culture"
 		weight="3.2"
-		appearance="3"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="52"
@@ -3633,9 +2853,7 @@
 	<Item id="closed_goggled_helmet"
 		name="{=aYLCCpS4}Northern Closed Warlord Helmet"
 		mesh="sturgia_helmet_l"
-		culture="Culture.neutral_culture"
 		weight="3.7"
-		appearance="1.6"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="51"
@@ -3650,9 +2868,7 @@
 	<Item id="goggled_helmet_over_full_mail"
 		name="{=mU5CY4bz}Closed Huscarl Helmet"
 		mesh="sturgia_helmet_e"
-		culture="Culture.neutral_culture"
 		weight="4.4"
-		appearance="1.6"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="51"
@@ -3667,9 +2883,7 @@
 	<Item id="lendman_helmet_over_full_mail"
 		name="{=lawHibbG}Warlord Helmet over Full Mail"
 		mesh="sturgia_helmet_h"
-		culture="Culture.neutral_culture"
 		weight="3.8"
-		appearance="3"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="54"
@@ -3684,9 +2898,7 @@
 	<Item id="northern_warlord_helmet"
 		name="{=JjaUzfDK}Warlord Helmet with Cheek Guards"
 		mesh="sturgia_helmet_i"
-		culture="Culture.neutral_culture"
 		weight="3.6"
-		appearance="3"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="47"
@@ -3701,11 +2913,8 @@
 	<Item id="sturgian_lord_helmet_a"
 		name="{=Pqua61u8}Ridged Warlord Helmet"
 		mesh="sturgian_lord_helmet_a"
-		culture="Culture.neutral_culture"
 		subtype="head_armor"
 		weight="3.6"
-		difficulty="0"
-		appearance="3"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="50"
@@ -3720,11 +2929,8 @@
 	<Item id="sturgian_lord_helmet_c"
 		name="{=wvnJzwbU}Plated Warlord Helmet"
 		mesh="sturgian_lord_helmet_c"
-		culture="Culture.neutral_culture"
 		subtype="head_armor"
 		weight="3.8"
-		difficulty="0"
-		appearance="3"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="53"
@@ -3739,9 +2945,7 @@
 	<Item id="nasalhelm_over_mail"
 		name="{=1bdDdwub}Nasalhelm over Mail"
 		mesh="sturgia_helmet_a"
-		culture="Culture.neutral_culture"
 		weight="2.8"
-		appearance="3"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="33"
@@ -3756,9 +2960,7 @@
 	<Item id="goggled_helmet_over_mail"
 		name="{=qc0P0b2r}Goggled Helmet over Mail"
 		mesh="sturgia_helmet_c"
-		culture="Culture.neutral_culture"
 		weight="3.4"
-		appearance="3.2"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="50"
@@ -3773,9 +2975,7 @@
 	<Item id="lendman_helmet_over_mail"
 		name="{=VYmHTbTY}Warlord Helmet over Mail"
 		mesh="sturgia_helmet_g"
-		culture="Culture.neutral_culture"
 		weight="3.1"
-		appearance="3"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="48"
@@ -3790,9 +2990,7 @@
 	<Item id="northern_goggled_helmet"
 		name="{=ISCtxKub}Sea Raider Goggled Helmet"
 		mesh="sturgia_helmet_k"
-		culture="Culture.neutral_culture"
 		weight="3.2"
-		appearance="1.6"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="50"
@@ -3807,9 +3005,7 @@
 	<Item id="sturgian_helmet_closed"
 		name="{=2iDtlgM0}Closed Warlord Helmet"
 		mesh="sturgian_helmet_closed"
-		culture="Culture.neutral_culture"
 		weight="3.8"
-		appearance="3"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="53"
@@ -3824,9 +3020,7 @@
 	<Item id="sturgian_helmet_open"
 		name="{=IGazuB9B}Mailed Nasal Helmet"
 		mesh="sturgian_helmet_open"
-		culture="Culture.neutral_culture"
 		weight="3.15"
-		appearance="1.6"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="49"
@@ -3841,9 +3035,7 @@
 	<Item id="sturgian_helmet_base"
 		name="{=Nv0eZmGL}Steel Nasal Cap"
 		mesh="sturgian_helmet_base"
-		culture="Culture.neutral_culture"
 		weight="2.4"
-		appearance="1.6"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="35"
@@ -3858,9 +3050,7 @@
 	<Item id="sturgian_helmet_b_open"
 		name="{=LRbGXEw2}Plumed Decorated Mailed Nasal Helmet"
 		mesh="sturgian_helmet_b_open"
-		culture="Culture.neutral_culture"
 		weight="3.2"
-		appearance="3.4"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="49"
@@ -3875,9 +3065,7 @@
 	<Item id="sturgian_helmet_b_close"
 		name="{=zBRB0P5M}Closed Decorated Goggled Helmet"
 		mesh="sturgian_helmet_b_close"
-		culture="Culture.neutral_culture"
 		weight="3.8"
-		appearance="2"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="54"
@@ -3892,10 +3080,8 @@
 	<Item id="sturgian_battle_crown"
 		name="{=OFxwPQyA}Battle Crown"
 		mesh="sturgian_battle_crown"
-		culture="Culture.neutral_culture"
 		is_merchandise="false"
 		weight="2.2"
-		appearance="3"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="47"
@@ -3913,10 +3099,7 @@
 		name="{=3Q2F2BKD}Lightweight Padded Coif"
 		subtype="head_armor"
 		mesh="empire_helmet_b"
-		culture="Culture.neutral_culture"
 		weight="0.5"
-		difficulty="0"
-		appearance="0.6"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="14"
@@ -3932,10 +3115,7 @@
 		name="{=kmdjRAoG}Laced Cloth Coif"
 		subtype="head_armor"
 		mesh="empire_helmet_c"
-		culture="Culture.neutral_culture"
 		weight="0.4"
-		difficulty="0"
-		appearance="0.3"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="6"
@@ -3950,10 +3130,7 @@
 		name="{=mlJKNbbn}Leather Coif"
 		subtype="head_armor"
 		mesh="empire_helmet_d"
-		culture="Culture.neutral_culture"
 		weight="0.3"
-		difficulty="0"
-		appearance="0.5"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="6"
@@ -3968,10 +3145,7 @@
 		name="{=g5BPd0Oc}Cloth Coif"
 		subtype="head_armor"
 		mesh="empire_helmet_e"
-		culture="Culture.neutral_culture"
 		weight="0.2"
-		difficulty="0"
-		appearance="0.3"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="2"
@@ -3986,10 +3160,7 @@
 		name="{=uLpnmNkZ}Leather Cap"
 		subtype="head_armor"
 		mesh="leather_cap_a"
-		culture="Culture.neutral_culture"
 		weight="0.4"
-		difficulty="0"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="8"
@@ -4004,10 +3175,7 @@
 	<Item id="pilgrim_hood"
 		name="{=VXFwEF3M}Pilgrim Hood"
 		mesh="sneak_costume_head"
-		culture="Culture.neutral_culture"
 		weight="0.2"
-		difficulty="0"
-		appearance="0.3"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="3"
@@ -4023,10 +3191,7 @@
 		name="{=77RIGK7B}Mail Coif"
 		subtype="head_armor"
 		mesh="empire_helmet_a"
-		culture="Culture.neutral_culture"
 		weight="1.7"
-		difficulty="0"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="19"
@@ -4042,10 +3207,7 @@
 		name="{=OpYdqPWs}Open Mail Coif"
 		subtype="head_armor"
 		mesh="empire_helmet_f"
-		culture="Culture.neutral_culture"
 		weight="1.5"
-		difficulty="0"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="20"
@@ -4061,10 +3223,7 @@
 		name="{=Qywm0F8B}Mail Coif with Helmet Padding"
 		subtype="head_armor"
 		mesh="vlandia_helmet_a"
-		culture="Culture.neutral_culture"
 		weight="1.7"
-		difficulty="0"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="18"
@@ -4080,10 +3239,7 @@
 		name="{=OpYdqPWs}Open Mail Coif"
 		subtype="head_armor"
 		mesh="vlandia_helmet_v"
-		culture="Culture.neutral_culture"
 		weight="1.6"
-		difficulty="0"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="18"
@@ -4098,10 +3254,8 @@
 	<Item id="empire_crown"
 		name="{=udQSdRXR}Jeweled Crown"
 		mesh="empire_crown"
-		culture="Culture.neutral_culture"
 		is_merchandise="false"
 		weight="2.1"
-		appearance="6"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="34"
@@ -4115,10 +3269,8 @@
 	<Item id="empire_crown_v2"
 		name="{=u5eafobF}Imperial Jeweled Band"
 		mesh="empire_crown_v2"
-		culture="Culture.neutral_culture"
 		is_merchandise="false"
 		weight="0.85"
-		appearance="6"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="7"
@@ -4133,10 +3285,8 @@
 	<Item id="empire_crown_north"
 		name="{=WF14UrdR}Golden Laurel Crown"
 		mesh="empire_crown_north"
-		culture="Culture.neutral_culture"
 		is_merchandise="false"
 		weight="0.3"
-		appearance="7"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="5"
@@ -4150,10 +3300,8 @@
 	<Item id="empire_crown_west"
 		name="{=u5eafobF}Imperial Jeweled Band"
 		mesh="empire_crown_west"
-		culture="Culture.neutral_culture"
 		is_merchandise="false"
 		weight="0.5"
-		appearance="6"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="6"
@@ -4167,10 +3315,8 @@
 	<Item id="vlandia_crown"
 		name="{=1b6T0M72}Austere Crown"
 		mesh="vlandia_crown"
-		culture="Culture.neutral_culture"
 		is_merchandise="false"
 		weight="0.35"
-		appearance="6"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="4"
@@ -4184,9 +3330,7 @@
 	<Item id="imperial_goggled_helmet"
 		name="{=xJTfOqD6}Goggled Cataphract Helmet"
 		mesh="imperial_helmet"
-		culture="Culture.neutral_culture"
 		weight="3.2"
-		appearance="2.6"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="52"
@@ -4204,10 +3348,7 @@
 		name="{=ewSpZ10R}Rough Padded Cap"
 		subtype="head_armor"
 		mesh="vlandia_bandit_cape_a"
-		culture="Culture.neutral_culture"
 		weight="0.5"
-		difficulty="0"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="12"
@@ -4222,10 +3363,7 @@
 		name="{=7D3jvAfS}Hide Cap"
 		subtype="head_armor"
 		mesh="vlandia_bandit_cape_b"
-		culture="Culture.neutral_culture"
 		weight="0.45"
-		difficulty="0"
-		appearance="0.8"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="8"
@@ -4241,9 +3379,7 @@
 	<Item id="merchants_hat"
 		name="{=S9htzkbe}Merchant Hat"
 		mesh="costume_merchant_v4_head"
-		culture="Culture.neutral_culture"
 		weight="0.1"
-		appearance="1"
 		Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="1"
@@ -4260,9 +3396,7 @@
 	<Item id="southern_shawl"
 		name="{=1EhlbySK}Short Cloak"
 		mesh="aserai_female_costume_cloak"
-		culture="Culture.neutral_culture"
 		weight="0.2"
-		appearance="4"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="2"
@@ -4274,9 +3408,7 @@
 	<Item id="desert_fabric_shoulderpad"
 		name="{=EyQTfFS6}Woven Shoulder Pad"
 		mesh="aserai_bigchain_shoulder_fabric"
-		culture="Culture.neutral_culture"
 		weight="0.3"
-		appearance="2"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="3"
@@ -4289,9 +3421,7 @@
 	<Item id="leopard_pelt"
 		name="{=QxzcuhmA}Leopard Pelt"
 		mesh="leopard_pelt"
-		culture="Culture.neutral_culture"
 		weight="2.0"
-		appearance="7"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="5"
@@ -4304,11 +3434,8 @@
 	<Item id="aserai_horseman_shoulder"
 		name="{=5gsp0xUN}Ringmail Shoulder Guard"
 		mesh="aserai_horseman_shoulder"
-		culture="Culture.neutral_culture"
 		subtype="body_armor"
 		weight="2.9"
-		difficulty="0"
-		appearance="2"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="7"
@@ -4321,9 +3448,7 @@
 	<Item id="desert_leather_shoulderpad"
 		name="{=9w40yGlZ}Leather Shoulder Guard"
 		mesh="aserai_bigchain_shoulder"
-		culture="Culture.neutral_culture"
 		weight="0.6"
-		appearance="3"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="4"
@@ -4338,9 +3463,7 @@
 	<Item id="a_battania_cloak_a"
 		name="{=Jm3AiUo3}Simple Cape"
 		mesh="battania_cloak_a"
-		culture="Culture.neutral_culture"
 		weight="0.2"
-		appearance="3"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="2"
@@ -4352,11 +3475,8 @@
 	<Item id="wolf_shoulder"
 		name="{=beg6guIH}Wolf Pelt Cape"
 		mesh="wolf_shoulder"
-		culture="Culture.neutral_culture"
 		subtype="body_armor"
 		weight="2.8"
-		difficulty="0"
-		appearance="4"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="6"
@@ -4369,10 +3489,7 @@
 		name="{=s7WRzaf2}Bear Pelt"
 		subtype="body_armor"
 		mesh="battania_helmet_h"
-		culture="Culture.neutral_culture"
 		weight="3.3"
-		difficulty="0"
-		appearance="3"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="9"
@@ -4386,10 +3503,7 @@
 		name="{=FOx5vZSJ}Armored Bearskin"
 		subtype="body_armor"
 		mesh="battania_helmet_j"
-		culture="Culture.neutral_culture"
 		weight="7.0"
-		difficulty="0"
-		appearance="2"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="12"
@@ -4401,10 +3515,7 @@
 	<Item id="rough_bearskin"
 		name="{=KKWEkA4P}Rough Bearskin"
 		mesh="cloak_fur_c"
-		culture="Culture.neutral_culture"
 		weight="5.3"
-		difficulty="0"
-		appearance="2"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="9"
@@ -4419,11 +3530,8 @@
 	<Item id="steppe_leather_shoulders"
 		name="{=Oub0aVl3}Cured Leather Pauldrons"
 		mesh="khuzait_leather_armor_shoulder"
-		culture="Culture.neutral_culture"
 		subtype="body_armor"
 		weight="0.8"
-		difficulty="0"
-		appearance="4"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="1"
@@ -4436,9 +3544,7 @@
 	<Item id="leather_lamellar_shoulders"
 		name="{=AHQQp0O0}Leather Lamellar Shoulder Guards"
 		mesh="leather_lamellar_armor_shoulder"
-		culture="Culture.neutral_culture"
 		weight="3.5"
-		appearance="6"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="6"
@@ -4451,11 +3557,8 @@
 	<Item id="reinforced_suede_shoulders"
 		name="{=uIov9Yo9}Reinforced Suede Shoulder Guards"
 		mesh="khuzait_suede_leather_shoulder"
-		culture="Culture.neutral_culture"
 		subtype="body_armor"
 		weight="0.75"
-		difficulty="0"
-		appearance="3"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="1"
@@ -4468,9 +3571,7 @@
 	<Item id="eastern_studded_shoulders"
 		name="{=t6pQ6Vxc}Reinforced Studded Shoulder Guards"
 		mesh="khuzait_leather_shoulder_b"
-		culture="Culture.neutral_culture"
 		weight="9.9"
-		appearance="6"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="9"
@@ -4483,9 +3584,7 @@
 	<Item id="a_khuzait_leather_shoulder_b_a"
 		name="{=567zyLq5}Cured Studded Leather Shoulders"
 		mesh="khuzait_leather_shoulder_b_a"
-		culture="Culture.neutral_culture"
 		weight="4.5"
-		appearance="4"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="4"
@@ -4498,9 +3597,7 @@
 	<Item id="a_khuzait_leather_shoulder_b_b"
 		name="{=Q19xluDy}Reinforced Studded Neckguard"
 		mesh="khuzait_leather_shoulder_b_b"
-		culture="Culture.neutral_culture"
 		weight="5.9"
-		appearance="6"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="8"
@@ -4512,9 +3609,7 @@
 	<Item id="a_leather_lamellar_armor_shoulder_a"
 		name="{=zf2GUNfh}Decorated Lamellar Leather Shoulder Guards"
 		mesh="leather_lamellar_armor_shoulder_a"
-		culture="Culture.neutral_culture"
 		weight="1.3"
-		appearance="4"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="2"
@@ -4527,9 +3622,7 @@
 	<Item id="khuzait_leather_pauldron"
 		name="{=UTXWsY1Y}Reinforced Leather Pauldrons"
 		mesh="khuzait_leather_pauldron"
-		culture="Culture.neutral_culture"
 		weight="3.5"
-		appearance="4"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="2"
@@ -4542,9 +3635,7 @@
 	<Item id="lamellar_shoulders"
 		name="{=vo9kYKNQ}Lamellar Shoulder Pieces"
 		mesh="metal_lamellar_armor_shoulder"
-		culture="Culture.neutral_culture"
 		weight="9.0"
-		appearance="6"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="12"
@@ -4557,9 +3648,7 @@
 	<Item id="a_metal_lamellar_armor_shoulder_a"
 		name="{=Uo2t80GH}Decorated Steel Lamellar Shoulder Pieces"
 		mesh="metal_lamellar_armor_shoulder_a"
-		culture="Culture.neutral_culture"
 		weight="3.8"
-		appearance="6"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="2"
@@ -4572,9 +3661,7 @@
 	<Item id="brass_lamellar_shoulder"
 		name="{=RmPPVmgJ}Bronze Lamellar Shoulder Pieces"
 		mesh="brass_lamellar_shoulder"
-		culture="Culture.neutral_culture"
 		weight="5"
-		appearance="2"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="5"
@@ -4588,9 +3675,7 @@
 	<Item id="a_brass_lamellar_shoulder_a"
 		name="{=NuWovN18}Bronze Lamellar Shoulder Guards"
 		mesh="brass_lamellar_shoulder_a"
-		culture="Culture.neutral_culture"
 		weight="1.6"
-		appearance="4"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="1"
@@ -4604,9 +3689,7 @@
 	<Item id="a_brass_lamellar_shoulder_b"
 		name="{=D2ZuOT3H}Reinforced Bronze Lamellar Shoulder Guards"
 		mesh="brass_lamellar_shoulder_b"
-		culture="Culture.neutral_culture"
 		weight="3.0"
-		appearance="4"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="1"
@@ -4620,9 +3703,7 @@
 	<Item id="brass_lamellar_shoulder_white"
 		name="{=DbEzJcbD}Lamellar Pauldrons"
 		mesh="brass_lamellar_shoulder_white"
-		culture="Culture.neutral_culture"
 		weight="4.5"
-		appearance="2"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="6"
@@ -4636,9 +3717,7 @@
 	<Item id="a_brass_lamellar_shoulder_white_a"
 		name="{=QlpyR6uc}Lamellar Shoulder Guards"
 		mesh="brass_lamellar_shoulder_white_a"
-		culture="Culture.neutral_culture"
 		weight="1.8"
-		appearance="5"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="5"
@@ -4652,9 +3731,7 @@
 	<Item id="a_brass_lamellar_shoulder_white_b"
 		name="{=XpzvP7hE}Reinforced Lamellar Shoulder Guards"
 		mesh="brass_lamellar_shoulder_white_b"
-		culture="Culture.neutral_culture"
 		weight="2.4"
-		appearance="5"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="1"
@@ -4669,12 +3746,9 @@
 	<!-- #region Vlandia Shoulder Armors -->
 	<Item id="hood"
 		name="{=lbVB6KPl}Hood"
-		culture="Culture.neutral_culture"
 		mesh="shoulder_cape_multicolor"
 		subtype="body_armor"
 		weight="0.35"
-		difficulty="0"
-		appearance="4"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="3"
@@ -4687,9 +3761,7 @@
 	<Item id="padded_leather_shoulders"
 		name="{=Bl72Ribb}Padded Leather Shoulders"
 		mesh="shoulder_padding"
-		culture="Culture.neutral_culture"
 		weight="2.4"
-		appearance="2"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="9"
@@ -4702,9 +3774,7 @@
 	<Item id="chainmail_shoulder_armor"
 		name="{=P9wiCrIU}Reinforced Mail Shoulders"
 		mesh="chainmail_shoulder_armor"
-		culture="Culture.neutral_culture"
 		weight="5.8"
-		appearance="4"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="9"
@@ -4719,9 +3789,7 @@
 	<Item id="stitched_leather_shoulders"
 		name="{=WrwO8xsN}Stitched Leather Shoulders"
 		mesh="aserai_plated_shoulder"
-		culture="Culture.neutral_culture"
 		weight="0.9"
-		appearance="3"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="1"
@@ -4734,11 +3802,8 @@
 	<Item id="mail_shoulders"
 		name="{=W9bsRAfD}Mail Shoulder Guards"
 		mesh="shoulder_chain_a"
-		culture="Culture.neutral_culture"
 		subtype="body_armor"
 		weight="5.7"
-		difficulty="0"
-		appearance="2"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="9"
@@ -4753,9 +3818,7 @@
 	<Item id="pauldron_cape_a"
 		name="{=pGmYxauO}Legionary Cape"
 		mesh="pauldron_cape_a"
-		culture="Culture.neutral_culture"
 		weight="6.9"
-		appearance="8"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="7"
@@ -4769,9 +3832,7 @@
 	<Item id="woven_leather_shoulders"
 		name="{=c7UNJSNi}Woven Leather Shoulders"
 		mesh="vlandia_leather_stripes_shoulders"
-		culture="Culture.neutral_culture"
 		weight="2.8"
-		appearance="3"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="2"
@@ -4784,9 +3845,7 @@
 	<Item id="a_empire_plated_shoulder_b"
 		name="{=DbEzJcbD}Lamellar Pauldrons"
 		mesh="empire_plated_shoulder_b"
-		culture="Culture.neutral_culture"
 		weight="2.2"
-		appearance="4"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="1"
@@ -4799,9 +3858,7 @@
 	<Item id="studded_imperial_neckguard"
 		name="{=kjzCaoMK}Neckguard with Bronze Plate Pauldrons"
 		mesh="empire_plate_armor_shoulder"
-		culture="Culture.neutral_culture"
 		weight="7.8"
-		appearance="2"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="8"
@@ -4814,9 +3871,7 @@
 	<Item id="empire_plate_armor_shoulder_a"
 		name="{=P96J2c61}Bronze Plate Pauldrons"
 		mesh="empire_plate_armor_shoulder_a"
-		culture="Culture.neutral_culture"
 		weight="2.4"
-		appearance="7"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="2"
@@ -4829,9 +3884,7 @@
 	<Item id="empire_plate_armor_shoulder_b"
 		name="{=27GO9o9K}Iron Plate Pauldrons"
 		mesh="empire_plate_armor_shoulder_b"
-		culture="Culture.neutral_culture"
 		weight="2.2"
-		appearance="6"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="2"
@@ -4846,9 +3899,7 @@
 	<Item id="female_hood"
 		name="{=FItBDuqh}Cotton Hood"
 		mesh="female_peasant_cape_a"
-		culture="Culture.neutral_culture"
 		weight="0.2"
-		appearance="1"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="2"
@@ -4861,9 +3912,7 @@
 	<Item id="female_scarf"
 		name="{=HJdIkdm2}Thick Scarf"
 		mesh="female_peasant_cape_b"
-		culture="Culture.neutral_culture"
 		weight="0.3"
-		appearance="2"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="3"
@@ -4875,11 +3924,8 @@
 	<Item id="scarf"
 		name="{=GNdVXMue}Scarf"
 		mesh="sturgia_cape_a"
-		culture="Culture.neutral_culture"
 		subtype="body_armor"
 		weight="0.3"
-		difficulty="0"
-		appearance="3"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="3"
@@ -4891,11 +3937,8 @@
 	<Item id="wrapped_scarf"
 		name="{=h1bcf5zn}Shawl"
 		mesh="aserai_shoulder_a"
-		culture="Culture.neutral_culture"
 		subtype="body_armor"
 		weight="0.2"
-		difficulty="0"
-		appearance="2"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="2"
@@ -4907,11 +3950,8 @@
 	<Item id="empire_cape_a"
 		name="{=KQ9h5eAe}Heavy Cloak"
 		mesh="empire_cape_a"
-		culture="Culture.neutral_culture"
 		subtype="body_armor"
 		weight="0.5"
-		difficulty="0"
-		appearance="3"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="3"
@@ -4924,9 +3964,7 @@
 	<Item id="fur_cloak_a"
 		name="{=ujntvg7M}Fur Cloak With Round Plate"
 		mesh="fur_cloak_a"
-		culture="Culture.neutral_culture"
 		weight="7.6"
-		appearance="6"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="13"
@@ -4939,9 +3977,7 @@
 	<Item id="fur_cloak_b"
 		name="{=mTsEaNKb}Fur Cloak"
 		mesh="fur_cloak_b"
-		culture="Culture.neutral_culture"
 		weight="2.7"
-		appearance="4"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="5"
@@ -4954,9 +3990,7 @@
 	<Item id="fur_cloak_c"
 		name="{=p0Xgt48l}Large Fur Cloak With Round Plate"
 		mesh="fur_cloak_c"
-		culture="Culture.neutral_culture"
 		weight="8.3"
-		appearance="3"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="14"
@@ -4972,9 +4006,7 @@
 	<Item id="long_desert_robe"
 		name="{=bKBa7ahF}Long Simple Robe"
 		mesh="aserai_tunic_long"
-		culture="Culture.neutral_culture"
 		weight="1.6"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="2"
@@ -4991,9 +4023,7 @@
 		name="{=fk42FxCE}Layered Robe"
 		lod_atlas_index="6"
 		mesh="aserai_robe_c"
-		culture="Culture.neutral_culture"
 		weight="2.0"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="5"
@@ -5010,10 +4040,7 @@
 		name="{=K2JbjKLG}Simple Kaftan"
 		subtype="body_armor"
 		mesh="aserai_tunic_long"
-		culture="Culture.neutral_culture"
 		weight="1.6"
-		difficulty="0"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="5"
@@ -5029,9 +4056,7 @@
 	<Item id="aserai_tunic_waistcoat"
 		name="{=whiQg21b}Luxury Kaftan"
 		mesh="aserai_tunic_waistcoat"
-		culture="Culture.neutral_culture"
 		weight="0.8"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="7"
@@ -5047,9 +4072,7 @@
 	<Item id="thick_sleeved_robe"
 		name="{=MKT5IzWm}Thick Sleeved Robe"
 		mesh="aserai_robe_b"
-		culture="Culture.neutral_culture"
 		weight="1.0"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="5"
@@ -5065,9 +4088,7 @@
 	<Item id="aserai_villager_female_dress"
 		name="{=tuEQnm2r}Villager Short Dress"
 		mesh="aserai_villager_female_dress"
-		culture="Culture.neutral_culture"
 		weight="0.5"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="2"
@@ -5084,9 +4105,7 @@
 	<Item id="fine_southern_dress"
 		name="{=atu9tCq8}Tailored Dress"
 		mesh="aserai_female_costume"
-		culture="Culture.neutral_culture"
 		weight="0.7"
-		appearance="3"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="5"
@@ -5103,9 +4122,7 @@
 	<Item id="aserai_female_civil_a"
 		name="{=qi1lkMqk}Feminine Kaftan"
 		mesh="aserai_female_civil_a"
-		culture="Culture.neutral_culture"
 		weight="0.9"
-		appearance="2"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="5"
@@ -5122,9 +4139,7 @@
 	<Item id="aserai_female_civil_b"
 		name="{=i6QMSiut}Kaftan with Waistband"
 		mesh="aserai_female_civil_b"
-		culture="Culture.neutral_culture"
 		weight="0.8"
-		appearance="3"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="3"
@@ -5141,9 +4156,7 @@
 	<Item id="aserai_civil_a"
 		name="{=HXNb6Cqz}Luxury Kaftan with Waistband"
 		mesh="aserai_civil_a"
-		culture="Culture.neutral_culture"
 		weight="0.8"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="8"
@@ -5159,9 +4172,7 @@
 	<Item id="aserai_civil_b"
 		name="{=v4THTk5O}Kaftan with Leather Belt"
 		mesh="aserai_civil_b"
-		culture="Culture.neutral_culture"
 		weight="1.1"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="5"
@@ -5177,9 +4188,7 @@
 	<Item id="aserai_civil_c"
 		name="{=CBUdkmIw}Colored Kaftan"
 		mesh="aserai_civil_c"
-		culture="Culture.neutral_culture"
 		weight="0.9"
-		appearance="2"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="4"
@@ -5195,9 +4204,7 @@
 	<Item id="aserai_civil_d"
 		name="{=SW3lkPHe}Colored Bisht"
 		mesh="aserai_civil_d"
-		culture="Culture.neutral_culture"
 		weight="1.0"
-		appearance="0.6"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="5"
@@ -5213,9 +4220,7 @@
 	<Item id="aserai_civil_e"
 		name="{=FAPHmzxQ}Thawb"
 		mesh="aserai_civil_e"
-		culture="Culture.neutral_culture"
 		weight="1.1"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="4"
@@ -5231,9 +4236,7 @@
 	<Item id="aserai_civil_f"
 		name="{=bLgnonyc}Simple Peasant Robe"
 		mesh="aserai_civil_f"
-		culture="Culture.neutral_culture"
 		weight="1.1"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="5"
@@ -5249,9 +4252,7 @@
 	<Item id="tassled_southern_robes"
 		name="{=cMdtLfGB}Tassled Robes"
 		mesh="aserai_thobe"
-		culture="Culture.neutral_culture"
 		weight="0.9"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="6"
@@ -5267,9 +4268,7 @@
 	<Item id="eastern_silk_clothing"
 		name="{=XiwTesky}Silk Kaftan"
 		mesh="aserai_crowd_costume"
-		culture="Culture.neutral_culture"
 		weight="0.4"
-		appearance="4"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="6"
@@ -5286,10 +4285,7 @@
 		subtype="body_armor"
 		lod_atlas_index="11"
 		mesh="sarranid_gambeson_v3"
-		culture="Culture.neutral_culture"
 		weight="1.3"
-		difficulty="0"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="14"
@@ -5306,9 +4302,7 @@
 		name="{=wWqavjat}Light Long Padded Armor"
 		lod_atlas_index="4"
 		mesh="aserai_fabric_armor"
-		culture="Culture.neutral_culture"
 		weight="1.3"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="16"
@@ -5324,9 +4318,7 @@
 		name="{=XkL1Re8b}Studded Leather Coat"
 		lod_atlas_index="12"
 		mesh="bandit_leather_a"
-		culture="Culture.neutral_culture"
 		weight="1.6"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="10"
@@ -5344,10 +4336,7 @@
 		lod_atlas_index="9"
 		subtype="body_armor"
 		mesh="sarranid_gambeson_v1"
-		culture="Culture.neutral_culture"
 		weight="5.5"
-		difficulty="0"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="36"
@@ -5364,9 +4353,7 @@
 		name="{=gSWtpl8a}Robe over Mail Shirt"
 		lod_atlas_index="5"
 		mesh="aserai_robe_c_chain"
-		culture="Culture.neutral_culture"
 		weight="8.2"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="25"
@@ -5383,9 +4370,7 @@
 		name="{=0SsLGsXk}Long Padded Robe"
 		lod_atlas_index="10"
 		mesh="sarranid_gambeson_v2"
-		culture="Culture.neutral_culture"
 		weight="3.9"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="14"
@@ -5403,10 +4388,7 @@
 		subtype="body_armor"
 		mesh="aserai_horseman"
 		lod_atlas_index="2"
-		culture="Culture.neutral_culture"
 		weight="4.4"
-		difficulty="0"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="13"
@@ -5422,9 +4404,7 @@
 	<Item id="ringed_desert_armor"
 		name="{=7EAEIUIY}Heavy Ring Mail"
 		mesh="aserai_bigchain_armor"
-		culture="Culture.neutral_culture"
 		weight="10.5"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="20"
@@ -5441,10 +4421,7 @@
 		lod_atlas_index="1"
 		subtype="body_armor"
 		mesh="aserai_archer_armor"
-		culture="Culture.neutral_culture"
 		weight="11.0"
-		difficulty="0"
-		appearance="2"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="29"
@@ -5461,9 +4438,7 @@
 		name="{=k71X3WNK}Robe over Mail Hauberk"
 		lod_atlas_index="8"
 		mesh="aserai_chain_tunic_a"
-		culture="Culture.neutral_culture"
 		weight="8.9"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="25"
@@ -5479,10 +4454,7 @@
 		name="{=xlLoyxXT}Light Lamellar Armor"
 		subtype="body_armor"
 		mesh="aserai_cavalry_armor"
-		culture="Culture.neutral_culture"
 		weight="16.5"
-		difficulty="0"
-		appearance="1.5"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="48"
@@ -5498,10 +4470,7 @@
 		name="{=ALbtxxyC}Cavalry Lamellar Armor"
 		subtype="body_armor"
 		mesh="sturgia_cavalry_armor"
-		culture="Culture.neutral_culture"
 		weight="18"
-		difficulty="0"
-		appearance="1.5"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="46"
@@ -5518,9 +4487,7 @@
 		name="{=VkRIefyW}Luxury Scale Armor"
 		lod_atlas_index="3"
 		mesh="aserai_scale_armor_b"
-		culture="Culture.neutral_culture"
 		weight="20.0"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="47"
@@ -5536,9 +4503,7 @@
 		name="{=omLMiX89}Stitched Leather over Mail"
 		lod_atlas_index="7"
 		mesh="aserai_plated_skirt"
-		culture="Culture.neutral_culture"
 		weight="15.1"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="36"
@@ -5554,10 +4519,7 @@
 		name="{=3lauB1HH}Bronze Lamellar Vest over Gambeson"
 		subtype="body_armor"
 		mesh="sturgia_costume_i_yellow"
-		culture="Culture.neutral_culture"
 		weight="9.5"
-		difficulty="0"
-		appearance="1.5"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="37"
@@ -5574,9 +4536,7 @@
 		name="{=blEEEOdy}Southern Chain Mail"
 		lod_atlas_index="3"
 		mesh="aserai_armor_02"
-		culture="Culture.neutral_culture"
 		weight="17.0"
-		appearance="2"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="25"
@@ -5592,9 +4552,7 @@
 		name="{=dAgxHUsJ}Southern Decorated Chain Mail"
 		lod_atlas_index="3"
 		mesh="aserai_armor_02_b"
-		culture="Culture.neutral_culture"
 		weight="18.0"
-		appearance="4"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="27"
@@ -5610,9 +4568,7 @@
 		name="{=YTST4rdh}Southern Reinforced Mail Armor"
 		lod_atlas_index="3"
 		mesh="aserai_chain_plate_armor_a"
-		culture="Culture.neutral_culture"
 		weight="22.0"
-		appearance="4"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="31"
@@ -5628,9 +4584,7 @@
 		name="{=EvW5Xzt2}Southern Reinforced Sleeveless Mail Armor"
 		lod_atlas_index="3"
 		mesh="aserai_chain_plate_armor_b"
-		culture="Culture.neutral_culture"
 		weight="19.0"
-		appearance="6"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="31"
@@ -5646,9 +4600,7 @@
 		name="{=Mm1QAtPx}Southern Reinforced Mail Vest"
 		lod_atlas_index="3"
 		mesh="aserai_chain_plate_armor_c"
-		culture="Culture.neutral_culture"
 		weight="15.0"
-		appearance="4"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="31"
@@ -5664,9 +4616,7 @@
 		name="{=zVieddxB}Southern Reinforced Short Mail Armor"
 		lod_atlas_index="3"
 		mesh="aserai_chain_plate_armor_d"
-		culture="Culture.neutral_culture"
 		weight="18.0"
-		appearance="4"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="31"
@@ -5682,9 +4632,7 @@
 		name="{=bxzrU99N}Southern Mail Shirt with Brass Plates"
 		lod_atlas_index="3"
 		mesh="aserai_brass_plate_a"
-		culture="Culture.neutral_culture"
 		weight="18.0"
-		appearance="4"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="34"
@@ -5700,9 +4648,7 @@
 		name="{=OyBdFyeV}Southern Sleeveless Mail Shirt with Brass Plates"
 		lod_atlas_index="3"
 		mesh="aserai_brass_plate_b"
-		culture="Culture.neutral_culture"
 		weight="15.0"
-		appearance="4"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="34"
@@ -5720,10 +4666,7 @@
 		name="{=btrf2AXp}Baggy Trunks"
 		mesh="bandit_1_a"
 		subtype="body_armor"
-		culture="Culture.neutral_culture"
 		weight="0.2"
-		difficulty="0"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="3"
@@ -5740,10 +4683,7 @@
 		name="{=w6j8Oaai}Armored Baggy Trunks"
 		mesh="bandit_1_b"
 		subtype="body_armor"
-		culture="Culture.neutral_culture"
 		weight="0.3"
-		difficulty="0"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="3"
@@ -5761,10 +4701,7 @@
 		name="{=tXbRb3QO}Studded Fur Armor"
 		mesh="bandit_1_d"
 		subtype="body_armor"
-		culture="Culture.neutral_culture"
 		weight="1.2"
-		difficulty="0"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="11"
@@ -5780,10 +4717,7 @@
 		name="{=QlvnKQbc}Highland Scale Armor over Mail Armor"
 		subtype="body_armor"
 		mesh="battanian_scale_armor_a"
-		culture="Culture.neutral_culture"
 		weight="22.4"
-		difficulty="0"
-		appearance="3"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="42"
@@ -5800,10 +4734,7 @@
 		name="{=oJKXjRJ3}Highland Scale Armor over Cloth"
 		subtype="body_armor"
 		mesh="battanian_scale_armor_b"
-		culture="Culture.neutral_culture"
 		weight="11.4"
-		difficulty="0"
-		appearance="3"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="31"
@@ -5821,10 +4752,8 @@
 	<Item id="steppe_armor"
 		name="{=xQUi0F0k}Striped Coat"
 		mesh="armor_hun_a"
-		culture="Culture.neutral_culture"
 		subtype="body_armor"
 		weight="0.6"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="6"
@@ -5839,11 +4768,8 @@
 	<Item id="steppe_robe"
 		name="{=HVJ9ax8Z}Steppe Robe"
 		mesh="mongol_cloth_a"
-		culture="Culture.neutral_culture"
 		subtype="body_armor"
 		weight="0.4"
-		difficulty="0"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="4"
@@ -5858,9 +4784,7 @@
 	<Item id="studded_leather_waistcoat"
 		name="{=dIfcfMbY}Studded Leather Waistcoat"
 		mesh="sea_raider_leather_armor"
-		culture="Culture.neutral_culture"
 		weight="0.7"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="8"
@@ -5876,9 +4800,7 @@
 	<Item id="khuzait_dress"
 		name="{=7uJkrHeg}Aproned Feminine Coat"
 		mesh="khuzait_dress"
-		culture="Culture.neutral_culture"
 		weight="0.8"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="6"
@@ -5894,9 +4816,7 @@
 	<Item id="khuzait_dress_b"
 		name="{=NMSEAA4A}Dress with Fur"
 		mesh="khuzait_dress_b"
-		culture="Culture.neutral_culture"
 		weight="0.9"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="8"
@@ -5912,9 +4832,7 @@
 	<Item id="steppe_dress"
 		name="{=QfqwaRZ2}Envelope Dress"
 		mesh="female_khuzait_dress"
-		culture="Culture.neutral_culture"
 		weight="0.6"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="8"
@@ -5930,9 +4848,7 @@
 	<Item id="khuzait_civil_coat"
 		name="{=6VW6zVa3}Luxury Coat"
 		mesh="khuzait_civil_coat"
-		culture="Culture.neutral_culture"
 		weight="2.7"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="6"
@@ -5948,9 +4864,7 @@
 	<Item id="khuzait_civil_coat_b"
 		name="{=S1XL4KJh}Luxury Thick Coat"
 		mesh="khuzait_civil_coat_b"
-		culture="Culture.neutral_culture"
 		weight="2.7"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="6"
@@ -5967,10 +4881,7 @@
 		name="{=XU9WgcIO}Reinforced Suede Armor"
 		subtype="body_armor"
 		mesh="khuzait_suede_leather"
-		culture="Culture.neutral_culture"
 		weight="2.3"
-		difficulty="0"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="16"
@@ -5987,10 +4898,7 @@
 		name="{=Qd0tQLpA}Studded Leather Armor"
 		subtype="body_armor"
 		mesh="khuzait_leather_armor"
-		culture="Culture.neutral_culture"
 		weight="2.4"
-		difficulty="0"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="14"
@@ -6006,9 +4914,7 @@
 	<Item id="belted_leather_cuirass"
 		name="{=CLYcnUra}Belted Leather Cuirass"
 		mesh="bandit_11"
-		culture="Culture.neutral_culture"
 		weight="1.9"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="19"
@@ -6024,9 +4930,7 @@
 	<Item id="crude_leather_armor"
 		name="{=j2IVY6G6}Crude Hide Armor"
 		mesh="bandit_5"
-		culture="Culture.neutral_culture"
 		weight="2.4"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="13"
@@ -6042,9 +4946,7 @@
 	<Item id="khuzait_belt_leather"
 		name="{=4B2i8oxo}Coat with Mirrored Belt"
 		mesh="khuzait_belt_leather"
-		culture="Culture.neutral_culture"
 		weight="2.4"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="8"
@@ -6060,9 +4962,7 @@
 	<Item id="khuzait_fortified_armor"
 		name="{=KVG0Tzaa}Reinforced Mirror Armor"
 		mesh="khuzait_fortified_armor"
-		culture="Culture.neutral_culture"
 		weight="2.4"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="16"
@@ -6078,9 +4978,7 @@
 	<Item id="khuzait_sturdy_armor"
 		name="{=1WLiLoL5}Mirrored Leather Armor"
 		mesh="khuzait_sturdy_armor"
-		culture="Culture.neutral_culture"
 		weight="2.4"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="15"
@@ -6096,9 +4994,7 @@
 	<Item id="eastern_stitched_leather_coat"
 		name="{=PeozdF9h}Stitched Cured Leather Coat"
 		mesh="khuzait_leather_plate"
-		culture="Culture.neutral_culture"
 		weight="8.4"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="20"
@@ -6113,9 +5009,7 @@
 	<Item id="leather_lamellar_armor"
 		name="{=cjhhuTZD}Cured Leather Lamellar Armor"
 		mesh="leather_lamellar_armor"
-		culture="Culture.neutral_culture"
 		weight="14"
-		appearance="1.2"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="24"
@@ -6130,9 +5024,7 @@
 	<Item id="studded_leather_over_aketon"
 		name="{=dS4zm0UT}Studded Leather over Aketon"
 		mesh="crossbow_armor_leather"
-		culture="Culture.neutral_culture"
 		weight="4.4"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="14"
@@ -6147,9 +5039,7 @@
 	<Item id="eastern_lamellar_armor"
 		name="{=tG1Q8r2u}Lancer Lamellar Armor"
 		mesh="metal_lamellar_armor"
-		culture="Culture.neutral_culture"
 		weight="13"
-		appearance="2"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="39"
@@ -6164,9 +5054,7 @@
 	<Item id="khuzait_lamellar_strapped"
 		name="{=jimBaHvz}Reinforced Leather Armor"
 		mesh="khuzait_lamellar_strap"
-		culture="Culture.neutral_culture"
 		weight="11.1"
-		appearance="1.4"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="24"
@@ -6182,9 +5070,7 @@
 	<Item id="eastern_plated_leather_vest"
 		name="{=BbhGL8XT}Brigandine Vest"
 		mesh="plated_leather_armor_a"
-		culture="Culture.neutral_culture"
 		weight="14.2"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="34"
@@ -6199,9 +5085,7 @@
 	<Item id="eastern_plated_leather"
 		name="{=FDEIHpIN}Mirrored Brigandine Armor"
 		mesh="plated_leather_armor_b"
-		culture="Culture.neutral_culture"
 		weight="18.6"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="36"
@@ -6216,9 +5100,7 @@
 	<Item id="khuzait_heavy_armor"
 		name="{=CttLMqiq}Khan's Coat of Plates"
 		mesh="khuzait_heavy_armor"
-		culture="Culture.neutral_culture"
 		weight="26.5"
-		appearance="8"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="46"
@@ -6236,10 +5118,7 @@
 		name="{=smKogclC}Sackcloth Tunic"
 		mesh="walker_costume_d"
 		subtype="body_armor"
-		culture="Culture.neutral_culture"
 		weight="0.6"
-		difficulty="0"
-		appearance="0.3"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="3"
@@ -6254,10 +5133,8 @@
 	<Item id="cloth_tunic"
 		name="{=OJIRIm4j}Simple Cloth Tunic"
 		mesh="clothing_a"
-		culture="Culture.neutral_culture"
 		subtype="body_armor"
 		weight="0.4"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="2"
@@ -6272,9 +5149,7 @@
 	<Item id="long_hemp_tunic"
 		name="{=NUHzapSv}Long Hemp Tunic"
 		mesh="casual_01"
-		culture="Culture.neutral_culture"
 		weight="0.6"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="4"
@@ -6289,11 +5164,8 @@
 	<Item id="long_woolen_tunic"
 		name="{=U8QfF3Gw}Long Woolen Tunic"
 		mesh="armor_woolen_tunic"
-		culture="Culture.neutral_culture"
 		subtype="body_armor"
 		weight="0.4"
-		difficulty="0"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="2"
@@ -6308,9 +5180,7 @@
 	<Item id="vlandian_noble_woman_dress"
 		name="{=pbxbCnVy}Silken Noble Dress"
 		mesh="vlandian_noble_woman_dress"
-		culture="Culture.neutral_culture"
 		weight="0.6"
-		appearance="4"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="2"
@@ -6327,9 +5197,7 @@
 	<Item id="vlandian_woman_dress"
 		name="{=qPm3xaiP}Aproned Dress"
 		mesh="vlandian_woman_dress"
-		culture="Culture.neutral_culture"
 		weight="0.7"
-		appearance="2"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="2"
@@ -6346,9 +5214,7 @@
 	<Item id="vlandian_corset_dress"
 		name="{=4eSEJor3}Corseted Dress"
 		mesh="vlandian_corset_dress"
-		culture="Culture.neutral_culture"
 		weight="0.5"
-		appearance="3"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="2"
@@ -6364,9 +5230,7 @@
 	<Item id="monk_robe"
 		name="{=QuaE76ua}Scholar Robe"
 		mesh="monk_robe"
-		culture="Culture.neutral_culture"
 		weight="0.5"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="5"
@@ -6381,9 +5245,7 @@
 	<Item id="padded_leather_shirt"
 		name="{=tiTTWhpW}Padded Leather Shirt"
 		mesh="armor_roman_padded_leather_shirt"
-		culture="Culture.neutral_culture"
 		weight="1.8"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="16"
@@ -6399,10 +5261,7 @@
 		name="{=QbfOXJas}Padded Footman Coat"
 		subtype="body_armor"
 		mesh="padded_coat_a"
-		culture="Culture.neutral_culture"
 		weight="2.4"
-		difficulty="0"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="16"
@@ -6419,10 +5278,7 @@
 		name="{=wKucIANJ}Leather Coat over Cloth"
 		mesh="walker_costume_b"
 		subtype="body_armor"
-		culture="Culture.neutral_culture"
 		weight="0.7"
-		difficulty="0"
-		appearance="1"
 		Type="BodyArmor"
 		multiplayer_item="false">
 		<ItemComponent>
@@ -6438,9 +5294,7 @@
 	<Item id="aketon"
 		name="{=7b8Cwogx}Aketon"
 		mesh="crossbow_armor"
-		culture="Culture.neutral_culture"
 		weight="3.4"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="13"
@@ -6456,10 +5310,7 @@
 		name="{=ZqTFQeai}Leather Tunic"
 		subtype="body_armor"
 		mesh="leather_coat"
-		culture="Culture.neutral_culture"
 		weight="2.3"
-		difficulty="0"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="10"
@@ -6475,11 +5326,8 @@
 	<Item id="sleeveless_padded_short_coat"
 		name="{=bz5lXkHS}Sleeveless Padded Short Coat"
 		mesh="padded_coat_d"
-		culture="Culture.neutral_culture"
 		subtype="body_armor"
 		weight="2.0"
-		difficulty="0"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="15"
@@ -6496,10 +5344,7 @@
 		name="{=lZ93DOrn}Sleeveless Padded Coat"
 		subtype="body_armor"
 		mesh="padded_coat_b"
-		culture="Culture.neutral_culture"
 		weight="2.2"
-		difficulty="0"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="18"
@@ -6515,9 +5360,7 @@
 	<Item id="padded_short_coat"
 		name="{=4pqIsPhp}Padded Short Coat"
 		mesh="padded_coat_c"
-		culture="Culture.neutral_culture"
 		weight="2.2"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="15"
@@ -6534,10 +5377,7 @@
 		name="{=PL5SG9hI}Leather Scale Armor"
 		mesh="vlandia_leather_scale_armor"
 		subtype="body_armor"
-		culture="Culture.neutral_culture"
 		weight="6.9"
-		difficulty="0"
-		appearance="1"
 		Type="BodyArmor"
 		multiplayer_item="false">
 		<ItemComponent>
@@ -6554,10 +5394,7 @@
 		name="{=LgftnHPs}Woven Leather Vest"
 		subtype="body_armor"
 		mesh="archers_leather_vest"
-		culture="Culture.neutral_culture"
 		weight="4.7"
-		difficulty="0"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="11"
@@ -6573,9 +5410,7 @@
 	<Item id="vlandia_chainmail"
 		name="{=atSRQkCE}Heavy Mail Hauberk"
 		mesh="vlandia_chainmail_a"
-		culture="Culture.neutral_culture"
 		weight="12"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="28"
@@ -6592,10 +5427,7 @@
 		name="{=YxglkaXU}White Tabard over Mail Hauberk"
 		subtype="body_armor"
 		mesh="templar_a_white"
-		culture="Culture.neutral_culture"
 		weight="15"
-		difficulty="0"
-		appearance="1.2"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="34"
@@ -6612,10 +5444,7 @@
 		name="{=aM2EPdXj}Red Tabard over Mail Hauberk"
 		subtype="body_armor"
 		mesh="templar_a_red"
-		culture="Culture.neutral_culture"
 		weight="15"
-		difficulty="0"
-		appearance="1.2"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="34"
@@ -6630,11 +5459,8 @@
 	<Item id="mail_shirt"
 		name="{=GzgUzrFY}Mail Shirt"
 		mesh="armor_roman_mail_shirt"
-		culture="Culture.neutral_culture"
 		subtype="body_armor"
 		weight="7.5"
-		difficulty="0"
-		appearance="1.2"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="25"
@@ -6650,10 +5476,7 @@
 		name="{=OvlG2Vu1}Rough Brigandine"
 		subtype="body_armor"
 		mesh="cop_a"
-		culture="Culture.neutral_culture"
 		weight="19.00"
-		difficulty="0"
-		appearance="1.6"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="38"
@@ -6670,10 +5493,7 @@
 		name="{=PtfbqMeg}Brigandine over Mail"
 		mesh="tunic_ironplate_armor"
 		subtype="body_armor"
-		culture="Culture.neutral_culture"
 		weight="23.2"
-		difficulty="0"
-		appearance="3"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="50"
@@ -6688,9 +5508,7 @@
 	<Item id="banded_leather_over_mail"
 		name="{=iAWzr8Q0}Banded Leather over Mail"
 		mesh="vlandia_leather_armor"
-		culture="Culture.neutral_culture"
 		weight="8.6"
-		appearance="1.6"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="29"
@@ -6708,10 +5526,7 @@
 		name="{=W58TN2g5}Varyag Tunic"
 		subtype="body_armor"
 		mesh="sturgia_costume_j"
-		culture="Culture.neutral_culture"
 		weight="0.4"
-		difficulty="0"
-		appearance="0.6"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="6"
@@ -6728,10 +5543,7 @@
 		name="{=9aehD627}Luxury Tunic"
 		subtype="body_armor"
 		mesh="sturgia_costume_a"
-		culture="Culture.neutral_culture"
 		weight="0.6"
-		difficulty="0"
-		appearance="0.6"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="4"
@@ -6748,10 +5560,7 @@
 		name="{=ya4i8G3y}Belted Tunic"
 		subtype="body_armor"
 		mesh="fur_vaegir_b"
-		culture="Culture.neutral_culture"
 		weight="0.3"
-		difficulty="0"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="4"
@@ -6768,10 +5577,7 @@
 		name="{=hXijcZyp}Roughcloth Shortcoat"
 		mesh="walker_costume_a"
 		subtype="body_armor"
-		culture="Culture.neutral_culture"
 		weight="0.4"
-		difficulty="0"
-		appearance="0.3"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="5"
@@ -6786,9 +5592,7 @@
 	<Item id="northern_dress"
 		name="{=DUp0MKZQ}Cold Weather Dress"
 		mesh="female_peasant_dress_d"
-		culture="Culture.neutral_culture"
 		weight="0.7"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="3"
@@ -6804,9 +5608,7 @@
 	<Item id="laced_dress"
 		name="{=PP5SzUx0}Laced Dress"
 		mesh="female_peasant_dress_c"
-		culture="Culture.neutral_culture"
 		weight="0.6"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="2"
@@ -6823,9 +5625,7 @@
 	<Item id="cut_dress"
 		name="{=mzc6SKeH}Frilled Dress"
 		mesh="female_tavern_wench_dress_a"
-		culture="Culture.neutral_culture"
 		weight="0.6"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="6"
@@ -6841,9 +5641,7 @@
 	<Item id="cut_dress_with_pouch"
 		name="{=deA729dQ}Cut Dress with Pouch"
 		mesh="female_tavern_wench_dress_b"
-		culture="Culture.neutral_culture"
 		weight="0.5"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="3"
@@ -6858,9 +5656,7 @@
 	<Item id="dress_with_overall"
 		name="{=MLBA8tej}Dress"
 		mesh="female_peasant_dress_b"
-		culture="Culture.neutral_culture"
 		weight="0.5"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="5"
@@ -6876,9 +5672,7 @@
 	<Item id="plain_dress"
 		name="{=t695AnJU}Plain Dress"
 		mesh="female_peasant_dress_a"
-		culture="Culture.neutral_culture"
 		weight="0.5"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="2"
@@ -6894,9 +5688,7 @@
 	<Item id="heavy_nordic_tunic"
 		name="{=CAO0bycV}Heavy Tunic"
 		mesh="sturgia_costume_e"
-		culture="Culture.neutral_culture"
 		weight="1.0"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="7"
@@ -6913,10 +5705,7 @@
 		name="{=JCdVJYnQ}Light Tunic"
 		subtype="body_armor"
 		mesh="sturgia_light_armor_a"
-		culture="Culture.neutral_culture"
 		weight="0.4"
-		difficulty="0"
-		appearance="0.6"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="2"
@@ -6933,10 +5722,7 @@
 		name="{=SvYpE52J}Fur Trimmed Tunic"
 		subtype="body_armor"
 		mesh="sturgia_light_armor_c"
-		culture="Culture.neutral_culture"
 		weight="0.8"
-		difficulty="0"
-		appearance="0.6"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="6"
@@ -6953,10 +5739,7 @@
 		name="{=VaqBBaQu}Fur Trimmed Short Tunic"
 		subtype="body_armor"
 		mesh="sturgia_light_armor_d"
-		culture="Culture.neutral_culture"
 		weight="0.4"
-		difficulty="0"
-		appearance="0.6"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="6"
@@ -6973,10 +5756,7 @@
 		name="{=oQSZ0XgP}Decorated Thick Tunic"
 		subtype="body_armor"
 		mesh="sturgia_light_armor_e"
-		culture="Culture.neutral_culture"
 		weight="0.6"
-		difficulty="0"
-		appearance="0.6"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="6"
@@ -6993,10 +5773,7 @@
 		name="{=lB4UF1GT}Long Tunic"
 		subtype="body_armor"
 		mesh="sturgia_light_armor_b"
-		culture="Culture.neutral_culture"
 		weight="0.4"
-		difficulty="0"
-		appearance="0.6"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="2"
@@ -7012,9 +5789,7 @@
 	<Item id="nordic_sloven_leather"
 		name="{=FRWm800F}Sloven Leather"
 		mesh="nordic_sloven_c"
-		culture="Culture.neutral_culture"
 		weight="2.9"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="12"
@@ -7031,10 +5806,7 @@
 		name="{=SsCM14Xu}Sleeved Heavy Tunic"
 		subtype="body_armor"
 		mesh="sturgia_costume_d"
-		culture="Culture.neutral_culture"
 		weight="0.9"
-		difficulty="0"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="7"
@@ -7050,9 +5822,7 @@
 	<Item id="northern_padded_gambeson"
 		name="{=fwxHsC1h}Short Gambeson over Tunic"
 		mesh="sturgia_costume_c"
-		culture="Culture.neutral_culture"
 		weight="1.5"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="16"
@@ -7069,10 +5839,7 @@
 		name="{=vCywYDmp}Light Padded Armor"
 		subtype="body_armor"
 		mesh="sturgia_costume_g"
-		culture="Culture.neutral_culture"
 		weight="1.6"
-		difficulty="0"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="15"
@@ -7088,9 +5855,7 @@
 	<Item id="nordic_padded_cloth"
 		name="{=WLJOnehi}Reinforced Thick Tunic"
 		mesh="sturgia_costume_l"
-		culture="Culture.neutral_culture"
 		weight="1.1"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="7"
@@ -7106,9 +5871,7 @@
 	<Item id="northern_leather_vest"
 		name="{=C8bVbM65}Tunic with Leather Vest"
 		mesh="sturgia_costume_m"
-		culture="Culture.neutral_culture"
 		weight="0.9"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="9"
@@ -7124,11 +5887,8 @@
 	<Item id="stitched_leather_vest"
 		name="{=xa7KRSCy}Stitched Leather Vest"
 		mesh="armor_leather_chain_a"
-		culture="Culture.neutral_culture"
 		subtype="body_armor"
 		weight="1.5"
-		difficulty="0"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="12"
@@ -7144,10 +5904,7 @@
 		name="{=c7wcTevc}Leather Armor over Heavy Cloth"
 		subtype="body_armor"
 		mesh="nordic_sloven_b"
-		culture="Culture.neutral_culture"
 		weight="1.8"
-		difficulty="0"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="11"
@@ -7164,10 +5921,7 @@
 		name="{=4KYF5iCd}Layered Leather Tunic"
 		mesh="leather_tunic_2"
 		subtype="body_armor"
-		culture="Culture.neutral_culture"
 		weight="1.2"
-		difficulty="0"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="11"
@@ -7182,9 +5936,7 @@
 	<Item id="northern_leather_tabard"
 		name="{=0a6Vz7wi}Leather Tabard"
 		mesh="sturgia_leather_brass"
-		culture="Culture.neutral_culture"
 		weight="4.4"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="18"
@@ -7200,10 +5952,7 @@
 		name="{=hXB6gvD2}Cured Leather Lamellar Shirt "
 		subtype="body_armor"
 		mesh="sturgia_costume_h"
-		culture="Culture.neutral_culture"
 		weight="8.9"
-		difficulty="0"
-		appearance="1.6"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="26"
@@ -7220,10 +5969,7 @@
 		name="{=bAidg8fV}Huscarl Decorated Mail Shirt"
 		subtype="body_armor"
 		mesh="sturgia_costume_f"
-		culture="Culture.neutral_culture"
 		weight="10.7"
-		difficulty="0"
-		appearance="2"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="25"
@@ -7239,9 +5985,7 @@
 	<Item id="nordic_sloven_over_mail"
 		name="{=6XxiMU52}Leather Tabard over Mail"
 		mesh="nordic_sloven_a"
-		culture="Culture.neutral_culture"
 		weight="10"
-		appearance="1.6"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="30"
@@ -7258,10 +6002,7 @@
 		name="{=1jX7yxSW}Huscarl Mail Shirt"
 		subtype="body_armor"
 		mesh="sturgia_costume_b"
-		culture="Culture.neutral_culture"
 		weight="10.7"
-		difficulty="0"
-		appearance="1.6"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="24"
@@ -7277,11 +6018,8 @@
 	<Item id="leather_and_iron_plate_armor"
 		name="{=camFHYrN}Leather Armor with Iron Plates"
 		mesh="armor_leather_iron_plate_a"
-		culture="Culture.neutral_culture"
 		subtype="body_armor"
 		weight="9.6"
-		difficulty="0"
-		appearance="1.2"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="22"
@@ -7296,9 +6034,7 @@
 	<Item id="northern_coat_of_plates"
 		name="{=w4RuDABQ}Coat Of Plates"
 		mesh="sturgia_plate_armor"
-		culture="Culture.neutral_culture"
 		weight="21"
-		appearance="2"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="45"
@@ -7314,10 +6050,7 @@
 		name="{=wRZ3LExm}Bronze Scale Vest over Gambeson"
 		subtype="body_armor"
 		mesh="sturgia_costume_i"
-		culture="Culture.neutral_culture"
 		weight="15"
-		difficulty="0"
-		appearance="1.3"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="28"
@@ -7333,9 +6066,7 @@
 	<Item id="nordic_lamellar_vest"
 		name="{=QaTkvy56}Bronze Scale Vest"
 		mesh="sturgia_costume_k"
-		culture="Culture.neutral_culture"
 		weight="14"
-		appearance="1.2"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="28"
@@ -7352,10 +6083,7 @@
 		name="{=KwbnODoT}Brigandine over Hauberk"
 		subtype="body_armor"
 		mesh="sturgian_fortified_armor"
-		culture="Culture.neutral_culture"
 		weight="28.6"
-		difficulty="0"
-		appearance="2.4"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="51"
@@ -7371,9 +6099,7 @@
 	<Item id="sturgian_lamellar_base"
 		name="{=TeIcf3Cd}Heavy Lamellar over Mail Armor"
 		mesh="sturgian_lamellar_base"
-		culture="Culture.neutral_culture"
 		weight="24"
-		appearance="3"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor
@@ -7390,9 +6116,7 @@
 	<Item id="sturgian_lamellar_fortified"
 		name="{=D358wBWJ}Heavy Lamellar over Hauberk"
 		mesh="sturgian_lamellar_fortified"
-		culture="Culture.neutral_culture"
 		weight="28"
-		appearance="3"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="50"
@@ -7408,10 +6132,7 @@
 		name="{=4cHMe6H2}Decorated Hauberk"
 		subtype="body_armor"
 		mesh="sturgian_chainmale_longsleeve"
-		culture="Culture.neutral_culture"
 		weight="14.5"
-		difficulty="0"
-		appearance="1.6"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="32"
@@ -7428,10 +6149,7 @@
 		name="{=eHyxxxoK}Huscarl Hauberk"
 		subtype="body_armor"
 		mesh="sturgian_chainmale_shortsleeve"
-		culture="Culture.neutral_culture"
 		weight="8.3"
-		difficulty="0"
-		appearance="1.8"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="25"
@@ -7448,7 +6166,6 @@
 		name="{=luoXhz19}Heavy Lamellar Vest"
 		subtype="body_armor"
 		mesh="sturgian_lamellar_gambeson"
-		culture="Culture.neutral_culture"
 		weight="6.2"
 		Type="BodyArmor">
 		<ItemComponent>
@@ -7466,7 +6183,6 @@
 		name="{=luoXhz19}Heavy Lamellar Vest"
 		subtype="body_armor"
 		mesh="sturgian_lamellar_gambeson_heavy"
-		culture="Culture.neutral_culture"
 		weight="8.3"
 		Type="BodyArmor">
 		<ItemComponent>
@@ -7485,9 +6201,7 @@
 	<Item id="peasant_costume"
 		name="{=gbRVBOLH}Commoner Clothes"
 		mesh="peasant_costume_a"
-		culture="Culture.neutral_culture"
 		weight="0.5"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="4"
@@ -7503,9 +6217,7 @@
 	<Item id="fine_town_tunic"
 		name="{=vbPBXiPC}Rich Tunic"
 		mesh="casual_02"
-		culture="Culture.neutral_culture"
 		weight="0.4"
-		appearance="2"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="2"
@@ -7520,11 +6232,8 @@
 	<Item id="hemp_tunic"
 		name="{=yTWOMSmv}Hemp Tunic"
 		mesh="armor_hemp_tunic"
-		culture="Culture.neutral_culture"
 		subtype="body_armor"
 		weight="0.4"
-		difficulty="0"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="4"
@@ -7539,11 +6248,8 @@
 	<Item id="tied_cloth_tunic"
 		name="{=MQ8LCvCE}Tied Cloth Tunic"
 		mesh="roman_cloth_tunic_a"
-		culture="Culture.neutral_culture"
 		subtype="body_armor"
 		weight="0.4"
-		difficulty="0"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="4"
@@ -7558,9 +6264,7 @@
 	<Item id="vlandian_dress"
 		name="{=eRZK8Kbp}Rich Dress"
 		mesh="vlandian_dress"
-		culture="Culture.neutral_culture"
 		weight="0.5"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="3"
@@ -7576,9 +6280,7 @@
 	<Item id="empire_dress"
 		name="{=JsmnUp0T}Ladies Dress"
 		mesh="empire_dress"
-		culture="Culture.neutral_culture"
 		weight="0.7"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="7"
@@ -7594,9 +6296,7 @@
 	<Item id="empire_dress_b"
 		name="{=VqFV9LS4}Red Dress"
 		mesh="empire_dress_b"
-		culture="Culture.neutral_culture"
 		weight="0.6"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="6"
@@ -7612,11 +6312,8 @@
 	<Item id="footmans_tunic"
 		name="{=2AcfBbCR}Military Tunic"
 		mesh="armor_roman_military_tunic"
-		culture="Culture.neutral_culture"
 		subtype="body_armor"
 		weight="0.6"
-		difficulty="0"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="4"
@@ -7631,9 +6328,7 @@
 	<Item id="tunic_with_shoulder_pads"
 		name="{=y3oIzUEp}Tunic with Shoulder Pads"
 		mesh="roman_cloth_tunic_b"
-		culture="Culture.neutral_culture"
 		weight="0.6"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="5"
@@ -7648,11 +6343,8 @@
 	<Item id="tunic_with_rolled_cloth"
 		name="{=QaysED62}Tunic with Rolled Cloth"
 		mesh="armor_tunic_with_rolled_cloth"
-		culture="Culture.neutral_culture"
 		subtype="body_armor"
 		weight="0.7"
-		difficulty="0"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="6"
@@ -7667,9 +6359,7 @@
 	<Item id="imperial_robes"
 		name="{=R45H8quo}Toga"
 		mesh="empire_outfit_a"
-		culture="Culture.neutral_culture"
 		weight="0.9"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="8"
@@ -7685,9 +6375,7 @@
 	<Item id="leather_tunic"
 		name="{=ZqTFQeai}Leather Tunic"
 		mesh="leather_tunic"
-		culture="Culture.neutral_culture"
 		weight="2.1"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="12"
@@ -7703,9 +6391,7 @@
 	<Item id="imperial_padded_cloth"
 		name="{=CqMQXzUd}Infantryman Rough Gambeson"
 		mesh="empire_fabric_armor"
-		culture="Culture.neutral_culture"
 		weight="2.8"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="16"
@@ -7720,9 +6406,7 @@
 	<Item id="khuzait_leather_stitched"
 		name="{=z7oMeRl3}Thick Brigandine Vest"
 		mesh="khuzait_leather_stitch_a"
-		culture="Culture.neutral_culture"
 		weight="4.5"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="34"
@@ -7738,9 +6422,7 @@
 	<Item id="empire_warrior_padded_armor_e"
 		name="{=1BXuUR3s}Infantryman Long Gambeson"
 		mesh="empire_warrior_padded_armor_e"
-		culture="Culture.neutral_culture"
 		weight="1.5"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="16"
@@ -7755,9 +6437,7 @@
 	<Item id="woven_leather_coat"
 		name="{=wE7RWmIF}Boarskin Leather Coat"
 		mesh="vlandia_leather_stripes"
-		culture="Culture.neutral_culture"
 		weight="5.1"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="14"
@@ -7773,10 +6453,7 @@
 		name="{=wJ4Y9IFc}Cavalryman Mail Shirt"
 		subtype="body_armor"
 		mesh="empire_horseman_armor"
-		culture="Culture.neutral_culture"
 		weight="8.3"
-		difficulty="0"
-		appearance="1.3"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="27"
@@ -7794,10 +6471,7 @@
 	<Item id="burlap_sack_dress"
 		name="{=IuD9SaQM}Burlap Dress"
 		mesh="burlap_sack_dress"
-		culture="Culture.neutral_culture"
 		weight="0.5"
-		difficulty="0"
-		appearance="0.1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="2"
@@ -7814,10 +6488,7 @@
 		name="{=F9GB8lMZ}Tattered Rags"
 		subtype="body_armor"
 		mesh="battania_cloth_armor_b"
-		culture="Culture.neutral_culture"
 		weight="0.3"
-		difficulty="0"
-		appearance="0.3"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="3"
@@ -7833,10 +6504,7 @@
 	<Item id="bandit_leather_water_flask"
 		name="{=8hDoWBIa}Commoner Shirt"
 		mesh="bandit_leather_water_flask"
-		culture="Culture.neutral_culture"
 		weight="0.5"
-		difficulty="0"
-		appearance="0.1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="3"
@@ -7853,10 +6521,7 @@
 	<Item id="torn_bandit_clothes"
 		name="{=qhbOjHRI}Torn Padded Garments"
 		mesh="torn_bandit_clothes"
-		culture="Culture.neutral_culture"
 		weight="0.5"
-		difficulty="0"
-		appearance="0.1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="6"
@@ -7873,10 +6538,7 @@
 	<Item id="bandit_envelope_dress_v1"
 		name="{=jbxeZs8K}Commoner Tunic"
 		mesh="bandit_envelope_dress_v1"
-		culture="Culture.neutral_culture"
 		weight="0.6"
-		difficulty="0"
-		appearance="0.3"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="4"
@@ -7893,10 +6555,7 @@
 	<Item id="bandit_envelope_dress_v2"
 		name="{=qILO0HdK}Sleeveless Enveloped Padded Garments"
 		mesh="bandit_envelope_dress_v2"
-		culture="Culture.neutral_culture"
 		weight="0.5"
-		difficulty="0"
-		appearance="0.1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="2"
@@ -7912,10 +6571,7 @@
 	<Item id="bandit_fur_a"
 		name="{=v6W9XaDI}Old Fur Armor"
 		mesh="bandit_fur_a"
-		culture="Culture.neutral_culture"
 		weight="0.9"
-		difficulty="0"
-		appearance="0.1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="12"
@@ -7930,10 +6586,7 @@
 	<Item id="bandit_fur_b"
 		name="{=j7EZxCiG}Old Fur Coat"
 		mesh="bandit_fur_b"
-		culture="Culture.neutral_culture"
 		weight="1.0"
-		difficulty="0"
-		appearance="0.1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="12"
@@ -7948,10 +6601,7 @@
 	<Item id="empire_short_dress"
 		name="{=KdbHrcQx}Short Tunic"
 		mesh="empire_short_dress"
-		culture="Culture.neutral_culture"
 		weight="1.0"
-		difficulty="0"
-		appearance="0.1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="4"
@@ -7967,10 +6617,7 @@
 		name="{=Z9RlnXrD}Fur Skirt"
 		subtype="body_armor"
 		mesh="fur_vaegir_f"
-		culture="Culture.neutral_culture"
 		weight="0.6"
-		difficulty="0"
-		appearance="0.1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="2"
@@ -7986,10 +6633,7 @@
 		name="{=qT6jIu3v}Fur Skirt with Tunic"
 		subtype="body_armor"
 		mesh="fur_vaegir_half_tunic"
-		culture="Culture.neutral_culture"
 		weight="0.9"
-		difficulty="0"
-		appearance="0.1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="4"
@@ -8006,10 +6650,7 @@
 		name="{=tVyuxl8e}Ragged Robes"
 		mesh="sneak_costume"
 		subtype="body_armor"
-		culture="Culture.neutral_culture"
 		weight="0.9"
-		difficulty="0"
-		appearance="0.3"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="3"
@@ -8025,10 +6666,7 @@
 		name="{=XH9f3yOX}Fur Waistcoat over Tunic"
 		subtype="body_armor"
 		mesh="fur_vaegir_short"
-		culture="Culture.neutral_culture"
 		weight="2.3"
-		difficulty="0"
-		appearance="0.1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="6"
@@ -8045,10 +6683,7 @@
 		name="{=1cYka5tR}Sleeveless Fur Coat"
 		mesh="fur_vaegir_waistcoat"
 		subtype="body_armor"
-		culture="Culture.neutral_culture"
 		weight="1.8"
-		difficulty="0"
-		appearance="0.1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="12"
@@ -8063,10 +6698,7 @@
 	<Item id="fur_coat_over_tunic"
 		name="{=dVekhkIU}Fur Coat over Tunic"
 		mesh="fur_vaegir_c"
-		culture="Culture.neutral_culture"
 		weight="2.1"
-		difficulty="0"
-		appearance="0.1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="12"
@@ -8082,10 +6714,7 @@
 	<Item id="bandit_gambeson"
 		name="{=bTUGfbH5}Rugged Gambeson"
 		mesh="bandit_gambeson"
-		culture="Culture.neutral_culture"
 		weight="2.2"
-		difficulty="0"
-		appearance="0.3"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="14"
@@ -8101,9 +6730,7 @@
 	<Item id="rough_fur_armor"
 		name="{=qo8hwDNU}Rough Fur Armor"
 		mesh="bandit_3_a"
-		culture="Culture.neutral_culture"
 		weight="1.3"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="14"
@@ -8118,9 +6745,7 @@
 	<Item id="padded_leather_overcoat"
 		name="{=CtJPuRDa}Padded Leather Overcoat"
 		mesh="bandit_10"
-		culture="Culture.neutral_culture"
 		weight="3.2"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="14"
@@ -8136,9 +6761,7 @@
 	<Item id="vlandia_bandit_a"
 		name="{=AobNdBBU}Cheap Paddings"
 		mesh="vlandia_bandit_a"
-		culture="Culture.neutral_culture"
 		weight="2.9"
-		appearance="0.1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="14"
@@ -8154,9 +6777,7 @@
 	<Item id="vlandia_bandit_b"
 		name="{=BavVxSoC}Cheap Colored Clothes"
 		mesh="vlandia_bandit_b"
-		culture="Culture.neutral_culture"
 		weight="1.8"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="4"
@@ -8172,9 +6793,7 @@
 	<Item id="vlandia_bandit_c"
 		name="{=hELN8VXv}Torn Robe"
 		mesh="vlandia_bandit_c"
-		culture="Culture.neutral_culture"
 		weight="0.4"
-		appearance="0.1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="1"
@@ -8191,9 +6810,7 @@
 	<Item id="cloth_apron"
 		name="{=2WQTvOLF}Cloth Apron"
 		mesh="costume_merchant_v2"
-		culture="Culture.neutral_culture"
 		weight="0.8"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="8"
@@ -8208,9 +6825,7 @@
 	<Item id="half_apron"
 		name="{=FOJHPU5N}Half Apron"
 		mesh="costume_merchant_v3"
-		culture="Culture.neutral_culture"
 		weight="0.7"
-		appearance="1"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="3"
@@ -8225,9 +6840,7 @@
 	<Item id="merchants_fur_coat"
 		name="{=2KQbV4To}Merchant Fur Coat"
 		mesh="costume_merchant_v4"
-		culture="Culture.neutral_culture"
 		weight="2.9"
-		appearance="0.7"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="8"
@@ -8243,10 +6856,7 @@
 		name="{=r0Ln9bAp}Leather Apron"
 		mesh="costume_merchant"
 		subtype="body_armor"
-		culture="Culture.neutral_culture"
 		weight="2.5"
-		difficulty="0"
-		appearance="0.4"
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="4"
@@ -8264,10 +6874,7 @@
 	<Item id="guarded_padded_vambrace"
 		name="{=whvMZZba}Guarded Padded Vambraces"
 		mesh="padded_vambrace_a_handguard"
-		culture="Culture.neutral_culture"
 		weight="0.6"
-		difficulty="0"
-		appearance="1"
 		Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="9"
@@ -8281,10 +6888,7 @@
 	<Item id="ragged_armwraps"
 		name="{=jIwjYOVj}Ragged Armwraps"
 		mesh="sneak_costume_hand"
-		culture="Culture.neutral_culture"
 		weight="0.4"
-		difficulty="0"
-		appearance="0.3"
 		Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="3"
@@ -8298,10 +6902,7 @@
 	<Item id="armwraps"
 		name="{=oEJnxsQ1}Armwraps"
 		mesh="battania_armwraps_a"
-		culture="Culture.neutral_culture"
 		weight="0.2"
-		difficulty="0"
-		appearance="0.3"
 		Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="3"
@@ -8313,10 +6914,7 @@
 	<Item id="guarded_armwraps"
 		name="{=a1BGHdaU}Guarded Armwraps"
 		mesh="battania_armwraps_b"
-		culture="Culture.neutral_culture"
 		weight="0.4"
-		difficulty="0"
-		appearance="0.4"
 		Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="7"
@@ -8328,9 +6926,7 @@
 	<Item id="rough_tied_bracers"
 		name="{=uEPRE33m}Rough Tied Bracers"
 		mesh="bandit_3_wrist"
-		culture="Culture.neutral_culture"
 		weight="0.6"
-		appearance="0.3"
 		Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="9"
@@ -8343,9 +6939,7 @@
 	<Item id="buttoned_leather_bracers"
 		name="{=iD0ePqi7}Buttoned Leather Bracers"
 		mesh="bandit_leather_wristbands"
-		culture="Culture.neutral_culture"
 		weight="0.5"
-		appearance="1"
 		Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="4"
@@ -8358,9 +6952,7 @@
 	<Item id="strapped_leather_bracers"
 		name="{=DOYS7dmq}Strapped Leather Bracers"
 		mesh="bandit_10_wristband"
-		culture="Culture.neutral_culture"
 		weight="0.5"
-		appearance="0.4"
 		Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="5"
@@ -8373,9 +6965,7 @@
 	<Item id="roughtied_leather_bracers"
 		name="{=e4lKZhgv}Roughtied Leather Bracers"
 		mesh="sea_raider_leather_wristband"
-		culture="Culture.neutral_culture"
 		weight="0.5"
-		appearance="1"
 		Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="3"
@@ -8388,10 +6978,7 @@
 	<Item id="battania_noble_bracers"
 		name="{=wLAL9NRB}Fian Bracers"
 		mesh="battania_noble_bracers"
-		culture="Culture.neutral_culture"
 		weight="0.6"
-		difficulty="0"
-		appearance="3"
 		Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="18"
@@ -8404,10 +6991,7 @@
 	<Item id="highland_gloves"
 		name="{=4HcrY0S2}Fur Rimmed Leather Gloves"
 		mesh="pict_armor_glove"
-		culture="Culture.neutral_culture"
 		weight="0.8"
-		difficulty="0"
-		appearance="1"
 		Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="8"
@@ -8422,9 +7006,7 @@
 	<Item id="eastern_wrapped_armguards"
 		name="{=b2EDkbhD}Wrapped Armguards"
 		mesh="plated_leather_armor_glove_a"
-		culture="Culture.neutral_culture"
 		weight="0.3"
-		appearance="1"
 		Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="3"
@@ -8437,9 +7019,7 @@
 	<Item id="steppe_leather_vambraces"
 		name="{=LoUxaFeE}Leather Vambraces"
 		mesh="khuzait_leather_armor_hand"
-		culture="Culture.neutral_culture"
 		weight="0.5"
-		appearance="1"
 		Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="12"
@@ -8452,9 +7032,7 @@
 	<Item id="studded_leather_vambraces"
 		name="{=bxa4JHlU}Studded Leather Vambraces"
 		mesh="crossbow_armor_leather_hand_a"
-		culture="Culture.neutral_culture"
 		weight="0.9"
-		appearance="1"
 		Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="11"
@@ -8467,10 +7045,7 @@
 	<Item id="studded_vambraces"
 		name="{=8uBew3nD}Studded Vambraces"
 		mesh="bandit_1_wristband"
-		culture="Culture.neutral_culture"
 		weight="0.7"
-		difficulty="0"
-		appearance="1"
 		Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="5"
@@ -8483,9 +7058,7 @@
 	<Item id="eastern_plated_leather_vambraces"
 		name="{=mvTueU1y}Plated Leather Vambraces"
 		mesh="plated_leather_armor_glove_b"
-		culture="Culture.neutral_culture"
 		weight="1.7"
-		appearance="1"
 		Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="24"
@@ -8500,10 +7073,7 @@
 	<Item id="mail_mitten"
 		name="{=g51zVsKU}Mail Mittens"
 		mesh="mail_mitten_c"
-		culture="Culture.neutral_culture"
 		weight="1.4"
-		difficulty="0"
-		appearance="1.6"
 		Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="20"
@@ -8516,10 +7086,7 @@
 	<Item id="reinforced_mail_mitten"
 		name="{=dPQGxmJ7}Reinforced Mail Mittens"
 		mesh="mail_mitten_b"
-		culture="Culture.neutral_culture"
 		weight="1.6"
-		difficulty="0"
-		appearance="3"
 		Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="23"
@@ -8532,9 +7099,7 @@
 	<Item id="lordly_mail_mitten"
 		name="{=VDMkVMxt}Heavy Mail Mittens"
 		mesh="mail_mitten_a"
-		culture="Culture.neutral_culture"
 		weight="1.7"
-		appearance="3"
 		Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="24"
@@ -8547,9 +7112,7 @@
 	<Item id="reinforced_leather_vambraces"
 		name="{=2Ilvjlz9}Splint Vambraces"
 		mesh="crossbow_armor_leather_hand_b"
-		culture="Culture.neutral_culture"
 		weight="1.0"
-		appearance="2"
 		Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="20"
@@ -8562,9 +7125,7 @@
 	<Item id="khuzait_heavy_armor_bracer"
 		name="{=NfFAgMUE}Khan's Plated Bracers"
 		mesh="khuzait_heavy_armor_bracer"
-		culture="Culture.neutral_culture"
 		weight="2.2"
-		appearance="7"
 		Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="23"
@@ -8579,9 +7140,7 @@
 	<Item id="northern_plated_gloves"
 		name="{=G8FQ2exX}Plate Reinforced Gloves"
 		mesh="sturgia_plate_gauntlet"
-		culture="Culture.neutral_culture"
 		weight="1.5"
-		appearance="2"
 		Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="18"
@@ -8594,9 +7153,7 @@
 	<Item id="northern_brass_bracers"
 		name="{=Xrb43Fv4}Bronze Bracers"
 		mesh="sturgia_leather_brass_bracer"
-		culture="Culture.neutral_culture"
 		weight="1.3"
-		appearance="1.6"
 		Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="22"
@@ -8611,9 +7168,7 @@
 	<Item id="woven_leather_bracers"
 		name="{=fUmehyHq}Woven Leather Bracers"
 		mesh="vlandia_leather_stripes_bracers"
-		culture="Culture.neutral_culture"
 		weight="0.8"
-		appearance="1"
 		Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="6"
@@ -8626,10 +7181,7 @@
 	<Item id="padded_mitten"
 		name="{=J3YHMkL3}Padded Mittens"
 		mesh="padded_vambrace_a_mitten"
-		culture="Culture.neutral_culture"
 		weight="0.6"
-		difficulty="0"
-		appearance="1"
 		Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="9"
@@ -8642,9 +7194,7 @@
 	<Item id="plated_strip_gauntlets"
 		name="{=ulaMq9HL}Plated Striped Vambraces"
 		mesh="empire_plated_gauntlets"
-		culture="Culture.neutral_culture"
 		weight="1.4"
-		appearance="1.3"
 		Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="22"
@@ -8657,10 +7207,7 @@
 	<Item id="lordly_padded_mitten"
 		name="{=t01v8qW7}Lordly Padded Mittens"
 		mesh="padded_vambrace_a_lordly"
-		culture="Culture.neutral_culture"
 		weight="1.3"
-		difficulty="0"
-		appearance="0.7"
 		Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="18"
@@ -8673,10 +7220,7 @@
 	<Item id="reinforced_padded_mitten"
 		name="{=PLtQdf23}Reinforced Padded Mittens"
 		mesh="padded_vambrace_a_reinforced"
-		culture="Culture.neutral_culture"
 		weight="0.9"
-		difficulty="0"
-		appearance="2"
 		Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="18"
@@ -8691,9 +7235,7 @@
 	<Item id="leather_gloves"
 		name="{=lIJ1EVBh}Leather Gloves"
 		mesh="crossbow_armor_hand"
-		culture="Culture.neutral_culture"
 		weight="0.4"
-		appearance="1"
 		Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="4"
@@ -8706,10 +7248,7 @@
 	<Item id="padded_vambrace"
 		name="{=MamotK0a}Padded Vambraces"
 		mesh="padded_vambrace_a"
-		culture="Culture.neutral_culture"
 		weight="0.1"
-		difficulty="0"
-		appearance="1"
 		Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="7"
@@ -8724,9 +7263,7 @@
 	<Item id="southern_moccasins"
 		name="{=SxqSJK8h}Moccasins"
 		mesh="aserai_female_costume_shoe"
-		culture="Culture.neutral_culture"
 		weight="0.5"
-		appearance="1"
 		Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="2"
@@ -8739,9 +7276,7 @@
 	<Item id="wrapped_shoes"
 		name="{=4YxbZlbi}Wrapped Shoes"
 		mesh="wrapped_shoes"
-		culture="Culture.neutral_culture"
 		weight="0.8"
-		appearance="1"
 		Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="4"
@@ -8756,10 +7291,7 @@
 	<Item id="highland_leg_wrappings"
 		name="{=xqE9aycc}Woodland Leg Wrappings"
 		mesh="battania_boot_a"
-		culture="Culture.neutral_culture"
 		weight="1.0"
-		difficulty="0"
-		appearance="1"
 		Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="8"
@@ -8772,9 +7304,7 @@
 	<Item id="rough_tied_boots"
 		name="{=Oo0baNaq}Rough Tied Boots"
 		mesh="bandit_3_boot"
-		culture="Culture.neutral_culture"
 		weight="0.9"
-		appearance="1"
 		Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="6"
@@ -8787,10 +7317,7 @@
 	<Item id="battania_leather_boots"
 		name="{=4Ygp7P0Y}Highborn Leather Boots"
 		mesh="battania_leather_boots_a"
-		culture="Culture.neutral_culture"
 		weight="1.0"
-		difficulty="0"
-		appearance="1"
 		Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="5"
@@ -8803,10 +7330,7 @@
 	<Item id="battania_woodland_boots"
 		name="{=L7qYlJqn}Woodland Boots"
 		mesh="battania_woodland_boots"
-		culture="Culture.neutral_culture"
 		weight="1.0"
-		difficulty="0"
-		appearance="1"
 		Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="6"
@@ -8819,10 +7343,7 @@
 	<Item id="battania_fur_boots"
 		name="{=jVK5B86k}Fur Boots"
 		mesh="battania_fur_boot_a"
-		culture="Culture.neutral_culture"
 		weight="1.5"
-		difficulty="0"
-		appearance="1"
 		Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="6"
@@ -8835,10 +7356,7 @@
 	<Item id="highland_boots"
 		name="{=FQqaVHq2}Forester Boots"
 		mesh="pict_armor_boot"
-		culture="Culture.neutral_culture"
 		weight="1.0"
-		difficulty="0"
-		appearance="1"
 		Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="5"
@@ -8851,9 +7369,7 @@
 	<Item id="wrapped_leather_boots"
 		name="{=WahziEXA}Wrapped Leather Boots"
 		mesh="bandit_leather_boots"
-		culture="Culture.neutral_culture"
 		weight="1.0"
-		appearance="1"
 		Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="7"
@@ -8866,9 +7382,7 @@
 	<Item id="belted_leather_boots"
 		name="{=bFm9jOft}Belted Leather Boots"
 		mesh="bandit_11_boots"
-		culture="Culture.neutral_culture"
 		weight="1.1"
-		appearance="1"
 		Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="5"
@@ -8881,9 +7395,7 @@
 	<Item id="turndown_leather_boots"
 		name="{=xwWYJb5A}Folded Leather Boots"
 		mesh="sea_raider_leather_boot"
-		culture="Culture.neutral_culture"
 		weight="0.9"
-		appearance="1"
 		Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="9"
@@ -8898,9 +7410,7 @@
 	<Item id="eastern_leather_boots"
 		name="{=Ga5mCiLp}Leather Riding Boots"
 		mesh="plated_leather_armor_boot"
-		culture="Culture.neutral_culture"
 		weight="1.1"
-		appearance="1"
 		Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="6"
@@ -8913,9 +7423,7 @@
 	<Item id="khuzait_curved_boots"
 		name="{=D9JrTpwU}Curved Boots"
 		mesh="khuzait_leather_boots"
-		culture="Culture.neutral_culture"
 		weight="0.9"
-		appearance="1"
 		Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="5"
@@ -8928,9 +7436,7 @@
 	<Item id="woven_leather_boots"
 		name="{=J00AF9Qv}Woven Leather Boots"
 		mesh="bandit_10_boots"
-		culture="Culture.neutral_culture"
 		weight="0.7"
-		appearance="1"
 		Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="5"
@@ -8943,10 +7449,7 @@
 	<Item id="steppe_leather_boots"
 		name="{=VpxHysbZ}Sturdy Leather Boots"
 		mesh="khuzait_leather_armor_foot"
-		culture="Culture.neutral_culture"
 		weight="0.8"
-		difficulty="0"
-		appearance="1"
 		Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="4"
@@ -8959,10 +7462,7 @@
 	<Item id="reinforced_suede_boots"
 		name="{=9Eyd2qGo}Reinforced Suede Boots"
 		mesh="khuzait_suede_leather_foot"
-		culture="Culture.neutral_culture"
 		weight="1.0"
-		difficulty="0"
-		appearance="1"
 		Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="20"
@@ -8975,10 +7475,7 @@
 	<Item id="leather_boots"
 		name="{=IOOTPpYj}Fur Rimmed Curved Boots"
 		mesh="boot_f"
-		culture="Culture.neutral_culture"
 		weight="0.8"
-		difficulty="0"
-		appearance="1"
 		Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="4"
@@ -8993,9 +7490,7 @@
 	<Item id="mail_chausses"
 		name="{=DoiwC1Qa}Mail Chausses"
 		mesh="mail_chausses_a"
-		culture="Culture.neutral_culture"
 		weight="2.9"
-		appearance="1.6"
 		Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="22"
@@ -9008,10 +7503,7 @@
 	<Item id="strapped_mail_chausses"
 		name="{=aYoIrpe0}Strapped Mail Chausses"
 		mesh="mail_chausses_b"
-		culture="Culture.neutral_culture"
 		weight="3.0"
-		difficulty="0"
-		appearance="1.6"
 		Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="23"
@@ -9024,9 +7516,7 @@
 	<Item id="leather_cavalier_boots"
 		name="{=oEvhhNNR}Leather Cavalier Boots"
 		mesh="cav_boots"
-		culture="Culture.neutral_culture"
 		weight="0.9"
-		appearance="1"
 		Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="6"
@@ -9039,10 +7529,7 @@
 	<Item id="mail_cavalier_boots"
 		name="{=tWfAPrPa}Mail Cavalier Boots"
 		mesh="cav_boots_reinforced"
-		culture="Culture.neutral_culture"
 		weight="1.8"
-		difficulty="0"
-		appearance="1"
 		Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="12"
@@ -9057,9 +7544,7 @@
 	<Item id="sturgia_boots_a"
 		name="{=DhHBBpPf}Simple Leather Boots"
 		mesh="sturgia_boots_a"
-		culture="Culture.neutral_culture"
 		weight="1.55"
-		appearance="1"
 		Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="5"
@@ -9072,9 +7557,7 @@
 	<Item id="sturgia_boots_b"
 		name="{=6QNQosHv}Tied Leather Boots"
 		mesh="sturgia_boots_b"
-		culture="Culture.neutral_culture"
 		weight="1.8"
-		appearance="1"
 		Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="6"
@@ -9087,9 +7570,7 @@
 	<Item id="sturgia_boots_c"
 		name="{=4KZekKff}Tied Boots"
 		mesh="sturgia_boots_c"
-		culture="Culture.neutral_culture"
 		weight="1.2"
-		appearance="1"
 		Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="4"
@@ -9103,9 +7584,7 @@
 	<Item id="sturgia_boots_d"
 		name="{=FptcHNb9}Wrapped Boots"
 		mesh="sturgia_boots_d"
-		culture="Culture.neutral_culture"
 		weight="1.0"
-		appearance="1"
 		Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="3"
@@ -9119,9 +7598,7 @@
 	<Item id="northern_plated_boots"
 		name="{=18ZFPXsO}Huscarl Plated Boots"
 		mesh="sturgia_plate_boot"
-		culture="Culture.neutral_culture"
 		weight="2.9"
-		appearance="3"
 		Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="18"
@@ -9136,9 +7613,7 @@
 	<Item id="fine_town_boots"
 		name="{=uUGAMReu}Fine Town Boots"
 		mesh="casual_02_boots"
-		culture="Culture.neutral_culture"
 		weight="0.5"
-		appearance="2"
 		Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="4"
@@ -9151,9 +7626,7 @@
 	<Item id="folded_town_boots"
 		name="{=oH8iFEv7}Folded Town Boots"
 		mesh="casual_01_boots"
-		culture="Culture.neutral_culture"
 		weight="1.0"
-		appearance="1"
 		Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="4"
@@ -9166,10 +7639,7 @@
 	<Item id="empire_horseman_boots"
 		name="{=uvSXUgT8}Horseman Boots"
 		mesh="empire_horseman_boots"
-		culture="Culture.neutral_culture"
 		weight="0.8"
-		difficulty="0"
-		appearance="1.3"
 		Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="5"
@@ -9182,10 +7652,7 @@
 	<Item id="strapped_leather_boots"
 		name="{=tMwsE9IR}Strapped Leather Boots"
 		mesh="boot_g"
-		culture="Culture.neutral_culture"
 		weight="0.9"
-		difficulty="0"
-		appearance="1"
 		Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="5"
@@ -9198,9 +7665,7 @@
 	<Item id="plated_strip_boots"
 		name="{=Fb7PrJuc}Splint Boots"
 		mesh="empire_plated_boots"
-		culture="Culture.neutral_culture"
 		weight="2.7"
-		appearance="2"
 		Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="22"
@@ -9215,9 +7680,7 @@
 	<Item id="ladys_shoe"
 		name="{=RU2EppgI}Ladies Shoes"
 		mesh="woman_shoe_a"
-		culture="Culture.neutral_culture"
 		weight="0.6"
-		appearance="1"
 		Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="1"
@@ -9230,10 +7693,7 @@
 	<Item id="leather_shoes"
 		name="{=Kgnm0FkE}Leather Shoes"
 		mesh="boot_e"
-		culture="Culture.neutral_culture"
 		weight="0.7"
-		difficulty="0"
-		appearance="0.3"
 		Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="3"
@@ -9246,10 +7706,7 @@
 	<Item id="ragged_boots"
 		name="{=Szuxa9Bs}Ragged Boots"
 		mesh="sneak_costume_foot"
-		culture="Culture.neutral_culture"
 		weight="0.8"
-		difficulty="0"
-		appearance="0.3"
 		Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="5"
@@ -9262,10 +7719,7 @@
 	<Item id="strapped_shoes"
 		name="{=LOPavWRp}Strapped Shoes"
 		mesh="strapped_shoes"
-		culture="Culture.neutral_culture"
 		weight="0.7"
-		difficulty="0"
-		appearance="1"
 		Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="5"
@@ -9275,5 +7729,369 @@
 		</ItemComponent>
 		<Flags Civilian="true"/>
 	</Item>
+	<!-- #endregion -->
+
+	<!-- #region Common  -->
+	<!-- #endregion -->
+	<!-- #region Khergits -->
+		<Item id="wld_heavy_lamellar_shoulders"
+			name="Heavy Lamellar Shoulderguard"
+			mesh="sturgia_cavalry_shoulderguards"
+			weight="5.0"
+			Type="Cape">
+			<ItemComponent>
+				<Armor body_armor="6"
+					arm_armor="14"
+					modifier_group="plate"
+					material_type="Plate"/>
+			</ItemComponent>
+		</Item>
+
+		<Item id="wld_heavy_lamellar_armor"
+			name="Heavy Lamellar Armor"
+			mesh="sturgia_cavalry_armor_reinforced"
+			weight="25"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor body_armor="46"
+					arm_armor="14"
+					leg_armor="20"
+					covers_body="true"
+					modifier_group="plate"
+					material_type="Plate"/>
+			</ItemComponent>
+		</Item>
+	<!-- #endregion -->
+	<!-- #region Nords -->
+	<!-- #endregion -->
+	<!-- #region Rhodoks -->
+		<Item id="wld_helm_faceplate_blackend_brass"
+			name="Western Ornate Full Plate Helmet"
+			subtype="head_armor"
+			mesh="vlandian_helm_with_faceplate_black"
+			weight="4"
+			Type="HeadArmor">
+			<ItemComponent>
+				<Armor head_armor="52"
+					has_gender_variations="false"
+					hair_cover_type="all"
+					modifier_group="plate"
+					material_type="Plate"
+					beard_cover_type="all"/>
+			</ItemComponent>
+			<Flags UseTeamColor="false"/>
+		</Item>
+		<Item id="wld_helm_faceplate_brass"
+			name="Western Ornate Full Plate Helmet"
+			subtype="head_armor"
+			mesh="vlandian_helm_with_faceplate_brass"
+			weight="4"
+			Type="HeadArmor">
+			<ItemComponent>
+				<Armor head_armor="52"
+					has_gender_variations="false"
+					hair_cover_type="all"
+					modifier_group="plate"
+					material_type="Plate"
+					beard_cover_type="all"/>
+			</ItemComponent>
+			<Flags UseTeamColor="false"/>
+		</Item>
+		<Item id="wld_helm_faceplate_painted"
+			name="Western Painted Full Plate Helmet"
+			subtype="head_armor"
+			mesh="vlandian_helm_with_faceplate_paint"
+			weight="4"
+			Type="HeadArmor">
+			<ItemComponent>
+				<Armor head_armor="52"
+					has_gender_variations="false"
+					hair_cover_type="all"
+					modifier_group="plate"
+					material_type="Plate"
+					beard_cover_type="all"/>
+			</ItemComponent>
+			<Flags UseTeamColor="true"/>
+		</Item>
+	<!-- #endregion -->
+	<!-- #region Sarranids -->
+	<!-- #endregion -->
+	<!-- #region Swadians -->
+		<Item id="wld_great_helm"
+			name="Great Helmet"
+			subtype="head_armor"
+			mesh="great_helm_base"
+			weight="4.5"
+			Type="HeadArmor">
+			<ItemComponent>
+				<Armor head_armor="50"
+					has_gender_variations="false"
+					hair_cover_type="all"
+					beard_cover_type="all"
+					modifier_group="plate"
+					material_type="Plate"/>
+			</ItemComponent>
+			<Flags UseTeamColor="true"/>
+		</Item>
+		<Item id="wld_great_helm_winged"
+			name="Winged Great Helmet"
+			subtype="head_armor"
+			mesh="winged_great_helm_base"
+			weight="4.8"
+			Type="HeadArmor">
+			<ItemComponent>
+				<Armor head_armor="52"
+					has_gender_variations="false"
+					hair_cover_type="all"
+					beard_cover_type="all"
+					modifier_group="plate"
+					material_type="Plate"/>
+			</ItemComponent>
+			<Flags UseTeamColor="true"/>
+		</Item>
+		<Item id="wld_great_helm_brass"
+			name="Brass Great Helmet"
+			subtype="head_armor"
+			mesh="great_helm_brass"
+			weight="4"
+			Type="HeadArmor">
+			<ItemComponent>
+				<Armor head_armor="50"
+					has_gender_variations="false"
+					hair_cover_type="all"
+					modifier_group="plate"
+					material_type="Plate"
+					beard_cover_type="all"/>
+			</ItemComponent>
+			<Flags UseTeamColor="true"/>
+		</Item>
+		<Item id="wld_great_helm_brass_winged"
+			name="Winged  Great Helmet"
+			subtype="head_armor"
+			mesh="winged_great_helm_brass"
+			weight="4.8"
+			Type="HeadArmor">
+			<ItemComponent>
+				<Armor head_armor="52"
+					has_gender_variations="false"
+					hair_cover_type="all"
+					modifier_group="plate"
+					material_type="Plate"
+					beard_cover_type="all"/>
+			</ItemComponent>
+			<Flags UseTeamColor="true"/>
+		</Item>
+		<Item id="wld_great_helm_dark"
+			name="Blackened Great Helmet"
+			subtype="head_armor"
+			mesh="great_helm_dark"
+			weight="4"   
+			Type="HeadArmor">
+			<ItemComponent>
+				<Armor head_armor="50"
+					has_gender_variations="false"
+					hair_cover_type="all"
+					modifier_group="plate"
+					material_type="Plate"
+					beard_cover_type="all"/>
+			</ItemComponent>
+			<Flags UseTeamColor="true"/>
+		</Item>
+		<Item id="wld_great_helm_dark_wined"
+			name="Winged Blackened Great Helmet"
+			subtype="head_armor"
+			mesh="winged_great_helm_dark"
+			culture="Culture.neutral_culture"
+			weight="4.8"
+			Type="HeadArmor">
+			<ItemComponent>
+				<Armor head_armor="52"
+					has_gender_variations="false"
+					hair_cover_type="all"
+					modifier_group="plate"
+					material_type="Plate"
+					beard_cover_type="all"/>
+			</ItemComponent>
+			<Flags UseTeamColor="true"/>
+		</Item>
+		<Item id="wld_great_helm_royal"
+			name="Ornate Great Helmet"
+			subtype="head_armor"
+			mesh="royal_great_helm"
+			weight="4.5"
+			Type="HeadArmor">
+			<ItemComponent>
+				<Armor head_armor="55"
+					has_gender_variations="false"
+					hair_cover_type="all"
+					modifier_group="plate"
+					material_type="Plate"
+					beard_cover_type="all"/>
+			</ItemComponent>
+			<Flags UseTeamColor="false"/>
+		</Item>
+	<!-- #endregion -->
+	<!-- #region Vaegirs -->
+		<Item id="wld_vaegir_helm_1"
+			name="Vaegir Helmet"
+			subtype="head_armor"
+			mesh="rus_helm_regular"
+			weight="4"
+			Type="HeadArmor">
+			<ItemComponent>
+				<Armor head_armor="54"
+					has_gender_variations="false"
+					hair_cover_type="all"
+					modifier_group="plate"
+					material_type="Plate"
+					beard_cover_type="all"/>
+			</ItemComponent>
+			<Flags UseTeamColor="false"/>
+		</Item>
+		<Item id="wld_vaegir_helm_2"
+			name="Vaegir Helmet"
+			subtype="head_armor"
+			mesh="rus_helm_regular2"
+			weight="4"
+			Type="HeadArmor">
+			<ItemComponent>
+				<Armor head_armor="54"
+					has_gender_variations="false"
+					hair_cover_type="all"
+					modifier_group="plate"
+					material_type="Plate"
+					beard_cover_type="all"/>
+			</ItemComponent>
+			<Flags UseTeamColor="false"/>
+		</Item>
+		<Item id="wld_vaegir_helm_decorated"
+			name="Vaegir Decorated Helmet"
+			subtype="head_armor"
+			mesh="rus_helm_icon"  
+			weight="4"
+			Type="HeadArmor">
+			<ItemComponent>
+				<Armor head_armor="54"
+					has_gender_variations="false"
+					hair_cover_type="all"
+					modifier_group="plate"
+					material_type="Plate"
+					beard_cover_type="all"/>
+			</ItemComponent>
+			<Flags UseTeamColor="false"/>
+		</Item>
+		<Item id="wld_vaegir_helm_noble"
+			name="Vaegir Noble Helmet"
+			subtype="head_armor"
+			mesh="rus_helm_noble"  
+			weight="4"
+			Type="HeadArmor">
+			<ItemComponent>
+				<Armor head_armor="54"
+					has_gender_variations="false"
+					hair_cover_type="all"
+					modifier_group="plate"
+					material_type="Plate"
+					beard_cover_type="all"/>
+			</ItemComponent>
+			<Flags UseTeamColor="false"/>
+		</Item>
+		<Item id="wld_vaegir_helm_noble_decorated"
+			name="Vaegir Decorated Noble Helmet"
+			subtype="head_armor"
+			mesh="rus_helm_noble_icon"
+			weight="4"
+			Type="HeadArmor">
+			<ItemComponent>
+				<Armor head_armor="54"
+					has_gender_variations="false"
+					hair_cover_type="all"
+					modifier_group="plate"
+					material_type="Plate"
+					beard_cover_type="all"/>
+			</ItemComponent>
+			<Flags UseTeamColor="false"/>
+		</Item>
+		<Item id="wld_vaegir_helm_open"
+			name="War helmet"
+			subtype="head_armor"
+			mesh="vaegir_helm_open"
+			weight="3.5"
+			Type="HeadArmor">
+			<ItemComponent>
+			<Armor head_armor="48"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="all"/>
+			</ItemComponent>
+			<Flags UseTeamColor="false"/>
+		</Item>
+		<Item id="wld_vaegir_helm_open_2"
+			name="Vaegir Helmet"
+			subtype="head_armor"
+			mesh="rus_open_helm"
+			weight="4"
+			Type="HeadArmor">
+			<ItemComponent>
+				<Armor head_armor="48"
+					has_gender_variations="false"
+					hair_cover_type="all"
+					modifier_group="plate"
+					material_type="Plate"
+					beard_cover_type="all"/>
+			</ItemComponent>
+			<Flags UseTeamColor="false"/>
+		</Item>
+		<Item id="wld_vaegir_war_mask"
+			name="War Mask"
+			subtype="head_armor"
+			mesh="vaegir_helm"
+			weight="4"
+			Type="HeadArmor">
+			<ItemComponent>
+				<Armor head_armor="54"
+					has_gender_variations="false"
+					hair_cover_type="all"
+					modifier_group="plate"
+					material_type="Plate"
+					beard_cover_type="all"/>
+			</ItemComponent>
+			<Flags UseTeamColor="false"/>
+		</Item>
+		
+		<Item id="wld_vaegir_coat_of_plate_1"
+			name="Vaegir coat of plates"
+			mesh="Rus_armour"
+			subtype="body_armor"
+			weight="24"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor body_armor="52"
+					leg_armor="15"
+					arm_armor="5"
+					covers_body="true"
+					modifier_group="Plate"
+					material_type="Plate"/>
+			</ItemComponent>
+			<Flags UseTeamColor="true"/>
+		</Item>
+		<Item id="wld_vaegir_coat_of_plate_2"
+			name="Vaegir coat of plates"
+			mesh="Rus_armour2"
+			subtype="body_armor"  
+			weight="24"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor body_armor="52"
+					leg_armor="15"
+					arm_armor="5"
+					covers_body="true"
+					modifier_group="Plate"
+					material_type="Plate"/>
+			</ItemComponent>
+			<Flags UseTeamColor="true"/>
+		</Item>
 	<!-- #endregion -->
 </Items>

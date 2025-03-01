@@ -30,28 +30,28 @@
 				</IncludedGameTypes>
 			</XmlNode>
 		<!-- Items -->
-			<XmlNode><XmlName id="Items" path="items/items"/>
+			<XmlNode><XmlName id="Items" path="items/wld_items"/>
 				<IncludedGameTypes>
 					<GameType value = "Campaign"/>
 					<GameType value = "CampaignStoryMode"/>
 					<GameType value = "CustomGame"/>
 				</IncludedGameTypes>
 			</XmlNode>
-			<XmlNode><XmlName id="Items" path="items/weapons"/>
+			<XmlNode><XmlName id="Items" path="items/wld_weapons"/>
 				<IncludedGameTypes>
 					<GameType value = "Campaign"/>
 					<GameType value = "CampaignStoryMode"/>
 					<GameType value = "CustomGame"/>
 				</IncludedGameTypes>
 			</XmlNode>
-			<XmlNode><XmlName id="Items" path="items/armors"/>
+			<XmlNode><XmlName id="Items" path="items/wld_armors"/>
 				<IncludedGameTypes>
 					<GameType value = "Campaign"/>
 					<GameType value = "CampaignStoryMode"/>
 					<GameType value = "CustomGame"/>
 				</IncludedGameTypes>
 			</XmlNode>
-			<XmlNode><XmlName id="CraftingPieces" path="items/crafting_pieces"/>
+			<XmlNode><XmlName id="CraftingPieces" path="items/wld_crafting_pieces"/>
 				<IncludedGameTypes>
 					<GameType value = "Campaign"/>
 					<GameType value = "CampaignStoryMode"/>
@@ -59,56 +59,56 @@
 				</IncludedGameTypes>
 			</XmlNode>
 		<!-- Factions -->
-			<XmlNode><XmlName id="SPCultures" path="factions/spcultures"/>
+			<XmlNode><XmlName id="SPCultures" path="factions/wld_cultures"/>
 				<IncludedGameTypes>
 					<GameType value = "Campaign"/>
 					<GameType value = "CampaignStoryMode"/>
 					<GameType value = "CustomGame"/>
 				</IncludedGameTypes>
 			</XmlNode>
-			<XmlNode><XmlName id="NPCCharacters" path="factions/spnpccharacters"/>
+			<XmlNode><XmlName id="NPCCharacters" path="factions/wld_npcs"/>
 				<IncludedGameTypes>
 					<GameType value = "Campaign"/>
 					<GameType value = "CampaignStoryMode"/>
 					<GameType value = "CustomGame"/>
 				</IncludedGameTypes>
 			</XmlNode>
-			<XmlNode><XmlName id="partyTemplates" path="factions/partytemplates"/>
+			<XmlNode><XmlName id="partyTemplates" path="factions/wld_partytemplates"/>
 				<IncludedGameTypes>
 					<GameType value = "Campaign"/>
 					<GameType value = "CampaignStoryMode"/>
 					<GameType value = "CustomGame"/>
 				</IncludedGameTypes>
 			</XmlNode>
-			<XmlNode><XmlName id="BodyProperties" path="factions/bodyproperties"/>
+			<XmlNode><XmlName id="BodyProperties" path="factions/wld_bodyproperties"/>
 				<IncludedGameTypes>
 					<GameType value = "Campaign"/>
 					<GameType value = "CampaignStoryMode"/>
 					<GameType value = "CustomGame"/>
 				</IncludedGameTypes>
 			</XmlNode>
-			<XmlNode><XmlName id="Heroes" path="factions/heroes"/>
+			<XmlNode><XmlName id="Heroes" path="factions/wld_heroes"/>
 				<IncludedGameTypes>
 					<GameType value = "Campaign"/>
 					<GameType value = "CampaignStoryMode"/>
 					<GameType value = "CustomGame"/>
 				</IncludedGameTypes>
 			</XmlNode>
-			<XmlNode><XmlName id="Factions" path="factions/spclans"/>
+			<XmlNode><XmlName id="Factions" path="factions/wld_clans"/>
 				<IncludedGameTypes>
 					<GameType value = "Campaign"/>
 					<GameType value = "CampaignStoryMode"/>
 					<GameType value = "CustomGame"/>
 				</IncludedGameTypes>
 			</XmlNode>
-			<XmlNode><XmlName id="Kingdoms" path="factions/spkingdoms"/>
+			<XmlNode><XmlName id="Kingdoms" path="factions/wld_kingdoms"/>
 				<IncludedGameTypes>
 					<GameType value = "Campaign"/>
 					<GameType value = "CampaignStoryMode"/>
 					<GameType value = "CustomGame"/>
 				</IncludedGameTypes>
 			</XmlNode>
-			<XmlNode><XmlName id="EquipmentRosters" path="factions/equipment_sets"/>
+			<XmlNode><XmlName id="EquipmentRosters" path="factions/wld_equipment_sets"/>
 				<IncludedGameTypes>
 					<GameType value = "Campaign"/>
 					<GameType value = "CampaignStoryMode"/>

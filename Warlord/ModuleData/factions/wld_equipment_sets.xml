@@ -4940,7 +4940,6 @@
 				</EquipmentSet>
 			</EquipmentRoster>
 			<!--STARTING EQUIPMENT SETS BEGIN (Only change the equipment sets, other fields except the id are ignored.-->
-			<!--Special Situations-->
 			<!--Joined a commander's Staff=> Empire Only, Parents Are Retainers-->
 			<EquipmentRoster id="player_char_creation_empire_10_m"
 				culture="Culture.neutral_culture">
@@ -7806,257 +7805,257 @@
 				</EquipmentRoster>
 
 		<!-- child equipment template -->
-		<!--Townsman -->
-		<EquipmentRoster id="child_template_khergit_townsman_male"
-			culture="Culture.khergit">
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.khuzait_dress"/>
-				<Equipment slot="Leg" id="Item.southern_moccasins"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.studded_fur_armor"/>
-				<Equipment slot="Leg" id="Item.southern_moccasins"/>
-			</EquipmentSet>
-			<Flags IsChildEquipmentTemplate="true"
-				IsFemaleTemplate="false"
-				IsNobleTemplate="false"
-				IsCivilianTemplate="true"
-				IsNoncombatantTemplate="true"/>
-		</EquipmentRoster>
-		<EquipmentRoster id="child_template_khergit_townsman_female"
-			culture="Culture.khergit">
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.khuzait_dress"/>
-				<Equipment slot="Leg" id="Item.southern_moccasins"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.studded_fur_armor"/>
-				<Equipment slot="Leg" id="Item.southern_moccasins"/>
-			</EquipmentSet>
-			<Flags IsChildEquipmentTemplate="true"
-				IsFemaleTemplate="true"
-				IsNobleTemplate="false"
-				IsCivilianTemplate="true"
-				IsNoncombatantTemplate="true"/>
-		</EquipmentRoster>
-		<EquipmentRoster id="teenager_template_khergit_townsman_male"
-			culture="Culture.khergit">
-			<EquipmentSet civilian="true">
-				<Equipment slot="Head" id="Item.eastern_cap"/>
-				<Equipment slot="Body" id="Item.aserai_civil_a"/>
-				<Equipment slot="Leg" id="Item.eastern_leather_boots"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Head" id="Item.nomad_padded_hood"/>
-				<Equipment slot="Body" id="Item.crude_leather_armor"/>
-				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-				<Equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.merchants_fur_coat"/>
-				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-				<Equipment slot="Head" id="Item.eastern_cap"/>
-			</EquipmentSet>
-			<Flags IsTeenagerEquipmentTemplate="true"
-				IsFemaleTemplate="false"
-				IsNobleTemplate="false"
-				IsCivilianTemplate="true"
-				IsNoncombatantTemplate="true"/>
-		</EquipmentRoster>
-		<EquipmentRoster id="teenager_template_khergit_townsman_female"
-			culture="Culture.khergit">
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.khuzait_dress"/>
-				<Equipment slot="Leg" id="Item.southern_moccasins"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Head" id="Item.upturned_fur_cap"/>
-				<Equipment slot="Body" id="Item.belted_leather_cuirass"/>
-				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-				<Equipment slot="Cape" id="Item.bolted_leather_strips"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.steppe_armor"/>
-				<Equipment slot="Leg" id="Item.southern_moccasins"/>
-			</EquipmentSet>
-			<Flags IsTeenagerEquipmentTemplate="true"
-				IsFemaleTemplate="true"
-				IsNobleTemplate="false"
-				IsCivilianTemplate="true"
-				IsNoncombatantTemplate="true"/>
-		</EquipmentRoster>
-		<!--Villager -->
-		<EquipmentRoster id="child_template_khergit_villager_male"
-			culture="Culture.khergit">
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.studded_fur_armor"/>
-				<Equipment slot="Leg" id="Item.southern_moccasins"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.torn_bandit_clothes"/>
-				<Equipment slot="Leg" id="Item.southern_moccasins"/>
-			</EquipmentSet>
-			<Flags IsChildEquipmentTemplate="true"
-				IsFemaleTemplate="false"
-				IsNobleTemplate="false"
-				IsCivilianTemplate="true"
-				IsNoncombatantTemplate="true"/>
-		</EquipmentRoster>
-		<EquipmentRoster id="child_template_khergit_villager_female"
-			culture="Culture.khergit">
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.fur_armor_with_strap"/>
-				<Equipment slot="Leg" id="Item.leather_shoes"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.torn_bandit_clothes"/>
-				<Equipment slot="Leg" id="Item.southern_moccasins"/>
-			</EquipmentSet>
-			<Flags IsChildEquipmentTemplate="true"
-				IsFemaleTemplate="true"
-				IsNobleTemplate="false"
-				IsCivilianTemplate="true"
-				IsNoncombatantTemplate="true"/>
-		</EquipmentRoster>
-		<EquipmentRoster id="teenager_template_khergit_villager_male"
-			culture="Culture.khergit">
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.merchants_fur_coat"/>
-				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-				<Equipment slot="Head" id="Item.eastern_cap"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Head" id="Item.nomad_padded_hood"/>
-				<Equipment slot="Body" id="Item.crude_leather_armor"/>
-				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-				<Equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.studded_leather_waistcoat"/>
-				<Equipment slot="Cape" id="Item.khuzait_leather_pauldron"/>
-				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-				<Equipment slot="Gloves" id="Item.studded_vambraces"/>
-			</EquipmentSet>
-			<Flags IsTeenagerEquipmentTemplate="true"
-				IsFemaleTemplate="false"
-				IsNobleTemplate="false"
-				IsCivilianTemplate="true"
-				IsNoncombatantTemplate="true"/>
-		</EquipmentRoster>
-		<EquipmentRoster id="teenager_template_khergit_villager_female"
-			culture="Culture.khergit">
-			<EquipmentSet civilian="true">
-				<Equipment slot="Head" id="Item.fur_hat"/>
-				<Equipment slot="Body" id="Item.bandit_fur_b"/>
-				<Equipment slot="Leg" id="Item.highland_boots"/>
-				<Equipment slot="Gloves" id="Item.strapped_leather_bracers"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.studded_steppe_leather"/>
-				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-				<Equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.khuzait_dress"/>
-				<Equipment slot="Leg" id="Item.southern_moccasins"/>
-			</EquipmentSet>
-			<Flags IsTeenagerEquipmentTemplate="true"
-				IsFemaleTemplate="true"
-				IsNobleTemplate="false"
-				IsCivilianTemplate="true"
-				IsNoncombatantTemplate="true"/>
-		</EquipmentRoster>
-		<!--Noble -->
-		<EquipmentRoster id="child_template_khergit_noble_male"
-			culture="Culture.khergit">
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.studded_steppe_leather"/>
-				<Equipment slot="Leg" id="Item.southern_moccasins"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.tassled_southern_robes"/>
-				<Equipment slot="Leg" id="Item.southern_moccasins"/>
-			</EquipmentSet>
-			<Flags IsChildEquipmentTemplate="true"
-				IsFemaleTemplate="false"
-				IsNobleTemplate="true"
-				IsCivilianTemplate="true"
-				IsNoncombatantTemplate="true"/>
-		</EquipmentRoster>
-		<EquipmentRoster id="child_template_khergit_noble_female"
-			culture="Culture.khergit">
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.studded_steppe_leather"/>
-				<Equipment slot="Leg" id="Item.southern_moccasins"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.tassled_southern_robes"/>
-				<Equipment slot="Leg" id="Item.southern_moccasins"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-				<Equipment slot="Leg" id="Item.southern_moccasins"/>
-			</EquipmentSet>
-			<Flags IsChildEquipmentTemplate="true"
-				IsFemaleTemplate="true"
-				IsNobleTemplate="true"
-				IsCivilianTemplate="true"
-				IsNoncombatantTemplate="true"/>
-		</EquipmentRoster>
-		<EquipmentRoster id="teenager_template_khergit_noble_male"
-			culture="Culture.khergit">
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.merchants_fur_coat"/>
-				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-				<Equipment slot="Head" id="Item.eastern_cap"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Head" id="Item.plumed_fur_lined_helmet"/>
-				<Equipment slot="Body" id="Item.leather_lamellar_armor"/>
-				<Equipment slot="Cape" id="Item.leather_lamellar_shoulders"/>
-				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-				<Equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.eastern_lamellar_armor"/>
-				<Equipment slot="Cape" id="Item.lamellar_shoulders"/>
-				<Equipment slot="Leg" id="Item.eastern_leather_boots"/>
-				<Equipment slot="Gloves" id="Item.decorated_imperial_gauntlets"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Head" id="Item.eastern_cap"/>
-				<Equipment slot="Body" id="Item.aserai_civil_a"/>
-				<Equipment slot="Leg" id="Item.eastern_leather_boots"/>
-			</EquipmentSet>
-			<Flags IsTeenagerEquipmentTemplate="true"
-				IsFemaleTemplate="false"
-				IsNobleTemplate="true"
-				IsCivilianTemplate="true"
-				IsNoncombatantTemplate="true"/>
-		</EquipmentRoster>
-		<EquipmentRoster id="teenager_template_khergit_noble_female"
-			culture="Culture.khergit">
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.steppe_armor"/>
-				<Equipment slot="Leg" id="Item.southern_moccasins"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Head" id="Item.eastern_cap"/>
-				<Equipment slot="Body" id="Item.khuzait_dress"/>
-				<Equipment slot="Leg" id="Item.southern_moccasins"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Head" id="Item.upturned_fur_cap"/>
-				<Equipment slot="Body" id="Item.belted_leather_cuirass"/>
-				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-				<Equipment slot="Cape" id="Item.bolted_leather_strips"/>
-			</EquipmentSet>
-			<Flags IsTeenagerEquipmentTemplate="true"
-				IsFemaleTemplate="true"
-				IsNobleTemplate="true"
-				IsCivilianTemplate="true"
-				IsNoncombatantTemplate="true"/>
-		</EquipmentRoster>
+			<!--Townsman -->
+			<EquipmentRoster id="child_template_khergit_townsman_male"
+				culture="Culture.khergit">
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.khuzait_dress"/>
+					<Equipment slot="Leg" id="Item.southern_moccasins"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.studded_fur_armor"/>
+					<Equipment slot="Leg" id="Item.southern_moccasins"/>
+				</EquipmentSet>
+				<Flags IsChildEquipmentTemplate="true"
+					IsFemaleTemplate="false"
+					IsNobleTemplate="false"
+					IsCivilianTemplate="true"
+					IsNoncombatantTemplate="true"/>
+			</EquipmentRoster>
+			<EquipmentRoster id="child_template_khergit_townsman_female"
+				culture="Culture.khergit">
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.khuzait_dress"/>
+					<Equipment slot="Leg" id="Item.southern_moccasins"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.studded_fur_armor"/>
+					<Equipment slot="Leg" id="Item.southern_moccasins"/>
+				</EquipmentSet>
+				<Flags IsChildEquipmentTemplate="true"
+					IsFemaleTemplate="true"
+					IsNobleTemplate="false"
+					IsCivilianTemplate="true"
+					IsNoncombatantTemplate="true"/>
+			</EquipmentRoster>
+			<EquipmentRoster id="teenager_template_khergit_townsman_male"
+				culture="Culture.khergit">
+				<EquipmentSet civilian="true">
+					<Equipment slot="Head" id="Item.eastern_cap"/>
+					<Equipment slot="Body" id="Item.aserai_civil_a"/>
+					<Equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Head" id="Item.nomad_padded_hood"/>
+					<Equipment slot="Body" id="Item.crude_leather_armor"/>
+					<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+					<Equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.merchants_fur_coat"/>
+					<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+					<Equipment slot="Head" id="Item.eastern_cap"/>
+				</EquipmentSet>
+				<Flags IsTeenagerEquipmentTemplate="true"
+					IsFemaleTemplate="false"
+					IsNobleTemplate="false"
+					IsCivilianTemplate="true"
+					IsNoncombatantTemplate="true"/>
+			</EquipmentRoster>
+			<EquipmentRoster id="teenager_template_khergit_townsman_female"
+				culture="Culture.khergit">
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.khuzait_dress"/>
+					<Equipment slot="Leg" id="Item.southern_moccasins"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Head" id="Item.upturned_fur_cap"/>
+					<Equipment slot="Body" id="Item.belted_leather_cuirass"/>
+					<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+					<Equipment slot="Cape" id="Item.bolted_leather_strips"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.steppe_armor"/>
+					<Equipment slot="Leg" id="Item.southern_moccasins"/>
+				</EquipmentSet>
+				<Flags IsTeenagerEquipmentTemplate="true"
+					IsFemaleTemplate="true"
+					IsNobleTemplate="false"
+					IsCivilianTemplate="true"
+					IsNoncombatantTemplate="true"/>
+			</EquipmentRoster>
+			<!--Villager -->
+			<EquipmentRoster id="child_template_khergit_villager_male"
+				culture="Culture.khergit">
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.studded_fur_armor"/>
+					<Equipment slot="Leg" id="Item.southern_moccasins"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.torn_bandit_clothes"/>
+					<Equipment slot="Leg" id="Item.southern_moccasins"/>
+				</EquipmentSet>
+				<Flags IsChildEquipmentTemplate="true"
+					IsFemaleTemplate="false"
+					IsNobleTemplate="false"
+					IsCivilianTemplate="true"
+					IsNoncombatantTemplate="true"/>
+			</EquipmentRoster>
+			<EquipmentRoster id="child_template_khergit_villager_female"
+				culture="Culture.khergit">
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.fur_armor_with_strap"/>
+					<Equipment slot="Leg" id="Item.leather_shoes"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.torn_bandit_clothes"/>
+					<Equipment slot="Leg" id="Item.southern_moccasins"/>
+				</EquipmentSet>
+				<Flags IsChildEquipmentTemplate="true"
+					IsFemaleTemplate="true"
+					IsNobleTemplate="false"
+					IsCivilianTemplate="true"
+					IsNoncombatantTemplate="true"/>
+			</EquipmentRoster>
+			<EquipmentRoster id="teenager_template_khergit_villager_male"
+				culture="Culture.khergit">
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.merchants_fur_coat"/>
+					<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+					<Equipment slot="Head" id="Item.eastern_cap"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Head" id="Item.nomad_padded_hood"/>
+					<Equipment slot="Body" id="Item.crude_leather_armor"/>
+					<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+					<Equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.studded_leather_waistcoat"/>
+					<Equipment slot="Cape" id="Item.khuzait_leather_pauldron"/>
+					<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+					<Equipment slot="Gloves" id="Item.studded_vambraces"/>
+				</EquipmentSet>
+				<Flags IsTeenagerEquipmentTemplate="true"
+					IsFemaleTemplate="false"
+					IsNobleTemplate="false"
+					IsCivilianTemplate="true"
+					IsNoncombatantTemplate="true"/>
+			</EquipmentRoster>
+			<EquipmentRoster id="teenager_template_khergit_villager_female"
+				culture="Culture.khergit">
+				<EquipmentSet civilian="true">
+					<Equipment slot="Head" id="Item.fur_hat"/>
+					<Equipment slot="Body" id="Item.bandit_fur_b"/>
+					<Equipment slot="Leg" id="Item.highland_boots"/>
+					<Equipment slot="Gloves" id="Item.strapped_leather_bracers"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.studded_steppe_leather"/>
+					<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+					<Equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.khuzait_dress"/>
+					<Equipment slot="Leg" id="Item.southern_moccasins"/>
+				</EquipmentSet>
+				<Flags IsTeenagerEquipmentTemplate="true"
+					IsFemaleTemplate="true"
+					IsNobleTemplate="false"
+					IsCivilianTemplate="true"
+					IsNoncombatantTemplate="true"/>
+			</EquipmentRoster>
+			<!--Noble -->
+			<EquipmentRoster id="child_template_khergit_noble_male"
+				culture="Culture.khergit">
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.studded_steppe_leather"/>
+					<Equipment slot="Leg" id="Item.southern_moccasins"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.tassled_southern_robes"/>
+					<Equipment slot="Leg" id="Item.southern_moccasins"/>
+				</EquipmentSet>
+				<Flags IsChildEquipmentTemplate="true"
+					IsFemaleTemplate="false"
+					IsNobleTemplate="true"
+					IsCivilianTemplate="true"
+					IsNoncombatantTemplate="true"/>
+			</EquipmentRoster>
+			<EquipmentRoster id="child_template_khergit_noble_female"
+				culture="Culture.khergit">
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.studded_steppe_leather"/>
+					<Equipment slot="Leg" id="Item.southern_moccasins"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.tassled_southern_robes"/>
+					<Equipment slot="Leg" id="Item.southern_moccasins"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+					<Equipment slot="Leg" id="Item.southern_moccasins"/>
+				</EquipmentSet>
+				<Flags IsChildEquipmentTemplate="true"
+					IsFemaleTemplate="true"
+					IsNobleTemplate="true"
+					IsCivilianTemplate="true"
+					IsNoncombatantTemplate="true"/>
+			</EquipmentRoster>
+			<EquipmentRoster id="teenager_template_khergit_noble_male"
+				culture="Culture.khergit">
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.merchants_fur_coat"/>
+					<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+					<Equipment slot="Head" id="Item.eastern_cap"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Head" id="Item.plumed_fur_lined_helmet"/>
+					<Equipment slot="Body" id="Item.leather_lamellar_armor"/>
+					<Equipment slot="Cape" id="Item.leather_lamellar_shoulders"/>
+					<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+					<Equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.eastern_lamellar_armor"/>
+					<Equipment slot="Cape" id="Item.lamellar_shoulders"/>
+					<Equipment slot="Leg" id="Item.eastern_leather_boots"/>
+					<Equipment slot="Gloves" id="Item.decorated_imperial_gauntlets"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Head" id="Item.eastern_cap"/>
+					<Equipment slot="Body" id="Item.aserai_civil_a"/>
+					<Equipment slot="Leg" id="Item.eastern_leather_boots"/>
+				</EquipmentSet>
+				<Flags IsTeenagerEquipmentTemplate="true"
+					IsFemaleTemplate="false"
+					IsNobleTemplate="true"
+					IsCivilianTemplate="true"
+					IsNoncombatantTemplate="true"/>
+			</EquipmentRoster>
+			<EquipmentRoster id="teenager_template_khergit_noble_female"
+				culture="Culture.khergit">
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.steppe_armor"/>
+					<Equipment slot="Leg" id="Item.southern_moccasins"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Head" id="Item.eastern_cap"/>
+					<Equipment slot="Body" id="Item.khuzait_dress"/>
+					<Equipment slot="Leg" id="Item.southern_moccasins"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Head" id="Item.upturned_fur_cap"/>
+					<Equipment slot="Body" id="Item.belted_leather_cuirass"/>
+					<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+					<Equipment slot="Cape" id="Item.bolted_leather_strips"/>
+				</EquipmentSet>
+				<Flags IsTeenagerEquipmentTemplate="true"
+					IsFemaleTemplate="true"
+					IsNobleTemplate="true"
+					IsCivilianTemplate="true"
+					IsNoncombatantTemplate="true"/>
+			</EquipmentRoster>
 	<!-- #endregion-->
 	<!-- #region Nords -->
 		<!-- civilian loadout -->
@@ -10120,259 +10119,259 @@
 				</EquipmentRoster>
 
 		<!-- child equipment template -->
-		<!--Townsman -->
-		<EquipmentRoster id="child_template_nord_townsman_male"
-			culture="Culture.nord">
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.northern_leather_vest"/>
-				<Equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.tundra_tunic"/>
-				<Equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.leather_coat"/>
-				<Equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentSet>
-			<Flags IsChildEquipmentTemplate="true"
-				IsFemaleTemplate="false"
-				IsNobleTemplate="false"
-				IsCivilianTemplate="true"
-				IsNoncombatantTemplate="true"/>
-		</EquipmentRoster>
-		<EquipmentRoster id="child_template_nord_townsman_female"
-			culture="Culture.nord">
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.northern_leather_vest"/>
-				<Equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.tundra_tunic"/>
-				<Equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.leather_coat"/>
-				<Equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentSet>
-			<Flags IsChildEquipmentTemplate="true"
-				IsFemaleTemplate="true"
-				IsNobleTemplate="false"
-				IsCivilianTemplate="true"
-				IsNoncombatantTemplate="true"/>
-		</EquipmentRoster>
-		<EquipmentRoster id="teenager_template_nord_townsman_male"
-			culture="Culture.nord">
-			<EquipmentSet civilian="true">
-				<Equipment slot="Head" id="Item.nordic_fur_cap"/>
-				<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
-				<Equipment slot="Cape" id="Item.scarf"/>
-				<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.rough_fur_over_chain"/>
-				<Equipment slot="Leg" id="Item.rough_tied_boots"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.northern_leather_vest"/>
-				<Equipment slot="Leg" id="Item.steppe_leather_boots"/>
-			</EquipmentSet>
-			<Flags IsTeenagerEquipmentTemplate="true"
-				IsFemaleTemplate="false"
-				IsNobleTemplate="false"
-				IsCivilianTemplate="true"
-				IsNoncombatantTemplate="true"/>
-		</EquipmentRoster>
-		<EquipmentRoster id="teenager_template_nord_townsman_female"
-			culture="Culture.nord">
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.cut_dress_with_pouch"/>
-				<Equipment slot="Leg" id="Item.southern_moccasins"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Head" id="Item.womens_headwrap_b"/>
-				<Equipment slot="Body" id="Item.laced_dress"/>
-				<Equipment slot="Leg" id="Item.southern_moccasins"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.laced_dress"/>
-				<Equipment slot="Leg" id="Item.southern_moccasins"/>
-			</EquipmentSet>
-			<Flags IsTeenagerEquipmentTemplate="true"
-				IsFemaleTemplate="true"
-				IsNobleTemplate="false"
-				IsCivilianTemplate="true"
-				IsNoncombatantTemplate="true"/>
-		</EquipmentRoster>
-		<!--Villager -->
-		<EquipmentRoster id="child_template_nord_villager_male"
-			culture="Culture.nord">
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.tundra_tunic"/>
-				<Equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.roughcloth_shortcoat"/>
-				<Equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentSet>
-			<Flags IsChildEquipmentTemplate="true"
-				IsFemaleTemplate="false"
-				IsNobleTemplate="false"
-				IsCivilianTemplate="true"
-				IsNoncombatantTemplate="true"/>
-		</EquipmentRoster>
-		<EquipmentRoster id="child_template_nord_villager_female"
-			culture="Culture.nord">
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.tundra_tunic"/>
-				<Equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.roughcloth_shortcoat"/>
-				<Equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentSet>
-			<Flags IsChildEquipmentTemplate="true"
-				IsFemaleTemplate="true"
-				IsNobleTemplate="false"
-				IsCivilianTemplate="true"
-				IsNoncombatantTemplate="true"/>
-		</EquipmentRoster>
-		<EquipmentRoster id="teenager_template_nord_villager_male"
-			culture="Culture.nord">
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.northern_leather_vest"/>
-				<Equipment slot="Leg" id="Item.steppe_leather_boots"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.rough_fur_over_chain"/>
-				<Equipment slot="Leg" id="Item.rough_tied_boots"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Head" id="Item.nordic_fur_cap"/>
-				<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
-				<Equipment slot="Cape" id="Item.scarf"/>
-				<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
-			</EquipmentSet>
-			<Flags IsTeenagerEquipmentTemplate="true"
-				IsFemaleTemplate="false"
-				IsNobleTemplate="false"
-				IsCivilianTemplate="true"
-				IsNoncombatantTemplate="true"/>
-		</EquipmentRoster>
-		<EquipmentRoster id="teenager_template_nord_villager_female"
-			culture="Culture.nord">
-			<EquipmentSet civilian="true">
-				<Equipment slot="Head" id="Item.womens_headwrap_b"/>
-				<Equipment slot="Body" id="Item.laced_dress"/>
-				<Equipment slot="Leg" id="Item.southern_moccasins"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Head" id="Item.northern_fur_cap"/>
-				<Equipment slot="Body" id="Item.cut_dress"/>
-				<Equipment slot="Leg" id="Item.southern_moccasins"/>
-				<Equipment slot="Cape" id="Item.scarf"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.plain_dress"/>
-				<Equipment slot="Leg" id="Item.southern_moccasins"/>
-			</EquipmentSet>
-			<Flags IsTeenagerEquipmentTemplate="true"
-				IsFemaleTemplate="true"
-				IsNobleTemplate="false"
-				IsCivilianTemplate="true"
-				IsNoncombatantTemplate="true"/>
-		</EquipmentRoster>
-		<!--Noble -->
-		<EquipmentRoster id="child_template_nord_noble_male"
-			culture="Culture.nord">
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.nordic_tunic"/>
-				<Equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.northern_leather_tabard"/>
-				<Equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.leather_coat"/>
-				<Equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentSet>
-			<Flags IsChildEquipmentTemplate="true"
-				IsFemaleTemplate="false"
-				IsNobleTemplate="true"
-				IsCivilianTemplate="true"
-				IsNoncombatantTemplate="true"/>
-		</EquipmentRoster>
-		<EquipmentRoster id="child_template_nord_noble_female"
-			culture="Culture.nord">
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.nordic_tunic"/>
-				<Equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.northern_leather_tabard"/>
-				<Equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.leather_coat"/>
-				<Equipment slot="Leg" id="Item.ladys_shoe"/>
-			</EquipmentSet>
-			<Flags IsChildEquipmentTemplate="true"
-				IsFemaleTemplate="true"
-				IsNobleTemplate="true"
-				IsCivilianTemplate="true"
-				IsNoncombatantTemplate="true"/>
-		</EquipmentRoster>
-		<EquipmentRoster id="teenager_template_nord_noble_female"
-			culture="Culture.nord">
-			<EquipmentSet civilian="true">
-				<Equipment slot="Head" id="Item.nordic_leather_cap"/>
-				<Equipment slot="Body" id="Item.decorated_nordic_hauberk"/>
-				<Equipment slot="Cape" id="Item.battania_cloak_furr"/>
-				<Equipment slot="Leg" id="Item.northern_plated_boots"/>
-				<Equipment slot="Gloves" id="Item.northern_plated_gloves"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Head" id="Item.spangenhelm_with_leather"/>
-				<Equipment slot="Body" id="Item.nordic_hauberk"/>
-				<Equipment slot="Cape" id="Item.mail_shoulders"/>
-				<Equipment slot="Leg" id="Item.strapped_mail_chausses"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.northern_leather_vest"/>
-				<Equipment slot="Leg" id="Item.steppe_leather_boots"/>
-			</EquipmentSet>
-			<Flags IsTeenagerEquipmentTemplate="true"
-				IsFemaleTemplate="true"
-				IsNobleTemplate="true"
-				IsCivilianTemplate="true"
-				IsNoncombatantTemplate="true"/>
-		</EquipmentRoster>
-		<EquipmentRoster id="teenager_template_nord_noble_male"
-			culture="Culture.nord">
-			<EquipmentSet civilian="true">
-				<Equipment slot="Head" id="Item.nordic_leather_cap"/>
-				<Equipment slot="Body" id="Item.decorated_nordic_hauberk"/>
-				<Equipment slot="Cape" id="Item.battania_cloak_furr"/>
-				<Equipment slot="Leg" id="Item.northern_plated_boots"/>
-				<Equipment slot="Gloves" id="Item.northern_plated_gloves"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Head" id="Item.spangenhelm_with_leather"/>
-				<Equipment slot="Body" id="Item.nordic_hauberk"/>
-				<Equipment slot="Cape" id="Item.mail_shoulders"/>
-				<Equipment slot="Leg" id="Item.strapped_mail_chausses"/>
-			</EquipmentSet>
-			<EquipmentSet civilian="true">
-				<Equipment slot="Body" id="Item.northern_leather_vest"/>
-				<Equipment slot="Leg" id="Item.steppe_leather_boots"/>
-			</EquipmentSet>
-			<Flags IsTeenagerEquipmentTemplate="true"
-				IsFemaleTemplate="false"
-				IsNobleTemplate="true"
-				IsCivilianTemplate="true"
-				IsNoncombatantTemplate="true"/>
-		</EquipmentRoster>
+			<!--Townsman -->
+			<EquipmentRoster id="child_template_nord_townsman_male"
+				culture="Culture.nord">
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.northern_leather_vest"/>
+					<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.tundra_tunic"/>
+					<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.leather_coat"/>
+					<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				</EquipmentSet>
+				<Flags IsChildEquipmentTemplate="true"
+					IsFemaleTemplate="false"
+					IsNobleTemplate="false"
+					IsCivilianTemplate="true"
+					IsNoncombatantTemplate="true"/>
+			</EquipmentRoster>
+			<EquipmentRoster id="child_template_nord_townsman_female"
+				culture="Culture.nord">
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.northern_leather_vest"/>
+					<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.tundra_tunic"/>
+					<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.leather_coat"/>
+					<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				</EquipmentSet>
+				<Flags IsChildEquipmentTemplate="true"
+					IsFemaleTemplate="true"
+					IsNobleTemplate="false"
+					IsCivilianTemplate="true"
+					IsNoncombatantTemplate="true"/>
+			</EquipmentRoster>
+			<EquipmentRoster id="teenager_template_nord_townsman_male"
+				culture="Culture.nord">
+				<EquipmentSet civilian="true">
+					<Equipment slot="Head" id="Item.nordic_fur_cap"/>
+					<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+					<Equipment slot="Cape" id="Item.scarf"/>
+					<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.rough_fur_over_chain"/>
+					<Equipment slot="Leg" id="Item.rough_tied_boots"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.northern_leather_vest"/>
+					<Equipment slot="Leg" id="Item.steppe_leather_boots"/>
+				</EquipmentSet>
+				<Flags IsTeenagerEquipmentTemplate="true"
+					IsFemaleTemplate="false"
+					IsNobleTemplate="false"
+					IsCivilianTemplate="true"
+					IsNoncombatantTemplate="true"/>
+			</EquipmentRoster>
+			<EquipmentRoster id="teenager_template_nord_townsman_female"
+				culture="Culture.nord">
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.cut_dress_with_pouch"/>
+					<Equipment slot="Leg" id="Item.southern_moccasins"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Head" id="Item.womens_headwrap_b"/>
+					<Equipment slot="Body" id="Item.laced_dress"/>
+					<Equipment slot="Leg" id="Item.southern_moccasins"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.laced_dress"/>
+					<Equipment slot="Leg" id="Item.southern_moccasins"/>
+				</EquipmentSet>
+				<Flags IsTeenagerEquipmentTemplate="true"
+					IsFemaleTemplate="true"
+					IsNobleTemplate="false"
+					IsCivilianTemplate="true"
+					IsNoncombatantTemplate="true"/>
+			</EquipmentRoster>
+			<!--Villager -->
+			<EquipmentRoster id="child_template_nord_villager_male"
+				culture="Culture.nord">
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.tundra_tunic"/>
+					<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.roughcloth_shortcoat"/>
+					<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				</EquipmentSet>
+				<Flags IsChildEquipmentTemplate="true"
+					IsFemaleTemplate="false"
+					IsNobleTemplate="false"
+					IsCivilianTemplate="true"
+					IsNoncombatantTemplate="true"/>
+			</EquipmentRoster>
+			<EquipmentRoster id="child_template_nord_villager_female"
+				culture="Culture.nord">
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.tundra_tunic"/>
+					<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.roughcloth_shortcoat"/>
+					<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				</EquipmentSet>
+				<Flags IsChildEquipmentTemplate="true"
+					IsFemaleTemplate="true"
+					IsNobleTemplate="false"
+					IsCivilianTemplate="true"
+					IsNoncombatantTemplate="true"/>
+			</EquipmentRoster>
+			<EquipmentRoster id="teenager_template_nord_villager_male"
+				culture="Culture.nord">
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.northern_leather_vest"/>
+					<Equipment slot="Leg" id="Item.steppe_leather_boots"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.rough_fur_over_chain"/>
+					<Equipment slot="Leg" id="Item.rough_tied_boots"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Head" id="Item.nordic_fur_cap"/>
+					<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+					<Equipment slot="Cape" id="Item.scarf"/>
+					<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				</EquipmentSet>
+				<Flags IsTeenagerEquipmentTemplate="true"
+					IsFemaleTemplate="false"
+					IsNobleTemplate="false"
+					IsCivilianTemplate="true"
+					IsNoncombatantTemplate="true"/>
+			</EquipmentRoster>
+			<EquipmentRoster id="teenager_template_nord_villager_female"
+				culture="Culture.nord">
+				<EquipmentSet civilian="true">
+					<Equipment slot="Head" id="Item.womens_headwrap_b"/>
+					<Equipment slot="Body" id="Item.laced_dress"/>
+					<Equipment slot="Leg" id="Item.southern_moccasins"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Head" id="Item.northern_fur_cap"/>
+					<Equipment slot="Body" id="Item.cut_dress"/>
+					<Equipment slot="Leg" id="Item.southern_moccasins"/>
+					<Equipment slot="Cape" id="Item.scarf"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.plain_dress"/>
+					<Equipment slot="Leg" id="Item.southern_moccasins"/>
+				</EquipmentSet>
+				<Flags IsTeenagerEquipmentTemplate="true"
+					IsFemaleTemplate="true"
+					IsNobleTemplate="false"
+					IsCivilianTemplate="true"
+					IsNoncombatantTemplate="true"/>
+			</EquipmentRoster>
+			<!--Noble -->
+			<EquipmentRoster id="child_template_nord_noble_male"
+				culture="Culture.nord">
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.nordic_tunic"/>
+					<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.northern_leather_tabard"/>
+					<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.leather_coat"/>
+					<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				</EquipmentSet>
+				<Flags IsChildEquipmentTemplate="true"
+					IsFemaleTemplate="false"
+					IsNobleTemplate="true"
+					IsCivilianTemplate="true"
+					IsNoncombatantTemplate="true"/>
+			</EquipmentRoster>
+			<EquipmentRoster id="child_template_nord_noble_female"
+				culture="Culture.nord">
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.nordic_tunic"/>
+					<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.northern_leather_tabard"/>
+					<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.leather_coat"/>
+					<Equipment slot="Leg" id="Item.ladys_shoe"/>
+				</EquipmentSet>
+				<Flags IsChildEquipmentTemplate="true"
+					IsFemaleTemplate="true"
+					IsNobleTemplate="true"
+					IsCivilianTemplate="true"
+					IsNoncombatantTemplate="true"/>
+			</EquipmentRoster>
+			<EquipmentRoster id="teenager_template_nord_noble_female"
+				culture="Culture.nord">
+				<EquipmentSet civilian="true">
+					<Equipment slot="Head" id="Item.nordic_leather_cap"/>
+					<Equipment slot="Body" id="Item.decorated_nordic_hauberk"/>
+					<Equipment slot="Cape" id="Item.battania_cloak_furr"/>
+					<Equipment slot="Leg" id="Item.northern_plated_boots"/>
+					<Equipment slot="Gloves" id="Item.northern_plated_gloves"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Head" id="Item.spangenhelm_with_leather"/>
+					<Equipment slot="Body" id="Item.nordic_hauberk"/>
+					<Equipment slot="Cape" id="Item.mail_shoulders"/>
+					<Equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.northern_leather_vest"/>
+					<Equipment slot="Leg" id="Item.steppe_leather_boots"/>
+				</EquipmentSet>
+				<Flags IsTeenagerEquipmentTemplate="true"
+					IsFemaleTemplate="true"
+					IsNobleTemplate="true"
+					IsCivilianTemplate="true"
+					IsNoncombatantTemplate="true"/>
+			</EquipmentRoster>
+			<EquipmentRoster id="teenager_template_nord_noble_male"
+				culture="Culture.nord">
+				<EquipmentSet civilian="true">
+					<Equipment slot="Head" id="Item.nordic_leather_cap"/>
+					<Equipment slot="Body" id="Item.decorated_nordic_hauberk"/>
+					<Equipment slot="Cape" id="Item.battania_cloak_furr"/>
+					<Equipment slot="Leg" id="Item.northern_plated_boots"/>
+					<Equipment slot="Gloves" id="Item.northern_plated_gloves"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Head" id="Item.spangenhelm_with_leather"/>
+					<Equipment slot="Body" id="Item.nordic_hauberk"/>
+					<Equipment slot="Cape" id="Item.mail_shoulders"/>
+					<Equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+				</EquipmentSet>
+				<EquipmentSet civilian="true">
+					<Equipment slot="Body" id="Item.northern_leather_vest"/>
+					<Equipment slot="Leg" id="Item.steppe_leather_boots"/>
+				</EquipmentSet>
+				<Flags IsTeenagerEquipmentTemplate="true"
+					IsFemaleTemplate="false"
+					IsNobleTemplate="true"
+					IsCivilianTemplate="true"
+					IsNoncombatantTemplate="true"/>
+			</EquipmentRoster>
 	<!-- #endregion-->
 	<!-- #region Rhodoks -->
 		<!-- civilian loadout -->

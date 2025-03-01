@@ -1,5 +1,221 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Items>
+	<!-- #region Special Wepaons -->
+	<CraftedItem id="wooden_sword_t1"
+		name="{=1HWRwbwT}Wooden Sword"
+		is_merchandise="false"
+		crafting_template="OneHandedSword"
+		has_modifier="false">
+		<Pieces>
+			<Piece id="wood_blade_1" Type="Blade" scale_factor="110"/>
+			<Piece id="wood_guard_1" Type="Guard"/>
+			<Piece id="wood_grip_1" Type="Handle" scale_factor="110"/>
+			<Piece id="wood_pommel_1" Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="wooden_sword_t2"
+		name="{=1HWRwbwT}Wooden Sword"
+		is_merchandise="false"
+		crafting_template="OneHandedSword"
+		has_modifier="false">
+		<Pieces>
+			<Piece id="wood_blade_2" Type="Blade" scale_factor="110"/>
+			<Piece id="wood_guard_1" Type="Guard"/>
+			<Piece id="wood_grip_1" Type="Handle" scale_factor="110"/>
+			<Piece id="wood_pommel_1" Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="wooden_2hsword_t1"
+		name="{=bt0uFefo}Wooden Twohander"
+		is_merchandise="false"
+		crafting_template="TwoHandedSword"
+		has_modifier="false">
+		<Pieces>
+			<Piece id="wood_blade_1" Type="Blade" scale_factor="105"/>
+			<Piece id="wood_guard_1" Type="Guard"/>
+			<Piece id="wood_grip_2" Type="Handle"/>
+			<Piece id="wood_pommel_1" Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="practice_spear_t1"
+		name="{=H9hzBJz3}Practice Spear"
+		is_merchandise="false"
+		crafting_template="TwoHandedPolearm"
+		has_modifier="false">
+		<Pieces>
+			<Piece id="spear_blade_34" Type="Blade"/>
+			<Piece id="default_polearm_guard" Type="Guard"/>
+			<Piece id="spear_handle_3" Type="Handle"/>
+			<Piece id="default_polearm_pommel" Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<Item id="torch"
+		name="{=ErOLa263}Torch"
+		is_merchandise="false"
+		body_name="bo_mace_a"
+		recalculate_body="true"
+		mesh="torch_g"
+		prefab="torch_a_wm_only_flame"
+		value="4"
+		weight="0.2"
+		Type="OneHandedWeapon"
+		item_holsters="abdomen_left">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedAxe"
+				weapon_balance="100"
+				thrust_speed="78"
+				speed_rating="97"
+				missile_speed="0"
+				weapon_length="65"
+				swing_damage="6"
+				swing_damage_type="Blunt"
+				item_usage="torch"
+				physics_material="metal_weapon">
+				<WeaponFlags MeleeWeapon="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags DropOnWeaponChange="true"
+			ForceAttachOffHandPrimaryItemBone="true"
+			HeldInOffHand="true"
+			HasToBeHeldUp="true"/>
+	</Item>
+	<Item id="horse_whip"
+		name="{=HclLXEaT}Horse Whip"
+		is_merchandise="false"
+		body_name="bo_mace_a"
+		recalculate_body="true"
+		mesh="horse_whip"
+		weight="0.2"
+		value="1"
+		Type="OneHandedWeapon"
+		item_holsters="sword_left_hip">
+		<ItemComponent>
+			<Weapon weapon_class="OneHandedSword"
+				weapon_balance="100"
+				thrust_speed="79"
+				speed_rating="99"
+				physics_material="wood_weapon"
+				missile_speed="0"
+				weapon_length="95"
+				thrust_damage="6"
+				thrust_damage_type="Blunt"
+				swing_damage="5"
+				swing_damage_type="Blunt"
+				item_usage="onehanded_block_shield_swing">
+				<WeaponFlags MeleeWeapon="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="push_fork"
+		name="{=l69aXkKH}Push Fork"
+		is_merchandise="false"
+		body_name="bo_push_fork"
+		recalculate_body="true"
+		mesh="push_fork"
+		subtype="two_handed_wpn"
+		weight="2"
+		difficulty="0"
+		appearance="0.1"
+		Type="Polearm"
+		item_holsters="polearm_back:polearm_back_2">
+		<ItemComponent>
+			<Weapon weapon_class="TwoHandedPolearm"
+				weapon_balance="100"
+				thrust_speed="56"
+				speed_rating="70"
+				physics_material="wood_weapon"
+				weapon_length="200"
+				swing_damage="5"
+				thrust_damage="2"
+				swing_damage_type="Blunt"
+				thrust_damage_type="Blunt"
+				item_usage="polearm_block_thrust">
+				<WeaponFlags MeleeWeapon="true"
+					PenaltyWithShield="true"
+					NotUsableWithOneHand="true"
+					TwoHandIdleOnMount="true"
+					WideGrip="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			WoodenParry="true"
+			DropOnWeaponChange="true"
+			DoNotScaleBodyAccordingToWeaponLength="true"
+			QuickFadeOut="true"/>
+	</Item>
+	<Item id="training_bow"
+		name="{=SUSbUAEl}Practice Bow"
+		body_name="bo_composite_shotbow_b"
+		mesh="shortbow_b"
+		weight="0.3"
+		difficulty="0"
+		appearance="1"
+		is_merchandise="false"
+		Type="Bow"
+		item_holsters="bow_back_2:bow_hip:bow_hip_2:bow_back">
+		<ItemComponent>
+			<Weapon weapon_class="Bow"
+				ammo_class="Arrow"
+				ammo_limit="1"
+				thrust_speed="92"
+				speed_rating="87"
+				missile_speed="84"
+				weapon_length="106"
+				accuracy="99"
+				thrust_damage="30"
+				thrust_damage_type="Pierce"
+				item_usage="bow"
+				physics_material="wood_weapon"
+				center_of_mass="0.0,0,-0.1">
+				<WeaponFlags RangedWeapon="true"
+					HasString="true"
+					StringHeldByHand="true"
+					NotUsableWithOneHand="true"
+					TwoHandIdleOnMount="true"
+					AutoReload="true"
+					UnloadWhenSheathed="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags ForceAttachOffHandPrimaryItemBone="true"/>
+	</Item>
+	<Item id="training_longbow"
+		name="{=cmuMaYGR}Practice Longbow"
+		body_name="bo_composite_longbow_a"
+		mesh="longbow_a"
+		is_merchandise="false"
+		subtype="bow"
+		weight="0.5"
+		difficulty="0"
+		appearance="1"
+		Type="Bow"
+		item_holsters="bow_back:bow_back_2:bow_hip:bow_hip_2">
+		<ItemComponent>
+			<Weapon weapon_class="Bow"
+				ammo_class="Arrow"
+				ammo_limit="1"
+				thrust_speed="84"
+				speed_rating="80"
+				missile_speed="84"
+				weapon_length="120"
+				accuracy="100"
+				thrust_damage="30"
+				thrust_damage_type="Pierce"
+				item_usage="long_bow"
+				physics_material="wood_weapon"
+				center_of_mass="0.15,0,0">
+				<WeaponFlags RangedWeapon="true"
+					HasString="true"
+					StringHeldByHand="true"
+					NotUsableWithOneHand="true"
+					TwoHandIdleOnMount="true"
+					AutoReload="true"
+					UnloadWhenSheathed="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags ForceAttachOffHandPrimaryItemBone="true"/>
+	</Item>
+	<!-- #endregion -->
 	<!-- #region Horses -->
 	<Item id="aserai_horse_tournament"
 		name="{=quDh9Vlu}Desert Horse{@Plural}desert horses{\@}"
