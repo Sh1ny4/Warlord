@@ -27,6 +27,7 @@
 					<GameType value = "Campaign"/>
 					<GameType value = "CampaignStoryMode"/>
 					<GameType value = "CustomGame"/>
+					<GameType value = "EditorGame" />
 				</IncludedGameTypes>
 			</XmlNode>
 		<!-- Items -->
@@ -35,6 +36,7 @@
 					<GameType value = "Campaign"/>
 					<GameType value = "CampaignStoryMode"/>
 					<GameType value = "CustomGame"/>
+					<GameType value = "EditorGame" />
 				</IncludedGameTypes>
 			</XmlNode>
 			<XmlNode><XmlName id="Items" path="items/wld_weapons"/>
@@ -42,6 +44,7 @@
 					<GameType value = "Campaign"/>
 					<GameType value = "CampaignStoryMode"/>
 					<GameType value = "CustomGame"/>
+					<GameType value = "EditorGame" />
 				</IncludedGameTypes>
 			</XmlNode>
 			<XmlNode><XmlName id="Items" path="items/wld_armors"/>
@@ -49,6 +52,7 @@
 					<GameType value = "Campaign"/>
 					<GameType value = "CampaignStoryMode"/>
 					<GameType value = "CustomGame"/>
+					<GameType value = "EditorGame" />
 				</IncludedGameTypes>
 			</XmlNode>
 			<XmlNode><XmlName id="CraftingPieces" path="items/wld_crafting_pieces"/>
@@ -56,6 +60,7 @@
 					<GameType value = "Campaign"/>
 					<GameType value = "CampaignStoryMode"/>
 					<GameType value = "CustomGame"/>
+					<GameType value = "EditorGame" />
 				</IncludedGameTypes>
 			</XmlNode>
 		<!-- Factions -->
@@ -64,6 +69,7 @@
 					<GameType value = "Campaign"/>
 					<GameType value = "CampaignStoryMode"/>
 					<GameType value = "CustomGame"/>
+					<GameType value = "EditorGame" />
 				</IncludedGameTypes>
 			</XmlNode>
 			<XmlNode><XmlName id="NPCCharacters" path="factions/wld_npcs"/>
@@ -71,6 +77,7 @@
 					<GameType value = "Campaign"/>
 					<GameType value = "CampaignStoryMode"/>
 					<GameType value = "CustomGame"/>
+					<GameType value = "EditorGame" />
 				</IncludedGameTypes>
 			</XmlNode>
 			<XmlNode><XmlName id="partyTemplates" path="factions/wld_partytemplates"/>
@@ -78,6 +85,7 @@
 					<GameType value = "Campaign"/>
 					<GameType value = "CampaignStoryMode"/>
 					<GameType value = "CustomGame"/>
+					<GameType value = "EditorGame" />
 				</IncludedGameTypes>
 			</XmlNode>
 			<XmlNode><XmlName id="BodyProperties" path="factions/wld_bodyproperties"/>
@@ -85,6 +93,7 @@
 					<GameType value = "Campaign"/>
 					<GameType value = "CampaignStoryMode"/>
 					<GameType value = "CustomGame"/>
+					<GameType value = "EditorGame" />
 				</IncludedGameTypes>
 			</XmlNode>
 			<XmlNode><XmlName id="Heroes" path="factions/wld_heroes"/>
@@ -92,6 +101,7 @@
 					<GameType value = "Campaign"/>
 					<GameType value = "CampaignStoryMode"/>
 					<GameType value = "CustomGame"/>
+					<GameType value = "EditorGame" />
 				</IncludedGameTypes>
 			</XmlNode>
 			<XmlNode><XmlName id="Factions" path="factions/wld_clans"/>
@@ -99,6 +109,7 @@
 					<GameType value = "Campaign"/>
 					<GameType value = "CampaignStoryMode"/>
 					<GameType value = "CustomGame"/>
+					<GameType value = "EditorGame" />
 				</IncludedGameTypes>
 			</XmlNode>
 			<XmlNode><XmlName id="Kingdoms" path="factions/wld_kingdoms"/>
@@ -106,6 +117,7 @@
 					<GameType value = "Campaign"/>
 					<GameType value = "CampaignStoryMode"/>
 					<GameType value = "CustomGame"/>
+					<GameType value = "EditorGame" />
 				</IncludedGameTypes>
 			</XmlNode>
 			<XmlNode><XmlName id="EquipmentRosters" path="factions/wld_equipment_sets"/>
@@ -113,6 +125,7 @@
 					<GameType value = "Campaign"/>
 					<GameType value = "CampaignStoryMode"/>
 					<GameType value = "CustomGame"/>
+					<GameType value = "EditorGame" />
 				</IncludedGameTypes>
 			</XmlNode>
 	</Xmls>
