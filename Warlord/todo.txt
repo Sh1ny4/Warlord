@@ -8,10 +8,11 @@ décorations de carte:
     murailles
 lieux visitables :
     ruines, épaves, villages fantomes
+    temples, merveilles
     postes commerciaux
     base factions mineures
 
-code à retravailler :
+ code à retravailler :
     levels de clan
     création de personnage
     création des armées
@@ -35,12 +36,9 @@ code à ajouter :
     voyager avec une caravane
     manhunters
 
-de chez TOR :
-    Serve as a soldier
-    Tournois
-    Nouveaux Settlements : temples, merveilles
 
-citées
+citées 
+    commission d'art
     attendre coûte de l'argent
     festivaux liés aux tournois
     système de messagers
@@ -74,7 +72,6 @@ buldings/projets :
         influence
         loyalty
 
-/singleplayer _MODULES_*Native*SandBoxCore*CustomBattle*SandBox*StoryMode*warlord*_MODULES_
-
 ----- commissions -----
+horse armours => chainmail with tableau on top
 pavise but good

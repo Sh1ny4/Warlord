@@ -1728,21 +1728,6 @@
 	</Item>
 	<!-- #endregion -->
 	<!-- #region Vlandia Armors -->
-	<Item id="arming_cap"
-		name="{=SV1pTR2P}Padded Coif"
-		mesh="arming_cap_a"
-		weight="0.4"
-		Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="18"
-				has_gender_variations="false"
-				hair_cover_type="all"
-				modifier_group="cloth"
-				material_type="Cloth"
-				beard_cover_type="type3"/>
-		</ItemComponent>
-		<Flags/>
-	</Item>
 	<Item id="padded_coif"
 		name="{=zQv3w264}Padded Half Coif"
 		subtype="head_armor"
@@ -1933,22 +1918,6 @@
 				has_gender_variations="false"
 				hair_cover_type="type2"
 				beard_cover_type="none"
-				modifier_group="plate"
-				material_type="Plate"/>
-		</ItemComponent>
-		<Flags/>
-	</Item>
-	<Item id="kettle_helmet_with_leather"
-		name="{=ZV1bKLUn}Kettle Helmet with Leather"
-		subtype="head_armor"
-		mesh="kettle_helmet_leather"
-		weight="2.4"
-		Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="33"
-				has_gender_variations="false"
-				hair_cover_type="all"
-				beard_cover_type="type2"
 				modifier_group="plate"
 				material_type="Plate"/>
 		</ItemComponent>
@@ -2540,87 +2509,6 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="western_crowned_helmet"
-		name="{=EPaqJLSg}Crowned Helmet"
-		mesh="vlandia_lord_helmet_a"
-		is_merchandise="false"
-		subtype="head_armor"
-		weight="3.4"
-		Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="46"
-				has_gender_variations="false"
-				hair_cover_type="all"
-				beard_cover_type="type3"
-				modifier_group="plate"
-				material_type="Plate"/>
-		</ItemComponent>
-		<Flags/>
-	</Item>
-	<Item id="western_plated_helmet"
-		name="{=9j9fb5pR}Plated Helmet with Sideguards"
-		mesh="vlandia_lord_helmet_b"
-		subtype="head_armor"
-		weight="3.9"
-		Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="52"
-				has_gender_variations="false"
-				hair_cover_type="all"
-				beard_cover_type="type3"
-				modifier_group="plate"
-				material_type="Plate"/>
-		</ItemComponent>
-		<Flags/>
-	</Item>
-	<Item id="vlandia_lord_helmet_b2"
-		name="{=o67ySkfH}Plated Helmet"
-		mesh="vlandia_lord_helmet_b2"
-		subtype="head_armor"
-		weight="3"
-		Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="30"
-				has_gender_variations="false"
-				hair_cover_type="all"
-				beard_cover_type="type2"
-				modifier_group="plate"
-				material_type="Plate"/>
-		</ItemComponent>
-		<Flags/>
-	</Item>
-	<Item id="western_crowned_plated_helmet"
-		name="{=uz24W7s4}Crowned Plate Helmet"
-		mesh="vlandia_lord_helmet_c"
-		is_merchandise="false"
-		subtype="head_armor"
-		weight="3.6"
-		Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="48"
-				has_gender_variations="false"
-				hair_cover_type="all"
-				beard_cover_type="type4"
-				modifier_group="plate"
-				material_type="Plate"/>
-		</ItemComponent>
-		<Flags/>
-	</Item>
-	<Item id="kettle_helmet_with_mail"
-		name="{=UsOgGylA}Kettle Helmet with Mail"
-		subtype="head_armor"
-		mesh="kettle_helmet_reinforced"
-		weight="2.9"
-		Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="36"
-				has_gender_variations="false"
-				hair_cover_type="all"
-				modifier_group="plate"
-				material_type="Plate"/>
-		</ItemComponent>
-		<Flags/>
-	</Item>
 	<!-- #endregion -->
 	<!-- #region Sturgia Armors -->
 	<Item id="womens_headwrap_b"
@@ -2802,22 +2690,6 @@
 				material_type="Plate"/>
 		</ItemComponent>
 		<Flags/>
-	</Item>
-	<Item id="spangenhelm_with_padded_cloth"
-		name="{=ebHdQfbX}Spangenhelm with Padded Cloth"
-		subtype="head_armor"
-		mesh="spangenhelm_arming"
-		weight="1.9"
-		Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="18"
-				has_gender_variations="false"
-				hair_cover_type="all"
-				beard_cover_type="type3"
-				modifier_group="plate"
-				material_type="Plate"/>
-		</ItemComponent>
-		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="sturgian_crown"
 		name="{=5kAqcWac}Jeweled Fur Rimmed Helmet"
@@ -8013,7 +7885,7 @@
 			<Flags UseTeamColor="false"/>
 		</Item>
 		<Item id="wld_vaegir_helm_open"
-			name="War helmet"
+			name="Vaegir Open Helmet"
 			subtype="head_armor"
 			mesh="vaegir_helm_open"
 			weight="3.5"
@@ -8029,7 +7901,7 @@
 			<Flags UseTeamColor="false"/>
 		</Item>
 		<Item id="wld_vaegir_helm_open_2"
-			name="Vaegir Helmet"
+			name="Vaegir Open Helmet"
 			subtype="head_armor"
 			mesh="rus_open_helm"
 			weight="4"

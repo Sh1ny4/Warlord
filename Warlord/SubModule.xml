@@ -21,112 +21,112 @@
 		</SubModule>
 	</SubModules>
 	<Xmls>
-		<!-- Map -->
-			<XmlNode><XmlName id="Settlements" path="settlements"/>
-				<IncludedGameTypes>
-					<GameType value = "Campaign"/>
-					<GameType value = "CampaignStoryMode"/>
-					<GameType value = "CustomGame"/>
-					<GameType value = "EditorGame" />
-				</IncludedGameTypes>
-			</XmlNode>
+		<!-- map-->
+		<XmlNode>
+			<XmlName id="Settlements" path="settlements"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<!-- factions -->
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="factions/wld_lords"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Heroes" path="factions/wld_heroes"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Factions" path="factions/wld_clans"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Kingdoms" path="factions/wld_kingdoms"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="SPCultures" path="factions/wld_cultures"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="factions/wld_ncps"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
 		<!-- Items -->
-			<XmlNode><XmlName id="Items" path="items/wld_items"/>
-				<IncludedGameTypes>
-					<GameType value = "Campaign"/>
-					<GameType value = "CampaignStoryMode"/>
-					<GameType value = "CustomGame"/>
-					<GameType value = "EditorGame" />
-				</IncludedGameTypes>
-			</XmlNode>
-			<XmlNode><XmlName id="Items" path="items/wld_weapons"/>
-				<IncludedGameTypes>
-					<GameType value = "Campaign"/>
-					<GameType value = "CampaignStoryMode"/>
-					<GameType value = "CustomGame"/>
-					<GameType value = "EditorGame" />
-				</IncludedGameTypes>
-			</XmlNode>
-			<XmlNode><XmlName id="Items" path="items/wld_armors"/>
-				<IncludedGameTypes>
-					<GameType value = "Campaign"/>
-					<GameType value = "CampaignStoryMode"/>
-					<GameType value = "CustomGame"/>
-					<GameType value = "EditorGame" />
-				</IncludedGameTypes>
-			</XmlNode>
-			<XmlNode><XmlName id="CraftingPieces" path="items/wld_crafting_pieces"/>
-				<IncludedGameTypes>
-					<GameType value = "Campaign"/>
-					<GameType value = "CampaignStoryMode"/>
-					<GameType value = "CustomGame"/>
-					<GameType value = "EditorGame" />
-				</IncludedGameTypes>
-			</XmlNode>
-		<!-- Factions -->
-			<XmlNode><XmlName id="SPCultures" path="factions/wld_cultures"/>
-				<IncludedGameTypes>
-					<GameType value = "Campaign"/>
-					<GameType value = "CampaignStoryMode"/>
-					<GameType value = "CustomGame"/>
-					<GameType value = "EditorGame" />
-				</IncludedGameTypes>
-			</XmlNode>
-			<XmlNode><XmlName id="NPCCharacters" path="factions/wld_npcs"/>
-				<IncludedGameTypes>
-					<GameType value = "Campaign"/>
-					<GameType value = "CampaignStoryMode"/>
-					<GameType value = "CustomGame"/>
-					<GameType value = "EditorGame" />
-				</IncludedGameTypes>
-			</XmlNode>
-			<XmlNode><XmlName id="partyTemplates" path="factions/wld_partytemplates"/>
-				<IncludedGameTypes>
-					<GameType value = "Campaign"/>
-					<GameType value = "CampaignStoryMode"/>
-					<GameType value = "CustomGame"/>
-					<GameType value = "EditorGame" />
-				</IncludedGameTypes>
-			</XmlNode>
-			<XmlNode><XmlName id="BodyProperties" path="factions/wld_bodyproperties"/>
-				<IncludedGameTypes>
-					<GameType value = "Campaign"/>
-					<GameType value = "CampaignStoryMode"/>
-					<GameType value = "CustomGame"/>
-					<GameType value = "EditorGame" />
-				</IncludedGameTypes>
-			</XmlNode>
-			<XmlNode><XmlName id="Heroes" path="factions/wld_heroes"/>
-				<IncludedGameTypes>
-					<GameType value = "Campaign"/>
-					<GameType value = "CampaignStoryMode"/>
-					<GameType value = "CustomGame"/>
-					<GameType value = "EditorGame" />
-				</IncludedGameTypes>
-			</XmlNode>
-			<XmlNode><XmlName id="Factions" path="factions/wld_clans"/>
-				<IncludedGameTypes>
-					<GameType value = "Campaign"/>
-					<GameType value = "CampaignStoryMode"/>
-					<GameType value = "CustomGame"/>
-					<GameType value = "EditorGame" />
-				</IncludedGameTypes>
-			</XmlNode>
-			<XmlNode><XmlName id="Kingdoms" path="factions/wld_kingdoms"/>
-				<IncludedGameTypes>
-					<GameType value = "Campaign"/>
-					<GameType value = "CampaignStoryMode"/>
-					<GameType value = "CustomGame"/>
-					<GameType value = "EditorGame" />
-				</IncludedGameTypes>
-			</XmlNode>
-			<XmlNode><XmlName id="EquipmentRosters" path="factions/wld_equipment_sets"/>
-				<IncludedGameTypes>
-					<GameType value = "Campaign"/>
-					<GameType value = "CampaignStoryMode"/>
-					<GameType value = "CustomGame"/>
-					<GameType value = "EditorGame" />
-				</IncludedGameTypes>
-			</XmlNode>
+		<XmlNode>
+			<XmlName id="Items" path="items/wld_items"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Items" path="items/wld_armors"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="Items" path="items/wld_weapons"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="CraftingPieces" path="items/wld_crafting_pieces"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="CraftingTemplates" path="items/wld_crafting_templates"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="WeaponDescriptions" path="items/wld_weapon_descriptions"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
 	</Xmls>
 </Module>

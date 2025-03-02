@@ -15,13 +15,11 @@
 	<xsl:template match="Culture[@id='nord']"/>
 	<xsl:template match="Culture[@id='vakken']"/>
 	<xsl:template match="Culture[@id='darshi']"/>
-
 	<xsl:template match="Culture[@id='looters']"/>
 	<xsl:template match="Culture[@id='sea_raiders']"/>
 	<xsl:template match="Culture[@id='mountain_bandits']"/>
 	<xsl:template match="Culture[@id='forest_bandits']"/>
 	<xsl:template match="Culture[@id='desert_bandits']"/>
 	<xsl:template match="Culture[@id='steppe_bandits']"/>
-
 	<xsl:template match="Culture[@id='neutral_culture']"/>
 </xsl:stylesheet>

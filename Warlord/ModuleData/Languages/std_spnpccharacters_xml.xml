@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
   <strings>
-    <!-- #region Troop Overhaul-->
       <!-- Khergits -->
       <string id="wld_khergit_tribesman"            text="Khergit Tribesman" />
       <string id="wld_khergit_skirmisher"           text="Khergit Skirmisher" />
@@ -86,6 +85,5 @@
       <string id="wld_village_woman_rhodok"   text="Rhodok Peasant Woman" />
       <string id="wld_village_woman_vaegir"   text="Vaegir Peasant Woman" />
       <string id="wld_village_woman_swadia"   text="Swadian Peasant Woman" />
-    <!-- #endregion -->
     </strings>
 </base>

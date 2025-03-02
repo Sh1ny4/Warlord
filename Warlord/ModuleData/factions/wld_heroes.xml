@@ -1,60 +1,46 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Heroes>	
-	<!-- player faction -->
-	<Hero id="main_hero" 			faction="Faction.player_faction" father="Hero.main_hero_father" mother="Hero.main_hero_mother"/>
-	<Hero id="main_hero_father" 	faction="Faction.player_faction" alive="false" spouse="Hero.main_hero_mother"/>
-	<Hero id="main_hero_mother" 	faction="Faction.player_faction" alive="false" spouse="Hero.main_hero_father"/>
-	<!-- Khergit -->
-	<Hero id="lord_khergit_1"		faction="Faction.clan_khergit_1" spouse="Hero.lord_khergit_2" preferred_upgrade_formation="HorseArcher" text="PLACEHOLDER"/>
-	<Hero id="lord_khergit_2"		faction="Faction.clan_khergit_1" spouse="Hero.lord_khergit_1"/>
-	<Hero id="lord_khergit_13"		faction="Faction.clan_khergit_1" father="Hero.lord_khergit_1"/>
-	<Hero id="lord_khergit_7"		faction="Faction.clan_khergit_1" father="Hero.lord_khergit_1" mother="Hero.lord_khergit_2"/>
-	<Hero id="lord_khergit_10"		faction="Faction.clan_khergit_1" father="Hero.lord_khergit_1" mother="Hero.lord_khergit_2"/>
-	<Hero id="lord_khergit_101"		faction="Faction.clan_khergit_1" father="Hero.lord_khergit_1" mother="Hero.lord_khergit_2"/>
-	<!-- Nord -->
-	<Hero id="lord_nord_1"			faction="Faction.clan_nord_1" spouse="Hero.lord_nord_2" text="PLACEHOLDER"/>
-	<Hero id="lord_nord_2"			faction="Faction.clan_nord_1" spouse="Hero.lord_nord_1"/>
-	<Hero id="lord_nord_13_1"		faction="Faction.clan_nord_1" father="Hero.lord_nord_13"/>
-	<Hero id="lord_nord_13_2"		faction="Faction.clan_nord_1" father="Hero.lord_nord_13"/>
-	<Hero id="lord_nord_13_3"		faction="Faction.clan_nord_1" father="Hero.lord_nord_13"/>
-	<Hero id="lord_nord_13_4"		faction="Faction.clan_nord_1" father="Hero.lord_nord_13"/>
-	<Hero id="lord_nord_7"			faction="Faction.clan_nord_1" father="Hero.lord_nord_1" mother="Hero.lord_nord_2"/>
-	<Hero id="lord_nord_7_1"		faction="Faction.clan_nord_1" father="Hero.lord_nord_1" mother="Hero.lord_nord_2"/>
-	<Hero id="lord_nord_10"			faction="Faction.clan_nord_1" father="Hero.lord_nord_1" mother="Hero.lord_nord_2"/>
-	<!-- Rhodok -->
-	<Hero id="lord_rhodok_1"		faction="Faction.clan_rhodok_1" spouse="Hero.lord_rhodok_2" text="PLACEHOLDER"/>
-	<Hero id="lord_rhodok_2"		faction="Faction.clan_rhodok_1" spouse="Hero.lord_rhodok_1"/>
-	<Hero id="lord_rhodok_7"		faction="Faction.clan_rhodok_1" father="Hero.lord_rhodok_1" mother="Hero.lord_rhodok_2"/>
-	<Hero id="lord_rhodok_10"		faction="Faction.clan_rhodok_1" father="Hero.lord_rhodok_1" mother="Hero.lord_rhodok_2"/>
-	<Hero id="lord_rhodok_14"		faction="Faction.clan_rhodok_1" father="Hero.lord_rhodok_1" mother="Hero.lord_rhodok_2"/>
-	<Hero id="lord_rhodok_141"		faction="Faction.clan_rhodok_1" father="Hero.lord_rhodok_1" mother="Hero.lord_rhodok_2"/>
-	<Hero id="lord_rhodok_15"		faction="Faction.clan_rhodok_1" father="Hero.lord_rhodok_1" mother="Hero.lord_rhodok_2"/>
-	<Hero id="lord_rhodok_13"		faction="Faction.clan_rhodok_1"/>
-	<!-- Sarranid -->
-	<Hero id="lord_sarranid_1"		faction="Faction.clan_sarranid_1" spouse="Hero.lord_sarranid_2" text="PLACEHOLDER"/>
-	<Hero id="lord_sarranid_2"		faction="Faction.clan_sarranid_1" spouse="Hero.lord_sarranid_1"/>
-	<Hero id="lord_sarranid_13"		faction="Faction.clan_sarranid_1" spouse="Hero.lord_sarranid_13_1"/>
-	<Hero id="lord_sarranid_13_1"	faction="Faction.clan_sarranid_1" spouse="Hero.lord_sarranid_13"/>
-	<Hero id="lord_sarranid_13_2"	faction="Faction.clan_sarranid_1" father="Hero.lord_sarranid_13" mother="Hero.lord_sarranid_13_1"/>
-	<Hero id="lord_sarranid_7"		faction="Faction.clan_sarranid_1" father="Hero.lord_sarranid_1" mother="Hero.lord_sarranid_2"/>
-	<Hero id="lord_sarranid_10"		faction="Faction.clan_sarranid_1" father="Hero.lord_sarranid_1" mother="Hero.lord_sarranid_2"/>
-	<!-- Swadia -->
-	<Hero id="lord_swadia_1"		faction="Faction.clan_swadia_1"	spouse="Hero.lord_swadia_2" text="PLACEHOLDER"/>
-	<Hero id="lord_swadia_2"		faction="Faction.clan_swadia_1"	spouse="Hero.lord_swadia_1"/>
-	<Hero id="lord_swadia_7"		faction="Faction.clan_swadia_1"	father="Hero.lord_swadia_1" mother="Hero.lord_swadia_2"/>
-	<Hero id="lord_swadia_10"		faction="Faction.clan_swadia_1"	father="Hero.lord_swadia_1" mother="Hero.lord_swadia_2"/>
-	<Hero id="lord_swadia_14"		faction="Faction.clan_swadia_1"	father="Hero.lord_swadia_1" mother="Hero.lord_swadia_2"/>
-	<Hero id="lord_swadia_141"		faction="Faction.clan_swadia_1"	father="Hero.lord_swadia_1" mother="Hero.lord_swadia_2"/>
-	<Hero id="lord_swadia_15"		faction="Faction.clan_swadia_1"	father="Hero.lord_swadia_1" mother="Hero.lord_swadia_2"/>
-	<Hero id="lord_swadia_13"		faction="Faction.clan_swadia_1"/>
-	<!-- Vaegir -->
-	<Hero id="lord_vaegir_1"		faction="Faction.clan_vaegir_1"	spouse="Hero.lord_vaegir_2" text="PLACEHOLDER"/>
-	<Hero id="lord_vaegir_7"		faction="Faction.clan_vaegir_1"	father="Hero.lord_vaegir_1" mother="Hero.lord_vaegir_2"/>
-	<Hero id="lord_vaegir_7_1"		faction="Faction.clan_vaegir_1"	father="Hero.lord_vaegir_1" mother="Hero.lord_vaegir_2"/>
-	<Hero id="lord_vaegir_10"		faction="Faction.clan_vaegir_1"	father="Hero.lord_vaegir_1" mother="Hero.lord_vaegir_2"/>
-	<Hero id="lord_vaegir_2"		faction="Faction.clan_vaegir_1"	spouse="Hero.lord_vaegir_1"/>
-	<Hero id="lord_vaegir_13_1"		faction="Faction.clan_vaegir_1"	father="Hero.lord_vaegir_13"/>
-	<Hero id="lord_vaegir_13_2"		faction="Faction.clan_vaegir_1"	father="Hero.lord_vaegir_13"/>
-	<Hero id="lord_vaegir_13_3"		faction="Faction.clan_vaegir_1"	father="Hero.lord_vaegir_13"/>
-	<Hero id="lord_vaegir_13_4"		faction="Faction.clan_vaegir_1"	father="Hero.lord_vaegir_13"/>
+<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+	<!-- #endregion-->
+    <!-- #region Aserai -->
+	<!-- ASERAI 1 -->
+	<Hero id="lord_3_1"		faction="Faction.clan_aserai_1"		spouse="Hero.lord_3_2"		text="{=L90aSR5J}The current Sultan of Aserai is Unqid. He wears his authority lightly, preferring to charm rather than to coerce, always deferring to the laws of the Banu Asera in his judgments. But there are some who say that Unqid is remiss in his duty to administer justice, allowing the wealthiest clans - such as his own - to use bribes and clever legal arguments to oppress the others."/>
+	<Hero id="lord_3_2"		faction="Faction.clan_aserai_1"		spouse="Hero.lord_3_1"/>
+	<Hero id="lord_3_13"	faction="Faction.clan_aserai_1"		spouse="Hero.lord_3_13_1"/>
+	<Hero id="lord_3_13_1"	faction="Faction.clan_aserai_1"		spouse="Hero.lord_3_13"/>
+	<Hero id="lord_3_13_2"	faction="Faction.clan_aserai_1"		father="Hero.lord_3_13"		mother="Hero.lord_3_13_1"/>
+	<Hero id="lord_3_7"		faction="Faction.clan_aserai_1"		father="Hero.lord_3_1"		mother="Hero.lord_3_2"/>
+	<Hero id="lord_3_10"	faction="Faction.clan_aserai_1"		father="Hero.lord_3_1"		mother="Hero.lord_3_2"/>
+	<!-- #endregion-->
+    <!-- #region khuzait -->
+    <!-- Khuzait clan 1 -->
+	<Hero id="lord_6_1"		faction="Faction.clan_khuzait_1"	spouse="Hero.lord_6_2"		preferred_upgrade_formation="HorseArcher"	text="{=CzM6y3MT}Monchug, the current khan of the Khuzaits, looks upon the Empire in its state of disarray and dreams of glory, of surpassing his ancestor Urkhun and conquering even deeper into the settled lands. Some of the clans have been decimated by the Urkhunids' wars, however, and feel their sacrifices have not been properly rewarded. They yearn for a khan who is less interested in glory, and more interested in justice."/>
+	<Hero id="lord_6_2"		faction="Faction.clan_khuzait_1"	spouse="Hero.lord_6_1"/>
+	<Hero id="lord_6_13"	faction="Faction.clan_khuzait_1"	father="Hero.lord_6_1"/>
+	<Hero id="lord_6_7"		faction="Faction.clan_khuzait_1"	father="Hero.lord_6_1"		mother="Hero.lord_6_2"/>
+	<Hero id="lord_6_10"	faction="Faction.clan_khuzait_1"	father="Hero.lord_6_1"		mother="Hero.lord_6_2"/>
+	<Hero id="lord_6_101"	faction="Faction.clan_khuzait_1"	father="Hero.lord_6_1"		mother="Hero.lord_6_2"/>
+	<!-- #endregion-->
+    <!-- #region sturgia -->
+	<!-- Sturgia 1 -->
+	<Hero id="lord_2_1"		faction="Faction.clan_sturgia_1"	spouse="Hero.lord_2_2"		text="{=LW92PgZz}The current Grand Prince of Sturgia is Raganvad. Harsh and uncompromising, he believes that it is the right of the prince to command the boyars in all things, not just in making war. For the time being they obey him, not least for his ability to call on the kinsmen of his mother, a Nordic princess with ties to the fearsome Skolderbroda mercenary company."/>
+	<Hero id="lord_2_2"		faction="Faction.clan_sturgia_1"	spouse="Hero.lord_2_1"/>
+	<Hero id="lord_2_13_1"	faction="Faction.clan_sturgia_1"	father="Hero.lord_2_13"/>
+	<Hero id="lord_2_13_2"	faction="Faction.clan_sturgia_1"	father="Hero.lord_2_13"/>
+	<Hero id="lord_2_13_3"	faction="Faction.clan_sturgia_1"	father="Hero.lord_2_13"/>
+	<Hero id="lord_2_13_4"	faction="Faction.clan_sturgia_1"	father="Hero.lord_2_13"/>
+	<Hero id="lord_2_7"		faction="Faction.clan_sturgia_1"	father="Hero.lord_2_1"		mother="Hero.lord_2_2"/>
+	<Hero id="lord_2_7_1"	faction="Faction.clan_sturgia_1"	father="Hero.lord_2_1"		mother="Hero.lord_2_2"/>
+	<Hero id="lord_2_10"	faction="Faction.clan_sturgia_1"	father="Hero.lord_2_1"		mother="Hero.lord_2_2"/>
+	<!-- #endregion-->
+    <!-- #region vlandia -->
+	<!-- Vlandia clan 1 -->
+	<Hero id="lord_4_1"		faction="Faction.clan_vlandia_1"	spouse="Hero.lord_4_2"		text="{=EHiQI7ps}The current king of Vlandia is Derthert. In his youth, he dreamt of glorious conquest. In fact he spent most of his reign simply putting down revolts, quashing pretenders, and keeping the fractious barons in line. When possible, he prefers to rule by arbitration, cajoling his vassals to set aside claims to each other's lands and enjoy what they have. But some Vlandians murmur that a warrior people deserve a more virile king."/>
+	<Hero id="lord_4_2"		faction="Faction.clan_vlandia_1"	spouse="Hero.lord_4_1"/>
+    <Hero id="lord_4_7"		faction="Faction.clan_vlandia_1"	father="Hero.lord_4_1"		mother="Hero.lord_4_2"/>
+	<Hero id="lord_4_10"	faction="Faction.clan_vlandia_1"	father="Hero.lord_4_1"		mother="Hero.lord_4_2"/>
+	<Hero id="lord_4_14"	faction="Faction.clan_vlandia_1"	father="Hero.lord_4_1"		mother="Hero.lord_4_2"/>
+	<Hero id="lord_4_141"	faction="Faction.clan_vlandia_1"	father="Hero.lord_4_1"		mother="Hero.lord_4_2"/>
+	<Hero id="lord_4_15"	faction="Faction.clan_vlandia_1"	father="Hero.lord_4_1"		mother="Hero.lord_4_2"/>
+	<Hero id="lord_4_13"	faction="Faction.clan_vlandia_1"/>
+	<!-- #endregion -->
 </Heroes>

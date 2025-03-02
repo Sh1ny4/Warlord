@@ -4,8 +4,7 @@
 		<xsl:copy>
 			<xsl:apply-templates select="@*|node()"/>
 		</xsl:copy>
-	</xsl:template>
-	<xsl:template match="Faction[@id='player_faction']"/>
+	</xsl:template>  
   	<!-- aserai -->
 	<xsl:template match="Faction[@id='clan_aserai_1']"/>
 	<xsl:template match="Faction[@id='clan_aserai_2']"/>

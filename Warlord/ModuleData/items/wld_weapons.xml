@@ -806,17 +806,6 @@
 			<Piece id="default_polearm_pommel" Type="Pommel" scale_factor="100"/>
 		</Pieces>
 	</CraftedItem>
-	<CraftedItem id="imperial_throwing_spear_1_t4"
-		name="{=rkqaCud5}Pilum"
-		crafting_template="TwoHandedPolearm"
-		modifier_group="polearm">
-		<Pieces>
-			<Piece id="spear_blade_38" Type="Blade" scale_factor="90"/>
-			<Piece id="default_polearm_guard" Type="Guard" scale_factor="100"/>
-			<Piece id="spear_handle_14" Type="Handle" scale_factor="90"/>
-			<Piece id="default_polearm_pommel" Type="Pommel" scale_factor="100"/>
-		</Pieces>
-	</CraftedItem>
 	<CraftedItem id="wide_leaf_spear_t4"
 		name="{=hz87PBsa}Wide Leaf Spear"
 		crafting_template="TwoHandedPolearm"
