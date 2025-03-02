@@ -2383,66 +2383,6 @@
 		</ItemComponent>
 		<Flags Civilian="true"/>
 	</Item>
-	<Item id="celtic_frost"
-		name="{=XkwOTdVQ}Celtic Frost"
-		mesh="horse_harness_saxon_new"
-		is_merchandise="false"
-		weight="26"
-		appearance="0.5"
-		Type="HorseHarness">
-		<ItemComponent>
-			<Armor body_armor="78"
-				mane_cover_type="none"
-				tail_cover_type="none"
-				maneuver_bonus="0"
-				speed_bonus="0"
-				reins_mesh="horse_harness_saxon_new_rein"
-				charge_bonus="0"
-				family_type="1"
-				material_type="Chainmail"/>
-		</ItemComponent>
-		<Flags Civilian="true"/>
-	</Item>
-	<Item id="saddle_of_aeneas"
-		name="{=k3dvbLDi}Saddle of Aeneas"
-		mesh="horse_harness_a_new"
-		is_merchandise="false"
-		weight="26"
-		appearance="0.5"
-		Type="HorseHarness">
-		<ItemComponent>
-			<Armor body_armor="76"
-				mane_cover_type="none"
-				tail_cover_type="none"
-				maneuver_bonus="0"
-				speed_bonus="0"
-				reins_mesh="horse_harness_a_new_rein"
-				charge_bonus="0"
-				family_type="1"
-				material_type="Chainmail"/>
-		</ItemComponent>
-		<Flags Civilian="true"/>
-	</Item>
-	<Item id="fortunas_choice"
-		name="{=vRIpgxhi}Fortunas Choice"
-		mesh="horse_harness_roman_b_new"
-		is_merchandise="false"
-		weight="26"
-		appearance="0.5"
-		Type="HorseHarness">
-		<ItemComponent>
-			<Armor body_armor="77"
-				mane_cover_type="none"
-				tail_cover_type="none"
-				maneuver_bonus="0"
-				speed_bonus="0"
-				reins_mesh="horse_harness_roman_b_new_rein"
-				charge_bonus="0"
-				family_type="1"
-				material_type="Chainmail"/>
-		</ItemComponent>
-		<Flags Civilian="true"/>
-	</Item>
 	<Item id="chain_horse_harness"
 		name="{=JkxPt29i}Chain Mail Horse Armor"
 		mesh="horse_harness_e"
@@ -2463,24 +2403,6 @@
 				charge_bonus="0"
 				family_type="1"
 				material_type="Chainmail"/>
-		</ItemComponent>
-		<Flags Civilian="true"/>
-	</Item>
-	<Item id="stripped_leather_harness"
-		name="{=Yh7Dorsr}Striped Leather Harness"
-		mesh="horse_harness_imperial_a_clotest"
-		culture="Culture.neutral_culture"
-		subtype="body_armor"
-		weight="26"
-		difficulty="0"
-		appearance="1"
-		Type="HorseHarness">
-		<ItemComponent>
-			<Armor body_armor="15"
-				mane_cover_type="none"
-				family_type="1"
-				reins_mesh="horse_harness_imperial_a_rein"
-				material_type="Leather"/>
 		</ItemComponent>
 		<Flags Civilian="true"/>
 	</Item>

@@ -4585,40 +4585,6 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
-	<Item id="battanian_scale_armor_a"
-		name="{=QlvnKQbc}Highland Scale Armor over Mail Armor"
-		subtype="body_armor"
-		mesh="battanian_scale_armor_a"
-		weight="22.4"
-		Type="BodyArmor">
-		<ItemComponent>
-			<Armor body_armor="42"
-				leg_armor="15"
-				arm_armor="12"
-				has_gender_variations="true"
-				covers_body="true"
-				modifier_group="plate"
-				material_type="Plate"/>
-		</ItemComponent>
-		<Flags UseTeamColor="true"/>
-	</Item>
-	<Item id="battanian_scale_armor_b"
-		name="{=oJKXjRJ3}Highland Scale Armor over Cloth"
-		subtype="body_armor"
-		mesh="battanian_scale_armor_b"
-		weight="11.4"
-		Type="BodyArmor">
-		<ItemComponent>
-			<Armor body_armor="31"
-				leg_armor="6"
-				arm_armor="3"
-				has_gender_variations="true"
-				covers_body="true"
-				modifier_group="plate"
-				material_type="Plate"/>
-		</ItemComponent>
-		<Flags UseTeamColor="true"/>
-	</Item>
 	<!-- #endregion -->
 	<!-- #region Khuzait Armors -->
 	<Item id="steppe_armor"
@@ -5244,23 +5210,6 @@
 				material_type="Cloth"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
-	</Item>
-	<Item id="leather_scale_armor"
-		name="{=PL5SG9hI}Leather Scale Armor"
-		mesh="vlandia_leather_scale_armor"
-		subtype="body_armor"
-		weight="6.9"
-		Type="BodyArmor"
-		multiplayer_item="false">
-		<ItemComponent>
-			<Armor body_armor="16"
-				leg_armor="6"
-				arm_armor="6"
-				covers_body="true"
-				modifier_group="leather"
-				material_type="Leather"/>
-		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 	<Item id="woven_leather_vest"
 		name="{=LgftnHPs}Woven Leather Vest"
