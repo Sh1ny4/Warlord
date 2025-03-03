@@ -3,33 +3,33 @@
 	<!-- #region culture -->
 	<!-- Aserai -->
 		<NPCCharacter id="tournament_armour_aserai"
-					default_group="Infantry"
-					is_hero="false"
-					occupation="Special"
-					level="26"
-					culture="Culture.aserai"
-					name="{=!}Tournament Aserai">
-					<face>
-						<face_key_template value="BodyProperty.guard" />
-					</face>
-					<skills >
-						<skill id="Athletics" value="50"/>
-						<skill id="Riding" value="50"/>
-						<skill id="OneHanded" value="50"/>
-						<skill id="TwoHanded" value="50"/>
-						<skill id="Polearm" value="50"/>
-						<skill id="Bow" value="50"/>
-						<skill id="Crossbow" value="50"/>
-						<skill id="Throwing" value="50"/>
-					</skills>
-					<Equipments>
-						<EquipmentRoster>
-							<equipment slot="Head" id="Item.pointed_skullcap_over_laced_coif" />
-							<equipment slot="Body" id="Item.long_padded_robe" />
-							<equipment slot="Leg" id="Item.steppe_leather_boots" />
-						</EquipmentRoster>
-						<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
-					</Equipments>
+			default_group="Infantry"
+			is_hero="false"
+			occupation="Special"
+			level="26"
+			culture="Culture.aserai"
+			name="{=!}Tournament Aserai">
+			<face>
+				<face_key_template value="BodyProperty.guard" />
+			</face>
+			<skills >
+				<skill id="Athletics" value="50"/>
+				<skill id="Riding" value="50"/>
+				<skill id="OneHanded" value="50"/>
+				<skill id="TwoHanded" value="50"/>
+				<skill id="Polearm" value="50"/>
+				<skill id="Bow" value="50"/>
+				<skill id="Crossbow" value="50"/>
+				<skill id="Throwing" value="50"/>
+			</skills>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Head" id="Item.pointed_skullcap_over_laced_coif" />
+					<equipment slot="Body" id="Item.long_padded_robe" />
+					<equipment slot="Leg" id="Item.steppe_leather_boots" />
+				</EquipmentRoster>
+				<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
+			</Equipments>
 		</NPCCharacter>
 		<NPCCharacter id="tournament_template_aserai_one_participant_set_v1"
 			default_group="Infantry"
@@ -1949,35 +1949,35 @@
 
 	<!-- Battania -->
 		<NPCCharacter id="tournament_armour_battania"
-					default_group="Infantry"
-					is_hero="false"
-					occupation="Special"
-					level="26"
-					culture="Culture.battania"
-					name="{=!}Tournament Battania">
-					<face>
-						<face_key_template value="BodyProperty.guard" />
-					</face>
-					<skills >
-						<skill id="Athletics" value="50"/>
-						<skill id="Riding" value="50"/>
-						<skill id="OneHanded" value="50"/>
-						<skill id="TwoHanded" value="50"/>
-						<skill id="Polearm" value="50"/>
-						<skill id="Bow" value="50"/>
-						<skill id="Crossbow" value="50"/>
-						<skill id="Throwing" value="50"/>
-					</skills>
-					<Equipments>
-						<EquipmentRoster>
-							<equipment slot="Head" id="Item.bearhead" />
-							<equipment slot="Cape" id="Item.rough_bearskin" />
-							<equipment slot="Body" id="Item.battanian_savage_armor" />
-							<equipment slot="Gloves" id="Item.northern_brass_bracers" />
-							<equipment slot="Leg" id="Item.battania_leather_boots" />
-						</EquipmentRoster>
-						<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
-					</Equipments>
+			default_group="Infantry"
+			is_hero="false"
+			occupation="Special"
+			level="26"
+			culture="Culture.battania"
+			name="{=!}Tournament Battania">
+			<face>
+				<face_key_template value="BodyProperty.guard" />
+			</face>
+			<skills >
+				<skill id="Athletics" value="50"/>
+				<skill id="Riding" value="50"/>
+				<skill id="OneHanded" value="50"/>
+				<skill id="TwoHanded" value="50"/>
+				<skill id="Polearm" value="50"/>
+				<skill id="Bow" value="50"/>
+				<skill id="Crossbow" value="50"/>
+				<skill id="Throwing" value="50"/>
+			</skills>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Head" id="Item.bearhead" />
+					<equipment slot="Cape" id="Item.rough_bearskin" />
+					<equipment slot="Body" id="Item.battanian_savage_armor" />
+					<equipment slot="Gloves" id="Item.northern_brass_bracers" />
+					<equipment slot="Leg" id="Item.battania_leather_boots" />
+				</EquipmentRoster>
+				<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
+			</Equipments>
 		</NPCCharacter>
 		<NPCCharacter id="tournament_template_battania_one_participant_set_v1"
 			default_group="Infantry"
@@ -4191,33 +4191,33 @@
 
 	<!-- empire -->
 		<NPCCharacter id="tournament_armour_empire"
-					default_group="Infantry"
-					is_hero="false"
-					occupation="Special"
-					level="26"
-					culture="Culture.empire"
-					name="{=!}Tournament Empire">
-					<face>
-						<face_key_template value="BodyProperty.guard" />
-					</face>
-					<skills >
-						<skill id="Athletics" value="50"/>
-						<skill id="Riding" value="50"/>
-						<skill id="OneHanded" value="50"/>
-						<skill id="TwoHanded" value="50"/>
-						<skill id="Polearm" value="50"/>
-						<skill id="Bow" value="50"/>
-						<skill id="Crossbow" value="50"/>
-						<skill id="Throwing" value="50"/>
-					</skills>
-					<Equipments>
-						<EquipmentRoster>
-							<equipment slot="Head" id="Item.roundkettle_over_imperial_leather" />
-							<equipment slot="Body" id="Item.eastern_studded_leather" />
-							<equipment slot="Leg" id="Item.sturgia_boots_d" />
-						</EquipmentRoster>
-						<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
-					</Equipments>
+			default_group="Infantry"
+			is_hero="false"
+			occupation="Special"
+			level="26"
+			culture="Culture.empire"
+			name="{=!}Tournament Empire">
+			<face>
+				<face_key_template value="BodyProperty.guard" />
+			</face>
+			<skills >
+				<skill id="Athletics" value="50"/>
+				<skill id="Riding" value="50"/>
+				<skill id="OneHanded" value="50"/>
+				<skill id="TwoHanded" value="50"/>
+				<skill id="Polearm" value="50"/>
+				<skill id="Bow" value="50"/>
+				<skill id="Crossbow" value="50"/>
+				<skill id="Throwing" value="50"/>
+			</skills>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Head" id="Item.roundkettle_over_imperial_leather" />
+					<equipment slot="Body" id="Item.eastern_studded_leather" />
+					<equipment slot="Leg" id="Item.sturgia_boots_d" />
+				</EquipmentRoster>
+				<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
+			</Equipments>
 		</NPCCharacter>
 		<NPCCharacter id="tournament_template_empire_one_participant_set_v1"
 			default_group="Infantry"
@@ -6032,35 +6032,35 @@
 
 	<!-- khuzait -->
 		<NPCCharacter id="tournament_armour_khuzait"
-					default_group="Infantry"
-					is_hero="false"
-					occupation="Special"
-					level="26"
-					culture="Culture.khuzait"
-					name="{=!}Tournament Khuzait">
-					<face>
-						<face_key_template value="BodyProperty.guard" />
-					</face>
-					<skills >
-						<skill id="Athletics" value="50"/>
-						<skill id="Riding" value="50"/>
-						<skill id="OneHanded" value="50"/>
-						<skill id="TwoHanded" value="50"/>
-						<skill id="Polearm" value="50"/>
-						<skill id="Bow" value="50"/>
-						<skill id="Crossbow" value="50"/>
-						<skill id="Throwing" value="50"/>
-					</skills>
-					<Equipments>
-						<EquipmentRoster>
-							<equipment slot="Head" id="Item.plumed_fur_lined_helmet" />
-							<equipment slot="Cape" id="Item.leather_lamellar_shoulders" />
-							<equipment slot="Body" id="Item.eastern_stitched_leather_coat" />
-							<equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
-							<equipment slot="Leg" id="Item.eastern_leather_boots" />
-						</EquipmentRoster>
-						<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
-					</Equipments>
+			default_group="Infantry"
+			is_hero="false"
+			occupation="Special"
+			level="26"
+			culture="Culture.khuzait"
+			name="{=!}Tournament Khuzait">
+			<face>
+				<face_key_template value="BodyProperty.guard" />
+			</face>
+			<skills >
+				<skill id="Athletics" value="50"/>
+				<skill id="Riding" value="50"/>
+				<skill id="OneHanded" value="50"/>
+				<skill id="TwoHanded" value="50"/>
+				<skill id="Polearm" value="50"/>
+				<skill id="Bow" value="50"/>
+				<skill id="Crossbow" value="50"/>
+				<skill id="Throwing" value="50"/>
+			</skills>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Head" id="Item.plumed_fur_lined_helmet" />
+					<equipment slot="Cape" id="Item.leather_lamellar_shoulders" />
+					<equipment slot="Body" id="Item.eastern_stitched_leather_coat" />
+					<equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
+					<equipment slot="Leg" id="Item.eastern_leather_boots" />
+				</EquipmentRoster>
+				<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
+			</Equipments>
 		</NPCCharacter>
 		<NPCCharacter id="tournament_template_khuzait_one_participant_set_v1"
 			default_group="Infantry"
@@ -8319,33 +8319,33 @@
 
 	<!-- sturgia -->
 		<NPCCharacter id="tournament_armour_sturgia"
-					default_group="Infantry"
-					is_hero="false"
-					occupation="Special"
-					level="26"
-					culture="Culture.sturgia"
-					name="{=!}Tournament Sturgia">
-					<face>
-						<face_key_template value="BodyProperty.guard" />
-					</face>
-					<skills >
-						<skill id="Athletics" value="50"/>
-						<skill id="Riding" value="50"/>
-						<skill id="OneHanded" value="50"/>
-						<skill id="TwoHanded" value="50"/>
-						<skill id="Polearm" value="50"/>
-						<skill id="Bow" value="50"/>
-						<skill id="Crossbow" value="50"/>
-						<skill id="Throwing" value="50"/>
-					</skills>
-					<Equipments>
-						<EquipmentRoster>
-							<equipment slot="Head" id="Item.nasalhelm_over_mail" />
-							<equipment slot="Body" id="Item.sturgian_chainmale_shortsleeve" />
-							<equipment slot="Leg" id="Item.belted_leather_boots" />
-						</EquipmentRoster>
-						<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
-					</Equipments>
+			default_group="Infantry"
+			is_hero="false"
+			occupation="Special"
+			level="26"
+			culture="Culture.sturgia"
+			name="{=!}Tournament Sturgia">
+			<face>
+				<face_key_template value="BodyProperty.guard" />
+			</face>
+			<skills >
+				<skill id="Athletics" value="50"/>
+				<skill id="Riding" value="50"/>
+				<skill id="OneHanded" value="50"/>
+				<skill id="TwoHanded" value="50"/>
+				<skill id="Polearm" value="50"/>
+				<skill id="Bow" value="50"/>
+				<skill id="Crossbow" value="50"/>
+				<skill id="Throwing" value="50"/>
+			</skills>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Head" id="Item.nasalhelm_over_mail" />
+					<equipment slot="Body" id="Item.sturgian_chainmale_shortsleeve" />
+					<equipment slot="Leg" id="Item.belted_leather_boots" />
+				</EquipmentRoster>
+				<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
+			</Equipments>
 		</NPCCharacter>
 		<NPCCharacter id="tournament_template_sturgia_one_participant_set_v1"
 			default_group="Infantry"
@@ -10439,32 +10439,32 @@
 	
 	<!-- vlandia -->
 		<NPCCharacter id="tournament_armour_vlandia"
-					default_group="Infantry"
-					occupation="Special"
-					level="26"
-					culture="Culture.vlandia"
-					name="{=!}Tournament Vlandia">
-					<face>
-						<face_key_template value="BodyProperty.guard" />
-					</face>
-					<skills >
-						<skill id="Athletics" value="50"/>
-						<skill id="Riding" value="50"/>
-						<skill id="OneHanded" value="50"/>
-						<skill id="TwoHanded" value="50"/>
-						<skill id="Polearm" value="50"/>
-						<skill id="Bow" value="50"/>
-						<skill id="Crossbow" value="50"/>
-						<skill id="Throwing" value="50"/>
-					</skills>
-					<Equipments>
-						<EquipmentRoster>
-							<equipment slot="Head" id="Item.segmented_skullcap_over_padded_cloth" />
-							<equipment slot="Body" id="Item.imperial_padded_cloth" />
-							<equipment slot="Leg" id="Item.steppe_leather_boots" />
-						</EquipmentRoster>
-						<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
-					</Equipments>
+			default_group="Infantry"
+			occupation="Special"
+			level="26"
+			culture="Culture.vlandia"
+			name="{=!}Tournament Vlandia">
+			<face>
+				<face_key_template value="BodyProperty.guard" />
+			</face>
+			<skills >
+				<skill id="Athletics" value="50"/>
+				<skill id="Riding" value="50"/>
+				<skill id="OneHanded" value="50"/>
+				<skill id="TwoHanded" value="50"/>
+				<skill id="Polearm" value="50"/>
+				<skill id="Bow" value="50"/>
+				<skill id="Crossbow" value="50"/>
+				<skill id="Throwing" value="50"/>
+			</skills>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Head" id="Item.segmented_skullcap_over_padded_cloth" />
+					<equipment slot="Body" id="Item.imperial_padded_cloth" />
+					<equipment slot="Leg" id="Item.steppe_leather_boots" />
+				</EquipmentRoster>
+				<EquipmentSet id="npc_wanderer_equipment_template_empire" civilian="true" />
+			</Equipments>
 		</NPCCharacter>
 		<NPCCharacter id="tournament_template_vlandia_one_participant_set_v1"
 			default_group="Infantry"
