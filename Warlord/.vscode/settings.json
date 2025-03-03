@@ -1,8 +1,0 @@
-{
-    "editor.foldingStrategy": "auto",
-    "notebook.showFoldingControls": "always",
-    "editor.showFoldingControls": "always",
-    "editor.foldingMaximumRegions": 20000,
-    "json.maxItemsComputed": 20000,
-    "editor.stickyScroll.defaultModel": "foldingProviderModel"
-}

@@ -14,9 +14,9 @@
 	</DependedModules>
 	<SubModules>
 		<SubModule>
-			<Name value="wipo" />
-			<DLLName value="wipo.dll" />
-			<SubModuleClassType value="wipo.main" />
+			<Name value="Warlord" />
+			<DLLName value="Warlord.dll" />
+			<SubModuleClassType value="Warlord.Main" />
 			<Tags />
 		</SubModule>
 	</SubModules>
