@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
-<!--
+	<!--
 	<NPCCharacter id="main_hero"
 		default_group="Cavalry"
 		is_hero="true"
@@ -124,7 +124,7 @@
 			<equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled" />
 		</Equipments>
 	</NPCCharacter>
--->
+	-->
   	<!-- #region Aserai -->
 	<NPCCharacter id="lord_3_1"
 		name="{=r3oIoCr8}Unqid"

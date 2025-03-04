@@ -15,7 +15,6 @@ lieux visitables :
  code à retravailler :
     levels de clan
     création de personnage
-    création des armées
     skills/perks
     projets
     économie des items (diviser le prix par le tier ?)
@@ -28,23 +27,18 @@ code à enlever :
 code à ajouter :
     camps (entrainement de troupes, lecture, chasse)
     compagnons uniques
+    marshalls
     blocage navmesh pour châteaux
     systèmes politiques (democracie, parlement, hereditaire)
     systèmes de recruitement (levy, volontaires, service)
     voyager avec une caravane
     manhunters
 
-
 citées 
     commission d'art
     attendre coûte de l'argent
     festivaux liés aux tournois
     système de messagers
-
-cinematiques 
-    lecture  
-    ouverture d'un workshop, lancement d'une caravane
-    soigner un NPC
 
 buldings/projets : 
     towns:  

@@ -2034,7 +2034,7 @@
     </Components>
   </Settlement>
   <!-- Sea Raider  Hideouts -->
-  <Settlement id="hideout_seaside_1" name="{=hideout_seaside_1}Hideout" type="Hideout" posX="535.3544" posY="654.0756" culture="Culture.sea_raiders">
+  <Settlement id="hideout_seaside_1" name="{=hideout_seaside_1}Hideout" type="Hideout" posX="535.354" posY="654.076" culture="Culture.sea_raiders">
     <Components>
       <Hideout id="hideout_seaside_1" map_icon="bandit_hideout_c" scene_name="sea_bandit_c" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_seaside" gate_rotation="0.0" />
     </Components>

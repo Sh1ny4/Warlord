@@ -62,10 +62,10 @@
       </stacks>
     </MBPartyTemplate>
 
-  <!-- aserai -->
+  <!-- Sarranid -->
     <MBPartyTemplate id="kingdom_hero_party_aserai_template" >
       <stacks>
-        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.aserai_tribesman" />
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.sarranid_recruit" />
       </stacks>
     </MBPartyTemplate>
     <MBPartyTemplate id="vassal_reward_troops_aserai" >
@@ -80,7 +80,7 @@
     </MBPartyTemplate>
     <MBPartyTemplate id="rebels_aserai_template">
       <stacks>
-        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.aserai_tribesman" />
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.sarranid_recruit" />
       </stacks>
     </MBPartyTemplate>
     <MBPartyTemplate id="caravan_template_aserai">
@@ -105,10 +105,10 @@
       </stacks>
     </MBPartyTemplate>
 
-  <!-- battania -->
+  <!-- Nord -->
     <MBPartyTemplate id="kingdom_hero_party_battania_template" >
       <stacks>
-        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.battanian_volunteer" />
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.nord_recruit" />
       </stacks>
     </MBPartyTemplate>
     <MBPartyTemplate id="vassal_reward_troops_battania" >
@@ -123,7 +123,7 @@
     </MBPartyTemplate>
     <MBPartyTemplate id="rebels_battania_template">
       <stacks>
-        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.battanian_volunteer" />
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.nord_recruit" />
       </stacks>
     </MBPartyTemplate>
     <MBPartyTemplate id="caravan_template_battania">
@@ -148,10 +148,10 @@
       </stacks>
     </MBPartyTemplate>
 
-  <!-- empire -->
+  <!-- Rhodok -->
     <MBPartyTemplate id="kingdom_hero_party_empire_template" >
       <stacks>
-        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.imperial_recruit" />
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.rhodok_tribesman" />
       </stacks>
     </MBPartyTemplate>
     <MBPartyTemplate id="vassal_reward_troops_empire" >
@@ -166,7 +166,7 @@
     </MBPartyTemplate>
     <MBPartyTemplate id="rebels_empire_template">
       <stacks>
-        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.imperial_recruit" />
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.rhodok_tribesman" />
       </stacks>
     </MBPartyTemplate>
     <MBPartyTemplate id="caravan_template_empire">
@@ -191,10 +191,10 @@
       </stacks>
     </MBPartyTemplate>
 
-  <!-- khuzait -->
+  <!-- Khergit -->
     <MBPartyTemplate id="kingdom_hero_party_khuzait_template" >
       <stacks>
-        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.khuzait_nomad" />
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.khergit_tribesman" />
       </stacks>
     </MBPartyTemplate>
     <MBPartyTemplate id="vassal_reward_troops_khuzait" >
@@ -209,7 +209,7 @@
     </MBPartyTemplate>
     <MBPartyTemplate id="rebels_khuzait_template">
       <stacks>
-        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.khuzait_nomad" />
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.khergit_tribesman" />
       </stacks>
     </MBPartyTemplate>
     <MBPartyTemplate id="caravan_template_khuzait">
@@ -234,10 +234,10 @@
       </stacks>
     </MBPartyTemplate>
 
-  <!-- sturgia -->
+  <!-- Vaegir -->
     <MBPartyTemplate id="kingdom_hero_party_sturgia_template" >
       <stacks>
-        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.sturgian_recruit" />
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.vaegir_recruit" />
       </stacks>
     </MBPartyTemplate>
     <MBPartyTemplate id="vassal_reward_troops_sturgia" >
@@ -252,7 +252,7 @@
     </MBPartyTemplate>
     <MBPartyTemplate id="rebels_sturgia_template">
       <stacks>
-        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.sturgian_recruit" />
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.vaegir_recruit" />
       </stacks>
     </MBPartyTemplate>
     <MBPartyTemplate id="caravan_template_sturgia">
@@ -277,10 +277,10 @@
       </stacks>
     </MBPartyTemplate>
 
-  <!-- vlandia -->
+  <!-- Swadia -->
     <MBPartyTemplate id="kingdom_hero_party_vlandia_template" >
       <stacks>
-        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.vlandian_recruit" />
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.swadian_recruit" />
       </stacks>
     </MBPartyTemplate>
     <MBPartyTemplate id="vassal_reward_troops_vlandia" >
@@ -295,7 +295,7 @@
     </MBPartyTemplate>
     <MBPartyTemplate id="rebels_vlandia_template">
       <stacks>
-        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.vlandian_recruit" />
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.swadian_recruit" />
       </stacks>
     </MBPartyTemplate>
     <MBPartyTemplate id="caravan_template_vlandia">
