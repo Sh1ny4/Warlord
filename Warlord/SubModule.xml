@@ -16,7 +16,7 @@
 		<SubModule>
 			<Name value="Warlord" />
 			<DLLName value="Warlord.dll" />
-			<SubModuleClassType value="Warlord.Main" />
+			<SubModuleClassType value="Warlord.Submodule" />
 			<Tags />
 		</SubModule>
 	</SubModules>

@@ -33,6 +33,12 @@ code à ajouter :
     systèmes de recruitement (levy, volontaires, service)
     voyager avec une caravane
     manhunters
+    duel
+    cargo chart in inventory > high storage
+    harder siege
+    relation change in log
+    better time
+    skill books
 
 citées 
     commission d'art
