@@ -1,5 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
+<!--
+	<NPCCharacter id="main_hero"
+		default_group="Cavalry"
+		is_hero="true"
+		voice="earnest"
+		age="22"
+		is_female="false"
+		culture="Culture.battania"
+		name="{=ekcBrNN1}Eren"
+		banner_symbol_mesh_name="test_symbol_a"
+		occupation="Lord"
+		banner_symbol_color="FF000000"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="3" age="22.55" weight="0.5355" build="0.5015" key="00109C0D8000134D59A4894CAAA8A4A6BC7262A86699976479AD7D8A99877A3A007886030768E986000000000000000000000000000000000000000000FC1142" />
+		</face>
+		<skills>
+			<skill id="OneHanded" value="0" />
+			<skill id="TwoHanded" value="0" />
+			<skill id="Polearm" value="0" />
+			<skill id="Bow" value="0" />
+			<skill id="Crossbow" value="0" />
+			<skill id="Throwing" value="0" />
+			<skill id="Riding" value="0" />
+			<skill id="Athletics" value="0" />
+			<skill id="Crafting" value="0" />
+			<skill id="Tactics" value="0" />
+			<skill id="Scouting" value="0" />
+			<skill id="Roguery" value="0" />
+			<skill id="Leadership" value="0" />
+			<skill id="Charm" value="0" />
+			<skill id="Trade" value="0" />
+			<skill id="Steward" value="0" />
+			<skill id="Medicine" value="0" />
+			<skill id="Engineering" value="0" />
+		</skills>
+		<Traits>
+			<Trait id="Commander" value="0" />
+		</Traits>
+		<feats>
+		</feats>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.ridged_sabre_sword_t4" />
+				<equipment slot="Item1" id="Item.khuzait_lance_2_t4" />
+				<equipment slot="Item2" id="Item.steppe_war_bow" />
+				<equipment slot="Item3" id="Item.bodkin_arrows_a" />
+				<equipment slot="Body" id="Item.battania_civil_b" />
+				<equipment slot="Leg" id="Item.leather_shoes" />
+				<equipment slot="Cape" id="Item.battania_civil_cloak" />
+				<equipment slot="Horse" id="Item.noble_horse" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment slot="Body" id="Item.khuzait_civil_coat" />
+				<equipment slot="Leg" id="Item.fine_town_boots" />
+				<equipment slot="Item0" id="Item.vlandia_sword_2_t3" />
+			</EquipmentRoster>
+			<equipment slot="Horse" id="Item.saddle_horse" />
+			<equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="main_hero_father"
+		default_group="Cavalry"
+		age="50"
+		voice="earnest"
+		is_hero="true"
+		culture="Culture.battania"
+		occupation="Lord"
+		name="{=a2rhPaGB}Baldron"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" key="0005C80000BC214266EA9979568444848885462866B3674479986B98949492360007465707678747000000000000000000000000000000000000000001440081" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6" />
+			<Trait id="Commander" value="6" />
+			<Trait id="Politician" value="3" />
+			<Trait id="Manager" value="4" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_2_t3" />
+				<equipment slot="Item1" id="Item.fortified_kite_shield" />
+				<equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
+				<equipment slot="Leg" id="Item.leather_cavalier_boots" />
+				<equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
+			</EquipmentRoster>
+			<EquipmentSet id="bat_civ_template_default" ="true" />
+			<equipment slot="Horse" id="Item.noble_horse" />
+			<equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="main_hero_mother"
+		default_group="Cavalry"
+		age="50"
+		voice="earnest"
+		is_female="true"
+		culture="Culture.battania"
+		occupation="Lord"
+		name="{=V44d9fIP}Terra"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" key="0005400A000020057D82975A4558A8889376844AA5C35AC898876294659B8964000276560238A9A6000000000000000000000000000000000000000000A400C1" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait id="Politician" value="3" />
+			<Trait id="Manager" value="4" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_2_t3" />
+				<equipment slot="Item1" id="Item.fortified_kite_shield" />
+				<equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
+				<equipment slot="Leg" id="Item.leather_cavalier_boots" />
+				<equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
+			</EquipmentRoster>
+			<EquipmentSet id="bat_noncom_template_default" ="true" />
+			<equipment slot="Horse" id="Item.noble_horse" />
+			<equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled" />
+		</Equipments>
+	</NPCCharacter>
+-->
   	<!-- #region Aserai -->
 	<NPCCharacter id="lord_3_1"
 		name="{=r3oIoCr8}Unqid"
@@ -11,7 +136,6 @@
 		default_group="Cavalry"
 		face_mesh_cache="true">
 		<face>
-			<!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
 			<BodyProperties version="4" key="0028280FD7FC23C299C2761C4AC1A5954778548899A66659788878746A9D9629000F16530FA7699C000000000000000000000000000000000000000000F47140" />
 		</face>
 		<skills></skills>
@@ -42,7 +166,6 @@
 		default_group="Cavalry"
 		face_mesh_cache="true">
 		<face>
-			<!--face_key value="0025512fd13c0001a7e3c8a64757b4876ba6785e867c96d8249d763f3bb7d86400057c5481a663680000000000000ce600000000000000000000000000006000" /-->
 			<BodyProperties version="4" key="0022500FD13C0001A7E3C8A64757B4876BA6785E867C96D8249D763F3BB7D86400000C5401A663680000000000000CE600000000000000000000000000286000" />
 		</face>
 		<skills></skills>
@@ -98,7 +221,6 @@
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
-			<!--face_key value="0030dd2e0000040497d3427635d39ca7a837954a579662459958a8898646766a0000000406b767790000000000000ce600000000000000000000000000000000" /-->
 			<BodyProperties version="4" key="002DDC0E4000040497D3427635D69CA7A837954A579662459958A8898646766A0007600307B767790000000000000CE600000000000000000000000000500000" />
 		</face>
 		<skills></skills>
@@ -199,7 +321,6 @@
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
-			<!--face_key value="0016ff8fc000274d9ebf61ffb76ea46ea4959af6f9a58e3dc8756149d64b84a8000ee65d09b1e944000000000000000000000000000000000000000000a07080" /-->
 			<BodyProperties version="4" key="0016FC0FC000274D9EBF61FFB762A46EA4959AF6F9A58E3DC8756149D64B84A8000C265309B1E944000000000000000000000000000000000000000000F07080" />
 		</face>
 		<skills></skills>
@@ -284,7 +405,6 @@
 		culture="Culture.khuzait"
 		occupation="Lord">
 		<face>
-			<!--face_key value="001cc54fc03c1004e586a65ab6332a27a66555bcbecb2aa6b87bac8b8567a764000209a502628966000000000000000000000000000000000000000001f830c3" /-->
 			<BodyProperties version="4" key="001CC40FC03C1004E586A65AB6332A27A66555BCBECB2AA6B87BAC8B8567A764000639A302628966000000000000000000000000000000000000000000F030C2" />
 		</face>
 		<Traits>
@@ -362,7 +482,6 @@
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
-			<!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
 			<BodyProperties version="4" weight="0.5" build="0.7" key="0000500140BC09429E895C86B34CA38993A369B8B287576979538AC46B678B940177781307C60384000000000000000000000000000000000000000000F05180" />
 		</face>
 		<skills></skills>
@@ -472,7 +591,6 @@
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
-			<!--face_key value="0006ac0b007c0145c7a823ea6364a9a17c7bcbe6b481159753bdc588eae9aac7000249c09a486475000000000000000000000000000000000000000000001000" /-->
 			<BodyProperties version="4" weight="0.2" build="0.4" key="0005AC0B4070015217A823EA6364A9577C7BCBE6B481144EA0B835CE9AE9AAC701B009140BA86C75000000000000000000000000000000000000000001683080" />
 		</face>
 		<skills></skills>
@@ -622,7 +740,6 @@
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
-			<!--face_key value="0000fe42c000220458c56743d5b5ab56396a8c717b876e66c7b287ab79c2a84b0005400905c96766000000000000000000000000000000000000000001282000" /-->
 			<BodyProperties version="4" key="0000FC02C000220458C56743D5B5AB56396A8C717B876E66C7B287AB79C2A84B0000000305C96766000000000000000000000000000000000000000000F02000" />
 		</face>
 		<skills></skills>
@@ -652,7 +769,6 @@
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
-			<!--face_key value="000044000000000577707780b7c07777c2bb71f7eff77aa7956746991c7775c70000000005c7966a000000000000000000000000000000000000000000000100" /-->
 			<BodyProperties version="4" key="000044000000000577707780B7C07777C2BB71F7EFF77AA7956746991C7775C70000000505C7966A000000000000000000000000000000000000000000000100" />
 		</face>
 		<Traits>
@@ -704,7 +820,6 @@
 		occupation="Lord"
 		face_mesh_cache="true">
 		<face>
-			<!--face_key value="000080000000000b67874369563b575737063939bc84896c773744465293778c000000000f97cdd9000000000000000000000000000000000000000000000000" /-->
 			<BodyProperties version="4" key="000080000000000B67874369563B575737063939BC84896C773744465293778C000000030F97CDD9000000000000000000000000000000000000000000000000" />
 		</face>
 		<Traits>

@@ -16,7 +16,6 @@ lieux visitables :
     levels de clan
     création de personnage
     création des armées
-    limite de troupes
     skills/perks
     projets
     économie des items (diviser le prix par le tier ?)
@@ -25,7 +24,6 @@ lieux visitables :
 
 code à enlever :
     passage du temps
-    brouillard de guerre
 
 code à ajouter :
     camps (entrainement de troupes, lecture, chasse)

@@ -338,8 +338,7 @@
 			<Item id="wld_coat_of_plates_royal"
 				name="coat of plates royal pattern"
 				mesh="coat_of_plates2_c"
-				subtype="body_armor"  
-				value="70000"
+				subtype="body_armor"
 				weight="25.11"
 				Type="BodyArmor">
 				<ItemComponent>

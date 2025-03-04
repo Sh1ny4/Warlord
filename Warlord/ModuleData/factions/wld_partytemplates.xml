@@ -1,92 +1,322 @@
 <?xml version="1.0" encoding="utf-8"?>
 <partyTemplates>
-  <!-- Hero party Troops-->
-  <MBPartyTemplate id="kingdom_hero_party_aserai_template" >
-    <stacks>
-    </stacks>
-  </MBPartyTemplate>
-  <MBPartyTemplate id="kingdom_hero_party_battania_template" >
-    <stacks>
-    </stacks>
-  </MBPartyTemplate>
-  <MBPartyTemplate id="kingdom_hero_party_empire_template" >
-    <stacks>
-    </stacks>
-  </MBPartyTemplate>
-  <MBPartyTemplate id="kingdom_hero_party_khuzait_template" >
-    <stacks>
-    </stacks>
-  </MBPartyTemplate>
-  <MBPartyTemplate id="kingdom_hero_party_sturgia_template" >
-    <stacks>
-    </stacks>
-  </MBPartyTemplate>
-  <MBPartyTemplate id="kingdom_hero_party_vlandia_template" >
-    <stacks>
-    </stacks>
-  </MBPartyTemplate>
-  
-  <!-- Vassal Reward Troops-->
-  <MBPartyTemplate id="vassal_reward_troops_aserai" >
-    <stacks>
-    </stacks>
-  </MBPartyTemplate>
-  <MBPartyTemplate id="vassal_reward_troops_battania" >
-    <stacks>
-    </stacks>
-  </MBPartyTemplate>
-  <MBPartyTemplate id="vassal_reward_troops_empire" >
-    <stacks>
-    </stacks>
-  </MBPartyTemplate>
-  <MBPartyTemplate id="vassal_reward_troops_khuzait" >
-    <stacks>
-    </stacks>
-  </MBPartyTemplate>
-  <MBPartyTemplate id="vassal_reward_troops_sturgia" >
-    <stacks>
-    </stacks>
-  </MBPartyTemplate>
-  <MBPartyTemplate id="vassal_reward_troops_vlandia" >
-    <stacks>
-    </stacks>
-  </MBPartyTemplate>
+  <!-- bandits -->
+    <MBPartyTemplate id="looters_quest_template">
+      <stacks>
+        <PartyTemplateStack min_value="15" max_value="15" troop="NPCCharacter.looter" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="looters_template">
+      <stacks>
+        <PartyTemplateStack min_value="4" max_value="36" troop="NPCCharacter.looter" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="sea_raiders_template">
+      <stacks>
+        <PartyTemplateStack min_value="2" max_value="18" troop="NPCCharacter.sea_raider" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="sea_raiders_boss_party_template">
+      <stacks>
+        <PartyTemplateStack min_value="2" max_value="18" troop="NPCCharacter.sea_raider" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="mountain_bandits_template">
+      <stacks>
+        <PartyTemplateStack min_value="2" max_value="18" troop="NPCCharacter.mountain_bandit" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="mountain_bandits_boss_party_template">
+      <stacks>
+        <PartyTemplateStack min_value="2" max_value="18" troop="NPCCharacter.mountain_bandit" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="forest_bandits_template">
+      <stacks>
+        <PartyTemplateStack min_value="2" max_value="18" troop="NPCCharacter.forest_bandit" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="forest_bandits_boss_party_template">
+      <stacks>
+        <PartyTemplateStack min_value="2" max_value="18" troop="NPCCharacter.forest_bandit" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="desert_bandits_template">
+      <stacks>
+        <PartyTemplateStack min_value="2" max_value="18" troop="NPCCharacter.desert_bandit" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="desert_bandits_boss_party_template">
+      <stacks>
+        <PartyTemplateStack min_value="2" max_value="18" troop="NPCCharacter.desert_bandit" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="steppe_bandits_template">
+      <stacks>
+        <PartyTemplateStack min_value="2" max_value="18" troop="NPCCharacter.steppe_bandit" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="steppe_bandits_boss_party_template">
+      <stacks>
+        <PartyTemplateStack min_value="2" max_value="18" troop="NPCCharacter.steppe_bandit" />
+      </stacks>
+    </MBPartyTemplate>
 
-  <!-- villager parties to add sword sisters -->
-  <MBPartyTemplate id="villager_aserai_template" >
-    <stacks>
-      <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.villager_aserai" />
-      <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.village_woman_aserai" />
-    </stacks>
-  </MBPartyTemplate>
-  <MBPartyTemplate id="villager_battania_template" >
-    <stacks>
-      <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.villager_battania" />
-      <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.village_woman_battania" />
-    </stacks>
-  </MBPartyTemplate>
-  <MBPartyTemplate id="villager_empire_template" >
-    <stacks>
-      <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.villager_empire" />
-      <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.village_woman_empire" />
-    </stacks>
-  </MBPartyTemplate>
-  <MBPartyTemplate id="villager_khuzait_template" >
-    <stacks>
-      <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.villager_khuzait" />
-      <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.village_woman_khuzait" />
-    </stacks>
-  </MBPartyTemplate>
-  <MBPartyTemplate id="villager_sturgia_template" >
-    <stacks>
-      <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.villager_sturgia" />
-      <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.village_woman_sturgia" />
-    </stacks>
-  </MBPartyTemplate>
-  <MBPartyTemplate id="villager_vlandia_template" >
-    <stacks>
-      <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.villager_vlandia" />
-      <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.village_woman_vlandia" />
-    </stacks>
-  </MBPartyTemplate>
+  <!-- aserai -->
+    <MBPartyTemplate id="kingdom_hero_party_aserai_template" >
+      <stacks>
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.aserai_tribesman" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="vassal_reward_troops_aserai" >
+      <stacks>
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="villager_aserai_template" >
+      <stacks>
+        <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.villager_aserai" />
+        <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.village_woman_aserai" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="rebels_aserai_template">
+      <stacks>
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.aserai_tribesman" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="caravan_template_aserai">
+      <stacks>
+        <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_aserai" />
+        <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_aserai" />
+        <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_aserai" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="elite_caravan_template_aserai">
+      <stacks>
+        <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_aserai" />
+        <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_aserai" />
+        <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_aserai" />
+        <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_aserai" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="militia_aserai_template">
+      <stacks>
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.aserai_militia_spearman" />
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.aserai_militia_archer" />
+      </stacks>
+    </MBPartyTemplate>
+
+  <!-- battania -->
+    <MBPartyTemplate id="kingdom_hero_party_battania_template" >
+      <stacks>
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.battanian_volunteer" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="vassal_reward_troops_battania" >
+      <stacks>
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="villager_battania_template" >
+      <stacks>
+        <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.villager_battania" />
+        <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.village_woman_battania" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="rebels_battania_template">
+      <stacks>
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.battanian_volunteer" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="caravan_template_battania">
+      <stacks>
+        <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_battania" />
+        <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_battania" />
+        <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_battania" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="elite_caravan_template_battania">
+      <stacks>
+        <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_battania" />
+        <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_battania" />
+        <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_battania" />
+        <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_battania" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="militia_battania_template">
+      <stacks>
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.battanian_militia_spearman" />
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.battanian_militia_archer" />
+      </stacks>
+    </MBPartyTemplate>
+
+  <!-- empire -->
+    <MBPartyTemplate id="kingdom_hero_party_empire_template" >
+      <stacks>
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.imperial_recruit" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="vassal_reward_troops_empire" >
+      <stacks>
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="villager_empire_template" >
+      <stacks>
+        <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.villager_empire" />
+        <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.village_woman_empire" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="rebels_empire_template">
+      <stacks>
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.imperial_recruit" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="caravan_template_empire">
+      <stacks>
+        <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_empire" />
+        <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_empire" />
+        <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_empire" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="elite_caravan_template_empire">
+      <stacks>
+        <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_empire" />
+        <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_empire" />
+        <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_empire" />
+        <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_empire" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="militia_empire_template">
+      <stacks>
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.imperial_militia_spearman" />
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.imperial_militia_archer" />
+      </stacks>
+    </MBPartyTemplate>
+
+  <!-- khuzait -->
+    <MBPartyTemplate id="kingdom_hero_party_khuzait_template" >
+      <stacks>
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.khuzait_nomad" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="vassal_reward_troops_khuzait" >
+      <stacks>
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="villager_khuzait_template" >
+      <stacks>
+        <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.villager_khuzait" />
+        <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.village_woman_khuzait" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="rebels_khuzait_template">
+      <stacks>
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.khuzait_nomad" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="caravan_template_khuzait">
+      <stacks>
+        <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_khuzait" />
+        <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_khuzait" />
+        <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_khuzait" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="elite_caravan_template_khuzait">
+      <stacks>
+        <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_khuzait" />
+        <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_khuzait" />
+        <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_khuzait" />
+        <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_khuzait" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="militia_khuzait_template">
+      <stacks>
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.khuzait_militia_spearman" />
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.khuzait_militia_archer" />
+      </stacks>
+    </MBPartyTemplate>
+
+  <!-- sturgia -->
+    <MBPartyTemplate id="kingdom_hero_party_sturgia_template" >
+      <stacks>
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.sturgian_recruit" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="vassal_reward_troops_sturgia" >
+      <stacks>
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="villager_sturgia_template" >
+      <stacks>
+        <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.villager_sturgia" />
+        <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.village_woman_sturgia" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="rebels_sturgia_template">
+      <stacks>
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.sturgian_recruit" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="caravan_template_sturgia">
+      <stacks>
+        <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_sturgia" />
+        <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_sturgia" />
+        <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_sturgia" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="elite_caravan_template_sturgia">
+      <stacks>
+        <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_sturgia" />
+        <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_sturgia" />
+        <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_sturgia" />
+        <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_sturgia" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="militia_sturgia_template">
+      <stacks>
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.sturgian_militia_spearman" />
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.sturgian_militia_archer" />
+      </stacks>
+    </MBPartyTemplate>
+
+  <!-- vlandia -->
+    <MBPartyTemplate id="kingdom_hero_party_vlandia_template" >
+      <stacks>
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.vlandian_recruit" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="vassal_reward_troops_vlandia" >
+      <stacks>
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="villager_vlandia_template" >
+      <stacks>
+        <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.villager_vlandia" />
+        <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.village_woman_vlandia" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="rebels_vlandia_template">
+      <stacks>
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.vlandian_recruit" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="caravan_template_vlandia">
+      <stacks>
+        <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_vlandia" />
+        <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_vlandia" />
+        <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_vlandia" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="elite_caravan_template_vlandia">
+      <stacks>
+        <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_vlandia" />
+        <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_vlandia" />
+        <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_vlandia" />
+        <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_vlandia" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="militia_vlandia_template">
+      <stacks>
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.vlandian_militia_spearman" />
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.vlandian_militia_archer" />
+      </stacks>
+    </MBPartyTemplate>
 </partyTemplates>
