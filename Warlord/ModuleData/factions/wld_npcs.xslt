@@ -540,18 +540,23 @@
 		<xsl:template match="NPCCharacter[@id='sea_raiders_bandit']"/>
 		<xsl:template match="NPCCharacter[@id='sea_raiders_raider']"/>
 		<xsl:template match="NPCCharacter[@id='sea_raiders_chief']"/>
+		<xsl:template match="NPCCharacter[@id='sea_raiders_boss']"/>
 		<xsl:template match="NPCCharacter[@id='mountain_bandits_bandit']"/>
 		<xsl:template match="NPCCharacter[@id='mountain_bandits_raider']"/>
 		<xsl:template match="NPCCharacter[@id='mountain_bandits_chief']"/>
+		<xsl:template match="NPCCharacter[@id='mountain_bandits_boss']"/>
 		<xsl:template match="NPCCharacter[@id='forest_bandits_bandit']"/>
 		<xsl:template match="NPCCharacter[@id='forest_bandits_raider']"/>
 		<xsl:template match="NPCCharacter[@id='forest_bandits_chief']"/>
+		<xsl:template match="NPCCharacter[@id='forest_bandits_boss']"/>
 		<xsl:template match="NPCCharacter[@id='desert_bandits_bandit']"/>
 		<xsl:template match="NPCCharacter[@id='desert_bandits_raider']"/>
 		<xsl:template match="NPCCharacter[@id='desert_bandits_chief']"/>
+		<xsl:template match="NPCCharacter[@id='desert_bandits_boss']"/>
 		<xsl:template match="NPCCharacter[@id='steppe_bandits_bandit']"/>
 		<xsl:template match="NPCCharacter[@id='steppe_bandits_raider']"/>
 		<xsl:template match="NPCCharacter[@id='steppe_bandits_chief']"/>
+		<xsl:template match="NPCCharacter[@id='steppe_bandits_boss']"/>
 		<xsl:template match="NPCCharacter[@id='gangster_1']"/>
 		<xsl:template match="NPCCharacter[@id='gangster_2']"/>
 		<xsl:template match="NPCCharacter[@id='gangster_3']"/>

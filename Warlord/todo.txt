@@ -1,7 +1,7 @@
 décorations de carte:
     chantiers (terrestres et navaux)
     bateaus de peches en mer 
-    atols, oasis, barriere de corail
+    atols, oasis, barriere de corail, cascades
     villes coupés par des fleuves
     viaduc, aqueduc, routes, canal, phare
     mines, champs, culture en terrasse, scieries, moulins, marés salants, etc. liés aux villages
