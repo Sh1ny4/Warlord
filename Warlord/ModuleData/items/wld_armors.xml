@@ -18,7 +18,7 @@
 				</ItemComponent>
 				<Flags UseTeamColor="false"/>
 			</Item>
-			<Item id="vlandia_helmet_s_ii"
+			<Item id="wld_vlandia_helmet_s_ii"
 				name="vlandia_helmet_s_ii"
 				mesh="vlandia_helmet_s_ii"
 				weight="0.8"
@@ -31,7 +31,7 @@
 					material_type="Plate" />
 				</ItemComponent>
 			</Item>
-			<Item id="vlandia_helmet_s_iii"
+			<Item id="wld_vlandia_helmet_s_iii"
 				name="vlandia_helmet_s_iii"
 				mesh="vlandia_helmet_s_iii"
 				weight="1.2"
@@ -45,7 +45,7 @@
 					material_type="Plate" />
 				</ItemComponent>
 			</Item>
-			<Item id="sloven_helmet"
+			<Item id="wld_sloven_helmet"
 				name="sloven_helmet"
 				mesh="sloven_helmet"
 				weight="0.4"
@@ -59,7 +59,7 @@
 					material_type="Plate" />
 				</ItemComponent>
 			</Item>
-			<Item id="southern_helmet_with_band"
+			<Item id="wld_southern_helmet_with_band"
 				name="southern_helmet_with_band"
 				mesh="southern_helmet_with_band"
 				weight="1.0"
@@ -73,7 +73,7 @@
 				</ItemComponent>
 				<Flags UseTeamColor="true" />
 			</Item>
-			<Item id="southern_cone_helmet"
+			<Item id="wld_southern_cone_helmet"
 				name="southern_cone_helmet"
 				mesh="southern_cone_helmet"
 				weight="1.0"
@@ -87,7 +87,7 @@
 				</ItemComponent>
 				<Flags UseTeamColor="true" />
 			</Item>
-			<Item id="southern_heavy_helmet"
+			<Item id="wld_southern_heavy_helmet"
 				name="southern_heavy_helmet"
 				mesh="southern_heavy_helmet"
 				weight="1.2"
@@ -101,7 +101,7 @@
 				</ItemComponent>
 				<Flags UseTeamColor="true" />
 			</Item>
-			<Item id="southern_heavy_tuareg"
+			<Item id="wld_southern_heavy_tuareg"
 				name="southern_heavy_tuareg"
 				mesh="southern_heavy_tuareg"
 				weight="1.3"
@@ -114,7 +114,7 @@
 				</ItemComponent>
 				<Flags UseTeamColor="true" />
 			</Item>
-			<Item id="saracen_helmet_c"
+			<Item id="wld_saracen_helmet_c"
 				name="saracen_helmet_c"
 				mesh="saracen_helmet_c"
 				weight="1.3"
@@ -128,7 +128,7 @@
 				</ItemComponent>
 				<Flags UseTeamColor="true" />
 			</Item>
-			<Item id="southern_lord_helmet_a"
+			<Item id="wld_southern_lord_helmet_a"
 				name="southern_lord_helmet_a"
 				mesh="southern_lord_helmet_a"
 				weight="1.5"
@@ -141,7 +141,7 @@
 					material_type="Plate" />
 				</ItemComponent>
 			</Item>
-			<Item id="southern_lord_helmet_b"
+			<Item id="wld_southern_lord_helmet_b"
 				name="southern_lord_helmet_b"
 				mesh="southern_lord_helmet_b"
 				weight="1.5"
@@ -154,7 +154,7 @@
 					material_type="Plate" />
 				</ItemComponent>
 			</Item>
-			<Item id="aserai_light_helmet"
+			<Item id="wld_aserai_light_helmet"
 				name="aserai_light_helmet"
 				mesh="aserai_light_helmet"
 				weight="0.8"
@@ -167,7 +167,7 @@
 					material_type="Plate" />
 				</ItemComponent>
 			</Item>
-			<Item id="southern_light_helmet_a"
+			<Item id="wld_southern_light_helmet_a"
 				name="southern_light_helmet_a"
 				mesh="southern_light_helmet_a"
 				weight="1.0"
@@ -182,7 +182,7 @@
 				</ItemComponent>
 				<Flags UseTeamColor="true" />
 			</Item>
-			<Item id="aserai_mail_helmet"
+			<Item id="wld_aserai_mail_helmet"
 				name="aserai_mail_helmet"
 				mesh="aserai_mail_helmet"
 				weight="1.0"
@@ -195,7 +195,7 @@
 					material_type="Plate" />
 				</ItemComponent>
 			</Item>
-			<Item id="saracen_helmet_d"
+			<Item id="wld_saracen_helmet_d"
 				name="saracen_helmet_d"
 				mesh="saracen_helmet_d"
 				weight="1.6"
@@ -208,7 +208,7 @@
 					material_type="Plate" />
 				</ItemComponent>
 			</Item>
-			<Item id="saracen_helmet_d_ii"
+			<Item id="wld_saracen_helmet_d_ii"
 				name="saracen_helmet_d_ii"
 				mesh="saracen_helmet_d_ii"
 				weight="1.0"
@@ -223,7 +223,7 @@
 				</ItemComponent>
 				<Flags UseTeamColor="true" />
 			</Item>
-			<Item id="southern_helmet_IIII"
+			<Item id="wld_southern_helmet_IIII"
 				name="southern_helmet_IIII"
 				mesh="southern_helmet_IIII"
 				weight="1.0"
@@ -237,7 +237,7 @@
 				</ItemComponent>
 				<Flags UseTeamColor="true" />
 			</Item>
-			<Item id="southern_heavy_helmet_with_feather"
+			<Item id="wld_southern_heavy_helmet_with_feather"
 				name="southern_heavy_helmet_with_feather"
 				mesh="southern_heavy_helmet_with_feather"
 				weight="1.8"
@@ -254,7 +254,7 @@
 
 		<!-- Shoulders -->
 			<Item id="wld_plate_shoulders"
-				name="Western Shoulder Plates"
+				name="Shoulder Plates"
 				mesh="swadian_shoulders"
 				weight="3.6"
 				Type="Cape">
@@ -267,7 +267,7 @@
 				<Flags/>
 			</Item>
 			<Item id="wld_plate_shoulders_engraved"
-				name="Western Ornate Shoulder Plates"
+				name="Ornate Shoulder Plates"
 				mesh="engraved_swadian_shoulders"
 				weight="3.6"
 				Type="Cape">
@@ -292,7 +292,7 @@
 				</ItemComponent>
 				<Flags/>
 			</Item>
-			<Item id="mercenary_padding_cape"
+			<Item id="wld_mercenary_padding_cape"
 				name="mercenary_padding_cape"
 				mesh="mercenary_padding_cape"
 				subtype="body_armor"
@@ -304,14 +304,15 @@
 					material_type="Chainmail" />
 				</ItemComponent>
 			</Item>
-			<Item id="heavy_samurai_shoulder"
-				name="heavy_samurai_shoulder"
+			<Item id="wld_strange_shoulder"
+				name="Strange Shoulder Guard"
 				mesh="heavy_samutai_shoulder"
 				subtype="body_armor"
 				weight="2.7"
+				is_merchandise="true"
 				Type="Cape">
 				<ItemComponent>
-				<Armor body_armor="12"
+				<Armor arm_armor="12"
 					modifier_group="chain"
 					material_type="Chainmail" />
 				</ItemComponent>
@@ -601,22 +602,21 @@
 				</ItemComponent>
 				<Flags UseTeamColor="true"/>
 			</Item>
-			<Item id="mirror_armor"
-				name="mirror_armor"
+			<Item id="wld_mamluke_mail"
+				name="Mamluke Mail"
 				mesh="mirror_armor"
 				weight="15.3"
 				Type="BodyArmor">
 				<ItemComponent>
-				<Armor body_armor="40"
-					leg_armor="10"
-					arm_armor="15"
+				<Armor body_armor="48"
+					leg_armor="16"
 					covers_body="true"
 					modifier_group="plate"
 					material_type="Plate" />
 				</ItemComponent>
 			</Item>
-			<Item id="mercenary_gambeson"
-				name="mercenary_gambeson"
+			<Item id="wld_mercenary_gambeson"
+				name="Mercenary Gambeson"
 				mesh="mercenary_gambeson"
 				weight="8.3"
 				Type="BodyArmor">
@@ -629,8 +629,8 @@
 						material_type="Plate" />
 				</ItemComponent>
 			</Item>
-			<Item id="mercenary_mail_armor"
-				name="mercenary_mail_armor"
+			<Item id="wld_mercenary_mail_armor"
+				name="Mercenary Mail"
 				mesh="mercenary_mail_armor"
 				weight="10.3"
 				Type="BodyArmor">
@@ -643,29 +643,28 @@
 					material_type="Plate" />
 				</ItemComponent>
 			</Item>
-			<Item id="leather_tabard_over_mail"
-				name="leather_tabard_over_mail"
+			<Item id="wld_banded_armor"
+				name="Banded Armor"
 				mesh="leather_tabard_over mail"
 				weight="11.4"
 				Type="BodyArmor">
 				<ItemComponent>
-				<Armor body_armor="38"
-					leg_armor="13"
-					arm_armor="13"
+				<Armor body_armor="49"
+					leg_armor="14"
 					covers_body="true"
 					modifier_group="plate"
 					material_type="Plate" />
 				</ItemComponent>
 			</Item>
-			<Item id="heavy_samutai"
-				name="heavy_samurai_armor"
+			<Item id="wld_strange_armor"
+				name="Strange Armor"
 				mesh="heavy_samutai"
 				weight="10.1"
+				is_merchandise="true"
 				Type="BodyArmor">
 				<ItemComponent>
-				<Armor body_armor="31"
-					leg_armor="12"
-					arm_armor="12"
+				<Armor body_armor="38"
+					leg_armor="19"
 					covers_body="true"
 					modifier_group="plate"
 					material_type="Plate" />
@@ -1104,53 +1103,6 @@
 		</ItemComponent>
 		<Flags/>
 	</Item>
-	<Item id="pointed_skullcap_over_mail"
-		name="{=py7VUj47}Pointed Skullcap over Gambeson"
-		mesh="vlandia_helmet_l_b"
-		weight="2.2"
-		Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="32"
-				has_gender_variations="false"
-				hair_cover_type="all"
-				beard_cover_type="type2"
-				modifier_group="plate"
-				material_type="Plate"/>
-		</ItemComponent>
-		<Flags UseTeamColor="true"/>
-	</Item>
-	<Item id="pointed_skullcap_over_laced_coif"
-		name="{=6n44BIll}Pointed Skullcap over Laced Coif"
-		subtype="head_armor"
-		mesh="vlandia_helmet_l_c"
-		weight="2.2"
-		Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="32"
-				has_gender_variations="false"
-				hair_cover_type="all"
-				beard_cover_type="type2"
-				modifier_group="plate"
-				material_type="Plate"/>
-		</ItemComponent>
-		<Flags UseTeamColor="true"/>
-	</Item>
-	<Item id="pointed_skullcap_over_cloth_headwrap"
-		name="{=LqA9uBH9}Pointed Skullcap over Cloth Headwrap"
-		subtype="head_armor"
-		mesh="vlandia_helmet_l_d"
-		weight="2.1"
-		Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="30"
-				has_gender_variations="false"
-				hair_cover_type="all"
-				modifier_group="plate"
-				material_type="Plate"
-				beard_cover_type="all"/>
-		</ItemComponent>
-		<Flags UseTeamColor="true"/>
-	</Item>
 	<Item id="aserai_crown"
 		name="{=6Dk7LClc}Luxury Turban Over Helmet"
 		mesh="aserai_crown"
@@ -1161,21 +1113,6 @@
 				has_gender_variations="false"
 				hair_cover_type="all"
 				beard_cover_type="type4"
-				modifier_group="plate"
-				material_type="Plate"/>
-		</ItemComponent>
-		<Flags UseTeamColor="true"/>
-	</Item>
-	<Item id="pointed_skullcap_over_mail_coif"
-		name="{=ZOWdFaUi}Pointed Skullcap over Mail Coif"
-		mesh="vlandia_helmet_l_a"
-		weight="2.8"
-		Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="37"
-				has_gender_variations="false"
-				hair_cover_type="all"
-				beard_cover_type="type3"
 				modifier_group="plate"
 				material_type="Plate"/>
 		</ItemComponent>
@@ -1231,7 +1168,6 @@
 	<Item id="aserai_lord_helmet_a"
 		name="{=VBrLhqiJ}Noble Crowned Lord Helmet"
 		mesh="aserai_lord_helmet_a"
-		is_merchandise="true"
 		subtype="head_armor"
 		weight="3.4"
 		Type="HeadArmor">
@@ -1277,6 +1213,84 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
+	<Item id="aserai_battle_crown"
+		name="{=fBAf3OWb}Ornate Desert Battle Crown"
+		subtype="head_armor"
+		mesh="aserai_battle_crown"
+		weight="2.8"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="44"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="pointed_skullcap_over_mail"
+		name="{=py7VUj47}Pointed Skullcap over Gambeson"
+		mesh="vlandia_helmet_l_b"
+		weight="2.2"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="32"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				beard_cover_type="type2"
+				modifier_group="plate"
+				material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="pointed_skullcap_over_laced_coif"
+		name="{=6n44BIll}Pointed Skullcap over Laced Coif"
+		subtype="head_armor"
+		mesh="vlandia_helmet_l_c"
+		weight="2.2"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="32"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				beard_cover_type="type2"
+				modifier_group="plate"
+				material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="pointed_skullcap_over_cloth_headwrap"
+		name="{=LqA9uBH9}Pointed Skullcap over Cloth Headwrap"
+		subtype="head_armor"
+		mesh="vlandia_helmet_l_d"
+		weight="2.1"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="30"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="pointed_skullcap_over_mail_coif"
+		name="{=ZOWdFaUi}Pointed Skullcap over Mail Coif"
+		mesh="vlandia_helmet_l_a"
+		weight="2.8"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="37"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				beard_cover_type="type3"
+				modifier_group="plate"
+				material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
 	<Item id="pointed_skullcap_with_mail"
 		name="{=3DV3GoHb}Pointed Skullcap with Mail"
 		subtype="head_armor"
@@ -1293,62 +1307,10 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="aserai_battle_crown"
-		name="{=fBAf3OWb}Ornate Desert Battle Crown"
-		subtype="head_armor"
-		mesh="aserai_battle_crown"
-		is_merchandise="true"
-		weight="2.8"
-		Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="44"
-				has_gender_variations="false"
-				hair_cover_type="all"
-				modifier_group="plate"
-				material_type="Plate"
-				beard_cover_type="type3"/>
-		</ItemComponent>
-		<Flags UseTeamColor="true"/>
-	</Item>
-	<Item id="brass_aserai_helmet_closed"
-		name="{=pxTmx2ka}Brass Southern Closed Helmet"
-		subtype="head_armor"
-		mesh="brass_aserai_helmet_closed"
-		is_merchandise="true"
-		weight="2.5"
-		Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="42"
-				has_gender_variations="false"
-				hair_cover_type="all"
-				modifier_group="plate"
-				material_type="Plate"
-				beard_cover_type="all"/>
-		</ItemComponent>
-		<Flags/>
-	</Item>
-	<Item id="brass_aserai_helmet_b_closed"
-		name="{=HrLupYXP}Brass Southern Closed Helmet with Turban"
-		subtype="head_armor"
-		mesh="brass_aserai_helmet_b_closed"
-		is_merchandise="true"
-		weight="2.55"
-		Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="43"
-				has_gender_variations="false"
-				hair_cover_type="all"
-				modifier_group="plate"
-				material_type="Plate"
-				beard_cover_type="all"/>
-		</ItemComponent>
-		<Flags UseTeamColor="true"/>
-	</Item>
 	<Item id="brass_aserai_helmet_open"
 		name="{=uRsU67qC}Brass Southern Helmet"
 		subtype="head_armor"
 		mesh="brass_aserai_helmet_open"
-		is_merchandise="true"
 		weight="2.2"
 		Type="HeadArmor">
 		<ItemComponent>
@@ -1361,28 +1323,26 @@
 		</ItemComponent>
 		<Flags/>
 	</Item>
-	<Item id="brass_aserai_helmet_b_open"
-		name="{=ahN0UNxw}Brass Southern Helmet with Turban"
+	<Item id="brass_aserai_helmet_closed"
+		name="{=pxTmx2ka}Brass Southern Closed Helmet"
 		subtype="head_armor"
-		mesh="brass_aserai_helmet_b_open"
-		is_merchandise="true"
-		weight="2.3"
+		mesh="brass_aserai_helmet_closed"
+		weight="2.5"
 		Type="HeadArmor">
 		<ItemComponent>
-			<Armor head_armor="39"
+			<Armor head_armor="42"
 				has_gender_variations="false"
 				hair_cover_type="all"
 				modifier_group="plate"
 				material_type="Plate"
-				beard_cover_type="none"/>
+				beard_cover_type="all"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true"/>
+		<Flags/>
 	</Item>
 	<Item id="brass_aserai_helmet_leather"
 		name="{=dHv9Dbkp}Brass Southern Helmet with Leather Flaps"
 		subtype="head_armor"
 		mesh="brass_aserai_helmet_leather"
-		is_merchandise="true"
 		weight="1.8"
 		Type="HeadArmor">
 		<ItemComponent>
@@ -1395,11 +1355,42 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
+	<Item id="brass_aserai_helmet_b_open"
+		name="{=ahN0UNxw}Brass Southern Helmet with Turban"
+		subtype="head_armor"
+		mesh="brass_aserai_helmet_b_open"
+		weight="2.3"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="39"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="brass_aserai_helmet_b_closed"
+		name="{=HrLupYXP}Brass Southern Closed Helmet with Turban"
+		subtype="head_armor"
+		mesh="brass_aserai_helmet_b_closed"
+		weight="2.55"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="43"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
 	<Item id="brass_aserai_helmet_b_leather"
 		name="{=E5b3gc6R}Brass Turbaned Helmet with Leather Flaps"
 		subtype="head_armor"
 		mesh="brass_aserai_helmet_b_leather"
-		is_merchandise="true"
 		weight="1.9"
 		Type="HeadArmor">
 		<ItemComponent>
@@ -1489,6 +1480,21 @@
 		</ItemComponent>
 		<Flags/>
 	</Item>
+	<Item id="roughscale_helmet"
+		name="{=jakLnIQv}Roughscale Helmet"
+		subtype="head_armor"
+		mesh="battania_helmet_e"
+		weight="2.2"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="26"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
 	<Item id="leather_studdedhelm_over_thinhide"
 		name="{=2m1kWsao}Leather Studded Helm over Thinhide"
 		subtype="head_armor"
@@ -1516,21 +1522,6 @@
 				hair_cover_type="all"
 				modifier_group="leather"
 				material_type="Leather"/>
-		</ItemComponent>
-		<Flags/>
-	</Item>
-	<Item id="roughscale_helmet"
-		name="{=jakLnIQv}Roughscale Helmet"
-		subtype="head_armor"
-		mesh="battania_helmet_e"
-		weight="2.2"
-		Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="26"
-				has_gender_variations="false"
-				hair_cover_type="all"
-				modifier_group="plate"
-				material_type="Plate"/>
 		</ItemComponent>
 		<Flags/>
 	</Item>
@@ -2057,20 +2048,66 @@
 		</ItemComponent>
 		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
-	<Item id="cervelliere_over_arming_coif"
-		name="{=7dAy51ln}Cervelliere over Arming Coif"
-		mesh="vlandia_helmet_n_f"
-		weight="1.9"
+	<Item id="padded_leather_cape"
+		name="{=SHZ0P7Iu}Padded Leather Cape"
+		subtype="head_armor"
+		mesh="shoulder_padding_cape"
+		weight="0.4"
 		Type="HeadArmor">
 		<ItemComponent>
-			<Armor head_armor="19"
+			<Armor head_armor="11"
 				has_gender_variations="false"
 				hair_cover_type="type2"
-				beard_cover_type="none"
 				modifier_group="plate"
 				material_type="Plate"/>
 		</ItemComponent>
 		<Flags/>
+	</Item>
+	<Item id="kettle_hat_over_padded_coif"
+		name="{=2MdVVkVL}Kettle Hat over Padded Coif"
+		mesh="vlandia_helmet_i_b"
+		weight="2.6"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="36"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				beard_cover_type="type3"
+				modifier_group="plate"
+				material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="kettle_hat_over_padded_cloth"
+		name="{=wBfGpcCO}Kettle Hat over Padded Cloth"
+		subtype="head_armor"
+		mesh="vlandia_helmet_i_y"
+		weight="2.4"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="34"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				beard_cover_type="type2"
+				modifier_group="plate"
+				material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="kettle_hat_over_mail_coif"
+		name="{=tMLH04n4}Kettle Hat over Mail Coif"
+		mesh="vlandia_helmet_i_a"
+		weight="2.9"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="42"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				beard_cover_type="all"
+				modifier_group="chain"
+				material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="kettle_helmet_over_padded_coif"
 		name="{=1GpTOIqU}Kettle Helmet over Padded Coif"
@@ -2135,16 +2172,31 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="kettle_hat_over_padded_coif"
-		name="{=2MdVVkVL}Kettle Hat over Padded Coif"
-		mesh="vlandia_helmet_i_b"
-		weight="2.6"
+	<Item id="kettle_helmet_over_arming_coif"
+		name="{=3iq3rOh8}Kettle Helmet over Arming Coif"
+		mesh="vlandia_helmet_h_f"
+		weight="2.3"
 		Type="HeadArmor">
 		<ItemComponent>
-			<Armor head_armor="36"
+			<Armor head_armor="32"
+				has_gender_variations="false"
+				hair_cover_type="type3"
+				beard_cover_type="none"
+				modifier_group="plate"
+				material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="kettle_helmet_over_mail"
+		name="{=zZ2G7uIO}Kettle Helmet over Mail"
+		mesh="vlandia_helmet_h_v"
+		weight="2.8"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
 				has_gender_variations="false"
 				hair_cover_type="all"
-				beard_cover_type="type3"
+				beard_cover_type="type2"
 				modifier_group="plate"
 				material_type="Plate"/>
 		</ItemComponent>
@@ -2177,6 +2229,21 @@
 				has_gender_variations="false"
 				hair_cover_type="all"
 				beard_cover_type="type2"
+				modifier_group="plate"
+				material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="guards_kettle_over_mail_coif"
+		name="{=S1SUK8zk}Kettle over Mail Coif"
+		mesh="vlandia_helmet_j_a"
+		weight="3.6"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="38"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				beard_cover_type="type3"
 				modifier_group="plate"
 				material_type="Plate"/>
 		</ItemComponent>
@@ -2245,6 +2312,36 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
+	<Item id="nasal_helmet_over_mail_coif"
+		name="{=PVgSGCYK}Nasal Helmet over Mail Coif"
+		mesh="vlandia_helmet_p_a"
+		weight="3.3"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="38"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				beard_cover_type="type4"
+				modifier_group="plate"
+				material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="nasal_helmet_over_mail"
+		name="{=tpQLvMSM}Nasal Helmet over Mail"
+		mesh="vlandia_helmet_p_v"
+		weight="3.1"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="36"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				beard_cover_type="type2"
+				modifier_group="plate"
+				material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
 	<Item id="segmented_skullcap_over_padded_coif"
 		name="{=zAvb7WKe}Segmented Skullcap over Padded Coif"
 		mesh="vlandia_helmet_r_b"
@@ -2291,6 +2388,21 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
+	<Item id="segmented_skullcap_over_mail_coif"
+		name="{=P8GrNSkF}Segmented Skullcap over Mail Coif"
+		mesh="vlandia_helmet_r_a"
+		weight="3.2"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="42"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				beard_cover_type="type4"
+				modifier_group="plate"
+				material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
 	<Item id="peaked_helmet_over_laced_coif"
 		name="{=Rhfp7ath}Peaked Helmet over Laced Coif"
 		subtype="head_armor"
@@ -2322,21 +2434,51 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="segmented_cervelliere_over_padded_cloth"
-		name="{=vsavMoLZ}Segmented Cervelliere over Padded Cloth"
+	<Item id="peaked_helmet_over_mail_coif"
+		name="{=AdafHtud}Peaked Helmet over Mail Coif"
 		subtype="head_armor"
-		mesh="vlandia_helmet_u_y"
-		weight="2.8"
+		mesh="vlandia_helmet_t_a"
+		weight="3"
 		Type="HeadArmor">
 		<ItemComponent>
-			<Armor head_armor="28"
+			<Armor head_armor="42"
 				has_gender_variations="false"
 				hair_cover_type="all"
-				beard_cover_type="type2"
+				beard_cover_type="type3"
 				modifier_group="plate"
 				material_type="Plate"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="peaked_helmet_over_mail"
+		name="{=JvhvtKsT}Peaked Helmet over Mail"
+		mesh="vlandia_helmet_t_v"
+		weight="2.8"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type2"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="cervelliere_over_arming_coif"
+		name="{=7dAy51ln}Cervelliere over Arming Coif"
+		mesh="vlandia_helmet_n_f"
+		weight="1.9"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="19"
+				has_gender_variations="false"
+				hair_cover_type="type2"
+				beard_cover_type="none"
+				modifier_group="plate"
+				material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
 	</Item>
 	<Item id="cervelliere_over_cloth_headwrap"
 		name="{=e9BpfZ9L}Cervelliere over Cloth Headwrap"
@@ -2430,52 +2572,6 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="padded_leather_cape"
-		name="{=SHZ0P7Iu}Padded Leather Cape"
-		subtype="head_armor"
-		mesh="shoulder_padding_cape"
-		weight="0.4"
-		Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="11"
-				has_gender_variations="false"
-				hair_cover_type="type2"
-				modifier_group="plate"
-				material_type="Plate"/>
-		</ItemComponent>
-		<Flags/>
-	</Item>
-	<Item id="kettle_helmet_over_arming_coif"
-		name="{=3iq3rOh8}Kettle Helmet over Arming Coif"
-		mesh="vlandia_helmet_h_f"
-		weight="2.3"
-		Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="32"
-				has_gender_variations="false"
-				hair_cover_type="type3"
-				beard_cover_type="none"
-				modifier_group="plate"
-				material_type="Plate"/>
-		</ItemComponent>
-		<Flags/>
-	</Item>
-	<Item id="peaked_helmet_over_mail_coif"
-		name="{=AdafHtud}Peaked Helmet over Mail Coif"
-		subtype="head_armor"
-		mesh="vlandia_helmet_t_a"
-		weight="3"
-		Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="42"
-				has_gender_variations="false"
-				hair_cover_type="all"
-				beard_cover_type="type3"
-				modifier_group="plate"
-				material_type="Plate"/>
-		</ItemComponent>
-		<Flags UseTeamColor="true"/>
-	</Item>
 	<Item id="nasal_cervelliere_over_mail_coif"
 		name="{=mRGIxvYh}Nasal Cervelliere over Mail Coif"
 		mesh="vlandia_helmet_o_a"
@@ -2491,16 +2587,17 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="guards_kettle_over_mail_coif"
-		name="{=S1SUK8zk}Kettle over Mail Coif"
-		mesh="vlandia_helmet_j_a"
-		weight="3.6"
+	<Item id="segmented_cervelliere_over_padded_cloth"
+		name="{=vsavMoLZ}Segmented Cervelliere over Padded Cloth"
+		subtype="head_armor"
+		mesh="vlandia_helmet_u_y"
+		weight="2.8"
 		Type="HeadArmor">
 		<ItemComponent>
-			<Armor head_armor="38"
+			<Armor head_armor="28"
 				has_gender_variations="false"
 				hair_cover_type="all"
-				beard_cover_type="type3"
+				beard_cover_type="type2"
 				modifier_group="plate"
 				material_type="Plate"/>
 		</ItemComponent>
@@ -2521,52 +2618,6 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="kettle_hat_over_padded_cloth"
-		name="{=wBfGpcCO}Kettle Hat over Padded Cloth"
-		subtype="head_armor"
-		mesh="vlandia_helmet_i_y"
-		weight="2.4"
-		Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="34"
-				has_gender_variations="false"
-				hair_cover_type="all"
-				beard_cover_type="type2"
-				modifier_group="plate"
-				material_type="Plate"/>
-		</ItemComponent>
-		<Flags UseTeamColor="true"/>
-	</Item>
-	<Item id="kettle_hat_over_mail_coif"
-		name="{=tMLH04n4}Kettle Hat over Mail Coif"
-		mesh="vlandia_helmet_i_a"
-		weight="2.9"
-		Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="42"
-				has_gender_variations="false"
-				hair_cover_type="all"
-				beard_cover_type="all"
-				modifier_group="chain"
-				material_type="Chainmail"/>
-		</ItemComponent>
-		<Flags UseTeamColor="true"/>
-	</Item>
-	<Item id="nasal_helmet_over_mail_coif"
-		name="{=PVgSGCYK}Nasal Helmet over Mail Coif"
-		mesh="vlandia_helmet_p_a"
-		weight="3.3"
-		Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="38"
-				has_gender_variations="false"
-				hair_cover_type="all"
-				beard_cover_type="type4"
-				modifier_group="plate"
-				material_type="Plate"/>
-		</ItemComponent>
-		<Flags UseTeamColor="true"/>
-	</Item>
 	<Item id="segmented_cervelliere_over_mail_coif"
 		name="{=WMqHlEvb}Segmented Cervelliere over Mail Coif"
 		subtype="head_armor"
@@ -2580,66 +2631,6 @@
 				modifier_group="plate"
 				material_type="Plate"
 				beard_cover_type="type4"/>
-		</ItemComponent>
-		<Flags UseTeamColor="true"/>
-	</Item>
-	<Item id="kettle_helmet_over_mail"
-		name="{=zZ2G7uIO}Kettle Helmet over Mail"
-		mesh="vlandia_helmet_h_v"
-		weight="2.8"
-		Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="40"
-				has_gender_variations="false"
-				hair_cover_type="all"
-				beard_cover_type="type2"
-				modifier_group="plate"
-				material_type="Plate"/>
-		</ItemComponent>
-		<Flags UseTeamColor="true"/>
-	</Item>
-	<Item id="nasal_helmet_over_mail"
-		name="{=tpQLvMSM}Nasal Helmet over Mail"
-		mesh="vlandia_helmet_p_v"
-		weight="3.1"
-		Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="36"
-				has_gender_variations="false"
-				hair_cover_type="all"
-				beard_cover_type="type2"
-				modifier_group="plate"
-				material_type="Plate"/>
-		</ItemComponent>
-		<Flags UseTeamColor="true"/>
-	</Item>
-	<Item id="segmented_skullcap_over_mail_coif"
-		name="{=P8GrNSkF}Segmented Skullcap over Mail Coif"
-		mesh="vlandia_helmet_r_a"
-		weight="3.2"
-		Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="42"
-				has_gender_variations="false"
-				hair_cover_type="all"
-				beard_cover_type="type4"
-				modifier_group="plate"
-				material_type="Plate"/>
-		</ItemComponent>
-		<Flags UseTeamColor="true"/>
-	</Item>
-	<Item id="peaked_helmet_over_mail"
-		name="{=JvhvtKsT}Peaked Helmet over Mail"
-		mesh="vlandia_helmet_t_v"
-		weight="2.8"
-		Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="40"
-				has_gender_variations="false"
-				hair_cover_type="all"
-				modifier_group="plate"
-				material_type="Plate"
-				beard_cover_type="type2"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
@@ -2749,21 +2740,6 @@
 		</ItemComponent>
 		<Flags/>
 	</Item>
-	<Item id="nasalhelm_over_leather"
-		name="{=ONaWEKSy}Nasalhelm over Leather"
-		mesh="sturgia_helmet_f"
-		weight="1.9"
-		Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="23"
-				has_gender_variations="false"
-				hair_cover_type="type3"
-				beard_cover_type="none"
-				modifier_group="plate"
-				material_type="Plate"/>
-		</ItemComponent>
-		<Flags/>
-	</Item>
 	<Item id="sturgia_heavy_cavalary_helmet"
 		name="{=bXVSSptk}Heavy Cavalry Helmet"
 		mesh="sturgia_helmet_o"
@@ -2774,20 +2750,6 @@
 				has_gender_variations="false"
 				hair_cover_type="all"
 				beard_cover_type="none"
-				modifier_group="plate"
-				material_type="Plate"/>
-		</ItemComponent>
-		<Flags/>
-	</Item>
-	<Item id="nasal_helmet"
-		name="{=k4kivaf5}Steel Cap with Nose Guard"
-		mesh="nasal_helmet_a"
-		weight="1.8"
-		Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="22"
-				has_gender_variations="false"
-				hair_cover_type="type1"
 				modifier_group="plate"
 				material_type="Plate"/>
 		</ItemComponent>
@@ -2809,37 +2771,6 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="nasal_helmet_with_leather"
-		name="{=TxAYmCjr}Nasal Helmet with Leather"
-		subtype="head_armor"
-		mesh="nasal_helmet_neckguard"
-		weight="2.2"
-		Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="37"
-				has_gender_variations="false"
-				hair_cover_type="all"
-				beard_cover_type="type2"
-				modifier_group="plate"
-				material_type="Plate"/>
-		</ItemComponent>
-		<Flags/>
-	</Item>
-	<Item id="nasal_helmet_with_mail"
-		name="{=EWR2MNeM}Nasal Helmet with Mail"
-		subtype="head_armor"
-		mesh="nasal_helmet_reinforced"
-		weight="2.5"
-		Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="39"
-				has_gender_variations="false"
-				hair_cover_type="all"
-				modifier_group="plate"
-				material_type="Plate"/>
-		</ItemComponent>
-		<Flags/>
-	</Item>
 	<Item id="sturgian_crown"
 		name="{=5kAqcWac}Jeweled Fur Rimmed Helmet"
 		subtype="head_armor"
@@ -2856,65 +2787,21 @@
 		</ItemComponent>
 		<Flags Civilian="true"/>
 	</Item>
-	<Item id="decorated_goggled_helmet"
-		name="{=NhDpFjF0}Reinforced Closed Goggled Helmet"
-		mesh="sturgia_helmet_n"
-		weight="3.2"
+	<Item id="sturgian_battle_crown"
+		name="{=OFxwPQyA}Battle Crown"
+		mesh="sturgian_battle_crown"
+		is_merchandise="false"
+		weight="2.2"
 		Type="HeadArmor">
 		<ItemComponent>
-			<Armor head_armor="52"
+			<Armor head_armor="47"
 				has_gender_variations="false"
 				hair_cover_type="all"
-				beard_cover_type="all"
-				modifier_group="chain"
-				material_type="Chainmail"/>
+				beard_cover_type="none"
+				modifier_group="plate"
+				material_type="Plate"/>
 		</ItemComponent>
-		<Flags/>
-	</Item>
-	<Item id="closed_goggled_helmet"
-		name="{=aYLCCpS4}Northern Closed Warlord Helmet"
-		mesh="sturgia_helmet_l"
-		weight="3.7"
-		Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="51"
-				has_gender_variations="false"
-				hair_cover_type="all"
-				beard_cover_type="all"
-				modifier_group="chain"
-				material_type="Chainmail"/>
-		</ItemComponent>
-		<Flags/>
-	</Item>
-	<Item id="goggled_helmet_over_full_mail"
-		name="{=mU5CY4bz}Closed Huscarl Helmet"
-		mesh="sturgia_helmet_e"
-		weight="4.4"
-		Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="51"
-				has_gender_variations="false"
-				hair_cover_type="all"
-				beard_cover_type="all"
-				modifier_group="chain"
-				material_type="Chainmail"/>
-		</ItemComponent>
-		<Flags/>
-	</Item>
-	<Item id="lendman_helmet_over_full_mail"
-		name="{=lawHibbG}Warlord Helmet over Full Mail"
-		mesh="sturgia_helmet_h"
-		weight="3.8"
-		Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="54"
-				has_gender_variations="false"
-				hair_cover_type="all"
-				beard_cover_type="all"
-				modifier_group="chain"
-				material_type="Chainmail"/>
-		</ItemComponent>
-		<Flags/>
+		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="northern_warlord_helmet"
 		name="{=JjaUzfDK}Warlord Helmet with Cheek Guards"
@@ -2926,6 +2813,21 @@
 				has_gender_variations="false"
 				hair_cover_type="type3"
 				beard_cover_type="type1"
+				modifier_group="plate"
+				material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="northern_goggled_helmet"
+		name="{=ISCtxKub}Sea Raider Goggled Helmet"
+		mesh="sturgia_helmet_k"
+		weight="3.2"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="50"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				beard_cover_type="none"
 				modifier_group="plate"
 				material_type="Plate"/>
 		</ItemComponent>
@@ -2963,6 +2865,66 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
+	<Item id="nasal_helmet"
+		name="{=k4kivaf5}Steel Cap with Nose Guard"
+		mesh="nasal_helmet_a"
+		weight="1.8"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="22"
+				has_gender_variations="false"
+				hair_cover_type="type1"
+				modifier_group="plate"
+				material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="nasal_helmet_with_leather"
+		name="{=TxAYmCjr}Nasal Helmet with Leather"
+		subtype="head_armor"
+		mesh="nasal_helmet_neckguard"
+		weight="2.2"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="37"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				beard_cover_type="type2"
+				modifier_group="plate"
+				material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="nasal_helmet_with_mail"
+		name="{=EWR2MNeM}Nasal Helmet with Mail"
+		subtype="head_armor"
+		mesh="nasal_helmet_reinforced"
+		weight="2.5"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="39"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="nasalhelm_over_leather"
+		name="{=ONaWEKSy}Nasalhelm over Leather"
+		mesh="sturgia_helmet_f"
+		weight="1.9"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="23"
+				has_gender_variations="false"
+				hair_cover_type="type3"
+				beard_cover_type="none"
+				modifier_group="plate"
+				material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
 	<Item id="nasalhelm_over_mail"
 		name="{=1bdDdwub}Nasalhelm over Mail"
 		mesh="sturgia_helmet_a"
@@ -2993,6 +2955,51 @@
 		</ItemComponent>
 		<Flags/>
 	</Item>
+	<Item id="goggled_helmet_over_full_mail"
+		name="{=mU5CY4bz}Closed Huscarl Helmet"
+		mesh="sturgia_helmet_e"
+		weight="4.4"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="51"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				beard_cover_type="all"
+				modifier_group="chain"
+				material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="decorated_goggled_helmet"
+		name="{=NhDpFjF0}Reinforced Closed Goggled Helmet"
+		mesh="sturgia_helmet_n"
+		weight="3.2"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				beard_cover_type="all"
+				modifier_group="chain"
+				material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="closed_goggled_helmet"
+		name="{=aYLCCpS4}Northern Closed Warlord Helmet"
+		mesh="sturgia_helmet_l"
+		weight="3.7"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="51"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				beard_cover_type="all"
+				modifier_group="chain"
+				material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
 	<Item id="lendman_helmet_over_mail"
 		name="{=VYmHTbTY}Warlord Helmet over Mail"
 		mesh="sturgia_helmet_g"
@@ -3008,31 +3015,31 @@
 		</ItemComponent>
 		<Flags/>
 	</Item>
-	<Item id="northern_goggled_helmet"
-		name="{=ISCtxKub}Sea Raider Goggled Helmet"
-		mesh="sturgia_helmet_k"
-		weight="3.2"
-		Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="50"
-				has_gender_variations="false"
-				hair_cover_type="all"
-				beard_cover_type="none"
-				modifier_group="plate"
-				material_type="Plate"/>
-		</ItemComponent>
-		<Flags/>
-	</Item>
-	<Item id="sturgian_helmet_closed"
-		name="{=2iDtlgM0}Closed Warlord Helmet"
-		mesh="sturgian_helmet_closed"
+	<Item id="lendman_helmet_over_full_mail"
+		name="{=lawHibbG}Warlord Helmet over Full Mail"
+		mesh="sturgia_helmet_h"
 		weight="3.8"
 		Type="HeadArmor">
 		<ItemComponent>
-			<Armor head_armor="53"
+			<Armor head_armor="54"
 				has_gender_variations="false"
 				hair_cover_type="all"
 				beard_cover_type="all"
+				modifier_group="chain"
+				material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="sturgian_helmet_base"
+		name="{=Nv0eZmGL}Steel Nasal Cap"
+		mesh="sturgian_helmet_base"
+		weight="2.4"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="35"
+				has_gender_variations="false"
+				hair_cover_type="type3"
+				beard_cover_type="none"
 				modifier_group="plate"
 				material_type="Plate"/>
 		</ItemComponent>
@@ -3053,16 +3060,16 @@
 		</ItemComponent>
 		<Flags/>
 	</Item>
-	<Item id="sturgian_helmet_base"
-		name="{=Nv0eZmGL}Steel Nasal Cap"
-		mesh="sturgian_helmet_base"
-		weight="2.4"
+	<Item id="sturgian_helmet_closed"
+		name="{=2iDtlgM0}Closed Warlord Helmet"
+		mesh="sturgian_helmet_closed"
+		weight="3.8"
 		Type="HeadArmor">
 		<ItemComponent>
-			<Armor head_armor="35"
+			<Armor head_armor="53"
 				has_gender_variations="false"
-				hair_cover_type="type3"
-				beard_cover_type="none"
+				hair_cover_type="all"
+				beard_cover_type="all"
 				modifier_group="plate"
 				material_type="Plate"/>
 		</ItemComponent>
@@ -3093,22 +3100,6 @@
 				has_gender_variations="false"
 				hair_cover_type="all"
 				beard_cover_type="all"
-				modifier_group="plate"
-				material_type="Plate"/>
-		</ItemComponent>
-		<Flags UseTeamColor="true"/>
-	</Item>
-	<Item id="sturgian_battle_crown"
-		name="{=OFxwPQyA}Battle Crown"
-		mesh="sturgian_battle_crown"
-		is_merchandise="false"
-		weight="2.2"
-		Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="47"
-				has_gender_variations="false"
-				hair_cover_type="all"
-				beard_cover_type="none"
 				modifier_group="plate"
 				material_type="Plate"/>
 		</ItemComponent>
@@ -3589,44 +3580,6 @@
 		</ItemComponent>
 		<Flags/>
 	</Item>
-	<Item id="a_khuzait_leather_shoulder_b_a"
-		name="{=567zyLq5}Cured Studded Leather Shoulders"
-		mesh="khuzait_leather_shoulder_b_a"
-		weight="4.5"
-		Type="Cape">
-		<ItemComponent>
-			<Armor body_armor="4"
-				arm_armor="7"
-				modifier_group="leather"
-				material_type="Leather"/>
-		</ItemComponent>
-		<Flags/>
-	</Item>
-	<Item id="a_khuzait_leather_shoulder_b_b"
-		name="{=Q19xluDy}Reinforced Studded Neckguard"
-		mesh="khuzait_leather_shoulder_b_b"
-		weight="5.9"
-		Type="Cape">
-		<ItemComponent>
-			<Armor body_armor="8"
-				modifier_group="leather"
-				material_type="Leather"/>
-		</ItemComponent>
-		<Flags/>
-	</Item>
-	<Item id="a_leather_lamellar_armor_shoulder_a"
-		name="{=zf2GUNfh}Decorated Lamellar Leather Shoulder Guards"
-		mesh="leather_lamellar_armor_shoulder_a"
-		weight="1.3"
-		Type="Cape">
-		<ItemComponent>
-			<Armor body_armor="2"
-				arm_armor="7"
-				modifier_group="leather"
-				material_type="Leather"/>
-		</ItemComponent>
-		<Flags/>
-	</Item>
 	<Item id="khuzait_leather_pauldron"
 		name="{=UTXWsY1Y}Reinforced Leather Pauldrons"
 		mesh="khuzait_leather_pauldron"
@@ -3653,16 +3606,41 @@
 		</ItemComponent>
 		<Flags/>
 	</Item>
-	<Item id="a_metal_lamellar_armor_shoulder_a"
-		name="{=Uo2t80GH}Decorated Steel Lamellar Shoulder Pieces"
-		mesh="metal_lamellar_armor_shoulder_a"
-		weight="3.8"
+	<Item id="a_leather_lamellar_armor_shoulder_a"
+		name="{=zf2GUNfh}Decorated Lamellar Leather Shoulder Guards"
+		mesh="leather_lamellar_armor_shoulder_a"
+		weight="1.3"
 		Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="2"
-				arm_armor="12"
-				modifier_group="plate"
-				material_type="Plate"/>
+				arm_armor="7"
+				modifier_group="leather"
+				material_type="Leather"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="a_khuzait_leather_shoulder_b_a"
+		name="{=567zyLq5}Cured Studded Leather Shoulders"
+		mesh="khuzait_leather_shoulder_b_a"
+		weight="4.5"
+		Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="4"
+				arm_armor="7"
+				modifier_group="leather"
+				material_type="Leather"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="a_khuzait_leather_shoulder_b_b"
+		name="{=Q19xluDy}Reinforced Studded Neckguard"
+		mesh="khuzait_leather_shoulder_b_b"
+		weight="5.9"
+		Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="8"
+				modifier_group="leather"
+				material_type="Leather"/>
 		</ItemComponent>
 		<Flags/>
 	</Item>
@@ -3674,6 +3652,20 @@
 		<ItemComponent>
 			<Armor body_armor="5"
 				arm_armor="11"
+				modifier_group="plate"
+				material_type="Plate"/>
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true"/>
+	</Item>
+	<Item id="brass_lamellar_shoulder_white"
+		name="{=DbEzJcbD}Lamellar Pauldrons"
+		mesh="brass_lamellar_shoulder_white"
+		weight="4.5"
+		Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="6"
+				arm_armor="12"
 				modifier_group="plate"
 				material_type="Plate"/>
 		</ItemComponent>
@@ -3708,20 +3700,6 @@
 		<Flags
 			UseTeamColor="true"/>
 	</Item>
-	<Item id="brass_lamellar_shoulder_white"
-		name="{=DbEzJcbD}Lamellar Pauldrons"
-		mesh="brass_lamellar_shoulder_white"
-		weight="4.5"
-		Type="Cape">
-		<ItemComponent>
-			<Armor body_armor="6"
-				arm_armor="12"
-				modifier_group="plate"
-				material_type="Plate"/>
-		</ItemComponent>
-		<Flags
-			UseTeamColor="true"/>
-	</Item>
 	<Item id="a_brass_lamellar_shoulder_white_a"
 		name="{=QlpyR6uc}Lamellar Shoulder Guards"
 		mesh="brass_lamellar_shoulder_white_a"
@@ -3749,6 +3727,19 @@
 		</ItemComponent>
 		<Flags
 			UseTeamColor="true"/>
+	</Item>
+	<Item id="a_metal_lamellar_armor_shoulder_a"
+		name="{=Uo2t80GH}Decorated Steel Lamellar Shoulder Pieces"
+		mesh="metal_lamellar_armor_shoulder_a"
+		weight="3.8"
+		Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+				arm_armor="12"
+				modifier_group="plate"
+				material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
 	</Item>
 	<!-- #endregion -->
 	<!-- #region Vlandia Shoulder Armors -->
@@ -5041,21 +5032,6 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="eastern_plated_leather_vest"
-		name="{=BbhGL8XT}Brigandine Vest"
-		mesh="plated_leather_armor_a"
-		weight="14.2"
-		Type="BodyArmor">
-		<ItemComponent>
-			<Armor body_armor="34"
-				leg_armor="4"
-				arm_armor="2"
-				covers_body="true"
-				modifier_group="plate"
-				material_type="Plate"/>
-		</ItemComponent>
-		<Flags UseTeamColor="true"/>
-	</Item>
 	<Item id="eastern_plated_leather"
 		name="{=FDEIHpIN}Mirrored Brigandine Armor"
 		mesh="plated_leather_armor_b"
@@ -5065,6 +5041,21 @@
 			<Armor body_armor="36"
 				leg_armor="14"
 				arm_armor="14"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="eastern_plated_leather_vest"
+		name="{=BbhGL8XT}Brigandine Vest"
+		mesh="plated_leather_armor_a"
+		weight="14.2"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="34"
+				leg_armor="4"
+				arm_armor="2"
 				covers_body="true"
 				modifier_group="plate"
 				material_type="Plate"/>
