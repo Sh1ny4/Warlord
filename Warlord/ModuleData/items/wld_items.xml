@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Items>
-	<!-- #region Special Wepaons -->
+<!-- #region Special Wepaons -->
 	<CraftedItem id="wooden_sword_t1"
 		name="{=1HWRwbwT}Wooden Sword"
 		is_merchandise="false"
@@ -115,7 +115,6 @@
 		mesh="push_fork"
 		subtype="two_handed_wpn"
 		weight="2"
-		difficulty="0"
 		appearance="0.1"
 		Type="Polearm"
 		item_holsters="polearm_back:polearm_back_2">
@@ -149,8 +148,6 @@
 		body_name="bo_composite_shotbow_b"
 		mesh="shortbow_b"
 		weight="0.3"
-		difficulty="0"
-		appearance="1"
 		is_merchandise="false"
 		Type="Bow"
 		item_holsters="bow_back_2:bow_hip:bow_hip_2:bow_back">
@@ -186,8 +183,6 @@
 		is_merchandise="false"
 		subtype="bow"
 		weight="0.5"
-		difficulty="0"
-		appearance="1"
 		Type="Bow"
 		item_holsters="bow_back:bow_back_2:bow_hip:bow_hip_2">
 		<ItemComponent>
@@ -215,8 +210,78 @@
 		</ItemComponent>
 		<Flags ForceAttachOffHandPrimaryItemBone="true"/>
 	</Item>
-	<!-- #endregion -->
-	<!-- #region Horses -->
+	<Item id="blunt_arrows"
+		name="{=DC0qJkVs}Blunt Arrows"
+		is_merchandise="false"
+		body_name="bo_capsule_arrow"
+		holster_body_name="bo_axe_short"
+		mesh="arrow_bl_i"
+		holster_mesh="arrow_bl_i_quiver"
+		holster_mesh_with_weapon="arrow_bl_i_quiver"
+		weight="0.05"
+		flying_mesh="arrow_bl_flying"
+		Type="Arrows"
+		item_holsters="quiver_back_middle:quiver_back_top:quiver_bolts:quiver_bolts_2"
+		holster_position_shift="0.0,0.0,0.15">
+		<ItemComponent>
+			<Weapon weapon_class="Arrow"
+				stack_amount="30"
+				physics_material="missile"
+				thrust_speed="0"
+				speed_rating="0"
+				missile_speed="10"
+				weapon_length="95"
+				thrust_damage="2"
+				thrust_damage_type="Blunt"
+				item_usage="arrow_right"
+				passby_sound_code="event:/mission/combat/missile/passby"
+				rotation="0, -80, 25"
+				sticking_position="0,-0.95,0"
+				sticking_rotation="90,0,0"
+				center_of_mass="0,0,-0.13">
+				<WeaponFlags Consumable="true"
+					AmmoSticksWhenShot="true"
+					AmmoBreaksOnBounceBack="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="crossbow_a_blunt"
+		name="{=4Ea6pr5p}Sparring Crossbow"
+		body_name="bo_cross_bow_heavy"
+		mesh="crossbow_a"
+		weight="1.0"
+		appearance="0.8"
+		Type="Crossbow"
+		is_merchandise="false"
+		AmmoOffset="0.0, 0.02131, 0.24650"
+		item_holsters="crossbow_back:bow_hip:mace_right_hip:bow_hip_2"
+		holster_position_shift="0.02,0,-0.4">
+		<ItemComponent>
+			<Weapon weapon_class="Crossbow"
+				ammo_class="Bolt"
+				missile_speed="77"
+				accuracy="95"
+				thrust_damage="75"
+				thrust_speed="92"
+				speed_rating="62"
+				weapon_length="95"
+				ammo_limit="1"
+				thrust_damage_type="Pierce"
+				item_usage="crossbow_fast"
+				reload_phase_count="2"
+				physics_material="wood_weapon"
+				center_of_mass="0,0,0.4">
+				<WeaponFlags
+					RangedWeapon="true"
+					HasString="true"
+					NotUsableWithOneHand="true"
+					TwoHandIdleOnMount="true"/>
+			</Weapon>
+		</ItemComponent>
+	</Item>
+<!-- #endregion -->
+<!-- #region Horses -->
 	<Item id="aserai_horse_tournament"
 		name="{=quDh9Vlu}Desert Horse{@Plural}desert horses{\@}"
 		mesh="horse_brown"
@@ -225,7 +290,6 @@
 		culture="Culture.neutral_culture"
 		weight="370"
 		is_merchandise="false"
-		difficulty="0"
 		appearance="0.3"
 		Type="Horse">
 		<ItemComponent>
@@ -278,8 +342,6 @@
 		culture="Culture.neutral_culture"
 		weight="410"
 		is_merchandise="false"
-		difficulty="0"
-		appearance="1"
 		Type="Horse">
 		<ItemComponent>
 			<Horse monster="Monster.horse"
@@ -313,8 +375,6 @@
 		is_merchandise="false"
 		culture="Culture.neutral_culture"
 		weight="370"
-		difficulty="0"
-		appearance="1"
 		Type="Horse">
 		<ItemComponent>
 			<Horse monster="Monster.horse"
@@ -364,9 +424,7 @@
 		culture="Culture.neutral_culture"
 		subtype="horse"
 		weight="365"
-		difficulty="0"
 		is_merchandise="false"
-		appearance="1"
 		Type="Horse">
 		<ItemComponent>
 			<Horse monster="Monster.horse"
@@ -399,9 +457,7 @@
 		item_category="horse"
 		culture="Culture.neutral_culture"
 		weight="405"
-		difficulty="0"
 		is_merchandise="false"
-		appearance="1"
 		Type="Horse">
 		<ItemComponent>
 			<Horse monster="Monster.horse"
@@ -441,9 +497,7 @@
 		item_category="horse"
 		culture="Culture.neutral_culture"
 		weight="390"
-		difficulty="0"
 		is_merchandise="false"
-		appearance="1"
 		Type="Horse">
 		<ItemComponent>
 			<Horse monster="Monster.horse"
@@ -491,9 +545,7 @@
 		item_category="horse"
 		culture="Culture.neutral_culture"
 		weight="500"
-		difficulty="0"
 		is_merchandise="false"
-		appearance="1"
 		Type="Horse">
 		<ItemComponent>
 			<Horse monster="Monster.camel"
@@ -512,7 +564,6 @@
 		name="{=P1rL28RT}Sumpter Horse{@Plural}sumpter horses{\@}"
 		mesh="horse_brown"
 		item_category="sumpter_horse"
-		difficulty="0"
 		weight="430"
 		value="110"
 		Type="Horse">
@@ -641,7 +692,6 @@
 		name="{=pb2ELRZQ}Saddle Horse{@Plural}saddle horses{\@}"
 		mesh="horse_brown"
 		item_category="sumpter_horse"
-		difficulty="0"
 		weight="420"
 		value="140"
 		Type="Horse">
@@ -691,7 +741,6 @@
 		name="{=U3SWNkFt}Work Horse{@Plural}work horses{\@}"
 		mesh="horse_brown"
 		item_category="sumpter_horse"
-		difficulty="0"
 		weight="490"
 		value="130"
 		Type="Horse">
@@ -745,8 +794,6 @@
 		item_category="horse"
 		culture="Culture.neutral_culture"
 		weight="400"
-		difficulty="10"
-		appearance="0"
 		Type="Horse">
 		<ItemComponent>
 			<Horse monster="Monster.horse"
@@ -797,8 +844,6 @@
 		item_category="horse"
 		culture="Culture.neutral_culture"
 		weight="380"
-		difficulty="20"
-		appearance="0"
 		Type="Horse">
 		<ItemComponent>
 			<Horse monster="Monster.horse"
@@ -831,8 +876,6 @@
 		item_category="horse"
 		culture="Culture.neutral_culture"
 		weight="390"
-		difficulty="10"
-		appearance="0"
 		Type="Horse">
 		<ItemComponent>
 			<Horse monster="Monster.horse"
@@ -882,8 +925,6 @@
 		culture="Culture.neutral_culture"
 		subtype="horse"
 		weight="320"
-		difficulty="15"
-		appearance="0"
 		Type="Horse">
 		<ItemComponent>
 			<Horse monster="Monster.horse"
@@ -916,8 +957,6 @@
 		item_category="horse"
 		culture="Culture.neutral_culture"
 		weight="440"
-		difficulty="20"
-		appearance="0"
 		Type="Horse">
 		<ItemComponent>
 			<Horse monster="Monster.horse"
@@ -957,8 +996,6 @@
 		item_category="horse"
 		culture="Culture.neutral_culture"
 		weight="425"
-		difficulty="15"
-		appearance="0"
 		Type="Horse">
 		<ItemComponent>
 			<Horse monster="Monster.horse"
@@ -1007,8 +1044,6 @@
 		item_category="horse"
 		culture="Culture.neutral_culture"
 		weight="500"
-		difficulty="10"
-		appearance="0"
 		Type="Horse">
 		<ItemComponent>
 			<Horse monster="Monster.camel"
@@ -1030,8 +1065,6 @@
 		item_category="war_horse"
 		culture="Culture.neutral_culture"
 		weight="360"
-		difficulty="35"
-		appearance="0"
 		Type="Horse">
 		<ItemComponent>
 			<Horse monster="Monster.horse"
@@ -1082,8 +1115,6 @@
 		item_category="war_horse"
 		culture="Culture.neutral_culture"
 		weight="450"
-		difficulty="35"
-		appearance="0"
 		Type="Horse">
 		<ItemComponent>
 			<Horse monster="Monster.horse"
@@ -1116,8 +1147,6 @@
 		item_category="war_horse"
 		culture="Culture.neutral_culture"
 		weight="460"
-		difficulty="35"
-		appearance="0"
 		Type="Horse">
 		<ItemComponent>
 			<Horse monster="Monster.horse"
@@ -1167,8 +1196,6 @@
 		culture="Culture.neutral_culture"
 		subtype="horse"
 		weight="300"
-		difficulty="30"
-		appearance="0"
 		Type="Horse">
 		<ItemComponent>
 			<Horse monster="Monster.horse"
@@ -1201,8 +1228,6 @@
 		item_category="war_horse"
 		culture="Culture.neutral_culture"
 		weight="450"
-		difficulty="40"
-		appearance="0"
 		Type="Horse">
 		<ItemComponent>
 			<Horse monster="Monster.horse"
@@ -1242,8 +1267,6 @@
 		item_category="war_horse"
 		culture="Culture.neutral_culture"
 		weight="475"
-		difficulty="35"
-		appearance="0"
 		Type="Horse">
 		<ItemComponent>
 			<Horse monster="Monster.horse"
@@ -1292,8 +1315,6 @@
 		item_category="war_horse"
 		culture="Culture.neutral_culture"
 		weight="500"
-		difficulty="45"
-		appearance="0"
 		Type="Horse">
 		<ItemComponent>
 			<Horse monster="Monster.camel"
@@ -1312,8 +1333,6 @@
 		mesh="horse_brown"
 		item_category="horse"
 		weight="390"
-		difficulty="20"
-		appearance="0"
 		Type="Horse">
 		<ItemComponent>
 			<Horse monster="Monster.horse"
@@ -1360,9 +1379,7 @@
 		name="{=he5mGIMh}Charger{@Plural}chargers{\@}"
 		mesh="horse_brown"
 		item_category="war_horse"
-		difficulty="30"
 		weight="430"
-		appearance="0"
 		Type="Horse">
 		<ItemComponent>
 			<Horse monster="Monster.horse"
@@ -1402,8 +1419,6 @@
 		item_category="noble_horse"
 		culture="Culture.neutral_culture"
 		weight="500"
-		difficulty="65"
-		appearance="0"
 		Type="Horse">
 		<ItemComponent>
 			<Horse monster="Monster.horse"
@@ -1454,8 +1469,6 @@
 		item_category="noble_horse"
 		culture="Culture.neutral_culture"
 		weight="430"
-		difficulty="50"
-		appearance="0"
 		Type="Horse">
 		<ItemComponent>
 			<Horse monster="Monster.horse"
@@ -1488,8 +1501,6 @@
 		item_category="noble_horse"
 		culture="Culture.neutral_culture"
 		weight="520"
-		difficulty="60"
-		appearance="0"
 		Type="Horse">
 		<ItemComponent>
 			<Horse monster="Monster.horse"
@@ -1539,8 +1550,6 @@
 		culture="Culture.neutral_culture"
 		subtype="horse"
 		weight="460"
-		difficulty="60"
-		appearance="0"
 		Type="Horse">
 		<ItemComponent>
 			<Horse monster="Monster.horse"
@@ -1573,8 +1582,6 @@
 		item_category="noble_horse"
 		culture="Culture.neutral_culture"
 		weight="500"
-		difficulty="55"
-		appearance="0"
 		Type="Horse">
 		<ItemComponent>
 			<Horse monster="Monster.horse"
@@ -1614,8 +1621,6 @@
 		item_category="noble_horse"
 		culture="Culture.neutral_culture"
 		weight="550"
-		difficulty="60"
-		appearance="0"
 		Type="Horse">
 		<ItemComponent>
 			<Horse monster="Monster.horse"
@@ -1665,7 +1670,6 @@
 		item_category="noble_horse"
 		subtype="horse"
 		weight="485"
-		difficulty="95"
 		is_merchandise="false"
 		culture="Culture.neutral_culture"
 		Type="Horse">
@@ -1718,7 +1722,6 @@
 		is_merchandise="false"
 		weight="500"
 		culture="Culture.neutral_culture"
-		difficulty="90"
 		Type="Horse">
 		<ItemComponent>
 			<Horse monster="Monster.horse"
@@ -1769,7 +1772,6 @@
 		subtype="horse"
 		culture="Culture.neutral_culture"
 		weight="450"
-		difficulty="90"
 		Type="Horse">
 		<ItemComponent>
 			<Horse monster="Monster.horse"
@@ -1803,7 +1805,6 @@
 		is_merchandise="false"
 		subtype="horse"
 		weight="490"
-		difficulty="80"
 		Type="Horse">
 		<ItemComponent>
 			<Horse monster="Monster.horse"
@@ -1843,7 +1844,6 @@
 		is_merchandise="false"
 		subtype="horse"
 		weight="540"
-		difficulty="80"
 		Type="Horse">
 		<ItemComponent>
 			<Horse monster="Monster.horse"
@@ -1893,8 +1893,6 @@
 		mesh="camel_mesh"
 		item_category="horse"
 		weight="550"
-		difficulty="65"
-		appearance="1"
 		Type="Horse">
 		<ItemComponent>
 			<Horse monster="Monster.camel"
@@ -1915,8 +1913,6 @@
 		mesh="camel_mesh"
 		item_category="horse"
 		weight="540"
-		difficulty="80"
-		appearance="0"
 		Type="Horse">
 		<ItemComponent>
 			<Horse monster="Monster.camel"
@@ -1938,7 +1934,6 @@
 		culture="Culture.neutral_culture"
 		subtype="horse"
 		weight="420"
-		difficulty="80"
 		Type="Horse">
 		<ItemComponent>
 			<Horse monster="Monster.horse"
@@ -1977,7 +1972,6 @@
 		item_category="noble_horse"
 		subtype="horse"
 		weight="480"
-		difficulty="40"
 		is_merchandise="false"
 		Type="Horse">
 		<ItemComponent>
@@ -2011,7 +2005,6 @@
 		is_merchandise="false"
 		subtype="horse"
 		weight="470"
-		difficulty="75"
 		Type="Horse">
 		<ItemComponent>
 			<Horse monster="Monster.horse"
@@ -2054,215 +2047,14 @@
 		</ItemComponent>
 		<Flags Civilian="true"/>
 	</Item>
-	<!-- Delete -->
-	<Item id="storm_charger"
-		name="{=2wFal5Nd}Storm Charger{@Plural}Storm Chargers{\@}"
-		mesh="horse_brown"
-		is_merchandise="false"
-		item_category="noble_horse"
-		difficulty="100"
-		weight="430"
-		appearance="1"
-		Type="Horse">
-		<ItemComponent>
-			<Horse monster="Monster.horse"
-				mane_mesh="horse_mane"
-				maneuver="55"
-				speed="60"
-				charge_damage="20"
-				body_length="100"
-				is_mountable="true"
-				extra_health="-70"
-				modifier_group="horse">
-				<Materials>
-					<Material name="horse_brown_mat">
-						<MeshMultipliers>
-							<MeshMultiplier mesh_multiplier="FF010101" percentage="0.75"/>
-							<MeshMultiplier mesh_multiplier="FF909090" percentage="0.25"/>
-						</MeshMultipliers>
-					</Material>
-					<Material name="horse_black_mat">
-						<MeshMultipliers>
-							<MeshMultiplier mesh_multiplier="FF010101" percentage="0.75"/>
-							<MeshMultiplier mesh_multiplier="FF909090" percentage="0.25"/>
-						</MeshMultipliers>
-					</Material>
-					<Material name="horse_grey_mat">
-						<MeshMultipliers>
-							<MeshMultiplier mesh_multiplier="FF303030" percentage="0.75"/>
-							<MeshMultiplier mesh_multiplier="FF909090" percentage="0.25"/>
-						</MeshMultipliers>
-					</Material>
-					<Material name="horse_white_mat">
-						<MeshMultipliers>
-							<MeshMultiplier mesh_multiplier="FF303030" percentage="1.0"/>
-						</MeshMultipliers>
-					</Material>
-				</Materials>
-			</Horse>
-		</ItemComponent>
-		<Flags Civilian="true"/>
-	</Item>
-	<Item id="war_horse"
-		name="{=IIzhL9gt}War Horse{@Plural}war horses{\@}"
-		mesh="horse_brown"
-		item_category="war_horse"
-		is_merchandise="false"
-		difficulty="80"
-		weight="500"
-		appearance="1"
-		Type="Horse">
-		<ItemComponent>
-			<Horse monster="Monster.horse_2"
-				maneuver="50"
-				speed="40"
-				charge_damage="25"
-				body_length="105"
-				is_mountable="true"
-				extra_health="0"
-				modifier_group="horse">
-				<AdditionalMeshes>
-					<Mesh name="horse_mane" affected_by_cover="true"/>
-				</AdditionalMeshes>
-				<Materials>
-					<Material name="horse_brown_mat">
-						<MeshMultipliers>
-							<MeshMultiplier mesh_multiplier="FF010101" percentage="0.75"/>
-							<MeshMultiplier mesh_multiplier="FF909090" percentage="0.25"/>
-						</MeshMultipliers>
-					</Material>
-					<Material name="horse_black_mat">
-						<MeshMultipliers>
-							<MeshMultiplier mesh_multiplier="FF010101" percentage="0.75"/>
-							<MeshMultiplier mesh_multiplier="FF909090" percentage="0.25"/>
-						</MeshMultipliers>
-					</Material>
-					<Material name="horse_grey_mat">
-						<MeshMultipliers>
-							<MeshMultiplier mesh_multiplier="FF303030" percentage="0.75"/>
-							<MeshMultiplier mesh_multiplier="FF909090" percentage="0.25"/>
-						</MeshMultipliers>
-					</Material>
-					<Material name="horse_white_mat">
-						<MeshMultipliers>
-							<MeshMultiplier mesh_multiplier="FF303030" percentage="1.0"/>
-						</MeshMultipliers>
-					</Material>
-				</Materials>
-			</Horse>
-		</ItemComponent>
-		<Flags Civilian="true"/>
-	</Item>
-	<Item id="steppe_war_horse"
-		name="{=Wj98Otmo}Steppe Charger{@Plural}Steppe Chargers{\@}"
-		mesh="horse_brown"
-		item_category="war_horse"
-		culture="Culture.neutral_culture"
-		is_merchandise="false"
-		difficulty="80"
-		weight="460"
-		appearance="1"
-		Type="Horse">
-		<ItemComponent>
-			<Horse monster="Monster.horse"
-				maneuver="50"
-				speed="45"
-				charge_damage="20"
-				body_length="100"
-				is_mountable="true"
-				modifier_group="horse">
-				<AdditionalMeshes>
-					<Mesh name="horse_mane" affected_by_cover="true"/>
-				</AdditionalMeshes>
-				<Materials>
-					<Material name="horse_brown_mat">
-						<MeshMultipliers>
-							<MeshMultiplier mesh_multiplier="FF010101" percentage="0.75"/>
-							<MeshMultiplier mesh_multiplier="FF909090" percentage="0.25"/>
-						</MeshMultipliers>
-					</Material>
-					<Material name="horse_black_mat">
-						<MeshMultipliers>
-							<MeshMultiplier mesh_multiplier="FF010101" percentage="0.75"/>
-							<MeshMultiplier mesh_multiplier="FF909090" percentage="0.25"/>
-						</MeshMultipliers>
-					</Material>
-					<Material name="horse_grey_mat">
-						<MeshMultipliers>
-							<MeshMultiplier mesh_multiplier="FF303030" percentage="0.75"/>
-							<MeshMultiplier mesh_multiplier="FF909090" percentage="0.25"/>
-						</MeshMultipliers>
-					</Material>
-					<Material name="horse_white_mat">
-						<MeshMultipliers>
-							<MeshMultiplier mesh_multiplier="FF303030" percentage="1.0"/>
-						</MeshMultipliers>
-					</Material>
-				</Materials>
-			</Horse>
-		</ItemComponent>
-		<Flags Civilian="true"/>
-	</Item>
-	<Item id="desert_war_horse"
-		name="{=CjjzWA1r}Desert War Horse{@Plural}desert war horses{\@}"
-		mesh="horse_brown"
-		item_category="war_horse"
-		culture="Culture.neutral_culture"
-		is_merchandise="false"
-		difficulty="80"
-		weight="480"
-		appearance="1"
-		Type="Horse">
-		<ItemComponent>
-			<Horse monster="Monster.horse"
-				maneuver="50"
-				speed="60"
-				charge_damage="25"
-				body_length="100"
-				is_mountable="true"
-				modifier_group="horse">
-				<AdditionalMeshes>
-					<Mesh name="horse_mane" affected_by_cover="true"/>
-				</AdditionalMeshes>
-				<Materials>
-					<Material name="horse_brown_mat">
-						<MeshMultipliers>
-							<MeshMultiplier mesh_multiplier="FF010101" percentage="0.75"/>
-							<MeshMultiplier mesh_multiplier="FF909090" percentage="0.25"/>
-						</MeshMultipliers>
-					</Material>
-					<Material name="horse_black_mat">
-						<MeshMultipliers>
-							<MeshMultiplier mesh_multiplier="FF010101" percentage="0.75"/>
-							<MeshMultiplier mesh_multiplier="FF909090" percentage="0.25"/>
-						</MeshMultipliers>
-					</Material>
-					<Material name="horse_grey_mat">
-						<MeshMultipliers>
-							<MeshMultiplier mesh_multiplier="FF303030" percentage="0.75"/>
-							<MeshMultiplier mesh_multiplier="FF909090" percentage="0.25"/>
-						</MeshMultipliers>
-					</Material>
-					<Material name="horse_white_mat">
-						<MeshMultipliers>
-							<MeshMultiplier mesh_multiplier="FF303030" percentage="1.0"/>
-						</MeshMultipliers>
-					</Material>
-				</Materials>
-			</Horse>
-		</ItemComponent>
-		<Flags Civilian="true"/>
-	</Item>
-	<!-- #endregion -->
-	<!-- #region Harnesses -->
+<!-- #endregion -->
+<!-- #region Harnesses -->
 	<Item id="bandit_saddle_desert"
 		name="{=Qqdl6fbM}Rugged Bedouin Saddle"
 		mesh="bandit_saddle_desert"
 		culture="Culture.neutral_culture"
 		subtype="body_armor"
 		weight="21"
-		difficulty="0"
-		appearance="1"
 		Type="HorseHarness">
 		<ItemComponent>
 			<Armor body_armor="9"
@@ -2278,8 +2070,6 @@
 		mesh="bandit_saddle_a"
 		subtype="body_armor"
 		weight="24"
-		difficulty="0"
-		appearance="1"
 		Type="HorseHarness">
 		<ItemComponent>
 			<Armor body_armor="8"
@@ -2296,8 +2086,6 @@
 		culture="Culture.neutral_culture"
 		subtype="body_armor"
 		weight="23"
-		difficulty="0"
-		appearance="1"
 		Type="HorseHarness">
 		<ItemComponent>
 			<Armor body_armor="10"
@@ -2312,7 +2100,6 @@
 		name="{=O37kzdXO}Light Harness"
 		mesh="horse_harness_b"
 		weight="20"
-		appearance="1"
 		Type="HorseHarness">
 		<ItemComponent>
 			<Armor body_armor="10"
@@ -2388,7 +2175,6 @@
 		mesh="horse_harness_e"
 		subtype="body_armor"
 		weight="120"
-		difficulty="0"
 		appearance="0.6"
 		Type="HorseHarness">
 		<ItemComponent>
@@ -2411,7 +2197,6 @@
 		mesh="horse_harness_a_new"
 		culture="Culture.neutral_culture"
 		weight="22"
-		appearance="1"
 		Type="HorseHarness">
 		<ItemComponent>
 			<Armor body_armor="9"
@@ -2428,7 +2213,6 @@
 		culture="Culture.neutral_culture"
 		subtype="body_armor"
 		weight="85"
-		difficulty="0"
 		appearance="0.6"
 		Type="HorseHarness">
 		<ItemComponent>
@@ -2446,8 +2230,6 @@
 		culture="Culture.neutral_culture"
 		subtype="body_armor"
 		weight="22.5"
-		difficulty="0"
-		appearance="1"
 		Type="HorseHarness">
 		<ItemComponent>
 			<Armor body_armor="12"
@@ -2464,8 +2246,6 @@
 		culture="Culture.neutral_culture"
 		subtype="body_armor"
 		weight="27"
-		difficulty="0"
-		appearance="1"
 		Type="HorseHarness">
 		<ItemComponent>
 			<Armor body_armor="12"
@@ -2482,7 +2262,6 @@
 		culture="Culture.neutral_culture"
 		subtype="body_armor"
 		weight="90"
-		difficulty="0"
 		appearance="0.6"
 		Type="HorseHarness">
 		<ItemComponent>
@@ -2500,7 +2279,6 @@
 		culture="Culture.neutral_culture"
 		subtype="body_armor"
 		weight="145"
-		difficulty="0"
 		appearance="0.4"
 		Type="HorseHarness">
 		<ItemComponent>
@@ -2518,8 +2296,6 @@
 		culture="Culture.neutral_culture"
 		subtype="body_armor"
 		weight="23.5"
-		difficulty="0"
-		appearance="1"
 		Type="HorseHarness">
 		<ItemComponent>
 			<Armor body_armor="12"
@@ -2536,8 +2312,6 @@
 		culture="Culture.neutral_culture"
 		subtype="body_armor"
 		weight="25.5"
-		difficulty="0"
-		appearance="1"
 		Type="HorseHarness">
 		<ItemComponent>
 			<Armor body_armor="16"
@@ -2554,8 +2328,6 @@
 		culture="Culture.neutral_culture"
 		subtype="body_armor"
 		weight="70"
-		difficulty="0"
-		appearance="1"
 		Type="HorseHarness">
 		<ItemComponent>
 			<Armor body_armor="38"
@@ -2571,7 +2343,6 @@
 		mesh="horse_harness_roman_b_new"
 		culture="Culture.neutral_culture"
 		weight="30"
-		appearance="1"
 		Type="HorseHarness">
 		<ItemComponent>
 			<Armor body_armor="20"
@@ -2587,7 +2358,6 @@
 		mesh="horse_harness_sturgia_b_clotest"
 		culture="Culture.neutral_culture"
 		weight="35"
-		appearance="1"
 		Type="HorseHarness">
 		<ItemComponent>
 			<Armor body_armor="15"
@@ -2619,7 +2389,6 @@
 		mesh="mule_load_a"
 		is_merchandise="false"
 		weight="120"
-		appearance="1"
 		Type="HorseHarness">
 		<ItemComponent>
 			<Armor body_armor="10"
@@ -2634,7 +2403,6 @@
 		mesh="mule_load_b"
 		is_merchandise="false"
 		weight="120"
-		appearance="1"
 		Type="HorseHarness">
 		<ItemComponent>
 			<Armor body_armor="10"
@@ -2649,7 +2417,6 @@
 		mesh="mule_load_c"
 		is_merchandise="false"
 		weight="120"
-		appearance="1"
 		Type="HorseHarness">
 		<ItemComponent>
 			<Armor body_armor="10"
@@ -2664,7 +2431,6 @@
 		mesh="camel_saddle1"
 		culture="Culture.neutral_culture"
 		weight="130"
-		appearance="1"
 		Type="HorseHarness">
 		<ItemComponent>
 			<Armor body_armor="10"
@@ -2680,7 +2446,6 @@
 		mesh="camel_saddle_a"
 		culture="Culture.neutral_culture"
 		weight="130"
-		appearance="1"
 		Type="HorseHarness">
 		<ItemComponent>
 			<Armor body_armor="10"
@@ -2696,7 +2461,6 @@
 		mesh="camel_saddle_b"
 		culture="Culture.neutral_culture"
 		weight="130"
-		appearance="1"
 		Type="HorseHarness">
 		<ItemComponent>
 			<Armor body_armor="10"
@@ -2706,8 +2470,8 @@
 		</ItemComponent>
 		<Flags Civilian="true"/>
 	</Item>
-	<!-- #endregion -->
-	<!-- #region Trade -->
+<!-- #endregion -->
+<!-- #region Trade -->
 	<Item id="wool"
 		name="{=WVqaRKUm}Wool{@Plural}loads of wool{\@}"
 		mesh="merchandise_wool"
@@ -2938,8 +2702,8 @@
 		Type="Goods">
 		<Flags Civilian="true"/>
 	</Item>
-	<!-- #endregion -->
-	<!-- #region Quest / Issue Items-->
+<!-- #endregion -->
+<!-- #region Quest / Issue Items-->
 	<Item id="stolen_goods"
 		name="{=vPAHwC3X}Stolen Goods"
 		mesh="crate_a"
@@ -2948,8 +2712,8 @@
 		Type="Goods">
 		<Flags Civilian="true"/>
 	</Item>
-	<!-- #endregion -->
-	<!-- #region others -->
+<!-- #endregion -->
+<!-- #region others -->
 	<Item id="bo_staff"
 		name="{=yy7RvQKN}Bo staff"
 		is_merchandise="false"
@@ -2960,8 +2724,6 @@
 		value="5"
 		subtype="two_handed_wpn"
 		weight="1"
-		difficulty="0"
-		appearance="1"
 		Type="Polearm"
 		item_holsters="polearm_back:polearm_back_2">
 		<ItemComponent>
@@ -3127,8 +2889,8 @@
 			<Piece id="axe_craft_6_handle" Type="Handle" scale_factor="110"/>
 		</Pieces>
 	</CraftedItem>
-	<!-- #endregion -->
-	<!-- #region banners -->
+<!-- #endregion -->
+<!-- #region banners -->
 	<Item id="campaign_banner_small"
 		name="{=rO0oKtAo}Campaign Banner Small"
 		is_merchandise="false"

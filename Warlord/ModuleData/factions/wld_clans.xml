@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Factions>
-        <!-- #region Aserai-->
+        <!-- Aserai-->
         <Faction id="clan_aserai_1"
                 name="{=9Y1u2onl}Banu Hulyan"
                 tier="6"
@@ -11,7 +11,7 @@
                 banner_key="11.5.5.5000.5000.764.764.1.0.0.505.129.129.2000.2000.1624.764.0.0.0.309.129.129.400.400.604.764.0.0.320.309.5.5.400.400.924.764.0.0.140" />
         <!-- #endregion -->
 
-        <!-- #region Khuzait -->         
+        <!-- Khuzait -->         
         <Faction id="clan_khuzait_1"
                 name="{=CRSFOSil}Urkhunait"
                 tier="6"
@@ -22,7 +22,7 @@
                 banner_key="11.73.73.5000.5000.764.764.1.0.0.449.40.40.360.360.764.644.0.0.0.449.40.40.360.360.764.884.0.0.180.510.40.40.600.240.764.764.0.0.0" />
         <!-- #endregion -->
 
-        <!-- #region Sturgia -->
+        <!-- Sturgia -->
         <Faction id="clan_sturgia_1"
                 name="{=A4wIVnM4}Gundaroving"
                 tier="6"
@@ -33,7 +33,7 @@
                 banner_key="11.22.22.5000.5000.764.764.1.0.0.505.132.132.400.4000.764.764.0.1.60" />
         <!-- #endregion -->
 
-        <!-- #region Vlandia -->
+        <!-- Vlandia -->
         <Faction id="clan_vlandia_1"
                 name="{=3o5s6L3y}dey Meroc"
                 tier="6"
@@ -42,12 +42,5 @@
                 super_faction="Kingdom.vlandia"
                 is_noble="true"
                 banner_key="11.146.146.5000.5000.764.764.1.0.0.424.143.40.400.400.764.764.0.1.0" />
-                name="{=DeSGiCgF}dey Rothad"
-                tier="4"
-                owner="Hero.lord_V11_l"
-                culture="Culture.vlandia"
-                super_faction="Kingdom.vlandia"
-                is_noble="true"
-                banner_key="11.146.146.5000.5000.764.764.1.0.0.419.132.132.400.400.764.764.0.0.0.424.132.132.100.100.884.644.0.0.0.424.132.132.100.100.644.644.0.0.0.424.132.132.100.100.884.884.0.0.0.424.132.132.100.100.644.884.0.0.0" />
         <!-- #endregion -->
 </Factions>

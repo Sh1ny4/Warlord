@@ -5,6 +5,5 @@
 			<xsl:apply-templates select="@*|node()"/>
 		</xsl:copy>
 	</xsl:template>
-    <!-- dead heroes -->
 	<xsl:template match="EquipmentRosters"/>
 </xsl:stylesheet>
